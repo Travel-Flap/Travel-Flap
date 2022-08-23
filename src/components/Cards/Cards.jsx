@@ -9,25 +9,25 @@ export const DataCards = () => {
         <>
         {/* <button className="btn btn-danger">Danger Button</button> */}
 
-        <h2 className='top-heading text-center text-success '>We have the best tours</h2>
+        <h2 className='top-heading text-center'>We have the best tours</h2>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.</p>
-         <div className="container">
+        <p className='text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.</p>
+         <div className="main-container">
             <div className="row">
             <div className="col-md-4">
                     <Card className="bg-dark text-white">
                         <Card className="bg-dark text-white">
-                            <Card.Img src="https://via.placeholder.com/150/FFFF00/000000?Text=WebsiteBuilders.comC/O https://placeholder.com/" alt="Card image" />
+                            <Card.Img className='card-image' src="https://i.imgur.com/4KYPLdg.jpg" alt="Card image" />
                             <Card.ImgOverlay>
-                                <Card.Title>Card title</Card.Title>
+                                <Card.Title className='main-title'>May 25th - June  01st</Card.Title>
                                 <Card.Text>
                                     This is a wider card with supporting text below as a natural lead-in
                                     to additional content. This content is a little bit longer.
                                 </Card.Text>
                                 <Card.Text>Last updated 3 mins ago</Card.Text>
 
-                                <Button variant="primary" size="lg">
-                                    Large button
+                                <Button variant="primary" class="button-class" size="lg">
+                                    See More...
                                 </Button>{' '}
                             </Card.ImgOverlay>
                         </Card>
@@ -37,17 +37,17 @@ export const DataCards = () => {
                 <div className="col-md-4">
                     <Card className="bg-dark text-white">
                         <Card className="bg-dark text-white">
-                            <Card.Img src="https://via.placeholder.com/150/FFFF00/000000?Text=WebsiteBuilders.comC/O https://placeholder.com/" alt="Card image" />
+                            <Card.Img src="https://i.imgur.com/4KYPLdg.jpg" alt="Card image" />
                             <Card.ImgOverlay>
-                                <Card.Title>Card title</Card.Title>
+                                {/* <Card.Title>Card title</Card.Title>
                                 <Card.Text>
                                     This is a wider card with supporting text below as a natural lead-in
                                     to additional content. This content is a little bit longer.
                                 </Card.Text>
-                                <Card.Text>Last updated 3 mins ago</Card.Text>
+                                <Card.Text>Last updated 3 mins ago</Card.Text> */}
 
                                 <Button variant="primary" size="lg">
-                                    Large button
+                                    See More...
                                 </Button>{' '}
                             </Card.ImgOverlay>
                         </Card>
@@ -57,17 +57,17 @@ export const DataCards = () => {
                 <div className="col-md-4">
                     <Card className="bg-dark text-white">
                         <Card className="bg-dark text-white">
-                            <Card.Img src="https://via.placeholder.com/150/FFFF00/000000?Text=WebsiteBuilders.comC/O https://placeholder.com/" alt="Card image" />
+                            <Card.Img src="https://i.imgur.com/4KYPLdg.jpg" alt="Card image" />
                             <Card.ImgOverlay>
-                                <Card.Title>Card title</Card.Title>
+                                {/* <Card.Title>Card title</Card.Title>
                                 <Card.Text>
                                     This is a wider card with supporting text below as a natural lead-in
                                     to additional content. This content is a little bit longer.
                                 </Card.Text>
-                                <Card.Text>Last updated 3 mins ago</Card.Text>
+                                <Card.Text>Last updated 3 mins ago</Card.Text> */}
 
                                 <Button variant="primary" size="lg">
-                                    Large button
+                                    See More...
                                 </Button>{' '}
                             </Card.ImgOverlay>
                         </Card>

@@ -13,24 +13,14 @@ import "./MultiCardSlider.css";
 
 // import required modules
 import { Pagination, Navigation } from "swiper";
-// import { Swiper, SwiperSlide } from "swiper/react/swiper-react";
-
-// // Import Swiper styles
-// import "swiper/swiper.min.css";
-// import "swiper/css/pagination";
-// import "swiper/css/navigation";
-
-// // import "./styles.css";
-// import "swiper/modules/pagination/pagination.min.css"
-// // import required modules
-// import { Pagination, Navigation } from "swiper";
 
 export const MultiCardSlider = () => {
     return (
         <>
+        <h2 className="mt-5 mb-5">WHAT OUR CLIENTS SAY ABOUT US</h2>
       <Swiper
         slidesPerView={3}
-        spaceBetween={30}
+        spaceBetween={20}
         slidesPerGroup={3}
         loop={true}
         loopFillGroupWithBlank={true}
@@ -44,7 +34,7 @@ export const MultiCardSlider = () => {
         <SwiperSlide>
           <Card className="bg-dark text-white">
             <Card className="bg-dark text-white">
-              <Card.Img src="https://via.placeholder.com/150/FFFF00/000000?Text=WebsiteBuilders.comC/O https://placeholder.com/" alt="Card image" />
+              <Card.Img src="https://i.imgur.com/8IRk2Wo.jpg" alt="Card image" />
               <Card.ImgOverlay>
                 <Card.Title>Card title</Card.Title>
                 <Card.Text>
@@ -63,7 +53,7 @@ export const MultiCardSlider = () => {
         <SwiperSlide>
           <Card className="bg-dark text-white">
             <Card className="bg-dark text-white">
-              <Card.Img src="https://via.placeholder.com/150/FFFF00/000000?Text=WebsiteBuilders.comC/O https://placeholder.com/" alt="Card image" />
+              <Card.Img src="https://i.imgur.com/4A6uUjY.jpg" alt="Card image" />
               <Card.ImgOverlay>
                 <Card.Title>Card title</Card.Title>
                 <Card.Text>
@@ -82,7 +72,7 @@ export const MultiCardSlider = () => {
         <SwiperSlide>
           <Card className="bg-dark text-white">
             <Card className="bg-dark text-white">
-              <Card.Img src="https://via.placeholder.com/150/FFFF00/000000?Text=WebsiteBuilders.comC/O https://placeholder.com/" alt="Card image" />
+              <Card.Img src="https://i.imgur.com/tP4zDCF.jpg" alt="Card image" />
               <Card.ImgOverlay>
                 <Card.Title>Card title</Card.Title>
                 <Card.Text>
@@ -101,7 +91,7 @@ export const MultiCardSlider = () => {
         <SwiperSlide>
           <Card className="bg-dark text-white">
             <Card className="bg-dark text-white">
-              <Card.Img src="https://via.placeholder.com/150/FFFF00/000000?Text=WebsiteBuilders.comC/O https://placeholder.com/" alt="Card image" />
+              <Card.Img src="https://i.imgur.com/8IRk2Wo.jpg" alt="Card image" />
               <Card.ImgOverlay>
                 <Card.Title>Card title</Card.Title>
                 <Card.Text>
@@ -120,7 +110,7 @@ export const MultiCardSlider = () => {
         <SwiperSlide>
           <Card className="bg-dark text-white">
             <Card className="bg-dark text-white">
-              <Card.Img src="https://via.placeholder.com/150/FFFF00/000000?Text=WebsiteBuilders.comC/O https://placeholder.com/" alt="Card image" />
+              <Card.Img src="https://i.imgur.com/8IRk2Wo.jpg" alt="Card image" />
               <Card.ImgOverlay>
                 <Card.Title>Card title</Card.Title>
                 <Card.Text>
@@ -139,7 +129,7 @@ export const MultiCardSlider = () => {
         <SwiperSlide>
           <Card className="bg-dark text-white">
             <Card className="bg-dark text-white">
-              <Card.Img src="https://via.placeholder.com/150/FFFF00/000000?Text=WebsiteBuilders.comC/O https://placeholder.com/" alt="Card image" />
+              <Card.Img src="https://i.imgur.com/tP4zDCF.jpg" alt="Card image" />
               <Card.ImgOverlay>
                 <Card.Title>Card title</Card.Title>
                 <Card.Text>

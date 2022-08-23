@@ -1,0 +1,21 @@
+.form-Position {
+    /* border: 1px solid red;/ */
+    width: 40%;
+    /* height: 150px; */
+    /* margin-left: 55%; */
+    /* text-align: right; */
+    /* display: right; */
+    /* float: right; */
+}
+
+.main-card{
+    border: 1px solid black;
+    /* height: 40px; */
+}
+
+.backgroundimage{
+    border: 1px solid black;
+    /* max-width: 100%; */
+            max-height: 100vh;
+            margin: auto
+}

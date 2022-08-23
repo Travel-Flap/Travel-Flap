@@ -1,9 +1,9 @@
 import Navbar from 'react-bootstrap/Navbar';
-import {Container, Nav, NavDropdown } from 'react-bootstrap'; 
-// import Fb from "./Images/fb";
-import Insta from "./Images/insta.png";
-import Linkedin from "./Images/linkedin.png";
-import Logo from "./Images/logo3.png";
+import {Container, Nav, NavDropdown,Button } from 'react-bootstrap'; 
+// import Fb from "./Images/fb.png";
+// import Insta from "./Images/insta.png";
+// import Linkedin from "./Images/linkedin.png";
+// import Logo from "./Images/logo3.jpeg";
 
 const NavbarComp=()=>{
     return <>
@@ -21,14 +21,20 @@ const NavbarComp=()=>{
       </Container>
     </Navbar>
   ))} */}
-      <Navbar collapseOnSelect expand="lg" variant="light">  
+      <Navbar className='bg-transparent' collapseOnSelect expand="lg" variant="light">  
         <Container>  
           <Navbar.Brand href="#home"></Navbar.Brand>  
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />  
           <Navbar.Collapse id="responsive-navbar-nav">  
             <Nav className="me-auto">  
-              <Nav.Link href="#features">
-                {/* <img src={Fb} alt="fb"/> */}
+
+            <Nav.Link href='#'>
+                {/* <img src={Logo}  alt="logo" /> */}
+                <h2>Travel Flap</h2>
+            </Nav.Link>
+            
+              {/* <Nav.Link href="#features">
+                <img src={Fb} alt="fb"/>
               </Nav.Link>  
               
               <Nav.Link href="#features">
@@ -37,13 +43,21 @@ const NavbarComp=()=>{
 
               <Nav.Link href="#features">
                 <img src={Linkedin} alt="Linkedin"/>
-              </Nav.Link>  
+              </Nav.Link>   */}
             </Nav>  
      
-            <Nav>
+            {/* <Nav>
                 <img src={Logo}  alt="logo" />
-            </Nav>
+            </Nav> */}
 
+            <Nav className='justify-content-centre'>
+            <Button variant="light">Home</Button>
+            <Button variant="light">AboutUs</Button>
+            <Button variant="light">blog</Button>
+            <Button variant="light">ContactUs</Button>
+            {/* <Button variant="light">Light</Button>
+            <Button variant="light">Light</Button> */}
+            </Nav>
              <Nav> 
               <Nav.Link href="#memes">  
                 <div className="input-group rounded">
@@ -54,7 +68,7 @@ const NavbarComp=()=>{
                 </div>
               </Nav.Link>  
             </Nav> 
-             <NavDropdown id="collasible-nav-dropdown">  
+             <NavDropdown className='justify-content-center' id="collasible-nav-dropdown">  
                 <NavDropdown.Item href="#action/3.1"><h6>Home</h6></NavDropdown.Item>  
                 <NavDropdown.Item href="#action/3.2"><h6>About</h6></NavDropdown.Item>  
                 <NavDropdown.Item href="#action/3.3"><h6>Products</h6></NavDropdown.Item>

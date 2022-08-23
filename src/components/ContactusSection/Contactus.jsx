@@ -1,17 +1,160 @@
+// import React, { useState } from 'react';
+// import Button from 'react-bootstrap/Button';
+// import Col from 'react-bootstrap/Col';
+// import Form from 'react-bootstrap/Form';
+// import InputGroup from 'react-bootstrap/InputGroup';
+// import Row from 'react-bootstrap/Row';
+
+// export const ContactUS = () => {
+//   const [validated, setValidated] = useState(false);
+
+//   const handleSubmit = (event) => {
+//     const form = event.currentTarget;
+//     if (form.checkValidity() === false) {
+//       event.preventDefault();
+//       event.stopPropagation();
+//     }
+
+//     setValidated(true);
+//   };
+
+//   return (
+//     <Form noValidate validated={validated} onSubmit={handleSubmit}>
+//       <Row className="mb-3">
+//         <Form.Group as={Col} md="4" controlId="validationCustom01">
+//           <Form.Label>First name</Form.Label>
+//           <Form.Control
+//             required
+//             type="text"
+//             placeholder="First name"
+//             defaultValue=""
+//           />
+//           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+//         </Form.Group>
+//         <Form.Group as={Col} md="4" controlId="validationCustom02">
+//           <Form.Label>Subject</Form.Label>
+//           <Form.Control
+//             required
+//             type="text"
+//             placeholder="Please Enter the subject regrding your enquiry"
+//             defaultValue=""
+//           />
+//           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+//         </Form.Group>
+
+//       </Row>
+//       <Row className="mb-3">
+//       <Form.Group as={Col} md="4" controlId="validationCustom02">
+//           <Form.Label>Email Address</Form.Label>
+//           <Form.Control
+//             required
+//             type="text"
+//             placeholder="Enter your Email here"
+//             defaultValue=""
+//           />
+//           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+//         </Form.Group>
+//       </Row>
+//       <Row className="mb-3">
+//       <Form.Group as={Col} md="4" controlId="validationCustom02">
+//           <Form.Label>Message</Form.Label>
+//           <Form.Control
+//             required
+//             type="text"
+//             placeholder="Please enter detailed explaination of your query here"
+//             defaultValue=""
+//           />
+//           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+//         </Form.Group>
+//       </Row>
+//       <Button type="submit">Submit form</Button>
+//     </Form>
+//   );
+// }
+
 import Card from 'react-bootstrap/Card';
+import React, { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import Col from 'react-bootstrap/Col';
+import Form from 'react-bootstrap/Form';
+import InputGroup from 'react-bootstrap/InputGroup';
+import Row from 'react-bootstrap/Row';
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import "./Contactus";
+import "./Contactus.css";
+import { height } from '@mui/system';
 
 export const ContactUS = () => {
+  const [validated, setValidated] = useState(false);
+
+   const handleSubmit = (event) => {
+     const form = event.currentTarget;
+     if (form.checkValidity() === false) {
+       event.preventDefault();
+       event.stopPropagation();
+     }
+
+     setValidated(true);
+   };
   return (
-    <Card className="bg-dark text-white">
+    <Card  className="bg-dark text-white main-card">
         {/* src="https://i.imgur.com/RemdYqk.png" */}
-      <Card.Img className='backgroundimage' src="https://i.imgur.com/0G1gp92.jpg" alt="Card image" />
+      <Card.Img className='cardimage' src="https://i.imgur.com/Z4oa9jg.jpg" alt="Card image" />
       <Card.ImgOverlay>
 
-      <section className="contact-section">
+           <Form className='form-Position float-right' noValidate validated={validated} onSubmit={handleSubmit}>
+       <Row className="mb-3">
+         <Form.Group as={Col} md="4" controlId="validationCustom01">
+           <Form.Label>First name</Form.Label>
+           <Form.Control
+             required
+             type="text"
+             placeholder="First name"
+             defaultValue=""
+           />
+           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+         </Form.Group>
+         <Form.Group as={Col} md="4" controlId="validationCustom02">
+           <Form.Label>Subject</Form.Label>
+           <Form.Control
+             required
+             type="text"
+             placeholder="Please Enter the subject regrding your enquiry"
+             defaultValue=""
+           />
+           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+         </Form.Group>
+
+       </Row>
+       <Row className="mb-3">
+       <Form.Group as={Col} md="4" controlId="validationCustom02">
+           <Form.Label>Email Address</Form.Label>
+           <Form.Control
+             required
+             type="text"
+             placeholder="Enter your Email here"
+             defaultValue=""
+           />
+           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+         </Form.Group>
+       </Row>
+       <Row className="mb-3">
+       <Form.Group as={Col} md="4" controlId="validationCustom02">
+           <Form.Label>Message</Form.Label>
+           <Form.Control
+             required
+             type="text"
+             placeholder="Please enter detailed explaination of your query here"
+             defaultValue=""
+           />
+           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+         </Form.Group>
+       </Row>
+       <Button type="submit">Submit form</Button>
+     </Form>    
+
+      {/* <section className="contact-section">
       <div className="container">
         <ToastContainer position="top-center" />
         <div className="row justify-content-center">
@@ -33,7 +176,6 @@ export const ContactUS = () => {
                               className="form-control"
                               name="name"
                               placeholder="Name"
-                            //   value={name}
                             />
                           </div>
                         </div>
@@ -44,7 +186,7 @@ export const ContactUS = () => {
                               className="form-control"
                               name="email"
                               placeholder="Email"
-                            //   value={email}
+                            
                             />
                           </div>
                         </div>
@@ -55,8 +197,7 @@ export const ContactUS = () => {
                               className="form-control"
                               name="subject"
                               placeholder="Subject"
-                              
-                            //   value={subject}
+                        
                             />
                           </div>
                         </div>
@@ -69,8 +210,6 @@ export const ContactUS = () => {
                               placeholder="Message"
                               cols="30"
                               rows="6"
-                              
-                            //   value={message}
                             ></textarea>
                           </div>
                         </div>
@@ -78,7 +217,6 @@ export const ContactUS = () => {
                           <div className="form-group">
                             <input
                               type="submit"
-                            //   value="Send Message"
                               className="btn btn-primary"
                             />
                           </div>
@@ -87,66 +225,13 @@ export const ContactUS = () => {
                     </form>
                   </div>
                 </div>
-                {/* <div className="col-md-6 d-flex align-items-stretch">
-                  <div className="info-wrap w-100 p-lg-5 p-4 img">
-                    <h3>Contact us</h3>
-                    <p className="mb-4">
-                      We're open for any suggestion or just to have a chat
-                    </p>
-                    <div className="dbox w-100 d-flex align-items-start">
-                      <div className="icon d-flex align-items-center justify-content-center">
-                        <span className="fa fa-map-marker"></span>
-                      </div>
-                      <div className="text pl-3">
-                        <p>
-                          <span>Address:</span> 198 West 21th Street, Suite 721
-                          New York NY 10016
-                        </p>
-                      </div>
-                    </div>
-                    <div className="dbox w-100 d-flex align-items-center">
-                      <div className="icon d-flex align-items-center justify-content-center">
-                        <span className="fa fa-phone"></span>
-                      </div>
-                      <div className="text pl-3">
-                        <p>
-                          <span>Phone:</span>
-                          <a href="tel://123456789">+1235 2355 98</a>
-                        </p>
-                      </div>
-                    </div>
-                    <div className="dbox w-100 d-flex align-items-center">
-                      <div className="icon d-flex align-items-center justify-content-center">
-                        <span className="fa fa-paper-plane"></span>
-                      </div>
-                      <div className="text pl-3">
-                        <p>
-                          <span>Email:</span>
-                          <a href="mailto:info@yoursite.com">
-                            info@yoursite.com
-                          </a>
-                        </p>
-                      </div>
-                    </div>
-                    <div className="dbox w-100 d-flex align-items-center">
-                      <div className="icon d-flex align-items-center justify-content-center">
-                        <span className="fa fa-globe"></span>
-                      </div>
-                      <div className="text pl-3">
-                        <p>
-                          <span>Website:</span>
-                          <a href="#">yoursite.com</a>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
+                
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
       </Card.ImgOverlay>
     </Card>
   );

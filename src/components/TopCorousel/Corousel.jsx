@@ -1,12 +1,15 @@
 import Carousel from 'react-bootstrap/Carousel';
+// import Navbar from "../Nav";
 import "./Corousel.css";
+// import BackgroundImage from "./TopCorouselImage.jpg";
 export const ControlledCarousel = () => {
   return (
-    <Carousel className='main-box' slide={false}>
+    <Carousel className='main-box' slide={true}>
+      {/* <Navbar /> */}
       <Carousel.Item>
-        <img width={900} height={500}
+        <img width={900} height={700}
           className="d-block w-100"
-          src="https://via.placeholder.com/150/0000FF/808080 ?Text=Digital.comC/O https://placeholder.com/"
+          src="https://i.imgur.com/4KYPLdg.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -15,9 +18,9 @@ export const ControlledCarousel = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img width={900} height={500}
+        <img width={900} height={700}
           className="d-block w-100"
-          src="https://via.placeholder.com/150/FF0000/FFFFFF?Text=Down.comC/O https://placeholder.com/"
+          src="https://i.imgur.com/eKZd0rc.jpg"
           alt="Second slide"
         />
 
@@ -27,9 +30,9 @@ export const ControlledCarousel = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img width={900} height={500}
+        <img width={900} height={700}
           className="d-block w-100"
-          src="https://via.placeholder.com/150/FFFF00/000000?Text=WebsiteBuilders.comC/O https://placeholder.com/"
+          src="https://i.imgur.com/eKZd0rc.jpg"
           alt="Third slide"
         />
 
