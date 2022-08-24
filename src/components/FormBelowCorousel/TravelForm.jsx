@@ -28,7 +28,7 @@ export const TravelForm = () => {
           <Form.Control xs={4}
             required
             type="text"
-            placeholder="First name"
+            placeholder="Enter Destination"
             defaultValue=""
           />
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
@@ -60,11 +60,25 @@ export const TravelForm = () => {
 
         {/* This Form Group is for the Selecting Adult Values */}
         <Form.Group as={Col} md="2" xs={3} controlId="validationCustom04">
-          <Form.Label>State</Form.Label>
+          <Form.Label>Adults</Form.Label>
           {/* <Form.Control type="text" placeholder="State" required /> */}
           <Form.Select defaultValue="">
             <option>1</option>
             <option>2</option>
+          </Form.Select>
+          
+          <Form.Control.Feedback type="invalid">
+            Please provide a valid state.
+          </Form.Control.Feedback>
+        </Form.Group>
+
+        {/* This form group is for Selecting the Children Values */}
+        <Form.Group as={Col} md="2" xs={3} controlId="validationCustom04">
+          <Form.Label>Children</Form.Label>
+          {/* <Form.Control type="text" placeholder="State" required /> */}
+          <Form.Select defaultValue="0">
+            <option>02</option>
+            <option>03</option>
           </Form.Select>
           
           <Form.Control.Feedback type="invalid">

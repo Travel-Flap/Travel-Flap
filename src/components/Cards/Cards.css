@@ -3,6 +3,20 @@
     margin-bottom: 3%;
 }
 
+.card{
+    border: 1px solid red;
+    width: 95%;
+    margin: auto;
+    /* justify-content: center; */
+}
+/* 
+.main-div{
+    border: 1px solid red;
+    justify-content: center;
+} */
+/* .image-texts{
+    border: 1px solid red;
+} */
 /* .Images{
  border: 1px solid red;
  height: 270px;
@@ -11,8 +25,8 @@
  margin-left: 18%;
 } */
 
-.cardtext{
-    /* border: 1px solid red; */
+/* .cardtext{
+    border: 1px solid red;
     font-size: large;
 }
 
@@ -21,10 +35,10 @@
 }
 
 .main-title{
-    /* border: 1px solid red; */
+    border: 1px solid red;
     text-align: bottom;
 }
 
 .card-image{
     border: 1px solid red;
-}
+} */

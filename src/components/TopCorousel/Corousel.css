@@ -1,11 +1,14 @@
 .my-carousel {
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  /* margin-top: -120px; */
+  position:absolute;
+    /* top:0;  */
 }
 
-img {
+/* img {
     margin: auto;
     
-}
+} */
 
 /* @media (max-width: 900px) {
     .carousel {

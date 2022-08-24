@@ -1,0 +1,74 @@
+
+
+.middleslide{
+    width: 100%;
+    background-image: url('https://preview.colorlib.com/theme/travelix/images/xcta.jpg.pagespeed.ic.m69gPEowgD.webp');
+    height: 775px;
+    background-repeat: no-repeat;
+    background-position: 50% 7%;
+    background-size: 129%;
+    position: relative;  
+}
+
+.innerItem{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 5%;
+}
+
+#carouselExampleControls{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+    
+}
+
+
+.innerItem button{
+    font-size: 30px;
+    border-radius: 35px;
+    padding: 9px 80px;
+    margin: 10px;
+    background-color: rgb(234, 172, 153);
+}
+
+
+
+@media only screen and (max-width: 990px) {
+.middleslide{
+background-size: 650%;
+}
+
+.innerItem{
+    width: 95%;
+}
+
+
+.innerItem button {
+    font-size: 26px;
+    border-radius: 35px;
+    padding: 0px 60px;
+    margin: 10px;
+}
+}
+
+/* @media only screen and (min-width: 990px) {
+    .middleslide{
+    background-size: 230%;
+    }   
+    
+    .innerItem{
+        width: 95%;
+    }
+    
+    
+    .innerItem button {
+        font-size: 26px;
+        border-radius: 35px;
+        padding: 0px 60px;
+        margin: 10px;
+    }
+    } */

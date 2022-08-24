@@ -1,5 +1,6 @@
 import Navbar from 'react-bootstrap/Navbar';
 import {Container, Nav, NavDropdown,Button } from 'react-bootstrap'; 
+// import "./Nav.css";
 // import Fb from "./Images/fb.png";
 // import Insta from "./Images/insta.png";
 // import Linkedin from "./Images/linkedin.png";
@@ -7,6 +8,7 @@ import {Container, Nav, NavDropdown,Button } from 'react-bootstrap';
 
 const NavbarComp=()=>{
     return <>
+    
     {/* {[false, 'sm', 'md', 'lg', 'xl', 'xxl'].map((expand) => (
     <Navbar key={expand} bg="light" expand={expand} className="mb-3">
       <Container fluid>
@@ -21,19 +23,19 @@ const NavbarComp=()=>{
       </Container>
     </Navbar>
   ))} */}
-      <Navbar className='bg-transparent' collapseOnSelect expand="lg" variant="light">  
-        <Container>  
+      <Navbar className=' bg-transparent' collapseOnSelect expand="lg" variant="light">  
+        <Container className='main-div'>  
           <Navbar.Brand href="#home"></Navbar.Brand>  
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />  
           <Navbar.Collapse id="responsive-navbar-nav">  
-            <Nav className="me-auto">  
+            {/* <Nav className="me-auto">  
 
             <Nav.Link href='#'>
-                {/* <img src={Logo}  alt="logo" /> */}
+                <img src={Logo}  alt="logo" />
                 <h2>Travel Flap</h2>
             </Nav.Link>
             
-              {/* <Nav.Link href="#features">
+              <Nav.Link href="#features">
                 <img src={Fb} alt="fb"/>
               </Nav.Link>  
               
@@ -43,20 +45,20 @@ const NavbarComp=()=>{
 
               <Nav.Link href="#features">
                 <img src={Linkedin} alt="Linkedin"/>
-              </Nav.Link>   */}
+              </Nav.Link>  
             </Nav>  
      
-            {/* <Nav>
+            <Nav>
                 <img src={Logo}  alt="logo" />
             </Nav> */}
 
-            <Nav className='justify-content-centre'>
+            <Nav className=''>
             <Button variant="light">Home</Button>
             <Button variant="light">AboutUs</Button>
             <Button variant="light">blog</Button>
             <Button variant="light">ContactUs</Button>
-            {/* <Button variant="light">Light</Button>
-            <Button variant="light">Light</Button> */}
+            <Button variant="light">Light</Button>
+            <Button variant="light">Light</Button>
             </Nav>
              <Nav> 
               <Nav.Link href="#memes">  
