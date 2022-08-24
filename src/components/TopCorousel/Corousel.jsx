@@ -4,7 +4,7 @@ import "./Corousel.css";
 // import BackgroundImage from "./TopCorouselImage.jpg";
 export const ControlledCarousel = () => {
   return (
-    <Carousel className='main-box' slide={true}>
+    <Carousel className='my-carousel' slide={true}>
       {/* <Navbar /> */}
       <Carousel.Item>
         <img width={900} height={700}
