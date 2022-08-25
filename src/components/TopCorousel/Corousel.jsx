@@ -1,11 +1,13 @@
 import Carousel from 'react-bootstrap/Carousel';
 // import Navbar from "../Nav";
+// import { Navbar } from "../Navbar/Navbar";
 import "./Corousel.css";
 // import BackgroundImage from "./TopCorouselImage.jpg";
 export const ControlledCarousel = () => {
   return (
-    <Carousel className='my-carousel' slide={true}>
+    <div className='carousel-main'>
       {/* <Navbar /> */}
+      <Carousel className='my-carousel' slide={true}>
       <Carousel.Item>
         <img width={900} height={700}
           className="d-block w-100"
@@ -44,6 +46,8 @@ export const ControlledCarousel = () => {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    </div>
+    
   );
 }
 
