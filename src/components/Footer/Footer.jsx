@@ -3,67 +3,138 @@ import "./Footer.css";
 
 export const Footer = () => {
   return (
-    <div className="main-footer">
-      <div className="container">
-        <div className="row">
-            {/* Column 1 */}
-            <div className="col">
-                {/* <img src="" alt="company logo"> */}
-                    <h2>TravelFlap</h2>
-                {/* </img> */}
-                <p>Welcome to Our Website. We are happy to serve you as a organisation and happy to be a part
-                    of your happy and joyfull journey.
-                </p>
-            </div>
-          {/* Column2 */}
-          <div className="col">
-            <h5>THICC MEMES INC</h5>
-            <h4 className="list-unstyled">
-              <li>342-420-6969</li>
-              <li>Moscow, Russia</li>
-              <li>123 Streeet South North</li>
-            </h4>
-          </div>
-          {/* Column3 */}
-          <div className="col">
-            <h4>Stuff</h4>
-            <ui className="list-unstyled">
-              <li>DANK MEMES</li>
-              <li>OTHER STUFF</li>
-              <li>GUD STUFF</li>
-            </ui>
-          </div>
-          {/* Column4 */}
-          <div className="col">
-            <h5>WELL ANOTHER COLUMN</h5>
-            <ui className="list-unstyled">
-              <li>DANK MEMES</li>
-              <li>OTHER STUFF</li>
-              <li>GUD STUFF</li>
-            </ui>
-          </div>
+    <div className="footer">
+      <div className="footerSection">
+        <h4 className="footerLogo">
+          <img
+            src="data:image/webp;base64,UklGRqIFAABXRUJQVlA4TJYFAAAvIoALEI0obNsGhWNMRP+DiQGwiUAgyZ9yhHEEAikOYYQFssn9KVsk/Y8EwJ2cAErWth2TpOspG2uoTdl2zTyzZkb3iKvquW1EPK3444sdSLVta9mWuZ/3/R2H/jcuwCWRiSQaiYsi0UhEEplGs+gS3eXh33Rr21a2ZXPf5/n8+0LcidwzCrACnAocYreQKmiAEtytAI/cfpfPDwVIkk3bVu5zbfvZtm3btm3z27Zt27aNZ9u4vnEmAAFMffxif2jtOtVxzTLZfe063XJN/q+xJpPpazJ5do2pA2tM/ZjMfJ7MfI4KGHvn2bFqa9fJxY8vHB1dJGhBZ9RETdKBzJI8Er7B7ag14vajS5lr18ntd86c7UMpAigkBIGAKEiU6oEncCNyl7r28MbQB1fOXUMBIqAUgQQBhEBIBAjQAnei/7SrD24Ga9f/r3h69VQjLfT4XyHC+CZ8WH5Dc9QkjUlvLCNvSIpAAMRhCqYhmHDh/q3g2bUDdxMUgkJKw/3ULQCAz/Ev/sd3eBbLojqRdeE4AKAjxiG0qAf9NQSFoFS+YnA+TEUJPsNM8SwAoDk6I/x/p+/dnvD6+u4qQFDIveEFWBLFeBF3oQwAHZD3P8fuPq/8/o1d6yKAUrkNO2B5/IYnAQA98Nl/2v4OjSqgeSvqExiJ//ArQoAYfIn9AAfvvO78wc2NGUWA02UVjE18i0gAwG0Abb+1JSiwFUbjZ1QFwCf4aO/tz3U/ubWlAIAcJ28NwwkUIACEsaAH3WAgGlLPwPhEIeoBYN28fVcIlPL2ChIHMBwAb7etoUYRCeOHFaAcAxEL2Nf2WSQNyDFsROk4yKidqA3I1C6BRIM4gJthhWsW56kUQEJ1FySBQE7jnlWsGY3MA1yo/ogkFkgYd68io2VEoeBwdf+HLIIkkIdWkdHqQMzDjuq+UfUkCPEVisdtOjKR+Pv3f6ulIYX6RvMRehOAS9g5bs3oBrUhBWL+Y/xKegcEqUX7YpzRZgWQ2oczQFKRJkFiSTlKRm09tbjjLx++x0pRJI8BYAdpLw2ItuTgoC0nV0b/8uHjLUARpeoxAFwiySGSINGkM61wjLg2gQJ4DAAAP9PqShCkUtO6dfRGbD61dtGvH95HK4Bi3PQfXMLlEAOEaIwp0icttfH4uiCZ3/z7x7eZUCSFuhH+Fz/RciWAIHWxQQbaLbHh6NZqv3/+8+6AUgTlv/Dq/6Ec34R0CAhkiBXG4B2W0a6WsWDR+kP76slvC//8+rxnIQWCUhE1ExbiCO2AtBBICCQg9VLXSj63DD2SjbFF0Q7IbKH8HZ18yJdXDXjZ/a8fy2MpRECBIqkrYCKuq1aXDKdoCNBEqgp6okWpgviAoBCUCgYxhYDwHvXTFIQ1k5usiTRpUAAaIhoCKICgEAGFoODPcjVMRmG1Ieo+SS0AhegoaRQQAZQKoBAMYvoQNQeWxMlqU9QTIktDgqIBgkYV0IgChBRyHuNhaezStrbyrIhWCGgIigAKAiiaUmocDMSX1R7VPCwCAKIlKCAAIOGqmTAUT1f7G9doAAAQRAFAXQGDcV3bpYj5ChANKUUAeLqyaxRUt1j17sgQCJQigPIJnoLhqKhuErVM07aIACh/RrbCClHYdmPFrapWkdDmUJgDQ/c8u15D06RpdapV0lapWiaVUS1Ou7I/NhZc/Oz0fvN1hDlr9+PblfJ16r3ZHMqfzeFz8zlcNJ8jp2dz5NRs7jw0myOH5nN4x2wO/4E9i/Y8u74Bcz998gssXPfnD7vePvX1/m67nj/04/vOX5/GUxBCKuKQgUxUQiXUQZPZHI6c/W/3LwAEMHHDj292797x7X7548MomIgA4QW4BvchCk1QB5VRCZnIQDySEYP4NXPSfB0GKEQJLqAQp3EKh3AQO/AHygAAAA=="
+            alt=""
+          />
+          TRAVALFLAP
+        </h4>
 
-          {/* Column 5*/}
-          <div className="col">
-            <h4>Contact Us</h4>
-            <ui className="list-unstyled">
-              <li>DANK MEMES</li>
-              <li>OTHER STUFF</li>
-              <li>GUD STUFF</li>
-            </ui>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
+          quia iste nulla culpa commodi necessitatibus debitis? Veritatis, vitae
+          praesentium! Explicabo . Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Deleniti ducimus cumque at sunt veniam molestiae
+          facere non, dolore amet aliquid!
+        </p>
+
+        <div className="socialmedia">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div className="footerSection">
+        <h4>BLOG POSTS</h4>
+        <div className="blogs">
+          <div className="blogImg">
+            <img
+              src="https://preview.colorlib.com/theme/travelix/images/xfooter_blog_1.jpg.pagespeed.ic.FLhgS0NlTD.webp"
+              alt=""
+            />
+          </div>
+          <div className="blogText">
+            <p>Travel with us this year</p>
+            <p>Nov 29, 2020</p>
           </div>
         </div>
-        <hr />
-        <div className="row">
-          <p className="col-sm">
-            &copy;{new Date().getFullYear()} THICC MEMES | All rights reserved |
-            Terms Of Service | Privacy
-          </p>
+        <div className="blogs">
+          <div className="blogImg">
+            <img
+              src="https://preview.colorlib.com/theme/travelix/images/xfooter_blog_1.jpg.pagespeed.ic.FLhgS0NlTD.webp"
+              alt=""
+            />
+          </div>
+          <div className="blogText">
+            <p>Travel with us this year</p>
+            <p>Nov 29, 2020</p>
+          </div>
+        </div>
+        <div className="blogs">
+          <div className="blogImg">
+            <img
+              src="https://preview.colorlib.com/theme/travelix/images/xfooter_blog_1.jpg.pagespeed.ic.FLhgS0NlTD.webp"
+              alt=""
+            />
+          </div>
+          <div className="blogText">
+            <p>Travel with us this year</p>
+            <p>Nov 29, 2020</p>
+          </div>
+        </div>
+      </div>
+      <div className="footerSection">
+        <h4>TAGS</h4>
+        <div className="tags">
+          <button>design</button>
+          <button>fashion</button>
+          <button>music</button>
+          <button>video</button>
+          <button>party</button>
+          <button>photography</button>
+          <button>adventure</button>
+          <button>travel</button>
+        </div>
+      </div>
+      <div className="footerSection">
+        <h4>CONTACT INFO</h4>
+
+
+        <div className="footerContect">
+          <div className="footerContectImg">
+            <img
+              src="https://preview.colorlib.com/theme/travelix/images/placeholder.svg"
+              alt=""
+            />
+          </div>
+          <div className="footerContectText">
+            <p>4127 Raoul Wallenber 45b-c Gibraltar</p>
+          </div>
+        </div>
+
+
+        <div className="footerContect">
+          <div className="footerContectImg">
+            <img
+              src="https://preview.colorlib.com/theme/travelix/images/placeholder.svg"
+              alt=""
+            />
+          </div>
+          <div className="footerContectText">
+            <p>2556-808-8613</p>
+          </div>
+        </div>
+        <div className="footerContect">
+          <div className="footerContectImg">
+            <img
+              src="https://preview.colorlib.com/theme/travelix/images/placeholder.svg"
+              alt=""
+            />
+          </div>
+          <div className="footerContectText">
+            <p>contectme@gmail.com</p>
+          </div>
+        </div>
+        <div className="footerContect">
+          <div className="footerContectImg">
+            <img
+              src="https://preview.colorlib.com/theme/travelix/images/placeholder.svg"
+              alt=""
+            />
+          </div>
+          <div className="footerContectText">
+            <p>wwww.travelflap.net</p>
+          </div>
         </div>
       </div>
     </div>
   );
-}
+};
 
 // import React from "react";
 // import "./Footer.css";
@@ -80,16 +151,16 @@ export const Footer = () => {
 //                <li><a href = "#">Menu</a></li>
 //                <li><a href = "#">Order Lookup</a></li>
 //                <li><a href = "#">Gift card</a></li>
-               
+
 //            </ul>
-//        </div> 
+//        </div>
 //        <div class = "footer-col">
 //         <h4>Support</h4>
 //         <ul>
 //                <li><a href = "#">Get Help</a></li>
 //                <li><a href = "#">Contact Us</a></li>
 //                <li><a href = "#">KFC Feedback</a></li>
-               
+
 //         </ul>
 //     </div>
 //     <div class = "footer-col">
@@ -99,7 +170,7 @@ export const Footer = () => {
 //                <li><a href = "#">Privecy policy</a></li>
 //                <li><a href = "#">Disclamer</a></li>
 //                <li><a href = "#">Coution Notice</a></li>
-               
+
 //         </ul>
 //     </div>
 //     <div class = "footer-col">
@@ -108,21 +179,21 @@ export const Footer = () => {
 //             <li><a href = "#">About KFC</a></li>
 //             <li><a href = "#">KFC Care</a></li>
 //             <li><a href = "#">Careers</a></li>
-           
+
 //         </ul>
-//     </div> 
+//     </div>
 //     <div class = "footer-col">
 //         <h4>follow Us</h4>
 //         <div class = "social-link">
-//             <a href = "#"><i class = "fab fa-facebook-f"></i></a> 
-//             <a href = "#"><i class = "fab fa-twitter"></i></a> 
-//             <a href = "#"><i class = "fab fa-instagram"></i></a> 
-//             <a href = "#"><i class = "fab fa-linkedin-in"></i></a> 
+//             <a href = "#"><i class = "fab fa-facebook-f"></i></a>
+//             <a href = "#"><i class = "fab fa-twitter"></i></a>
+//             <a href = "#"><i class = "fab fa-instagram"></i></a>
+//             <a href = "#"><i class = "fab fa-linkedin-in"></i></a>
 //         </div>
 //     </div>
 //     </div>
 
-// </div> 
+// </div>
 // </footer>
 //     </div>
 //   )

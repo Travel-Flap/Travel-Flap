@@ -1,5 +1,6 @@
 import MarqueeComp from "./components/TopLine";
-import  { Navbar } from "./components/Nav";
+// import  { TopNavbar } from "./components/Nav";
+import { Navbar } from "./components/Navbar/Navbar";
 // import { HomePage } from "./components/Experiment Page/Homepage";
 // import CollapsibleExample from "./Components/Navbar"
 import { ControlledCarousel } from "./components/TopCorousel/Corousel";
@@ -25,6 +26,7 @@ function App() {
     {/* <TopPart /> */}
       <MarqueeComp />
       <Navbar />
+      {/* <TopNavbar /> */}
 
       <ControlledCarousel />
       <br />
