@@ -1,3 +1,35 @@
 .trending_row{
-    border: 1px solid white;
+    /* border: 1px solid red; */
+    padding-left: 9%;
+    width: 85%;
+}
+
+.trending_column{
+    /* border: 1px solid blue; */
+    width: 85%;
+}
+
+.trending-heading{
+    /* border: 1px solid red; */
+    text-align: center;
+    padding-top: 2%;
+    font-weight: bold;
+}
+
+.trending-title{
+    border: 1px solid green;
+    font-size: small;
+
+}
+
+/* .trending-cardtext{
+    border: 1px solid black;
+} */
+
+@media only screen and (min-width: 760px) and (max-width: 1024px) {
+    .trending_row{
+        /* border: 1px solid red; */
+        /* padding-left: 9%; */
+        width: 85%;
+    }
 }

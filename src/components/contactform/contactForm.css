@@ -1,0 +1,143 @@
+.contactForm {
+    width: 100%;
+    background-image: url('https://preview.colorlib.com/theme/travelix/images/xcontact.png.pagespeed.ic.qi--ZwSUbp.webp');
+    background-repeat: no-repeat;
+    display: flex;
+    margin: auto;
+    height: 800px;
+
+}
+
+
+.formDiv {
+    padding: 45px 40px;
+    background-color: gray;
+    width: 40%;
+    margin-left: 54%;
+    height: 600px;
+}
+
+h1 {
+    text-align: left;
+}
+
+#innerForm {
+    width: 100%;
+    display: flex;
+    column-gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+
+
+.name {
+    width: 48%;
+    outline: none;
+    font-size: 18px;
+    padding: 10px 0;
+    border: none;
+    background: none;
+    border-bottom: 2px solid white;
+}
+
+.email {
+    width: 48%;
+    outline: none;
+    font-size: 18px;
+    padding: 10px 0;
+    /* margin: 10px 0; */
+    border: none;
+    background: none;
+    border-bottom: 2px solid white;
+}
+
+.sub {
+    width: 100%;
+    outline: none;
+    font-size: 18px;
+    padding: 10px 0;
+    border: none;
+    background: none;
+    border-bottom: 2px solid white;
+    margin: 40px 0;
+}
+
+.message {
+    width: 100%;
+    outline: none;
+    font-size: 18px;
+    padding: 10px 0;
+    border: none;
+    background: none;
+    border-bottom: 2px solid white;
+}
+
+.name::placeholder {
+    color: white;
+}
+
+.email::placeholder {
+    color: white;
+}
+
+.sub::placeholder {
+    color: white;
+}
+
+.message::placeholder {
+    color: white;
+}
+
+.formDiv button {
+    font-size: 25px;
+    border-radius: 30px;
+    padding: 10px 40px;
+    margin-top: 40px;
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+
+
+    .formDiv {
+        margin: auto;
+        width: 90%;
+
+    }
+
+    .name {
+        width: 100%;
+    }
+
+    .email {
+        width: 100%;
+    }
+
+    .formDiv button {
+        font-size: 18px;
+        /* border-radius: 30px; */
+        padding: 6px 25px;
+        /* margin-top: 40px; */
+    }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1500px) {
+
+
+    .formDiv {
+        margin: auto;
+        width: 80%;
+
+    }
+
+    .name {
+        width: 49%;
+    }
+
+    .email {
+        width: 49%;
+    }
+
+}

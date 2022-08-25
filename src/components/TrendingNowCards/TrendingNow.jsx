@@ -4,7 +4,7 @@ import "./TrendingNow.css";
 export const TrendingNow = () => {
     return(
         <>
-        <h1 className="trending-heading align-centre">Trending Now</h1>
+        <h1 className="trending-heading ">Trending Now</h1>
         <br/>
          {/* Trending Now row 1 */}
             <div class="row row-cols-1 row-cols-md-4 g-4 trending_row">
@@ -17,8 +17,8 @@ export const TrendingNow = () => {
                             </div>
                             <div className="col-md-6">
                                 <div className="card-body">
-                                    <h6 className="card-title">GRAND HOTEL
-                                        <p className="card-text"><small className="text-muted">From $182
+                                    <h6 className="card-title trending-title">GRAND HOTEL
+                                        <p className="card-text trending-cardtext"><small className="text-muted">From $182
                                             <br/>spain,Madrid</small>
                                         </p>
                                     </h6>
@@ -77,7 +77,7 @@ export const TrendingNow = () => {
                             </div>
                             <div className="col-md-6">
                                 <div className="card-body">
-                                    <h6 className="card-title">Bottom Funnel HOTEL
+                                    <h6 className="card-title">Trevis Hotel
                                         <p className="card-text"><small className="text-muted">From $182
                                             <br/>spain,Madrid</small>
                                         </p>
@@ -160,7 +160,7 @@ export const TrendingNow = () => {
                             </div>
                             <div className="col-md-6">
                                 <div className="card-body">
-                                    <h6 className="card-title">Bottom Funnel HOTEL
+                                    <h6 className="card-title">Trevis Hotel
                                         <p className="card-text"><small className="text-muted">From $182
                                             <br/>spain,Madrid</small>
                                         </p>

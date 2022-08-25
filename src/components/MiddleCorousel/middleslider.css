@@ -2,12 +2,15 @@
 
 .middleslide{
     width: 100%;
-    background-image: url('https://preview.colorlib.com/theme/travelix/images/xcta.jpg.pagespeed.ic.m69gPEowgD.webp');
-    height: 775px;
-    background-repeat: no-repeat;
-    background-position: 50% 7%;
-    background-size: 129%;
+    height: 600px;
     position: relative;  
+}
+
+.middleslide >img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .innerItem{
@@ -16,7 +19,9 @@
     background-color: white;
     padding: 5%;
 }
-
+h1{
+    text-align: center;
+}
 #carouselExampleControls{
     position: absolute;
     top: 50%;
@@ -37,14 +42,16 @@
 
 
 
-@media only screen and (max-width: 990px) {
+/* @media only screen and (max-width: 990px) {
 .middleslide{
 background-size: 650%;
 }
 
 .innerItem{
     width: 95%;
-}
+} */
+
+
 
 
 .innerItem button {
@@ -53,7 +60,7 @@ background-size: 650%;
     padding: 0px 60px;
     margin: 10px;
 }
-}
+
 
 /* @media only screen and (min-width: 990px) {
     .middleslide{
