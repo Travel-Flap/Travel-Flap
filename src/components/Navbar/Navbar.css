@@ -1,4 +1,41 @@
 .navbar{
+    
     border: 1px solid blue;
+    width: auto;
     /* z-index: 1000 !important; */
+    /* background:rgba(0,0,0,0.5); */
+    background-color: rgb(84,54,109,0.8);
+    /* position: absolute; */
+    /* width: 100vw; */
+    /* margin: auto; */
+    height: 5rem;
+}
+
+.nav_buttons{
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+#navbarScroll{
+    /* border: 1px solid green; */
+    width: 50%;
+    /* text-align: center; */
+    /* color: white; */
+}
+
+.navbar_links{
+    /* border: 1px solid red; */
+    text-align: center;
+    color: white !important;
+    
+}
+
+.logo{
+    color: white;
+}
+
+.fixed{
+    position: absolute;
+    /* top: 200px; */
+    z-index: 1000000;
 }

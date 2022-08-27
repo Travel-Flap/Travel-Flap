@@ -1,81 +1,68 @@
-
-
-.middleslide{
-    width: 100%;
-    height: 600px;
-    position: relative;  
+.middleslide {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  background: linear-gradient(45deg, #f79c22, #9757e9);
 }
 
-.middleslide >img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
+.middleslide > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
-.innerItem{
-    width: 80%;
-    margin: auto;
-    background-color: white;
-    padding: 5%;
+.innerItem {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  padding: 5%;
+  box-sizing: border-box;
 }
-h1{
-    text-align: center;
+.innerItem h1 {
+  text-align: center;
+  margin-bottom: 15px;
 }
-#carouselExampleControls{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 90%;
-    
-}
-
-
-.innerItem button{
-    font-size: 30px;
-    border-radius: 35px;
-    padding: 9px 80px;
-    margin: 10px;
-    background-color: rgb(234, 172, 153);
+#carouselExampleControls {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
 }
 
-
-
-/* @media only screen and (max-width: 990px) {
-.middleslide{
-background-size: 650%;
+.innerItem p {
+  margin: 15x;
+}
+.btnSlider {
+  font-size: 23px;
+  font-weight: 600;
+  border-radius: 25px;
+  padding: 10px 0px;
+  width: 220px;
+  margin: auto;
+  color: white;
+  border: none;
+  text-align: center;
+  margin-top: 15px;
+  background: linear-gradient(90deg, #f79c22, #9757e9);
 }
 
-.innerItem{
-    width: 95%;
-} */
+.btnSlider:hover {
+  background: linear-gradient(90deg, #9757e9, #f79c22);
+}
 
+.ratings {
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+}
 
-
-
-.innerItem button {
-    font-size: 26px;
-    border-radius: 35px;
-    padding: 0px 60px;
-    margin: 10px;
+.ratingOuter {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  margin: 15px auto;
 }
 
 
-/* @media only screen and (min-width: 990px) {
-    .middleslide{
-    background-size: 230%;
-    }   
-    
-    .innerItem{
-        width: 95%;
-    }
-    
-    
-    .innerItem button {
-        font-size: 26px;
-        border-radius: 35px;
-        padding: 0px 60px;
-        margin: 10px;
-    }
-    } */

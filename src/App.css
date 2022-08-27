@@ -20,6 +20,9 @@
   }
 }
 
+.App{
+  position: absolute;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -42,4 +45,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbarsec{
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+}
+
+.cor{
+  position: relative;
+  top: 0;
+  z-index: -1;
 }

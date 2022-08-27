@@ -5,11 +5,33 @@
 }
 
 .text-info {
-    color: RGB(255, 255, 255);
+    /* color: RGB(255, 255, 255);/ */
+    color: azure;
     font-size: 23px;
     font-family: "Open Sans", sans-serif;
 }
 
-.button-info {
-    border: 1px solid red;
+
+
+.trevForm{
+    background: linear-gradient(45deg, #f79c22, #9757e9);
+    height: 140px;
+}
+.trevButton {
+    background-color: #31124b;
+    font-size: 13px;
+    font-weight: 600;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    padding: 14px 45px;
+}
+.trevButton:hover {
+    background-color: #3e2b4c;
+    
+}
+
+.form-label {
+    color: white;
+    font-size: 18px;
 }

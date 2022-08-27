@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
-
+import { BsFacebook, BsPinterest, BsTwitter } from "react-icons/bs";
+import { IconContext } from "react-icons";
 export const Footer = () => {
   return (
     <div className="footer">
@@ -21,13 +22,15 @@ export const Footer = () => {
           facere non, dolore amet aliquid!
         </p>
 
-        <div className="socialmedia">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
+        <IconContext.Provider value={{ className: "socialIcons" }}>
+          <div className="socialmedia">
+            <BsPinterest />
+            <BsFacebook />
+            <BsTwitter />
+            <BsTwitter />
+            <BsTwitter />
+          </div>
+        </IconContext.Provider>
       </div>
       <div className="footerSection">
         <h4>BLOG POSTS</h4>
@@ -84,52 +87,35 @@ export const Footer = () => {
       <div className="footerSection">
         <h4>CONTACT INFO</h4>
 
-
         <div className="footerContect">
-          <div className="footerContectImg">
-            <img
-              src="https://preview.colorlib.com/theme/travelix/images/placeholder.svg"
-              alt=""
-            />
-          </div>
-          <div className="footerContectText">
+          <img
+            src="https://preview.colorlib.com/theme/travelix/images/placeholder.svg"
+            alt=""
+          />
+
             <p>4127 Raoul Wallenber 45b-c Gibraltar</p>
-          </div>
         </div>
 
-
         <div className="footerContect">
-          <div className="footerContectImg">
             <img
               src="https://preview.colorlib.com/theme/travelix/images/placeholder.svg"
               alt=""
             />
-          </div>
-          <div className="footerContectText">
             <p>2556-808-8613</p>
-          </div>
         </div>
         <div className="footerContect">
-          <div className="footerContectImg">
             <img
               src="https://preview.colorlib.com/theme/travelix/images/placeholder.svg"
               alt=""
             />
-          </div>
-          <div className="footerContectText">
             <p>contectme@gmail.com</p>
-          </div>
         </div>
         <div className="footerContect">
-          <div className="footerContectImg">
             <img
               src="https://preview.colorlib.com/theme/travelix/images/placeholder.svg"
               alt=""
             />
-          </div>
-          <div className="footerContectText">
             <p>wwww.travelflap.net</p>
-          </div>
         </div>
       </div>
     </div>

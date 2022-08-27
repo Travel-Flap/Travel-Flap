@@ -2,6 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 // import Navbar from "../Nav";
 // import { Navbar } from "../Navbar/Navbar";
 import "./Corousel.css";
+import Services from "../services/Services";
 // import BackgroundImage from "./TopCorouselImage.jpg";
 export const ControlledCarousel = () => {
   return (
@@ -46,6 +47,8 @@ export const ControlledCarousel = () => {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+
+    <Services/>
     </div>
     
   );

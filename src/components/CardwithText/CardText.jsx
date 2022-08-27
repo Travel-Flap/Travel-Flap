@@ -8,7 +8,7 @@ export const CardText = () => {
             <div className="row row-cols-1 row-cols-md-2 ">
                 <div className="col card-column">
                     <div className="trending_now card  " >
-                        <div className="row mb-5">
+                        <div className="row mb-5 textcards_main">
                             <div className="col-md-4">
                                 <img src="https://i.imgur.com/8IRk2Wo.jpg" className="img-fluid rounded-start card_image" alt="card"/>
                             </div>

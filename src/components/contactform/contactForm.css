@@ -1,10 +1,11 @@
 .contactForm {
+
     width: 100%;
     background-image: url('https://preview.colorlib.com/theme/travelix/images/xcontact.png.pagespeed.ic.qi--ZwSUbp.webp');
     background-repeat: no-repeat;
     display: flex;
-    margin: auto;
-    height: 800px;
+    margin: 30px auto 0 auto;
+    height: 740px;
 
 }
 
@@ -15,10 +16,13 @@
     width: 40%;
     margin-left: 54%;
     height: 600px;
+    background: linear-gradient(45deg, #f79c22, #9757e9);
 }
 
-h1 {
+.formDiv h1 {
     text-align: left;
+    color: white;
+    margin-bottom: 25px;
 }
 
 #innerForm {
@@ -60,7 +64,7 @@ h1 {
     border: none;
     background: none;
     border-bottom: 2px solid white;
-    margin: 40px 0;
+    margin: 15px 0;
 }
 
 .message {
@@ -90,10 +94,18 @@ h1 {
 }
 
 .formDiv button {
-    font-size: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
     border-radius: 30px;
     padding: 10px 40px;
     margin-top: 40px;
+    color: white;
+    background: #31124b;
+}
+.formDiv button:hover {
+    
+    background: #3a1e52;
 }
 
 
