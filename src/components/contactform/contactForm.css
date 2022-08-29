@@ -6,6 +6,7 @@
     display: flex;
     margin: 30px auto 0 auto;
     height: 740px;
+    box-sizing: border-box;
 
 }
 
@@ -16,7 +17,7 @@
     width: 40%;
     margin-left: 54%;
     height: 600px;
-    background: linear-gradient(45deg, #f79c22, #9757e9);
+    background: linear-gradient(45deg, #3408F3, #c0d3e7);
 }
 
 .formDiv h1 {
@@ -104,8 +105,8 @@
     background: #31124b;
 }
 .formDiv button:hover {
-    
-    background: #3a1e52;
+    background: linear-gradient(45deg, #3408F3, #c0d3e7);
+    /* background: #3a1e52; */
 }
 
 

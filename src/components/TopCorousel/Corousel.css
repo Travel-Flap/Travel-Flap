@@ -1,6 +1,48 @@
-
-
-.carousel-main{
-  
-  border: 1px solid red;
+.carousel-main {
+  /* border: 1px solid red; */
+height: 700px;
+  box-sizing: border-box;
 }
+
+.carousel-indicators {
+  /* border: 1px solid red; */
+  width: 8%;
+  margin-left: 91% !important;
+}
+
+.carousel-caption{
+  /* border: 1px solid red; */
+  margin-bottom: 14%;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 20px !important;
+  height: 20px !important;
+  background-color: transparent;
+  border: 1px solid transparent !important;
+  border-radius: 30px;
+}
+
+/* .carousel-indicators li {
+  border-top: unset;
+  width: 10px;
+  border-bottom: unset;
+  border: 1px solid transparent;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-radius: 10px;
+  background-color: rgba(169, 29, 42, 0.4);
+  height: 10px;
+  width: 20px;}                                                  
+                                                                 
+  .carousel-indicators .active {
+  border-top: unset;
+  border-bottom: unset;
+  border: 1px solid transparent;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-radius: 10px;
+  background-color: #A91D2A;
+  height: 10px;
+  width: 50px
+} */

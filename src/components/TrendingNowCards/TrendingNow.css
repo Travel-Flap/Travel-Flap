@@ -2,6 +2,7 @@
     /* border: 1px solid red; */
     padding-left: 9%;
     width: 85%;
+    box-sizing: border-box;
 }
 
 .trending_column{
@@ -17,10 +18,21 @@
 }
 
 .trending-title{
-    border: 1px solid green;
-    font-size: small;
+    /* border: 1px solid green; */
+    /* font-size: 12px; */
+    /* font-weight: bolder; */
+    margin: auto;
+    /* width: 90%; */
+    align-items: top;
+    /* padding-bottom: 15%; */
+    /* margin-bottom: 10%; */
 
 }
+
+/* h6{
+    border: 1px solid red;
+    font-size: 14px;
+} */
 
 /* .trending-cardtext{
     border: 1px solid black;

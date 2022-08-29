@@ -21,8 +21,8 @@ export const TravelForm = () => {
   };
 
   return (
-    <Form className='main-form text-info  trevForm' noValidate validated={validated} onSubmit={handleSubmit}>
-      <Row className="mt-4 justify-content-center align-items-end ">
+    <Form className='main-form text-info trevForm' noValidate validated={validated} onSubmit={handleSubmit}>
+      <Row className="mt-4 justify-content-center align-items-end trevrow">
         <Form.Group className='text-info '  as={Col} md="2" controlId="validationCustom01">
           <Form.Label>DESTINATION</Form.Label>
           <Form.Control xs={4}
@@ -31,6 +31,9 @@ export const TravelForm = () => {
             placeholder="Enter Destination" 
             defaultValue=""
           />
+          <Form.Control.Feedback type="invalid">
+            Please provide a valid state.
+          </Form.Control.Feedback>
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
         </Form.Group>
 
@@ -43,6 +46,9 @@ export const TravelForm = () => {
             placeholder="YYYY-MM-DD"
             defaultValue=""
           />
+          <Form.Control.Feedback type="invalid">
+            Please provide a valid state.
+          </Form.Control.Feedback>
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
         </Form.Group>
 
@@ -55,6 +61,10 @@ export const TravelForm = () => {
             placeholder="YYYY-MM-DD"
             defaultValue=""
           />
+          <Form.Control.Feedback type="invalid">
+            Please provide a valid state.
+          </Form.Control.Feedback>
+          
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
         </Form.Group>
 
@@ -70,6 +80,7 @@ export const TravelForm = () => {
           <Form.Control.Feedback type="invalid">
             Please provide a valid state.
           </Form.Control.Feedback>
+          <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
         </Form.Group>
 
         {/* This form group is for Selecting the Children Values */}
@@ -85,6 +96,7 @@ export const TravelForm = () => {
           <Form.Control.Feedback type="invalid">
             Please provide a valid state.
           </Form.Control.Feedback>
+          <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
         </Form.Group>
 
         {/* This Form Froup is for the button of the form group */}

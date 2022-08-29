@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   column-gap: 1%;
+  box-sizing: border-box;
 }
 
 .footerSection {
@@ -15,6 +16,7 @@
   color: white;
 }
 .footerSection h4 {
+  /* border: 1px solid red; */
   margin-bottom: 4px;
   text-align: left;
 }
@@ -34,14 +36,14 @@
 }
 .socialIcons {
   color: rgb(14, 133, 173);
-  font-size: 40px;
+  font-size: 25px;
 }
 .socialIcons:hover {
   color: blue;
 }
 
 .footerLogo {
-  font-size: 39px;
+  font-size: 32px;
   color: white;
 }
 .footerLogo img {

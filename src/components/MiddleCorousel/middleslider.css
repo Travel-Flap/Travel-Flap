@@ -1,8 +1,9 @@
 .middleslide {
-  width: 100%;
+  width: 99%;
   height: 600px;
   position: relative;
   background: linear-gradient(45deg, #f79c22, #9757e9);
+  box-sizing: border-box;
 }
 
 .middleslide > img {

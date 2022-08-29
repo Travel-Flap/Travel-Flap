@@ -2,10 +2,10 @@
     width: 90%;
     margin: auto;
     display: flex;
-    height: 100px;
+    height: 103px;
     justify-content: center;
     position: absolute;
-    top: 16.7%;
+    bottom: 14px;
     left: 5%;
 }
 .services div{
@@ -19,7 +19,7 @@
    
 }
 .services div:hover{
-    background-color: orange;
+    background-color: rgb(115,100,237);
    
 }
 .services div img{
@@ -31,7 +31,7 @@
 }
 .services div:nth-child(1){
    border-top-left-radius: 125px;
-   width: 18%   ;
+   width: 18%;
    
    
 }
@@ -46,6 +46,7 @@
     
    
 }
+
 
 
 

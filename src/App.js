@@ -1,6 +1,6 @@
 
 import MarqueeComp from "./components/TopLine";
-import  { TopNavbar } from "./components/Navbar/Navbar";
+// import  { TopNavbar } from "./components/Navbar/Navbar";
 // import { Navbar } from "./components/Navbar/Navbar";
 // import { HomePage } from "./components/Experiment Page/Homepage";
 // import CollapsibleExample from "./Components/Navbar"
@@ -13,6 +13,7 @@ import { Middleslider } from "./components/MiddleCorousel/Middleslider";
 import { ContactForm } from "./components/contactform/ContactForm";
 import { Footer } from "./components/Footer/Footer";
 
+import Navbar from "./components/Navbar/Navbar";
 
 import './App.css';
 
@@ -32,11 +33,11 @@ function App() {
       {/* <MarqueeComp /> */}
       {/* <ProductSlider /> */}
       {/* <Imagecarousel /> */}
-      {/* <Navbar /> */}
+      <Navbar />
 
 
       <ControlledCarousel />
-      <TopNavbar />
+      {/* <TopNavbar /> */}
 
       <TravelForm />
 

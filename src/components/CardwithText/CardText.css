@@ -1,15 +1,17 @@
-.trending-heading{
-    /* border: 1px solid blue; */
+/* .trending-heading{
+    border: 1px solid blue;
     padding-bottom: 2%;
-}
+} */
 
 .card_container{
     /* border: 1px solid red; */
     width: 85%;
     margin: auto;
+    box-sizing: border-box;
+    border: transparent;
 }
 .main_container{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: auto;
     text-align: center;
 }
@@ -21,18 +23,27 @@
     object-fit: cover;
 }
 
+.col-md-6{
+    /* border: 2px solid red; */
+    text-align: left;
+}
+
+.p > .button{
+    border: 1px solid red;
+}
+
+.card{
+    border: 1px solid blue;
+}
 .cards_body{
     /* border: 1px solid red; */
     object-fit: cover;
 }
-/* 
-.card-body{
-    border: 1px solid red;
-    text-align: left;
-    width: 100%;
-    object-fit: cover;
-} */
 
+/* a > .card_button {
+    border: 1px solid red;
+    margin-top: 17%;
+} */
 .card-images{
     /* border: 1px solid blue; */
     display: flex;
