@@ -42,17 +42,21 @@
 
 .cards_button button {
     /* border: 1px solid red; */
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 600;
     border: none;
     border-radius: 30px;
-    padding: 10px 40px;
-    margin-top: 40px;
+    padding: 8px 31px;
+    margin-top: 14%;
     color: white;
     background: #6949ad;
+    width: 74%;
     /* background: #31124b; */
 }
 
+.cards_button button:hover{
+    background: linear-gradient(45deg, #3408f3, #c0d3e7);
+}
 
 .cards_container{
     /* border: 1px solid red; */

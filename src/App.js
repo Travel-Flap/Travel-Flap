@@ -1,4 +1,3 @@
-
 import MarqueeComp from "./components/TopLine";
 // import  { TopNavbar } from "./components/Navbar/Navbar";
 // import { Navbar } from "./components/Navbar/Navbar";
@@ -8,14 +7,14 @@ import { ControlledCarousel } from "./components/TopCorousel/Corousel";
 import { TravelForm } from "./components/FormBelowCorousel/TravelForm";
 import { DataCards } from "./components/Cards/Cards";
 // import { ImageTexCards } from "./components/CardWithSIdeText/imageTextcard";
-import { MultiCardSlider } from "./components/MultiCardSlider/MultiCardSlider";
+// import { MultiCardSlider } from "./components/MultiCardSlider/MultiCardSlider";
 import { Middleslider } from "./components/MiddleCorousel/Middleslider";
 import { ContactForm } from "./components/contactform/ContactForm";
 import { Footer } from "./components/Footer/Footer";
 
 import Navbar from "./components/Navbar/Navbar";
 import { TitleBar } from "./components/TopTitleBar/TitleBar";
-import './App.css';
+import "./App.css";
 
 // import { DataCards  } from "./components/DataCards/DataCards";
 import { CardText } from "./components/CardwithText/CardText";
@@ -27,17 +26,16 @@ import { TrendingNow } from "./components/TrendingNowCards/TrendingNow";
 // import { TopPart } from "./components/TopPart/TopPart";
 
 import { BottomBar } from "./components/BottomBar/BottomBar";
-
+import { ImageSlider } from "./components/MultipleCards/MultipleCards";
 function App() {
   return (
     <div className="App">
-      <TitleBar />  
-    {/* <TopPart /> */}
+      <TitleBar />
+      {/* <TopPart /> */}
       {/* <MarqueeComp /> */}
       {/* <ProductSlider /> */}
       {/* <Imagecarousel /> */}
-      {/* <Navbar /> */}
-
+      <Navbar />
 
       <ControlledCarousel />
       {/* <TopNavbar /> */}
@@ -48,24 +46,25 @@ function App() {
       <DataCards />
 
       {/* <br /> */}
-    <Middleslider />
-  
-    {/* <br/> */}
-    <CardText />
+      <Middleslider />
 
-    {/* <br />
-    <MultiCardSlider /> */}
+      {/* <br/> */}
+      <CardText />
 
-    {/* <br/> */}
-    <TrendingNow />
+      <div className="container mt-5 carousel">
+        <h1 className="slider_title">What our Clients say about us</h1>
+        <ImageSlider />
+      </div>
 
-    {/* <br /> */}
-    <ContactForm />
+      {/* <br/> */}
+      <TrendingNow />
 
-    <Footer />
+      {/* <br /> */}
+      <ContactForm />
 
-    <BottomBar />
-    {/* <CardCarousel /> */}
+      <Footer />
+
+      <BottomBar />
     </div>
   );
 }

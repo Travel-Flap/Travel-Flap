@@ -37,9 +37,9 @@
     text-align: center;
 }
 .card_images{
-    /* border: 1px solid orange; */
-    width: 100%;
-    /* height: 12px; */
+    border: 1px solid orange !important;
+    width:100%;
+    height: 12px;
 
     object-fit: cover;
 }
@@ -67,10 +67,11 @@
 .cards_body > .card-text{
     /* border: 1px solid blue; */
     font-family:"Open Sans",sans-serif;
-    font-size: 19px;
+    font-size: 20px;
+    margin-top: 7%;
     font-weight: 400;
     vertical-align: baseline;
-    line-height: 30px;
+    line-height: 33px;
 }
 
 

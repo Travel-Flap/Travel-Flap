@@ -8,6 +8,7 @@
   
   .title-context{
     display: flex;
+    width: 37%;
     /* flex: row; */
     /* column-gap: 5%; */
   }
@@ -60,25 +61,28 @@
     background: #555;
   }
 
-  .socialmedia {
+  .socialmediatop {
     display: flex;
-    width: 36%;
+    width: 86%;
     justify-content: center;
     column-gap: 30px;
   }
-  .socialmedia div {
-    width: 14%;
+  .socialmediatop div {
+    width: 54%;
     height: 40px;
     margin: 20px 0;
     background-color: white;
     border-radius: 20px;
   }
-  .socialIcons {
+  .socialIconstop {
+    /* border: 1px solid red; */
     /* color: rgb(14, 133, 173); */
     color: #dee2e6;
-    font-size: 13px;
+    font-size: 14px;
+    /* border: 1px solid white; */
+    /* border-radius: 50%; */
   }
-  .socialIcons:hover {
+  .socialIconstop:hover {
     color: rgb(77, 77, 204);
   }
   

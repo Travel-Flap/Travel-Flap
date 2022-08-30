@@ -16,7 +16,7 @@ export const TrendingNow = () => {
                                 <img src="https://preview.colorlib.com/theme/travelix/images/xtrend_1.png.pagespeed.ic.T7lv0FH9k0.webp" className="img-fluid rounded-start card_image" alt="card"/>
                             </div>
                             <div className="col-md-6">
-                                <div className="card-body">
+                                <div className="card-body trendingtexts">
                                     <h6 className="card-title trending-title">GRAND HOTEL
                                         <p className="card-text"><small className="text-muted">From $182
                                             <br/>spain,Madrid</small>
@@ -37,8 +37,8 @@ export const TrendingNow = () => {
                                 <img src="https://preview.colorlib.com/theme/travelix/images/xtrend_2.png.pagespeed.ic.RVoMK96K_o.webp" className="img-fluid rounded-start card_image" alt="card"/>
                             </div>
                             <div className="col-md-6">
-                                <div className="card-body">
-                                    <h6 className="card-title">MARS HOTEL
+                                <div className="card-body trendingtexts">
+                                    <h6 className="card-title trending-title">MARS HOTEL
                                         <p className="card-text"><small className="text-muted">From $182
                                             <br/>spain,Madrid</small>
                                         </p>
@@ -57,8 +57,8 @@ export const TrendingNow = () => {
                                 <img src="https://preview.colorlib.com/theme/travelix/images/xtrend_3.png.pagespeed.ic.r-Q1a1RUR6.webp" className="img-fluid rounded-start card_image" alt="card"/>
                             </div>
                             <div className="col-md-6">
-                                <div className="card-body">
-                                    <h6 className="card-title">QUEEN HOTEL
+                                <div className="card-body trendingtexts">
+                                    <h6 className="card-title trending-title">QUEEN HOTEL
                                         <p className="card-text"><small className="text-muted">From $182
                                             <br/>spain,Madrid</small>
                                         </p>
@@ -77,8 +77,8 @@ export const TrendingNow = () => {
                                 <img src="https://preview.colorlib.com/theme/travelix/images/xtrend_4.png.pagespeed.ic.IIP5He-Ysz.webp" className="img-fluid rounded-start card_image" alt="card"/>
                             </div>
                             <div className="col-md-6">
-                                <div className="card-body">
-                                    <h6 className="card-title">Trevis
+                                <div className="card-body trendingtexts">
+                                    <h6 className="card-title trending-title">Trevis
                                         <p className="card-text"><small className="text-muted">From $182
                                             <br/>spain,Madrid</small>
                                         </p>
@@ -100,8 +100,8 @@ export const TrendingNow = () => {
                                 <img src="https://preview.colorlib.com/theme/travelix/images/xtrend_1.png.pagespeed.ic.T7lv0FH9k0.webp" className="img-fluid rounded-start card_image" alt="card"/>
                             </div>
                             <div className="col-md-6">
-                                <div className="card-body">
-                                    <h6 className="card-title">GRAND HOTEL
+                                <div className="card-body trendingtexts">
+                                    <h6 className="card-title trending-title">GRAND HOTEL
                                         <p className="card-text"><small className="text-muted">From $182
                                             <br/>spain,Madrid</small>
                                         </p>
@@ -120,8 +120,8 @@ export const TrendingNow = () => {
                                 <img src="https://preview.colorlib.com/theme/travelix/images/xtrend_2.png.pagespeed.ic.RVoMK96K_o.webp" className="img-fluid rounded-start card_image" alt="card"/>
                             </div>
                             <div className="col-md-6">
-                                <div className="card-body">
-                                    <h6 className="card-title">MARS HOTEL
+                                <div className="card-body trendingtexts">
+                                    <h6 className="card-title trending-title">MARS HOTEL
                                         <p className="card-text"><small className="text-muted">From $182
                                             <br/>spain,Madrid</small>
                                         </p>
@@ -140,8 +140,8 @@ export const TrendingNow = () => {
                                 <img src="https://preview.colorlib.com/theme/travelix/images/xtrend_3.png.pagespeed.ic.r-Q1a1RUR6.webp" className="img-fluid rounded-start card_image" alt="card"/>
                             </div>
                             <div className="col-md-6">
-                                <div className="card-body">
-                                    <h6 className="card-title">QUEEN HOTEL
+                                <div className="card-body trendingtexts">
+                                    <h6 className="card-title trending-title">QUEEN HOTEL
                                         <p className="card-text"><small className="text-muted">From $182
                                             <br/>spain,Madrid</small>
                                         </p>
@@ -160,8 +160,8 @@ export const TrendingNow = () => {
                                 <img src="https://preview.colorlib.com/theme/travelix/images/xtrend_4.png.pagespeed.ic.IIP5He-Ysz.webp" className="img-fluid rounded-start card_image" alt="card"/>
                             </div>
                             <div className="col-md-6">
-                                <div className="card-body">
-                                    <h6 className="card-title">Trevis
+                                <div className="card-body trendingtexts">
+                                    <h6 className="card-title trending-title">Trevis
                                         <p className="card-text"><small className="text-muted">From $182
                                             <br/>spain,Madrid</small>
                                         </p>

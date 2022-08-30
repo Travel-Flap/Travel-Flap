@@ -36,7 +36,7 @@ export const Middleslider = () => {
                 doloribus veniam deleniti nihil. Ab asperiores accusamus numquam
                 
               </p>
-              <div className="btnSlider">BOOK</div>
+              <div className="btnSlider">Boook Now</div>
             </div>
           </div>
           <div className="carousel-item active">
@@ -58,7 +58,7 @@ export const Middleslider = () => {
                 doloribus veniam deleniti nihil. Ab asperiores accusamus numquam
                
               </p>
-              <div className="btnSlider">BOOK</div>
+              <div className="btnSlider">Boook Now</div>
             </div>
           </div>
           <div className="carousel-item active">
@@ -80,7 +80,7 @@ export const Middleslider = () => {
                 doloribus veniam deleniti nihil. Ab asperiores accusamus numquam
                 
               </p>
-              <div className="btnSlider">BOOK</div>
+              <div className="btnSlider">Boook Now</div>
             </div>
           </div>
         </div>
