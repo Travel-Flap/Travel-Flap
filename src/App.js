@@ -14,7 +14,7 @@ import { ContactForm } from "./components/contactform/ContactForm";
 import { Footer } from "./components/Footer/Footer";
 
 import Navbar from "./components/Navbar/Navbar";
-
+import { TitleBar } from "./components/TopTitleBar/TitleBar";
 import './App.css';
 
 // import { DataCards  } from "./components/DataCards/DataCards";
@@ -25,15 +25,18 @@ import { TrendingNow } from "./components/TrendingNowCards/TrendingNow";
 // import { ProductSlider } from "./components/Slider/ProductSlider";
 // import { Imagecarousel } from "./components/ImageCarousel/Imagecar/ousel";
 // import { TopPart } from "./components/TopPart/TopPart";
+
+import { BottomBar } from "./components/BottomBar/BottomBar";
+
 function App() {
   return (
     <div className="App">
-
+      <TitleBar />  
     {/* <TopPart /> */}
       {/* <MarqueeComp /> */}
       {/* <ProductSlider /> */}
       {/* <Imagecarousel /> */}
-      <Navbar />
+      {/* <Navbar /> */}
 
 
       <ControlledCarousel />
@@ -41,27 +44,27 @@ function App() {
 
       <TravelForm />
 
-      <br />
+      {/* <br /> */}
       <DataCards />
 
-      <br />
+      {/* <br /> */}
     <Middleslider />
   
-    <br/>
+    {/* <br/> */}
     <CardText />
 
     {/* <br />
     <MultiCardSlider /> */}
 
-    <br/>
+    {/* <br/> */}
     <TrendingNow />
 
-    <br />
+    {/* <br /> */}
     <ContactForm />
 
     <Footer />
 
-    
+    <BottomBar />
     {/* <CardCarousel /> */}
     </div>
   );

@@ -46,11 +46,14 @@
   border: none;
   text-align: center;
   margin-top: 15px;
-  background: linear-gradient(90deg, #f79c22, #9757e9);
+  /* background: linear-gradient(90deg, #f79c22, #9757e9); */
+  /* background: linear-gradient(45deg, #3408F3, #c0d3e7); */
+  background: #31124b;
 }
 
 .btnSlider:hover {
-  background: linear-gradient(90deg, #9757e9, #f79c22);
+  background: linear-gradient(45deg, #3408F3, #c0d3e7);
+  /* background: linear-gradient(90deg, #9757e9, #f79c22); */
 }
 
 .ratings {

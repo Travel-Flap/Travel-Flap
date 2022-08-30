@@ -4,19 +4,40 @@
 } */
 
 .card_container{
-    /* border: 1px solid red; */
+    /* border: 1px solid red !important; */
     width: 85%;
     margin: auto;
     box-sizing: border-box;
     border: transparent;
 }
+
+.heading-container{
+    /* border: 1px solid red; */
+    margin: auto;
+    width: 36%;
+    padding-top: 7%;
+    padding-bottom: 5%;
+}
+
+.heading-container h4{
+    /* border: 1px solid red;  */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    
+}
+
+/* .cardtext-cards {
+    border: 1px solid red;
+} */
 .main_container{
     /* border: 1px solid blue; */
     margin: auto;
     text-align: center;
 }
-.card_image{
-    /* border: 1px solid red; */
+.card_images{
+    /* border: 1px solid orange; */
     width: 100%;
     /* height: 12px; */
 
@@ -28,28 +49,68 @@
     text-align: left;
 }
 
-.p > .button{
-    border: 1px solid red;
-}
 
-.card{
-    border: 1px solid blue;
-}
 .cards_body{
     /* border: 1px solid red; */
     object-fit: cover;
 }
 
+.cards_body h3{
+    /* border: 1px solid green; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 36px;
+    line-height: 31px;
+    font-weight: 700;
+    color: rgb(48,115,245);
+}
+
+.cards_body > .card-text{
+    /* border: 1px solid blue; */
+    font-family:"Open Sans",sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    vertical-align: baseline;
+    line-height: 30px;
+}
+
+
+.cards_body > .button{
+    /* border: 1px solid blue; */
+    /* padding: auto; */
+    text-decoration: none;
+    margin-top: 30%;
+}
+
+.cards_body > .button a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cards_body > .button a:hover{
+    color: rgb(53, 53, 186);
+    
+}
 /* a > .card_button {
     border: 1px solid red;
     margin-top: 17%;
 } */
 .card-images{
-    /* border: 1px solid blue; */
+    /* border: 1px solid orange; */
     display: flex;
     column-gap: 20px;
     text-align: center;
 }
+
+.ratings {
+    width: 86px;
+    display: flex;
+    justify-content: center;
+    margin: 3px 0;
+  }
 
 /*CSS for Star Rating */
 /* 
