@@ -13,7 +13,7 @@ export const BottomBar = () => {
          */}  
         <p className="logo-text"> 
           {/* <a href="#"><img src="https://i.imgur.com/dfhO3jf.png" alt="bottom bar logo"/></a> */}
-          Copyrights all rights reserved to BottomFunnel.Org
+          Copyrights all rights reserved to TravelFlap Global Private Limited
         </p>
       </div>
       <input id="checkbox" type="checkbox" />

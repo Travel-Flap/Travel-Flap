@@ -5,6 +5,7 @@
     font-size: 36px;
     font-weight: 700;
     line-height: 43.2px;
+    color: rgb(51,128,242);
 }
 
 
@@ -32,7 +33,7 @@
     margin: auto;
     width: 64%;
     padding-bottom: 3%;
-    color: RGB(146, 145, 145);
+    color: rgb(146, 145, 145);
 }
 /* p{
     
@@ -46,16 +47,19 @@
     font-weight: 600;
     border: none;
     border-radius: 30px;
-    padding: 8px 31px;
+    padding: 18px 25px;
     margin-top: 14%;
     color: white;
-    background: #6949ad;
+    /* background: linear-gradient(45deg, #3408f3, #c0d3e7); */
+    background: rgb(51,128,242);
+    
     width: 74%;
     /* background: #31124b; */
 }
 
 .cards_button button:hover{
-    background: linear-gradient(45deg, #3408f3, #c0d3e7);
+    background: #3206f1;
+    /* background: #3380f2; */
 }
 
 .cards_container{

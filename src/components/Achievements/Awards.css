@@ -1,0 +1,63 @@
+.awards_heading h2{
+    /* border: 1px solid red; */
+    color: rgb(51,128,242);
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    line-height: 47.5px;
+    vertical-align: baseline;
+    font-weight: 700;
+    padding: 63px 49px;
+    width: 40%;
+
+}
+
+.main_card:hover{
+    background-color: #3380f2;
+    color: white;
+}
+.awards_cards{
+    /* border: 1px solid red; */
+    width: 82%;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.card_img{
+    /* border: 1px solid red; */
+    width: 35%;
+    margin-left: 5%;
+}
+
+
+.awards_title > .card-title {
+    /* border: 1px solid red; */
+    margin-left: 5%;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 29px;
+    font-weight: 700;
+    vertical-align: baseline;
+    color: rgb(52,63,82);
+}
+
+.card-title:hover{
+    color: white;
+}
+
+.awards_desc > .card-text{
+    /* border: 1px solid blue; */
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(170,176,188);
+    line-height: 23.8px;
+    vertical-align: baseline;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 5%;
+}
+
+.awards_desc p:hover{
+    color: blue;
+}

@@ -1,8 +1,6 @@
-.main-trevform{
-    /* border: 1px solid black; */
-    /* background-color: rgb(197,120,137); */
-    background-color: #3380f2;
-    /* border: 1px solid red; */
+.main-form{
+    border: 1px solid black;
+    background-color: rgb(197,120,137);
     /* height: 100px; */
 }
 
@@ -15,21 +13,22 @@
 
 
 
-.trevForm{
-    /* background: linear-gradient(45deg, #3408F3, #c0d3e7); */
-    background: #3380f2;
+.middleForm{
+    background: linear-gradient(45deg, #3408F3, #c0d3e7);
+    /* background: #3380f2; */
     height: 165px;
     box-sizing: border-box;
     width: 100%;
     position: relative;
 }
 
-.trevrow{
-    position: absolute;
+.belowrow{
+    /* position: relative; */
+    /* position: fixed; */
     width: 100%;
 
 }
-.trevButton {
+.belowformButton {
    
     /* background: linear-gradient(45deg, #3408f3, #c0d3e7); */
     background-color: #3153f2;

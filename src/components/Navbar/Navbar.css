@@ -15,15 +15,12 @@
   position: sticky;
   top: 0px;
   color: white;
-  background-color: rgb(84,54,109,0.7);
+  /* background-color: #3380f2; */
+  background-color: rgb(51, 128, 242,0.7);
+  /* background-color: rgb(84,54,109,0.7); */
   background-size: 200% 200%;
 }
 
-.NavbarSection ul li:hover{
-  text-decoration: underline;
-  text-decoration-color: blue;
-  text-decoration-thickness: 3px;
-}
 
 .NavbarSection ul {
   display: flex;
@@ -41,6 +38,12 @@
   cursor: pointer;
 }
 
+.NavbarSection ul li:hover{
+  text-decoration: underline;
+  text-decoration-color: rgb(51,128,242);
+  text-decoration-thickness: 3px;
+  /* text-decoration-color: linear-gradient( #3408f3, #556b82); */
+}
 #checkbox {
   display: none;
 }
@@ -51,7 +54,7 @@
 .logo img{
   /* border: 1px solid red; */
   /* border-radius: 56%; */
-  height: 75px;
+  height: 70px;
 }
 
 

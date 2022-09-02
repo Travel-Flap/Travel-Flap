@@ -23,11 +23,28 @@ export const ControlledCarousel = () => {
         {/* <Services /> */}
         <Carousel className='my-carousel' data-interval="false" slide={true}>
           <Carousel.Item>
+            <div className='carousel_image'>
             <img width={100} height={700}
               className="d-block w-100"
-              src="https://i.imgur.com/JXeBLSy.jpg"
+              src="images/TopCarouselImage9.png"
               alt="First slide"
             />
+            </div>
+            <Carousel.Caption>
+              <h1>Travel</h1>
+              <h2 className='bottomheading'>the world</h2>
+              <div className="carouselbtn">Explore...</div>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          <Carousel.Item>
+          <div className='carousel_image'>
+            <img width={100} height={700}
+              className="d-block w-100"
+              src="images/TopCarouselImage8.png"
+              alt="First slide"
+            />
+            </div>
             <Carousel.Caption>
               <h1>Discover</h1>
               <h2 className='bottomheading'>the world</h2>
@@ -36,26 +53,13 @@ export const ControlledCarousel = () => {
           </Carousel.Item>
 
           <Carousel.Item>
+          <div className='carousel_image'>
             <img width={100} height={700}
               className="d-block w-100"
-              src="https://i.imgur.com/JXeBLSy.jpg"
-              alt="Second slide"
+              src="images/TopCarouselImage9.png"
+              alt="First slide"
             />
-
-            <Carousel.Caption>
-              <h1>Discover</h1>
-              <h2 className='bottomheading'>the world</h2>
-              <div className="carouselbtn">Explore...</div>
-            </Carousel.Caption>
-          </Carousel.Item>
-
-          <Carousel.Item>
-            <img width={100} height={700}
-              className="d-block w-100"
-              src="https://i.imgur.com/JXeBLSy.jpg"
-              alt="Third slide"
-            />
-
+            </div>
             <Carousel.Caption>
               <h1>Discover</h1>
               <h2 className='bottomheading'>the world</h2>

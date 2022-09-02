@@ -1,0 +1,200 @@
+/* .multiCardSlider{
+  border: 1px solid red;
+  position: relative;
+} */
+
+.slider_title {
+  font-size: 35px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 15%;
+  margin-bottom: 5%;
+  text-decoration: none solid rgb(45,44,44);
+  vertical-align: baseline;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgb(51,128,242);
+}
+
+
+.card-wrapper {
+  position: relative;
+  width: 100%;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* .card-wrapper:active,
+.card-wrapper:hover,
+.card-wrapper:focus {
+  outline: none;
+  border: none;
+} */
+
+.multisection-image {
+  width: 100%;
+  /* height: 600px; */
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+
+.card-image {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 450px;
+  z-index: 2;
+  background-color: #000;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.multisection-image:hover img {
+  opacity: 0.4;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.multisection-image:hover .card-image {
+  -webkit-transform: translateY(-100px);
+  transform: translateY(-100px);
+  -webkit-transition: all 0.9s;
+  transition: all 0.9s;
+}
+
+
+
+/* .card:hover li:nth-child(1) a {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+.card:hover li:nth-child(2) a {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.card:hover li:nth-child(3) a {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.card:hover li:nth-child(4) a {
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+} */
+
+.details {
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  background: #3380f2;
+  width: 100%;
+  height: 213px;
+  z-index: 100000000;
+  padding: 10px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.details h2 {
+  margin: 30px 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+}
+
+.details h2 .job-title {
+  font-size: 16px;
+  line-height: 2;
+  /* color: #333; */
+  color: white;
+  font-weight: 300;
+  display: block;
+}
+
+.card:hover .details {
+  bottom: 0;
+}
+
+.carousel .slick-dots {
+  bottom: -2.5vw;
+}
+
+.carousel .slick-dots li button {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+
+.carousel .slick-dots li button:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  content: "";
+  text-align: center;
+  opacity: 0.5;
+  color: #000;
+  background-color: #fff;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.carousel .slick-dots li.slick-active button,
+.carousel .slick-dots li:hover button {
+  border-color: tomato;
+}
+
+.carousel .slick-dots li.slick-active button:before,
+.carousel .slick-dots li:hover button:before {
+  background-color: tomato;
+  opacity: 1;
+}
+
+.carousel .slick-prev,
+.carousel .slick-next {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+}
+
+.carousel .slick-prev:hover,
+.carousel .slick-prev:focus,
+.carousel .slick-next:hover,
+.carousel .slick-next:focus {
+  color: #fff;
+  outline: none;
+  background: #fff;
+}
+
+.carousel .slick-prev:before,
+.carousel .slick-next:before {
+  color: #000;
+  font-family: "Raleway", sans-serif;
+}
+
+.carousel .slick-next {
+  right: -55px;
+}
+
+.carousel .slick-prev {
+  left: -55px;
+}

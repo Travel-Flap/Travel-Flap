@@ -5,9 +5,9 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 // import InputGroup from 'react-bootstrap/InputGroup';
 import Row from 'react-bootstrap/Row';
-import "./TravelForm.css";
+import "./Form.css";
 
-export const TravelForm = () => {
+export const MiddleForm = () => {
   const [validated, setValidated] = useState(false);
 
   const handleSubmit = (event) => {
@@ -21,9 +21,9 @@ export const TravelForm = () => {
   };
 
   return (
-    <Form className='main-trevform text-info trevForm' noValidate validated={validated} onSubmit={handleSubmit}>
-      <Row className="mt-4 justify-content-center align-items-end trevrow">
-        <Form.Group className='text-info '  as={Col} md="2" controlId="validationCustom01">
+    <Form className='main-form text-info middleForm' noValidate validated={validated} onSubmit={handleSubmit}>
+      <Row className="mt-4 justify-content-center align-items-end belowrow">
+        <Form.Group className='text-info '  as={Col} md="4" controlId="validationCustom01">
           <Form.Label>DESTINATION</Form.Label>
           <Form.Control xs={4}
             required
@@ -69,7 +69,7 @@ export const TravelForm = () => {
         </Form.Group>
 
         {/* This Form Group is for the Selecting Adult Values */}
-        <Form.Group as={Col} md="2" xs={3} controlId="validationCustom04">
+        <Form.Group as={Col} md="1" xs={3} controlId="validationCustom04">
           <Form.Label>ADULTS</Form.Label>
           {/* <Form.Control type="text" placeholder="State" required /> */}
           <Form.Select defaultValue="">
@@ -84,7 +84,7 @@ export const TravelForm = () => {
         </Form.Group>
 
         {/* This form group is for Selecting the Children Values */}
-        <Form.Group as={Col} md="2" xs={3} controlId="validationCustom04">
+        <Form.Group as={Col} md="1" xs={3} controlId="validationCustom04">
           <Form.Label>
             CHILDREN</Form.Label>
           {/* <Form.Control type="text" placeholder="State" required /> */}
@@ -102,9 +102,40 @@ export const TravelForm = () => {
         {/* This Form Froup is for the button of the form group */}
         <Form.Group className='text-center button-info' as={Col} md="1" controlId="validationCustom02">
           {/* <Button type="submit">Search</Button> */}
-          <button className='trevButton'>SEARCH</button>
+          <button className='belowformButton'>SEARCH</button>
         </Form.Group>
       </Row>
+
+      {/* 2nd row for the check boxes */}
+      <Row className="mt-3">
+      {['checkbox', 'radio'].map((type) => (
+        <div key={`inline-${type}`} className="mb-3">
+          <Form.Check
+            inline
+            label="1"
+            name="group1"
+            type={type}
+            id={`inline-${type}-1`}
+          />
+          <Form.Check
+            inline
+            label="2"
+            name="group1"
+            type={type}
+            id={`inline-${type}-2`}
+          />
+          <Form.Check
+            inline
+            disabled
+            label="3 (disabled)"
+            type={type}
+            id={`inline-${type}-3`}
+          />
+        </div>
+      ))}
+      </Row>
+
+
     </Form>
   );
 }

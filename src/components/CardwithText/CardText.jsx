@@ -1,7 +1,9 @@
 import React from "react";
 import "./CardText.css";
+import { Button } from "react-bootstrap";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 import { IconContext } from "react-icons";
+import {Link } from "react-router-dom";
 
 export const CardText = () => {
     return (
@@ -16,8 +18,11 @@ export const CardText = () => {
                         <div className="col card-column">
                             <div className="card border-0">
                                 <div className="row mb-5 textcards_main">
-                                    <div className="col-md-6 ">
-                                        <img src="https://i.imgur.com/8IRk2Wo.jpg" className="img-fluid rounded-start card_image" alt="card" />
+                                    <div className="col-md-6 image_container">
+                                    <Button className="image_button" >Grand Castle</Button>
+                                        <img src="https://i.imgur.com/8IRk2Wo.jpg" className="img-fluid rounded-start card_image" alt="card"> 
+                                        </img>
+                                        
                                     </div>
                                     <div className="col-md-6">
                                         <div className="card-body cards_body ">
@@ -39,7 +44,7 @@ export const CardText = () => {
                                                 <img src="https://preview.colorlib.com/theme/travelix/images/bicycle.png.webp" alt="minicard images" />
                                                 <img src="https://preview.colorlib.com/theme/travelix/images/sailboat.png.webp" alt="minicard images" />
                                             </div>
-                                            <p className="button"><a className="card_button" href="#">Read More...</a></p>
+                                            <p className="button"><a className="card_button" href="/src/components/OffersPage/OfferPage.jsx">Read More...</a></p>
                                         </div>
                                     </div>
                                 </div>
@@ -49,7 +54,8 @@ export const CardText = () => {
                         <div className="col border-0 card-column">
                             <div className="card border-0">
                                 <div className="row mb-5 textcards_main">
-                                    <div className="col-md-6">
+                                    <div className="col-md-6 image_container">
+                                    <Button className="image_button" >Turkey Hills</Button>
                                         <img src="https://i.imgur.com/8IRk2Wo.jpg" className="img-fluid rounded-start card_image" alt="card" />
                                     </div>
                                     <div className="col-md-6">
@@ -105,7 +111,8 @@ export const CardText = () => {
                         <div className="col card-column">
                             <div className="card border-0">
                                 <div className="row ">
-                                    <div className="col-md-6">
+                                    <div className="col-md-6 image_container">
+                                    <Button className="image_button" >Island Dream</Button>
                                         <img src="https://i.imgur.com/8IRk2Wo.jpg" className="img-fluid rounded-start card_image" alt="card" />
                                     </div>
                                     <div className="col-md-6">
@@ -137,7 +144,8 @@ export const CardText = () => {
                         <div className="col card-column">
                             <div className="card border-0">
                                 <div className="row ">
-                                    <div className="col-md-6 ">
+                                    <div className="col-md-6 image_container">
+                                    <Button className="image_button" >Travel Light</Button>
                                         <img src="https://i.imgur.com/8IRk2Wo.jpg" className="img-fluid rounded-start card_image" alt="card" />
                                     </div>
                                     <div className="col-md-6">
