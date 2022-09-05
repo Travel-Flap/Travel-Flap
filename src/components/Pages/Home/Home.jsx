@@ -17,15 +17,23 @@ import ImageSlider from "../../MultipleCards/MultiCardSlider";
 import { Awards } from "../../Achievements/Awards";
 // import {OurPartners} from "../../OurPatnersSection/OurPartners";
 import OurPartners from '../../OurPatnersSection/OurPartners';
+
+import { Carousel } from "../../TopCorousel/Corousel";
+// import { PopularDestinations } from '../../PopularDestinations/PopularDestinations';
+import PopularDestinations from '../../PopularDestinations/PopularDestinations';
+
+// import { Services } from '../../Services/Services';
 export const Home = () => {
     return (
         <div>
+
+            {/* <Services /> */}
 
             <TitleBar />
             <Navbar />
 
             <ControlledCarousel />
-
+            {/* <Carousel /> */}
             <TravelForm />
 
             <DataCards />
@@ -36,11 +44,16 @@ export const Home = () => {
 
             <Awards />
 
+            {/* <div className="container mt-5 carousel">
+                <h1 className="slider_title">What our Clients say about us</h1>
+                <PopularDestinations />
+            </div> */}
+
             <div className="container mt-5 carousel">
                 <h1 className="slider_title">What our Clients say about us</h1>
                 <ImageSlider />
             </div>
-
+            {/*  */}
             <div className='container mt-5 carousel'>
                 <h1 className='partners_title'>Our Partners</h1>
                 <OurPartners />

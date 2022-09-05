@@ -5,15 +5,20 @@ import Navbar from "../../Navbar/Navbar";
 import { TitleBar } from "../../TopTitleBar/TitleBar";
 import { BottomBar } from "../../BottomBar/BottomBar";
 import  { MiddleForm } from "./FormBelowCaousel/Form";
-import { Dropdown } from './MultipleDropdown/Dropdown';
+import { MultiDropdown } from './MultipleDropdown/Dropdown';
 import { HotelCards } from "./HotelCards/HotelCards";
+import { Banner } from './Banner/Banner';
+
 export const Offers = () => {
   return (
     <div>
         <TitleBar />
         <Navbar />
-        {/* <MiddleForm /> */}
-        <Dropdown />
+ 
+        <Banner />
+
+        <MiddleForm />
+        <MultiDropdown />
         <HotelCards />
         <Footer />
         <BottomBar />

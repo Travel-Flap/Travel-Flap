@@ -22,13 +22,13 @@ export const MiddleForm = () => {
 
   return (
     <Form className='main-form text-info middleForm' noValidate validated={validated} onSubmit={handleSubmit}>
-      <Row className="mt-4 justify-content-center align-items-end belowrow">
-        <Form.Group className='text-info '  as={Col} md="4" controlId="validationCustom01">
+      <Row className="inputrow mt-4 justify-content-center align-items-end belowrow">
+        <Form.Group className='text-info ' as={Col} md="4" controlId="validationCustom01">
           <Form.Label>DESTINATION</Form.Label>
           <Form.Control xs={4}
             required
             type="text"
-            placeholder="Enter Destination" 
+            placeholder="Enter Destination"
             defaultValue=""
           />
           <Form.Control.Feedback type="invalid">
@@ -47,7 +47,7 @@ export const MiddleForm = () => {
             defaultValue=""
           />
           <Form.Control.Feedback type="invalid">
-            Please provide a valid state.
+            Please provide a valid Date.
           </Form.Control.Feedback>
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
         </Form.Group>
@@ -62,9 +62,9 @@ export const MiddleForm = () => {
             defaultValue=""
           />
           <Form.Control.Feedback type="invalid">
-            Please provide a valid state.
+            Please provide a valid Date.
           </Form.Control.Feedback>
-          
+
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
         </Form.Group>
 
@@ -78,7 +78,7 @@ export const MiddleForm = () => {
           </Form.Select>
 
           <Form.Control.Feedback type="invalid">
-            Please provide a valid state.
+            Please provide a valid input.
           </Form.Control.Feedback>
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
         </Form.Group>
@@ -94,7 +94,7 @@ export const MiddleForm = () => {
           </Form.Select>
 
           <Form.Control.Feedback type="invalid">
-            Please provide a valid state.
+            Please provide a valid input.
           </Form.Control.Feedback>
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
         </Form.Group>
@@ -107,35 +107,51 @@ export const MiddleForm = () => {
       </Row>
 
       {/* 2nd row for the check boxes */}
-      <Row className="mt-3">
-      {['checkbox', 'radio'].map((type) => (
-        <div key={`inline-${type}`} className="mb-3">
-          <Form.Check
-            inline
-            label="1"
-            name="group1"
-            type={type}
-            id={`inline-${type}-1`}
-          />
-          <Form.Check
-            inline
-            label="2"
-            name="group1"
-            type={type}
-            id={`inline-${type}-2`}
-          />
-          <Form.Check
-            inline
-            disabled
-            label="3 (disabled)"
-            type={type}
-            id={`inline-${type}-3`}
-          />
+      <Row className="checkbox_main mt-2">
+        <div className='checkboxes_div'>
+          <div className="checkbox1 form-check form-check-inline">
+            <input className="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" />
+            <label className="form-check-label" for="inlineCheckbox1">Pet Friendly</label>
+          </div>
+          <div className="checkbox2 form-check form-check-inline">
+            <input className="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" />
+            <label className="form-check-label" for="inlineCheckbox2">Car Parking</label>
+          </div>
+
+          <div className="checkbox3 form-check form-check-inline">
+            <input className="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" />
+            <label className="form-check-label" for="inlineCheckbox3">Wifi</label>
+          </div>
+          <div className="checkbox4 form-check form-check-inline">
+            <input className="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4" />
+            <label className="form-check-label" for="inlineCheckbox4">Reservations</label>
+          </div>
+          <div className="checkbox5 form-check form-check-inline">
+            <input className="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5" />
+            <label className="form-check-label" for="inlineCheckbox5">private Parking</label>
+          </div>
+
+
+          <div className="checkbox6 form-check form-check-inline">
+            <input className="form-check-input" type="checkbox" id="inlineCheckbox6" value="option6" />
+            <label className="form-check-label" for="inlineCheckbox6">Smoking Area</label>
+          </div>
+          <div className="checkbox7 form-check form-check-inline">
+            <input className="form-check-input" type="checkbox" id="inlineCheckbox7" value="option7" />
+            <label className="form-check-label" for="inlineCheckbox7">private Parking</label>
+          </div>
+          <div className="checkbox8 form-check form-check-inline">
+            <input className="form-check-input" type="checkbox" id="inlineCheckbox8" value="option8" />
+            <label className="form-check-label" for="inlineCheckbox8">private Parking</label>
+          </div>
         </div>
-      ))}
       </Row>
 
-
+      <Row className='offersbutton_div mt-2'>
+        <div className='offersform_button'>
+          <button>SEARCH ...</button>
+        </div>
+      </Row>
     </Form>
   );
 }

@@ -1,7 +1,8 @@
 import React from "react";
 import "./Navbar.css";
 import { AiOutlineMenu, AiOutlineSearch } from "react-icons/ai";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { Home } from "../Pages/Home/Home";
 
 // import { ControlledCarousel } from "../TopCorousel/Corousel";
 
@@ -24,16 +25,17 @@ const Navbar = () => {
                 </label>
             </div>
             <ul className="nav-ul">
-            {/* <CustomLink to="../Pages/Home.jsx">Home</CustomLink> */}
-                {/* <Link as={Link} to="../Pages/Home.jsx"><li>HOME</li></Link>
-                <Link as={Link} to="../Pages/Home.jsx"><li>ABOUT US</li></Link>
-                <Link as={Link} to="../Pages/Home.jsx"><li>OFFERS</li></Link>
-                <Link as={Link} to="../Pages/Home.jsx"><li>BLOGS</li></Link>
-                <Link as={Link} to="../Pages/Home.jsx"><li>CONTACT</li></Link> */}
+                {/* <CustomLink to="../Pages/Home.jsx">Home</CustomLink> */}
+                {/* <Link to="../Pages/Home.jsx"><li>HOME</li></Link>
+                <Link to="../Pages/Home.jsx"><li>ABOUT US</li></Link>
+                <Link to="../Pages/Home.jsx"><li>OFFERS</li></Link>
+                <Link to="../Pages/Home.jsx"><li>BLOGS</li></Link>
+                <Link to="../Pages/Home.jsx"><li>CONTACT</li></Link> */}
 
-                <li>Home</li>
+                {/* <li><Link t0="../Pages/Home/Home.jsx">Home</Link></li> */}
+                <li>HOME</li>
                 <li>ABOUT US</li>
-                <li>OFFERS</li>
+                <a href="/offers.jsx"><li>OFFERS</li></a>
                 <li>NEWS</li>
                 <li> CONTACT</li>
 

@@ -106,8 +106,7 @@ export const DataCards = () => {
                   </div>
 
                   <div className='cards_button'>
-                    <button>SEND MESSAGE</button>
-                    
+                    <button>SEND MESSAGE</button>  
                   </div>
                 </div>
               </div>

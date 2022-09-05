@@ -5,10 +5,10 @@ import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 import { IconContext } from "react-icons";
 export const HotelCards = () => {
     return (
-        <div>
+        <div className='outercard_div'>
             <div className="maincard_div card mb-3">
 
-            <div className="row g-0 border-none">
+                <div className="row g-0 border-none">
                     <div className="col-md-4 hotelcards_image">
                         <Button className="offerscard_button" >Grand Castle</Button>
                         <img src="images/OffersCardImage1.png" alt="hotelcards image" />
@@ -43,7 +43,7 @@ export const HotelCards = () => {
                     </div>
                 </div>
 
-            <div className="row g-0 border-none">
+                <div className="row g-0 border-none">
                     <div className="col-md-4 hotelcards_image">
                         <Button className="offerscard_button" >EUROSTAR HOTEL</Button>
                         <img src="images/OffersCardImage2.png" alt="hotelcards image" />

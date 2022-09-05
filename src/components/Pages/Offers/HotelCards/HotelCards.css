@@ -1,3 +1,8 @@
+.outercard_div{
+    /* border: 1px solid red; */
+    margin-bottom: 4%;
+}
+
 .maincard_div{
     /* border: 1px solid red; */
     width: 78%;
@@ -5,10 +10,25 @@
 }
 
 .hotelcards_image {
+    overflow: hidden;
   /* border: 1px solid red; */
   /* background: green; */
   width: 26%;
   height: 300px;
+}
+
+.hotelcards_image img:hover{
+    /* width: 125%;
+    height: 125%; */
+    transition: all .5 ease-in-out;
+    /* transition-timing-function: ease-in-out; */
+    /* overflow: hidden; */
+    /* background-size: 300px 100px; */
+    /* transform: scale(1.2) ; */
+    transform: scale(1);
+  /* transform-origin: 50% 50%; */
+  /* transition: .5; */
+
 }
 
 .hotelcards_image>img{

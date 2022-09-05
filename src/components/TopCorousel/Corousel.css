@@ -1,7 +1,36 @@
-/* This css is for the navbar */
-* {
-  margin: 0;
+/* This css is for the bootstrap 5 carousel */
+/* .carousel-indicators {
+  width: 30px;
+  height: 30px;
+  border: 100%;
 }
+
+.indicators_buttons{
+  border: 1px solid  red !important;
+  color: black;
+  font-size: 14px;
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 100% !important;
+}
+
+.carousel-indicators button{
+  color: black;
+  background-color: black;
+}
+.carousel-indicators{
+  border: 1px solid red;
+  
+  justify-content: flex-end !important;
+  margin-right: 2% !important;
+  align-items: flex-end;
+  margin-left: 50%;
+} */
+
+/* This css is for the navbar */
+/* * {
+  margin: 0;
+} */
 
 
 
@@ -24,17 +53,16 @@
   border: none;
   text-align: center;
   margin-top: 15px;
-  /* background: linear-gradient(90deg, #f79c22, #9757e9); */
-  background: linear-gradient(45deg, #3408f3, #c0d3e7);
-  background-color: rgb(51, 128, 242,0.7);
-  /* background: #31124b; */
+  background-color: #3408f3;
+  /* background: linear-gradient(45deg, #3408f3, #c0d3e7); */
+  /* background-color: rgb(51, 128, 242,0.7); */
 }
 
 .carouselbtn:hover {
   /* background: linear-gradient(45deg, #3408F3, #c0d3e7); */
   /* background: #31124b; */
-  /* background: blue; */
-  background: rgb(51, 128, 242,0.7);
+  background: #3153f2;
+  /* background: rgb(51, 128, 242,0.7); */
   /* color: blue; */
   /* color: blue; */
 
@@ -92,10 +120,10 @@
 }
 
 .main-section {
-  background-color: red;
+  /* background-color: red; */
   height: 10000;
   z-index: 100000000000;
-}
+} 
 /* @media only screen and (min-width: 1440px) and (max-width: 1509px) {
   .services{
     margin-bottom:51%;
@@ -106,7 +134,7 @@
   .services{
     margin-bottom: 71%;
   }
-} */
+}
 
 /* .carousel-indicators li {
   border-top: unset;
@@ -132,23 +160,25 @@
   width: 50px
 } */
 
+
 /* Css for services section */
+#main-section{
+  position: relative;
+}
+
 .services {
-  /* border: 1px solid red; */
+  /* border: 1px solid red !important; */
   width: 90%;
   margin: auto;
   display: flex;
   height: 103px;
+  /* background-color: green !important; */
   justify-content: center;
-  position: absolute;
   bottom: 0;
+  position: absolute;
   left: 5%;
 }
 
-/* .service-logos{
-  border: 1px solid red;
-  
-} */
 
 .services div {
   width: 13%;
@@ -160,7 +190,7 @@
   z-index: 2;
 }
 .services div:hover {
-  /* background-color: rgb(115, 100, 237); */
+  background-color: rgb(115, 100, 237);
   background-color: #3380f2;
 }
 .services div img {
@@ -181,14 +211,16 @@
   width: 17%;
 }
 
-/* @media only screen and (min-width: 300px) and (max-width: 980px) {
+
+@media only screen and (min-width: 300px) and (max-width: 980px) {
   .services {
     flex-direction: column;
-    position: static;
+    /* position: static; */
+    /* display: ; */
     
   }
 
   #main-section{
     position: static;
   }
-} */
+}

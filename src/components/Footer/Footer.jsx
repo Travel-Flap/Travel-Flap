@@ -87,12 +87,12 @@ export const Footer = () => {
           <button>travel</button>
         </div>
       </div>
-      <div className="footerSection">
+      <div className="footerSection" id="contactdetails">
         <h6 className="footer-heading">CONTACT INFO</h6>
 
         <div className="footerContect">
           <div className="contecticonsdiv">
-            <IconContext.Provider value={{color: "white", className: "contecticonsmap" }}><GoLocation /></IconContext.Provider>
+            <IconContext.Provider value={{ color: "white", className: "contecticonsmap" }}><GoLocation /></IconContext.Provider>
           </div>
 
           <p>800 3rd Ave, New York, NY 10022, United States</p>
@@ -103,16 +103,18 @@ export const Footer = () => {
             <IconContext.Provider value={{ className: "contecticonscall" }}><FiPhoneCall /></IconContext.Provider>
           </div>
 
-          <p className="contact_number">Mob India : +918209366227, +917877680588 (WhatsApp)
-            Mob USA : +19176726964  (WhatsApp)
-            Mob DXB : +971 58 597 8776</p>
+          <div className="contact_number">
+            <p >Mobile India : +918209366227, +917877680588</p>
+            <p>Mobile USA : +19176726964 (WhatsApp)</p>
+            <p>Mobile DXB : +971 58 597 8776</p>
+          </div>
         </div>
         <div className="footerContect">
           <div className="contecticonsdivmail">
             <IconContext.Provider value={{ className: "contecticonsmail" }}><HiOutlineMailOpen /></IconContext.Provider>
           </div>
 
-          <p>Info@apptroit.com</p>
+          <p>Info@travelflap.com</p>
         </div>
         <div className="footerContect">
           <div className="contecticonsdivmap">
