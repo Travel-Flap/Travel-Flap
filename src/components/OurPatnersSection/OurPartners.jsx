@@ -23,7 +23,6 @@ export default class OurPartners extends Component {
                         <img src="https://blueberry-travel.com/src/img/brands/6.png" className="_imagediv" alt="carouselimage" />
                         <div className="_hoverdiv">
                         </div>
-                        
                     </div>
                     <div className="_carouseldiv1">
                         <img src="https://blueberry-travel.com/src/img/brands/8.png" className="_imagediv" alt="carouselimage" />

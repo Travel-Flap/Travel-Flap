@@ -1,0 +1,46 @@
+.outercontainer{
+    margin-top: 5%;
+    /* border: 1px solid red; */
+    margin-bottom: 5%;
+    display: flex;
+    gap: 5%;
+    height: 700px;
+    justify-content: center;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+}
+
+.innerdiv1{
+    /* border: 1px solid yellow; */
+    width: 45%;
+}
+
+.innerdiv2{
+    /* border: 1px solid black; */
+    width: 45%;
+}
+
+/* This css is for the p  text there size and color */
+
+.linktext{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.slash{
+    color: black;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+@media screen and (max-width:950px) {
+    .outercontainer{
+        flex-direction: column !important;
+    }
+}

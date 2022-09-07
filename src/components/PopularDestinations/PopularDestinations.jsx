@@ -1,269 +1,122 @@
-// import Slider from "react-slick";
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
-// import { ArrowBackIos, ArrowForwardIos } from "@material-ui/icons";
-// import { useRef } from "react";
-// import { useEffect } from "react";
-// import "./PopularDestinations.css";
-// import { ButtonBase } from "@material-ui/core";
+import React from "react";
+import './PopularDestinations.css';
 
-// export const PopularDestinations = () => {
-//   const sliderRef = useRef(null);
-//   useEffect(() => {
-//     console.log(sliderRef);
-//   }, []);
-//   return (
-//     <div>
-//       {/* <h1>Ipl</h1> */}
-//       <div
-//         style={{
-//           display: "flex",
-//           justifyContent: "space-between",
-//           padding: "0 10px",
-//         }}
-//       >
-//         <h1 style={{ fontStyle: "italic" }}>Match Highlights</h1>
-//         <div style={{ display: "flex" }}>
-//           <ButtonBase
-//             style={{
-//               width: 35,
-//               height: 35,
-//               display: "flex",
-//               alignItems: "center",
-//               justifyContent: "center",
-//               marginRight: 10,
-//               borderRadius: 7,
-//               boxShadow: "0 1px 3px rgb(0 0 0 / 10%)",
-//               cursor: "pointer",
-//             }}
-//             className="buttons"
-//             onClick={() => sliderRef.current.slickPrev()}
-//           >
-//             <ArrowBackIos />
-//           </ButtonBase>
-//           <ButtonBase
-//             style={{
-//               width: 35,
-//               height: 35,
-//               display: "flex",
-//               alignItems: "center",
-//               justifyContent: "center",
-//               borderRadius: 7,
-//               boxShadow: "0 1px 3px rgb(0 0 0 / 10%)",
-//               cursor: "pointer",
-//             }}
-//             className="buttons"
-//             onClick={() => sliderRef.current.slickNext()}
-//           >
-//             <ArrowForwardIos />
-//           </ButtonBase>
-//         </div>
-//       </div>
-//       <div style={{ margin: 30 }}>
-//         <Slider
-//           // dots
-//           // dotsClass="slick-dots line-indicator"
-//           ref={sliderRef}
-//           slidesToShow={4}
-//           slidesToScroll={4}
-//           // customPaging={(i) => (
-//           //   <div
-//           //     style={{
-//           //       position: "absolute",
-//           //       width: "100%",
-//           //       top: "-10px",
-//           //       opacity: 0,
-//           //     }}
-//           //   >
-//           //     {i}
-//           //   </div>
-//           // )}
-//         >
-//           {Array(10)
-//             .fill("")
-//             .map(() => (
-//               <div style={{ margin: 20 }}>
-//                 <img
-//                   style={{ width: 310, objectFit: "contain", borderRadius: 10 }}
-//                   src="images/IPLImage.jpg"
-//                   alt=""
-//                 />
-
-//               </div>
-//             ))}
-//         </Slider>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Ipl;
-
-// export default Ipl;
-
-
-import React, { Component } from "react";
-import Slider from "react-slick";
-
-export default class PopularDestinations extends Component {
-  render() {
-    var settings = {
-      // dots: true,
-      infinite: false,
-      speed: 1000,
-      slidesToShow: 3,
-      slidesToScroll: 3,
-      initialSlide: 0,
-      responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            infinite: true,
-            dots: true
-          }
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            initialSlide: 2
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-      ]
-    };
-    return (
-      <div>
-        <h2> Responsive </h2>
-        <Slider {...settings}>
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="..." class="img-fluid rounded-start" alt="..." />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
+export const PopularDestinations = () => {
+   return (
+      <>
+         <div className="main">
+            <div className='head'>
+               <div className='title'>
+                  <div className='title1'>Popular</div>
+                  <div className='title2'>Destinations</div>
+               </div>
+               <div className='title3'>DESTINATIONS</div>
+               <div className='title3'>INTERNATIONAL</div>
+               <div className='title3'>DOMESTIC</div>
+               <div className='title4'>View All Destinations</div>
             </div>
-          </div>
 
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="https://dhiz4uvf5rpaq.cloudfront.net/deal-files/deal-images/IN/webp/monsoon-special.webp" class="img-fluid rounded-start" alt="..." />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
-            </div>
-          </div>
+            <div className='data'>
+               <div className='names'>
+                  <div className='namesContainer'>
+                     <div className='picimg'>
+                        <div className='pic'>
+                           <img style={{ borderRadius: "10px" }} src='https://dhiz4uvf5rpaq.cloudfront.net/deal-files/deal-images/IN/destinations/flight/International/webp/europe_small.webp' />
+                        </div>
+                        <div className='country'>Europe</div>
+                     </div>
+                     <div className='picimg'>
+                        <div className='pic'>
+                           <img style={{ borderRadius: "10px" }} src='https://dhiz4uvf5rpaq.cloudfront.net/deal-files/deal-images/IN/destinations/flight/International/webp/turkey1222.webp' />
+                        </div>
+                        <div className='country'>Turkey</div>
+                     </div>
+                     <div className='picimg'>
+                        <div className='pic'>
+                           <img style={{ borderRadius: "10px" }} src='https://dhiz4uvf5rpaq.cloudfront.net/deal-files/deal-images/IN/destinations/flight/International/webp/Dubai.webp' />
+                        </div>
+                        <div className='country'>Dubai</div>
+                     </div>
+                     <div className='picimg'>
+                        <div className='pic'>
+                           <img style={{ borderRadius: "10px" }} src='https://dhiz4uvf5rpaq.cloudfront.net/deal-files/deal-images/IN/destinations/flight/International/webp/thailand70.webp' />
+                        </div>
+                        <div className='country'>Thailand</div>
+                     </div>
+                     <div className='picimg'>
+                        <div className='pic'>
+                           <img style={{ borderRadius: "10px" }} src='https://dhiz4uvf5rpaq.cloudfront.net/deal-files/deal-images/IN/destinations/flight/International/webp/maldives1222.webp' />
+                        </div>
+                        <div className='country'>Maldives</div>
+                     </div>
+                     <div className='picimg'>
+                        <div className='pic'>
+                           <img style={{ borderRadius: "10px" }} src='https://dhiz4uvf5rpaq.cloudfront.net/deal-files/deal-images/IN/destinations/flight/International/webp/switz1222.webp' />
+                        </div>
+                        <div className='country'>Switzerland</div>
+                     </div>
+                     <div className='picimg'>
+                        <div className='pic'>
+                           <img style={{ borderRadius: "10px" }} src='https://dhiz4uvf5rpaq.cloudfront.net/deal-files/deal-images/IN/destinations/flight/International/webp/mauritious70.webp' />
+                        </div>
+                        <div className='country'>Mauritius</div>
+                     </div>
+                     <div className='picimg'>
+                        <div className='pic'>
+                           <img style={{ borderRadius: "10px" }} src='https://dhiz4uvf5rpaq.cloudfront.net/deal-files/deal-images/IN/destinations/flight/International/webp/Srilanka.webp' />
+                        </div>
+                        <div className='country'>Srilanka</div>
+                     </div>
+                     <div className='picimg'>
+                        <div className='pic'>
+                           <img style={{ borderRadius: "10px" }} src='https://dhiz4uvf5rpaq.cloudfront.net/deal-files/deal-images/IN/destinations/flight/Domestic/webp/udaipur.webp' />
+                        </div>
+                        <div className='country'>United Kingdom</div>
+                     </div>
+                     <div className='picimg'>
+                        <div className='pic'>
+                           <img style={{ borderRadius: "10px" }} src='https://dhiz4uvf5rpaq.cloudfront.net/deal-files/deal-images/IN/destinations/flight/International/webp/Maldives.webp' />
+                        </div>
+                        <div className='country'>Italy</div>
+                     </div>
+                     <div className='picimg'>
+                        <div className='pic'>
+                           <img style={{ borderRadius: "10px" }} src='https://dhiz4uvf5rpaq.cloudfront.net/deal-files/deal-images/IN/destinations/flight/International/webp/Canada.webp' />
+                        </div>
+                        <div className='country'>Serbia</div>
+                     </div>
+                  </div>
+               </div>
 
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="..." class="img-fluid rounded-start" alt="..." />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
-            </div>
-          </div>
+               <div className='container'>
+                  <div className='images'>
+                     <div className='img'>
+                        <img className="popularimagediv" src='https://dhiz4uvf5rpaq.cloudfront.net/deal-files/deal-images/IN/destinations/flight/International/big/webp/europe11322.webp' />
+                        <div className="bottom-left">Europe</div>
+                     </div>
+                     <div className='img'>
+                        <img className="popularimagediv" src='https://dhiz4uvf5rpaq.cloudfront.net/deal-files/deal-images/IN/destinations/flight/International/big/webp/Singapore.webp' />
+                        <div class="bottom-left">Singapore</div>
+                     </div>
+                  </div>
+                  <div className='images'>
+                     <div className='img'>
+                        <img className="popularimagediv" src='https://dhiz4uvf5rpaq.cloudfront.net/deal-files/deal-images/IN/destinations/flight/International/big/webp/dubai.webp' />
+                        <div className="bottom-left">Dubai</div>
+                     </div>
+                     <div className='img'>
+                        <img className="popularimagediv" src='https://dhiz4uvf5rpaq.cloudfront.net/deal-files/deal-images/IN/destinations/flight/International/big/webp/thailand1132022.webp' />
+                        <div className="bottom-left">Thailand</div>
+                     </div>
+                  </div>
+               </div>
 
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="..." class="img-fluid rounded-start" alt="..." />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="..." class="img-fluid rounded-start" alt="..." />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="..." class="img-fluid rounded-start" alt="..."/>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="..." class="img-fluid rounded-start" alt="..."/>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="..." class="img-fluid rounded-start" alt="..." />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
             </div>
-          </div>
-        </Slider>
-      </div>
-    );
-  }
+         </div>
+      </>
+   );
 }
+
+// export default International;

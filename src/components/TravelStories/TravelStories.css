@@ -5,18 +5,18 @@
 
 .slider_title {
   font-size: 35px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 15%;
   margin-bottom: 5%;
-  text-decoration: none solid rgb(45,44,44);
+  text-decoration: none solid rgb(45, 44, 44);
   vertical-align: baseline;
   letter-spacing: normal;
   text-align: center;
-  color: rgb(51,128,242);
+  color: rgb(51, 128, 242);
 }
-
 
 .card-wrapper {
   position: relative;
@@ -27,14 +27,14 @@
 }
 
 /* .card-wrapper:active,
-.card-wrapper:hover,
-.card-wrapper:focus {
-  outline: none;
-  border: none;
-} */
+  .card-wrapper:hover,
+  .card-wrapper:focus {
+    outline: none;
+    border: none;
+  } */
 
-.multisection-image {
-  width: 100%;
+.travelstoriesdiv {
+  width: 106%;
   /* height: 600px; */
   border-radius: 16px;
   overflow: hidden;
@@ -47,7 +47,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 250px;
+  height: 450px;
   z-index: 2;
   background-color: #000;
   -webkit-transition: 0.5s;
@@ -61,40 +61,47 @@
   object-fit: cover;
 }
 
-.multisection-image:hover img {
-  opacity: 0.4;
+.travelstoriesdiv:hover img {
+  /* opacity: 0.4; */
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-.multisection-image:hover .card-image {
-  -webkit-transform: translateY(-100px);
-  transform: translateY(-100px);
-  -webkit-transition: all 0.9s;
-  transition: all 0.9s;
+/* .travelstoriesdiv:hover .card-image {
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+    -webkit-transition: all 0.9s;
+    transition: all 0.9s;
+  } */
+
+.travelstoriesdiv:hover .card-image {
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  /* opacity: 0.8; */
 }
 
-.details {
+.travelstoriesdetails {
   position: absolute;
   bottom: -50%;
   left: 0;
-  background: #3380f2;
+  /* background: #3380f2; */
   width: 100%;
-  height: 213px;
+  height: 310px;
   z-index: 100000000;
   padding: 10px;
   -webkit-transition: 0.6s;
   transition: 0.6s;
 }
 
-.details h2 {
-  margin: 30px 0;
+.travelstoriesdetails h2 {
+  margin: 0px 0;
   padding: 0;
   text-align: center;
   color: white;
 }
 
-.details h2 .job-title {
+.travelstoriesdetails h2 .job-title {
   font-size: 16px;
   line-height: 2;
   /* color: #333; */
@@ -103,7 +110,7 @@
   display: block;
 }
 
-.card:hover .details {
+.card:hover .travelstoriesdetails {
   bottom: 0;
 }
 
@@ -135,8 +142,6 @@
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-
-
 
 .carousel .slick-prev,
 .carousel .slick-next {

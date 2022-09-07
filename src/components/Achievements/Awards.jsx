@@ -1,150 +1,436 @@
-import React from 'react'
-import "./Awards.css"
-export const Awards = () => {
-  return (
-    <>
-      <div className='awards_heading'>
-        <h2>Achievements & Awards</h2>
-      </div>
-      <div className='awards_cards'>
-        <div className="row row-cols-1 row-cols-md-3 g-4">
-          <div className="col">
-            <div className="main_card card">
-              <div className='card_img'><img src="https://blueberry-travel.com/src/img/award/iata.jpg" className="card-img-top " alt="..." /></div>
+import React, { Component } from 'react';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { Button } from 'react-bootstrap';
+import './Awards.css';
+// import "/src/App.css";
 
-              <div className="card-body">
-                <div className='awards_title'>
-                  <h4 className="card-title">Approved IATA Agent</h4>
-                </div>
-                <div className='awards_desc'>
-                  <p className="card-text">In more than 9 countries.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col">
-            <div className="main_card card">
-              <div className='card_img'><img src="https://blueberry-travel.com/src/img/award/ethiopian.jpg" className="card-img-top" alt="..." /></div>
+export default class Awards extends Component {
+    render() {
+        const settings = {
+            // dots: true,
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            speed: 1000,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            cssEase: "linear",
+            // arrows : false, 
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true
+                    }
+                },
+                {
+                    breakpoint: 950,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true
+                    }
+                },
+                {
+                    breakpoint: 800,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        initialSlide: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        };
+        return (
+            <div className='travelstoriescontainer'>
 
-              <div className="card-body">
-                <div className='awards_title'>
-                  <h4 className="card-title">GSA of Ethiopian Airlines.</h4>
-                </div>
-                <div className='awards_desc'>
-                  <p className="card-text">In more than 3 countries.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col">
-            <div className="main_card card">
-              <div className='card_img'><img src="https://blueberry-travel.com/src/img/award/rwand.jpg" className="card-img-top" alt="..." /></div>
+                <Slider {...settings} className="multiCardSlider">
+                    <div className="card-wrapper">
+                        <div className="main_card card">
+                            <div className='card_img'><img src="https://blueberry-travel.com/src/img/award/iata.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top " alt="..." /></div>
 
-              <div className="card-body">
-                <div className='awards_title'>
-                  <h4 className="card-title">GSA of Rwanda Airlines.</h4>
-                </div>
-                <div className='awards_desc'>
-                  <p className="card-text">In Kinshasa,RDC.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col">
-            <div className="main_card card">
-              <div className='card_img'><img src="https://blueberry-travel.com/src/img/award/tchadia.jpg" className="card-img-top" alt="..." /></div>
+                            <div className="card-body">
+                                <div className='awards_title'>
+                                    <h4 className="card-title">Approved IATA Agent</h4>
+                                </div>
+                                <div className='awards_desc'>
+                                    <p className="card-text">In more than 9 countries.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-              <div className="card-body">
-                <div className='awards_title'>
-                  <h4 className="card-title">GSA of Tchadia Airlines</h4>
-                </div>
-                <div className='awards_desc'>
-                  <p className="card-text">In Bangui Car.</p>
-                </div>
-              </div>
-            </div>
-          </div>
+                    <div className="card-wrapper">
+                        <div className="main_card card">
+                            <div className='card_img'><img src="https:blueberry-travel.com/src/img/award/ethiopian.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
 
-          <div className="col">
-            <div className="main_card card">
-              <div className='card_img'><img src="https://blueberry-travel.com/src/img/award/rwand.jpg" className="card-img-top" alt="..." /></div>
+                            <div className="card-body">
+                                <div className='awards_title'>
+                                    <h4 className="card-title">GSA of Ethiopian Airlines.</h4>
+                                </div>
+                                <div className='awards_desc'>
+                                    <p className="card-text">In more than 3 countries.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-              <div className="card-body">
-                <div className='awards_title'>
-                  <h4 className="card-title">Best Agency Award</h4>
-                </div>
-                <div className='awards_desc'>
-                  <p className="card-text">From Rwanda Arilines in 2017.</p>
-                </div>
-              </div>
-            </div>
-          </div>
+                    <div className="card-wrapper">
+                        {/* <div className="card travelstoriesdiv"> */}
+                        <div className="main_card card">
+                            <div className='card_img'><img src="https://blueberry-travel.com/src/img/award/rwand.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
 
-          <div className="col">
-            <div className="main_card card">
-              <div className='card_img'><img src="https://blueberry-travel.com/src/img/award/s-amadeus.jpeg" className="card-img-top" alt="..." /></div>
+                            <div className="card-body">
+                                <div className='awards_title'>
+                                    <h4 className="card-title">GSA of Rwanda Airlines.</h4>
+                                </div>
+                                <div className='awards_desc'>
+                                    <p className="card-text">In Kinshasa,RDC.</p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* </div> */}
+                    </div>
 
-              <div className="card-body">
-                <div className='awards_title'>
-                  <h4 className="card-title">Appreciation Award</h4>
-                </div>
-                <div className='awards_desc'>
-                  <p className="card-text">In Madagascar from amadues 2018.</p>
-                </div>
-              </div>
-            </div>
-          </div>
+                    <div className="card-wrapper">
+                        {/* <div className="card travelstoriesdiv"> */}
+                        <div className="main_card card">
+                            <div className='card_img'><img src="https://blueberry-travel.com/src/img/award/tchadia.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
 
-          <div className="col">
-            <div className="main_card card">
-              <div className='card_img'><img src="https://i.imgur.com/fIyyxWz.jpg" className="card-img-top" alt="..." /></div>
+                            <div className="card-body">
+                                <div className='awards_title'>
+                                    <h4 className="card-title">GSA of Tchadia Airlines</h4>
+                                </div>
+                                <div className='awards_desc'>
+                                    <p className="card-text">In Bangui Car.</p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* </div> */}
+                    </div>
 
-              <div className="card-body">
-                <div className='awards_title'>
-                  <h4 className="card-title">People's Choice Award</h4>
-                </div>
-                <div className='awards_desc'>
-                  <p className="card-text">As Most Sympathetic Agency 2018.</p>
-                </div>
-              </div>
-            </div>
-          </div>
+                    <div className="card-wrapper">
+                        {/* <div className="card travelstoriesdiv"> */}
+                        <div className="main_card card">
+                            <div className='card_img'><img src="https://blueberry-travel.com/src/img/award/rwand.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
 
-          <div className="col">
-            <div className="main_card card">
-              <div className='card_img'><img src="https://blueberry-travel.com/src/img/award/a-south-african-airways.jpeg" className="card-img-top" alt="..." /></div>
+                            <div className="card-body">
+                                <div className='awards_title'>
+                                    <h4 className="card-title">Best Agency Award</h4>
+                                </div>
+                                <div className='awards_desc'>
+                                    <p className="card-text">From Rwanda Arilines in 2017.</p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* </div> */}
+                    </div>
 
-              <div className="card-body">
-                <div className='awards_title'>
-                  <h4 className="card-title">Highest Growth Award</h4>
-                </div>
-                <div className='awards_desc'>
-                  <p className="card-text">from SA Airlines in Namibia(2017).</p>
-                </div>
-              </div>
-            </div>
-          </div>
+                    <div className="card-wrapper">
+                        {/* <div className="card travelstoriesdiv"> */}
+                        <div className="main_card card">
+                            <div className='card_img'><img src="https://blueberry-travel.com/src/img/award/s-amadeus.jpeg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
 
-          <div className="col">
-            <div className="main_card card">
-              <div className='card_img'><img src="https://blueberry-travel.com/src/img/award/a-south-african-airways.jpeg" className="card-img-top" alt="..." /></div>
+                            <div className="card-body">
+                                <div className='awards_title'>
+                                    <h4 className="card-title">Appreciation Award</h4>
+                                </div>
+                                <div className='awards_desc'>
+                                    <p className="card-text">In Madagascar from amadues 2018.</p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* </div> */}
+                    </div>
 
-              <div className="card-body">
-                <div className='awards_title'>
-                  <h4 className="card-title">Highest Growth Award</h4>
-                </div>
-                <div className='awards_desc'>
-                  <p className="card-text">from SA Airlines in Zimbabwe(2018).</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+                    <div className="card-wrapper">
+                        {/* <div className="card travelstoriesdiv"> */}
+                        <div className="main_card card">
+                            <div className='card_img'><img src="https://i.imgur.com/0d4fUC8.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
 
-    </>
+                            <div className="card-body">
+                                <div className='awards_title'>
+                                    <h4 className="card-title">People's Choice Award</h4>
+                                </div>
+                                <div className='awards_desc'>
+                                    <p className="card-text">As Most Sympathetic Agency 2018.</p>
+                                </div>
+                            </div>
+                        </div>
 
-  )
+                        {/* </div> */}
+                    </div>
+
+                    <div className="card-wrapper">
+                        {/* <div className="card travelstoriesdiv"> */}
+                        <div className="main_card card">
+                            <div className='card_img'><img src="https://blueberry-travel.com/src/img/award/a-south-african-airways.jpeg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
+
+                            <div className="card-body">
+                                <div className='awards_title'>
+                                    <h4 className="card-title">Highest Growth Award</h4>
+                                </div>
+                                <div className='awards_desc'>
+                                    <p className="card-text">from SA Airlines in Namibia(2017).</p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* </div> */}
+                    </div>
+
+                    <div className="card-wrapper">
+                        {/* <div className="card travelstoriesdiv"> */}
+                        <div className="main_card card">
+                            <div className='card_img'><img src="https://blueberry-travel.com/src/img/award/a-south-african-airways.jpeg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
+
+                            <div className="card-body">
+                                <div className='awards_title'>
+                                    <h4 className="card-title">Highest Growth Award</h4>
+                                </div>
+                                <div className='awards_desc'>
+                                    <p className="card-text">from SA Airlines in Zimbabwe(2018).</p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* </div> */}
+                    </div>
+                </Slider >
+            </div >
+        )
+    }
 }
 
 
+// import React, { Component } from 'react';
+// import Slider from "react-slick";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
+// import { Button } from 'react-bootstrap';
+// import "./Awards.css"
+// // import "/src/App.css";
+
+// export default class Experiment extends Component {
+//     render() {
+//         const settings = {
+//             // dots: true,
+//             infinite: true,
+//             autoplay: true,
+//             speed: 700,
+//             slidesToShow: 4,
+//             slidesToScroll: 1,
+//             cssEase: "linear",
+//             arrows: true,
+//             responsive: [
+//                 {
+//                     breakpoint: 1024,
+//                     settings: {
+//                         slidesToShow: 3,
+//                         slidesToScroll: 1,
+//                         infinite: true
+//                     }
+//                 },
+//                 {
+//                     breakpoint: 950,
+//                     settings: {
+//                         slidesToShow: 2,
+//                         slidesToScroll: 1,
+//                         infinite: true
+//                     }
+//                 },
+//                 {
+//                     breakpoint: 800,
+//                     settings: {
+//                         slidesToShow: 2,
+//                         slidesToScroll: 1,
+//                         infinite: true
+//                     }
+//                 },
+//                 {
+//                     breakpoint: 600,
+//                     settings: {
+//                         slidesToShow: 2,
+//                         slidesToScroll: 2,
+//                         initialSlide: 2
+//                     }
+//                 },
+//                 {
+//                     breakpoint: 480,
+//                     settings: {
+//                         slidesToShow: 1,
+//                         slidesToScroll: 1
+//                     }
+//                 }
+//             ]
+//         };
+//         return (
+//             <div className='awardssectioncontainer'>
+
+//                 <Slider {...settings} className="multiCardSlider">
+//                     <div className="card-wrapper">
+//                         <div className="main_card card">
+//                             <div className='card_img'><img src="https://blueberry-travel.com/src/img/award/iata.jpg" className="card-img-top " alt="..." /></div>
+
+//                             <div className="card-body">
+//                                 <div className='awards_title'>
+//                                     <h4 className="card-title">Approved IATA Agent</h4>
+//                                 </div>
+//                                 <div className='awards_desc'>
+//                                     <p className="card-text">In more than 9 countries.</p>
+//                                 </div>
+//                             </div>
+//                         </div>
+//                     </div>
+
+//                     <div className="card-wrapper">
+
+//                         <div className="main_card card">
+//                             <div className='card_img'><img src="https://blueberry-travel.com/src/img/award/ethiopian.jpg" className="card-img-top" alt="..." /></div>
+
+//                             <div className="card-body">
+//                                 <div className='awards_title'>
+//                                     <h4 className="card-title">GSA of Ethiopian Airlines.</h4>
+//                                 </div>
+//                                 <div className='awards_desc'>
+//                                     <p className="card-text">In more than 3 countries.</p>
+//                                 </div>
+//                             </div>
+//                         </div>
+
+//                     </div>
+
+//                     <div className="card-wrapper">
+
+//                         <div className="main_card card">
+//                             <div className='card_img'><img src="https://blueberry-travel.com/src/img/award/rwand.jpg" className="card-img-top" alt="..." /></div>
+
+//                             <div className="card-body">
+//                                 <div className='awards_title'>
+//                                     <h4 className="card-title">GSA of Rwanda Airlines.</h4>
+//                                 </div>
+//                                 <div className='awards_desc'>
+//                                     <p className="card-text">In Kinshasa,RDC.</p>
+//                                 </div>
+//                             </div>
+//                         </div>
+
+//                     </div>
+
+//                     <div className="card-wrapper">
+//                         <div className="main_card card">
+//                             <div className='card_img'><img src="https://blueberry-travel.com/src/img/award/tchadia.jpg" className="card-img-top" alt="..." /></div>
+
+//                             <div className="card-body">
+//                                 <div className='awards_title'>
+//                                     <h4 className="card-title">GSA of Tchadia Airlines</h4>
+//                                 </div>
+//                                 <div className='awards_desc'>
+//                                     <p className="card-text">In Bangui Car.</p>
+//                                 </div>
+//                             </div>
+//                         </div>
+
+//                     </div>
+
+//                     <div className="card-wrapper">
+//                         <div className="main_card card">
+//                             <div className='card_img'><img src="https://blueberry-travel.com/src/img/award/rwand.jpg" className="card-img-top" alt="..." /></div>
+
+//                             <div className="card-body">
+//                                 <div className='awards_title'>
+//                                     <h4 className="card-title">Best Agency Award</h4>
+//                                 </div>
+//                                 <div className='awards_desc'>
+//                                     <p className="card-text">From Rwanda Arilines in 2017.</p>
+//                                 </div>
+//                             </div>
+//                         </div>
+
+//                     </div>
+
+//                     <div className="card-wrapper">
+//                         <div className="main_card card">
+//                             <div className='card_img'><img src="https://blueberry-travel.com/src/img/award/s-amadeus.jpeg" className="card-img-top" alt="..." /></div>
+
+//                             <div className="card-body">
+//                                 <div className='awards_title'>
+//                                     <h4 className="card-title">Appreciation Award</h4>
+//                                 </div>
+//                                 <div className='awards_desc'>
+//                                     <p className="card-text">In Madagascar from amadues 2018.</p>
+//                                 </div>
+//                             </div>
+//                         </div>
+
+//                     </div>
+
+//                     <div className="card-wrapper">
+//                         <div className="main_card card">
+//                             <div className='card_img'><img src="https://i.imgur.com/fIyyxWz.jpg" className="card-img-top" alt="..." /></div>
+
+//                             <div className="card-body">
+//                                 <div className='awards_title'>
+//                                     <h4 className="card-title">People's Choice Award</h4>
+//                                 </div>
+//                                 <div className='awards_desc'>
+//                                     <p className="card-text">As Most Sympathetic Agency 2018.</p>
+//                                 </div>
+//                             </div>
+//                         </div>
+
+//                     </div>
+
+//                     <div className="card-wrapper">
+//                         <div className="main_card card">
+//                             <div className='card_img'><img src="https://blueberry-travel.com/src/img/award/a-south-african-airways.jpeg" className="card-img-top" alt="..." /></div>
+
+//                             <div className="card-body">
+//                                 <div className='awards_title'>
+//                                     <h4 className="card-title">Highest Growth Award</h4>
+//                                 </div>
+//                                 <div className='awards_desc'>
+//                                     <p className="card-text">from SA Airlines in Namibia(2017).</p>
+//                                 </div>
+//                             </div>
+//                         </div>
+
+//                     </div>
+
+//                     <div className="card-wrapper">
+//                         <div className="main_card card">
+//                             <div className='card_img'><img src="https://blueberry-travel.com/src/img/award/a-south-african-airways.jpeg" className="card-img-top" alt="..." /></div>
+
+//                             <div className="card-body">
+//                                 <div className='awards_title'>
+//                                     <h4 className="card-title">Highest Growth Award</h4>
+//                                 </div>
+//                                 <div className='awards_desc'>
+//                                     <p className="card-text">from SA Airlines in Zimbabwe(2018).</p>
+//                                 </div>
+//                             </div>
+//                         </div>
+
+//                     </div>
+//                 </Slider>
+//             </div>
+//         )
+//     }
+// }
