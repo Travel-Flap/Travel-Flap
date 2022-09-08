@@ -26,7 +26,7 @@ import { Nav } from "../../Nav/Nav";
 import { FooterLinks } from '../../FooterLinks/FooterLinks';
 import TopCities from '../../TopCities/TopCities';
 // import ExclusiveDeals from '../../ExclusiveDeals/ExclusiveDeals';
-// import { ExclusiveDeals } from '../../ExclusiveDeals/ExclusiveDeals';
+import { ExclusiveDeals } from '../../ExclusiveDeals/ExclusiveDeals';
 export const Home = () => {
     return (
         <div>
@@ -41,20 +41,16 @@ export const Home = () => {
             <ControlledCarousel />
 
             {/* <div className="container mt-5 carousel">
-                <h1 className="exclusivedeals_title">Exclusive Deals</h1>
-                <ExclusiveDeals/>
+                <h3 className="exclusivedeals_title">Exclusive Deals</h3>
             </div> */}
 
             {/* <TravelForm /> */}
 
             <PopularDestinations />
+            {/* <ExclusiveDeals /> */}
 
             <DataCards />
 
-            <div className='container mt-3 carousel'>
-                <h1 className='partners_title'>Travel Stories</h1>
-                <TravelStories />
-            </div>
             {/* <Carousel /> */}
 
             <div className='container mt-3 carousel'>
@@ -64,7 +60,11 @@ export const Home = () => {
 
             <CardText />
 
-            <Middleslider />
+            {/* <Middleslider /> */}
+            <div className='container mt-3 carousel'>
+                <h1 className='partners_title'>Travel Stories</h1>
+                <TravelStories />
+            </div>
 
             <div className="container mt-5 carousel">
                 <h1 className="slider_title">Achievement and Awards</h1>
@@ -77,6 +77,7 @@ export const Home = () => {
                 <h1 className="slider_title">What our Clients say about us</h1>
                 <ImageSlider />
             </div>
+
 
             {/* <div className="container mt-5 carousel">
                 <h1 className="slider_title">What our Clients say about us</h1>
@@ -91,12 +92,12 @@ export const Home = () => {
 
             <Newsletter />
 
-            <FooterLinks /> 
+            <FooterLinks />
 
             {/* <TrendingNow />
 
             <ContactForm /> */}
-            
+
 
             <Footer />
 

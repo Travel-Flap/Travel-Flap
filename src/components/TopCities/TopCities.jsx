@@ -10,7 +10,7 @@ import './TopCities.css';
 export default class TopCities extends Component {
     render() {
         const settings = {
-            dots: true,
+            // dots: true,
             infinite: true,
             autoplay: true,
             speed: 700,
@@ -64,7 +64,7 @@ export default class TopCities extends Component {
             <div className='topcitiescontainer'>
                 <div className='topcities_title'>
                     <h1> <MdLocationCity />
-                        Top Cities
+                        Top Cities to Explore
                     </h1>
                 {/* <span><p>to explore</p></span> */}
                 </div>
@@ -72,7 +72,7 @@ export default class TopCities extends Component {
                 <Slider {...settings} className="multiCardSlider">
                     <div className="card-wrapper">
                         <div className="card topcitiesdiv">
-                            <div className="card-image">
+                            <div className="card-image topcitiescardimage">
                                 <img src="images/TopCitiesImage7.jpg" />
                             </div>
                             <div className="topcitiesdetails">
@@ -90,7 +90,7 @@ export default class TopCities extends Component {
 
                     <div className="card-wrapper">
                         <div className="card topcitiesdiv">
-                            <div className="card-image">
+                            <div className="card-image topcitiescardimage">
                                 <img src="images/TopCitiesImage2.jpg" />
                             </div>
                             <div className="topcitiesdetails">
@@ -107,7 +107,7 @@ export default class TopCities extends Component {
 
                     <div className="card-wrapper">
                         <div className="card topcitiesdiv">
-                            <div className="card-image">
+                            <div className="card-image topcitiescardimage">
                                 <img src="images/TopCitiesImage3.jpg" />
                             </div>
                             <div className="topcitiesdetails">
@@ -123,7 +123,7 @@ export default class TopCities extends Component {
 
                     <div className="card-wrapper">
                         <div className="card topcitiesdiv">
-                            <div className="card-image">
+                            <div className="card-image topcitiescardimage">
                                 <img src="images/TopCitiesImage4.jpg" />
                             </div>
                             <div className="topcitiesdetails">
@@ -139,7 +139,7 @@ export default class TopCities extends Component {
 
                     <div className="card-wrapper">
                         <div className="card topcitiesdiv">
-                            <div className="card-image">
+                            <div className="card-image topcitiescardimage">
                                 <img src="images/TopCitiesImage5.jpg" />
                             </div>
                             <div className="topcitiesdetails">
@@ -155,7 +155,7 @@ export default class TopCities extends Component {
 
                     <div className="card-wrapper">
                         <div className="card topcitiesdiv">
-                            <div className="card-image">
+                            <div className="card-image topcitiescardimage">
                                 <img src="images/TopCitiesImage6.jpg" />
                             </div>
                             <div className="topcitiesdetails">
@@ -171,7 +171,7 @@ export default class TopCities extends Component {
 
                     <div className="card-wrapper">
                         <div className="card topcitiesdiv">
-                            <div className="card-image">
+                            <div className="card-image topcitiescardimage">
                                 <img src="images/TopCitiesImage8.jpg" />
                             </div>
                             <div className="topcitiesdetails">
@@ -187,7 +187,7 @@ export default class TopCities extends Component {
 
                     <div className="card-wrapper">
                         <div className="card topcitiesdiv">
-                            <div className="card-image">
+                            <div className="card-image topcitiescardimage">
                                 <img src="images/TopCitiesImage9.jpg" />
                             </div>
                             <div className="topcitiesdetails">

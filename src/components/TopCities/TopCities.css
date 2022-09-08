@@ -1,12 +1,11 @@
-/* .multiCardSlider{
-  border: 1px solid red;
-  position: relative;
-} */
 
 .topcities_title {
     color: rgb(51, 128, 242);
-    margin-top: 4%;
+    margin-left: 35%;
+    margin-bottom: 4%;
+    /* margin-top: 4%; */
 }
+
 .slider_title {
   font-size: 35px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -30,24 +29,16 @@
   box-sizing: border-box;
 }
 
-/* .card-wrapper:active,
-    .card-wrapper:hover,
-    .card-wrapper:focus {
-      outline: none;
-      border: none;
-    } */
 
 .topcitiesdiv {
   width: 106%;
-  /* height: 600px; */
   border-radius: 16px;
   overflow: hidden;
   cursor: pointer;
   position: relative;
 }
 
-.card-image {
-  /* position: absolute; */
+.topcitiescardimage {
   top: 0;
   left: 0;
   width: 100%;
@@ -58,7 +49,7 @@
   transition: 0.5s;
 }
 
-.card-image img {
+.topcitiescardimage img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -66,37 +57,26 @@
 }
 
 .topcitiesdiv:hover img {
-  /* opacity: 0.4; */
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-/* .topcitiesdiv:hover .card-image {
-      -webkit-transform: translateY(-100px);
-      transform: translateY(-100px);
-      -webkit-transition: all 0.9s;
-      transition: all 0.9s;
-    } */
-
-.topcitiesdiv:hover .card-image {
+.topcitiesdiv:hover .topcitiescardimage {
   -moz-transform: scale(1.5);
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
-  /* opacity: 0.8; */
 }
 
 .topcitiesdetails {
   position: absolute;
   bottom: -50%;
   left: 0;
-  /* background: #3380f2; */
   width: 100%;
   height: 310px;
   z-index: 100000000;
   padding: 10px;
   -webkit-transition: 0.6s;
   transition: 0.6s;
-  /* color: blue; */
   color: white;
 }
 
@@ -109,23 +89,16 @@
   padding: 0;
   text-align: center;
   color: white;
-  /* color: rgb(51, 128, 242); */
 }
 
 .topcitiesdetails h2 .job-title {
   font-size: 16px;
   line-height: 2;
-  /* color: #333; */
-  /* color: white; */
-  /* color: blue; */
-  /* color: rgb(51,128,242); */
   font-weight: 300;
   display: block;
 }
 
-    /* .topcitiesdetails h2:hover{
-        color: white;
-    } */
+
 .card:hover .topcitiesdetails {
   bottom: 0;
 }

@@ -1,16 +1,17 @@
 import './NewsLetter.css';
-// import newsletter from "images/travelFlapLogo.jpg"
+// import newsletter from "images/travelFlapLogo.jpg";
 export const Newsletter = () => {
   return (
     <>
+    
     <div className='newsLetterMainBox'>
       <div className='newsLetterOuter'>
         <div className="section1">
            <div className='newsHeading'>
              <div className='newslogo'>
-               <img src="images/NewsPaperImage.jpg"/>
+               <img src="https://cdn.pixabay.com/photo/2014/11/14/03/38/news-530220__340.jpg"/>
              </div>
-             <div className='updateText'><h1>Stay Updated</h1><p>Scbscribe to receive all travel news.</p></div>
+             <div className='updateText'><h1>Stay Updated</h1><p>Subscribe to receive all travel news.</p></div>
            </div>
            <div className='newsInputs'>
              <input className='inputdata' type="text" placeholder="Your Name"/>
@@ -23,7 +24,7 @@ export const Newsletter = () => {
       <div className='downloadLinks'>
           <div className='section2'>
             <div className='downloadText'>
-             <h1>Download <br/> Our Mobile App</h1>
+             <h2>Download <br/> Our Mobile App</h2>
             </div>
             <div className='downloadButtons'>
                <div className='googleButtons'>

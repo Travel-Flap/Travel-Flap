@@ -2,7 +2,7 @@
   background: #3380F2;
   opacity: 0.9;
   width: 100%;
-  height: 410px;
+  height: 365px;
 }
 .newsLetterOuter{
   width: 100%;
@@ -11,9 +11,7 @@
   border-bottom: 1px solid #3380F2;
 }
 .section1{
-  /* border: 1px solid red; */
   margin-top: 1% !important;
-  /* top: 5%; */
   width: 80%;
   margin: auto;
   height: 100%;
@@ -37,7 +35,14 @@
 .updateText{
   margin: auto;
   color: white;
-  /* color: #3380F2; */
+}
+
+.updateText h1{
+  font-size: 30px;
+}
+
+.updateText p{
+  font-size: 15px;
 }
 .newsInputs{
   width: 70%;
@@ -50,13 +55,13 @@
   color: #3380F2;
   margin-top: 5%;
   margin-left:2%;
-  border-radius: 10px;
+  border-radius: 3px;
 }
 .newsSubscribeButton{
   background-color: #3380F2;
   border: 3px solid white;
-  width: 200px;
-  height: 50px;
+  width: 170px;
+  height: 45px;
   color: white;
   font-weight: 700;
   border-radius: 50px;
@@ -70,27 +75,32 @@
   color: #3380F2;
 }
 .downloadLinks{
+  /* border: 1px solid red; */
   width: 100%;
   height: 200px;
   border-bottom: 1px solid #3380F2;
 }
 .section2{
+  /* border: 1px solid green; */
   width: 80%;
   margin: auto;
-  height: 100%;
+  height: 90%;
   display: flex;
   flex-direction: row;
 }
 .downloadText{
   width: 25%;
-  height: 100%;
+  height: 50%;
+  margin: auto;
+  margin-left: 5%;
   color: white;
-  /* color: #3380F2; */
   border-right: 1px solid #3380F2;
 }
-.downloadText h1{
- margin: 8%;
- margin-top: 15%;
+.downloadText h2{
+  width: 70%;
+  margin-left: 13%;
+  /* border: 1px solid red !important; */
+  font-size: 25px;
 }
 .downloadButtons{
   width: 50%;
@@ -98,25 +108,25 @@
   border-right: 1px solid #3380F2;
 }
 .googelPlaybutton{
-  width: 40%;
+  width: 35%;
   height: 20%;
   display: inline-block;
   margin: 5%;
   margin-top: 9%;
 }
 .googelPlaybutton img{
-  width: 100%;
+  width: 80%;
   height: 100%;
 }
 .appStoreButton{
-  width: 40%;
+  width: 35%;
   height: 20%;
   display: inline-block;
   margin: 4%;
   margin-top: 9%;
 }
 .appStoreButton img{
-  width: 100%;
+  width: 80%;
   height: 100%;
 }
 .scanner{
@@ -129,7 +139,7 @@ height: 100%;
 margin: auto;
 }
 .scanimage{
-  width: 60%;
+  width: 55%;
   height: 60%;
   margin: auto;
   margin-top: 10%;
@@ -142,7 +152,6 @@ margin: auto;
   margin: auto;
   text-align: center;
   color: white;
-  /* color: #3380F2; */
   font-weight: 500;
 }
 

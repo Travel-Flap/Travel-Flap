@@ -62,17 +62,11 @@
   border: none;
   text-align: center;
   margin-top: 15px;
-  /* background: linear-gradient(90deg, #f79c22, #9757e9); */
-  /* background: linear-gradient(45deg, #3408F3, #c0d3e7); */
-  /* background: linear-gradient(45deg, #3408F3, #c0d3e7); */
   background-color: #3206f1;
-  /* background-color: linear-gradient(45deg, #3206f1, #3380f2); */
 }
 
 .btnSlider:hover {
-  /* background: #31124b; */
   background: #3380f2;
-  /* background: linear-gradient(90deg, #9757e9, #f79c22); */
 }
 
 .ratings {

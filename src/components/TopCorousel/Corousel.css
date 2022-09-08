@@ -1,48 +1,9 @@
-/* This css is for the bootstrap 5 carousel */
-/* .carousel-indicators {
-  width: 30px;
-  height: 30px;
-  border: 100%;
-}
-
-.indicators_buttons{
-  border: 1px solid  red !important;
-  color: black;
-  font-size: 14px;
-  width: 30px !important;
-  height: 30px !important;
-  border-radius: 100% !important;
-}
-
-.carousel-indicators button{
-  color: black;
-  background-color: black;
-}
-.carousel-indicators{
-  border: 1px solid red;
-  
-  justify-content: flex-end !important;
-  margin-right: 2% !important;
-  align-items: flex-end;
-  margin-left: 50%;
-} */
-
-/* This css is for the navbar */
-/* * {
-  margin: 0;
-} */
-
-
-
-/* This css is for the carousel */
 .carousel-main {
-  /* border: 1px solid red; */
   height: 700px;
   box-sizing: border-box;
 }
 
 .carousel-caption > .carouselbtn {
-  /* border: 1px solid red !important; */
   font-size: 20px;
   font-weight: 600;
   border-radius: 25px;
@@ -54,23 +15,15 @@
   text-align: center;
   margin-top: 15px;
   background-color: #3408f3;
-  /* background: linear-gradient(45deg, #3408f3, #c0d3e7); */
-  /* background-color: rgb(51, 128, 242,0.7); */
 }
 
 .carouselbtn:hover {
-  /* background: linear-gradient(45deg, #3408F3, #c0d3e7); */
-  /* background: #31124b; */
   background: #3153f2;
-  /* background: rgb(51, 128, 242,0.7); */
-  /* color: blue; */
-  /* color: blue; */
-
-  /* background: linear-gradient(90deg, #9757e9, #f79c22); */
 }
 
-.carousel-control-prev-icon{
+.carousel-control-prev-icon {
   color: white;
+  width: 12%;
   border: 2px solid white;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -78,7 +31,7 @@
   border-bottom-right-radius: 10px;
 }
 
-.carousel-control-next-icon{
+.carousel-control-next-icon {
   color: white;
   border: 2px solid white;
   border-top-left-radius: 10px;
@@ -117,349 +70,241 @@
 #main-section {
   position: relative;
 }
-.carousel-indicators {
-  /* border: 1px solid red; */
+/* .carousel-indicators {
   width: 8%;
   margin-left: 91% !important;
-}
+} */
 
+.carousel-indicators button {
+  display: none;
+}
 .carousel-caption {
-  /* border: 1px solid red; */
   margin-bottom: 14%;
 }
 
-.carousel-indicators [data-bs-target] {
+/* .carousel-indicators [data-bs-target] {
   width: 20px !important;
   height: 20px !important;
   background-color: transparent;
   border: 1px solid transparent !important;
   border-radius: 30px;
-}
+} */
 
 .main-section {
   /* background-color: red; */
   height: 10000;
   z-index: 100000000000;
-} 
-/* @media only screen and (min-width: 1440px) and (max-width: 1509px) {
-  .services{
-    margin-bottom:51%;
-  }
 }
-
-@media only screen and (min-width: 2560px) and (max-width: 1440px) {
-  .services{
-    margin-bottom: 71%;
-  }
-}
-
-/* .carousel-indicators li {
-  border-top: unset;
-  width: 10px;
-  border-bottom: unset;
-  border: 1px solid transparent;
-  border-left-width: 0;
-  border-right-width: 0;
-  border-radius: 10px;
-  background-color: rgba(169, 29, 42, 0.4);
-  height: 10px;
-  width: 20px;}                                                  
-                                                                 
-  .carousel-indicators .active {
-  border-top: unset;
-  border-bottom: unset;
-  border: 1px solid transparent;
-  border-left-width: 0;
-  border-right-width: 0;
-  border-radius: 10px;
-  background-color: #A91D2A;
-  height: 10px;
-  width: 50px
-} */
-
 
 /* Css for services section */
-#main-section{
+#main-section {
   position: relative;
 }
 
+/* Css for services section */
+#main-section {
+  position: relative;
+}
 
-  /* Css for services section */
-  #main-section{
-    position: relative;
+.formservices {
+  width: 72%;
+  /* top: 3%; */
+  bottom: 77%;
+  margin: auto;
+  display: flex;
+  height: 75px;
+  justify-content: center;
+  position: absolute;
+  left: 14%;
+  /* z-index: 1; */
+  /* gap: 1.5%; */
+}
+
+/* .formservices:hover{
+    background: #3380f2;
   }
-  
+   */
+.formservices div {
+  /* border: 1px solid red; */
+  width: 13%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 8px;
+  z-index: 2;
+}
+
+.formservices div:hover * {
+  background: #3380f2;
+}
+.serviceicons {
+  font-size: 20px;
+}
+
+.formservices p {
+  color: black;
+  margin-top: 10%;
+  line-height: 21px;
+  vertical-align: baseline;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  font-size: 14px;
+}
+
+.formservices p:hover {
+  color: white;
+}
+.formservices .icons:hover {
+  color: blue;
+}
+.formservices div:hover {
+  background-color: #3380f2;
+}
+
+.formservices div img {
+  height: 23px;
+  width: 33px;
+  margin-bottom: 16px;
+  filter: invert(1.6);
+}
+
+.formservices div:nth-child(1) {
+  background-color: white;
+  border-top-left-radius: 105px;
+  width: 12%;
+}
+
+.formservices div:nth-child(2) {
+  background-color: white;
+  width: 10%;
+}
+
+.formservices div:nth-child(3) {
+  background-color: white;
+  width: 10%;
+}
+
+.formservices div:nth-child(4) {
+  background-color: white;
+  width: 10%;
+}
+
+.formservices div:nth-child(5) {
+  background-color: white;
+  width: 12%;
+}
+
+.formservices div:nth-child(6) {
+  background-color: white;
+  width: 13%;
+}
+
+.formservices div:nth-child(7) {
+  background-color: white;
+  width: 10%;
+}
+
+.formservices div:nth-child(8) {
+  background-color: white;
+  border-top-right-radius: 105px;
+  width: 10%;
+  gap: 3%;
+}
+
+/* Hover property for the services section */
+
+.formservices div:nth-child(1):hover {
+  background-color: #3380f2;
+}
+
+.formservices div:nth-child(2):hover {
+  background-color: #3380f2;
+}
+.formservices div:nth-child(3):hover {
+  background-color: #3380f2;
+}
+.formservices div:nth-child(4):hover {
+  background-color: #3380f2;
+}
+.formservices div:nth-child(5):hover {
+  background-color: #3380f2;
+}
+.formservices div:nth-child(6):hover {
+  background-color: #3380f2;
+}
+.formservices div:nth-child(7):hover {
+  background-color: #3380f2;
+}
+.formservices div:nth-child(8):hover {
+  background-color: #3380f2;
+}
+@media only screen and (min-width: 300px) and (max-width: 980px) {
   .formservices {
-    /* border: 1px solid red ; */
-    /* background-color: white; */
-    width: 72%;
-    /* top: 3%; */
-    bottom: 82%;
-    margin: auto;
-    display: flex;
-    height: 90px;
-    /* background-color: green !important; */
-    justify-content: center;
-    /* bottom: 0; */
-    /* top: 40%; */
-    position: absolute;
-    left: 14%;
-    z-index: 0;
-    /* gap: 1.5%; */
-  }
-  
-  
-  .formservices div {
-    /* border: 1px solid rgb(51, 128, 242,0.7); */
-    /* background-color: white; */
-    width: 13%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 8px;
-    /* background-color: transparent; */
-    z-index: 2;
+    flex-direction: column;
+    /* position: static; */
+    display: none;
   }
 
-  .serviceicons{
-    font-size: 20px;
+  #main-section {
+    position: static;
   }
+}
 
-  .formservices p{
-    color: black;
-    /* color:white; */
-    margin-top: 10%;
-    line-height: 21px;
-    vertical-align: baseline;
-    font-weight: 600;
-    text-transform: uppercase;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-    font-size: 16px;
-  }
-
-  /* .service_icons:hover{
-    border: none;
-    color: white;
-  } */
-  .formservices p:hover{
-    color: white;
-  }
-  .formservices .icons:hover{
-    color: blue;
-  }
-  .formservices div:hover {
-    /* border-color: #3153f2; */
-    /* border-radius: 30%; */
-    /* background-color: rgb(115, 100, 237); */
-    background-color: #3380f2;
-  }
-
-  .formservices div img {
-    height: 23px;
-    width: 33px;
-    margin-bottom: 16px;
-    filter: invert(1.6);
-  }
-  
-  
-
-  .formservices div:nth-child(1) {
-    background-color: white;
-    /* background-color: rgb(51, 128, 242,0.7); */
-    border-top-left-radius:  105px;
-    /* border-bottom-left-radius: 125px; */
-    width: 12%;
-  }
-
-  .formservices div:nth-child(2) {
-    background-color: white;
-    /* background-color: rgb(51, 128, 242,0.7); */
-    /* border-top-left-radius: 125px; */
-    /* border-bottom-left-radius: 125px; */
-    width: 10%;
-  }
-
-  .formservices div:nth-child(3) {
-    background-color: white;
-    /* background-color: rgb(51, 128, 242,0.7); */
-    /* border-top-left-radius: 125px; */
-    /* border-bottom-left-radius: 125px; */
-    width: 10%;
-  }
-
-  .formservices div:nth-child(4) {
-    background-color: white;
-    /* background-color: rgb(51, 128, 242,0.7); */
-    /* border-top-left-radius: 125px; */
-    /* border-bottom-left-radius: 125px; */
-    width: 10%;
-  }
-
-  .formservices div:nth-child(5) {
-    background-color: white;
-    /* background-color: rgb(51, 128, 242,0.7); */
-    /* border-top-left-radius: 125px; */
-    /* border-bottom-left-radius: 125px; */
-    width: 12%;
-  }
-
-  .formservices div:nth-child(6) {
-    background-color: white;
-    /* background-color: rgb(51, 128, 242,0.7); */
-    /* border-top-right-radius: 125px; */
-    /* border-bottom-right-radius: 125px; */
-    width: 13%;
-  }
-
-  .formservices div:nth-child(7) {
-    background-color: white;
-    /* background-color: rgb(51, 128, 242,0.7); */
-    /* border-top-right-radius: 125px; */
-    /* border-bottom-right-radius: 125px; */
-    width: 10%;
-  }
-
-  .formservices div:nth-child(8) {
-    background-color: white;
-    /* background-color: rgb(51, 128, 242,0.7); */
-    border-top-right-radius: 105px;
-    /* border-bottom-right-radius: 125px; */
-    width: 10%;
-    gap: 3%;
-  }
-
-  /* Hover property for the services section */
-
-  
-
-  .formservices div:nth-child(1):hover{
-    background-color: #3380f2;
-  }
-
-  .formservices div:nth-child(2):hover{
-    background-color: #3380f2;
-  }
-  .formservices div:nth-child(3):hover{
-    background-color: #3380f2;
-  }
-  .formservices div:nth-child(4):hover{
-    background-color: #3380f2;
-  }
-  .formservices div:nth-child(5):hover{
-    background-color: #3380f2;
-  }
-  .formservices div:nth-child(6):hover{
-    background-color: #3380f2;
-  }
-  .formservices div:nth-child(7):hover{
-    background-color: #3380f2;
-  }
-  .formservices div:nth-child(8):hover{   
-    background-color: #3380f2;
-  }
-  @media only screen and (min-width: 300px) and (max-width: 980px) {
-    .formservices {
-      flex-direction: column;
-      /* position: static; */
-      display: none;
-      
-    }
-  
-    #main-section{
-      position: static;
-    }
-  }
-  
-  
-  /* @media only screen and (max-width: 980px) {
-    .services{
-      display: none;
-    }
-  } */
-  
-  
-  /* This css is for the travel form details */
-  .main-trevform {
-    position: relative;
-    /* border: 1px solid black; */
-    /* background-color: rgb(197,120,137); */
-    /* background-color: #3380f2; */
-  
-    /* border: 1px solid red; */
-    /* height: 100px; */
-  }
-  
-  .text-info {
-    /* color: RGB(255, 255, 255);/ */
-    color: azure;
-    font-size: 23px;
-    font-family: "Open Sans", sans-serif;
-  }
-  
-  .trevFormdiv {
-    /* background: linear-gradient(45deg, #3408F3, #c0d3e7); */
-   
-    /* background: transparent; */
-    height: 300px;
-    box-sizing: border-box;
-    width: 100%;
-    /* position: relative; */
-    bottom: 74%;
-    /* z-index: 2; */
-  }
-  
-  .forminput_value{
-    /* border: 1px solid red; */
-    margin-bottom: 8%;
-    color: #3153f2;
-    /* color: white; */
-  }
-
-  .forminput_value .form-label{
-    
-    color: white;
-    font-size: 13px;
-    font-weight: bold;
-  }
-  
-  .trevformrow {
-    position: absolute;
-    width: 75%;
-    top: 10%;
-    background-color: rgb(51, 128, 242,0.7);
-     /* background: #3380f2; */
-    /* border: 3px solid #3380f2; */
-    /* border: 3px solid white; */
-    /* height: 300px; */
-    right: 13%;
-    border-radius: 33px;
-    height: 250px;
-  }
-  .trevButton {
-    /* background: linear-gradient(45deg, #3408f3, #c0d3e7); */
-    background-color: #3153f2;
-    font-size: 13px;
-    font-weight: 600;
-    border: none;
-    color: white;
-    border-radius: 25px;
-    padding: 9px 31px;
-    width: 150%;
-  }
-  .trevButton:hover {
-    /* background: #6949ad; */
-    background: blue;
-  }
-  
+/* This css part is for the devesh carousel form section */
 
 
-  /* @media only screen and (min-width: 300px) and (max-width: 780px) {
-  
-  
-    .trevButton {
-      margin-top: 3%;
-    }
-  } */
-  
- 
+/* This css is for the travel form details */
+.main-trevform {
+  position: relative;
+}
+
+.text-info {
+  /* color: RGB(255, 255, 255);/ */
+  color: azure;
+  font-size: 23px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.trevFormdiv {
+  height: 300px;
+  box-sizing: border-box;
+  width: 100%;
+  bottom: 74%;
+}
+
+.forminput_value {
+  margin-bottom: 8%;
+  color: #3153f2;
+}
+
+.forminput_value .form-label {
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.trevformrow {
+  position: absolute;
+  width: 75%;
+  top: 10%;
+  background-color: rgb(51, 128, 242, 0.7);
+  right: 13%;
+  border-radius: 33px;
+  height: 250px;
+}
+.trevButton {
+  background-color: #3153f2;
+  font-size: 13px;
+  font-weight: 600;
+  border: none;
+  color: white;
+  border-radius: 25px;
+  padding: 9px 31px;
+  width: 150%;
+}
+.trevButton:hover {
+  background: blue;
+}

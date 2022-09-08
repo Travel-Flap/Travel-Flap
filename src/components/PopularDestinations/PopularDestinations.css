@@ -1,231 +1,420 @@
-.main{
-    width: 70%;
-    height: 700px;
-    border: 1px solid lightgray;
-    margin: auto;
-    margin-top: 20px;
-    border-radius: 10px;
+.main {
+  width: 81%;
+  height: 850px;
+  /* border: 1px solid lightgray; */
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
 }
 .head{
-    display: flex;
-    width: 100%;
-    height: 100px;
-    border: 1px solid white;
+  display: flex;
+  width: 100%;
+  height: 100px;
 }
-.title{
-    display: flex;
-    border: 1px solid white;
-    margin-left: 3%;
-    font-size:35px;
+.title {
+  display: flex;
+  border: 1px solid white;
+  margin-left: 3%;
+  font-size: 35px;
 }
-.title1{
-    border: 1px solid white;
-    margin: 20px 0 20px 0 ;
+.title1 {
+  border: 1px solid white;
+  margin: 20px 0 20px 0;
+  color: rgb(51, 128, 242);
 }
-.title2{
-    border: 1px solid white;
-    margin-left: 5%;
-    font-weight: bolder;
-    margin: 20px 0 20px 5%;
+.title2 {
+  border: 1px solid white;
+  margin-left: 5%;
+  font-weight: bolder;
+  margin: 20px 0 20px 5%;
+  color: rgb(51, 128, 242);
 }
-.title3{
-    border: 1px solid white;
-    text-align: center;
-    margin: 20px 0 20px 5%;
-    color: black;
-    font-weight: 500;
-    padding-top: 15px;
+.title3 {
+  border: 3px solid rgb(51, 128, 242);
+  text-align: center;
+  margin: 25px 0 20px 3%;
+  /* color: black; */
+  color: rgb(51, 128, 242);
+  font-weight: 500;
+  border-radius: 25px;
+  width: 12%;
+  height: 39px;
+  /* padding: 16px; */
+  padding-top: 10x;
 }
-.title3:hover{
-    color: red;
-    text-decoration: underline;
+.title3:hover {
+  color: white;
+ background-color: rgb(51,128,242);
 }
-.title4{
-    border: 1px solid white;
-    padding-top: 15px;
-    margin: 20px 0 20px 5%;
-    color: red;
-    text-decoration: underline;
-}
-
-.data{
-    width: 96%;
-    margin: 25px;
-    height: auto;
-    border: 1px solid white;
-    display: flex;
-    flex-direction: row;
-    margin-top: 5px;
-}
-.names{
-    width: 48%;
-    border: 1px solid lightgray;
-    border-radius: 10px;
-    height: 560px;
-}
-.namesContainer{
-    width: 90%;
-    height: 100%;
-    border: 1px solid white;
-    margin: 0px 20px 0 20px;
-    overflow-y: scroll;
-}
-.picimg{
-    border: 1px solid white;
-    margin-top: 25px;
+.title4 {
+  border: 1px solid white;
+  padding-top: 15px;
+  margin: 20px 0 30px 15%;
+  color: rgb(51, 128, 242);
+  text-decoration: underline;
 }
 
-/* .popularimagediv{
-    border: 1px solid white;
-    margin-top: 25px;
+.data {
+  width: 96%;
+  margin: 25px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+.populardestinationsnames {
+  width: 100%;
+  border-radius: 10px;
+  height: 230px;
+}
+.namesContainer {
+  width: 100%;
+  /* border: 1px solid white; */
+  /* border: 1px solid red; */
+  height: 230px;
+  margin: 0px 0px 0 0px;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.picimg {
+  /* border: 1px solid white; */
+  /* border: 1px solid blue; */
+  /* margin-top: 25px; */
+  margin-right: 2%;
+  width: 150px;
+  height: 200px;
+  text-align: center;
+  color:rgb(51, 128, 242);
+}
+
+.popularimagediv:hover {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/* ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
 } */
-.popularimagediv:hover{
-   border-radius: 50%;
-   overflow: hidden;
-}
+
 ::-webkit-scrollbar {
-    width: 7px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey; 
-    border-radius: 10px;
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: gray; 
-    border-radius: 10px;
-  }
-  
-.pic{
-    display: inline-block;
-    vertical-align: top;
-    border: 1px solid white;
-    border-radius: 10px;
-}
-.country{
-    display: inline-block;
-    vertical-align: top;
-    text-align: center;
-    border: 1px solid white;
-    margin: 20px;
-    font-weight: bold;
-    font-size: 20px;
-}
-.images{
-    width: 98%;
-    border: 1px solid white;
-    border-radius: 10px;
-    height: 300px;
-    display: flex;
-    flex-direction: row;
-}
-.img{
-    width: 50%;
-    height: 250px;
-    border: 1px solid lightgray;
-    border-radius: 10px;
-    overflow: hidden;
-    margin: 0px 0 20px 7%;
-    position: relative;
-    text-align: center;
-    border: none;
-}
-.container{
-    display: flex;
-    flex-direction: column;
+  height: 10px;
 }
 
-img{
-    -moz-transition: all 0.3s;
-	-webkit-transition: all 0.3s;
-	 transition: all 0.3s;
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: rgb(161, 161, 241);
 }
 
-/* .popularimagediv:hover {
-    -moz-transform: scale(1.5);
-	-webkit-transform: scale(1.5);
-	transform: scale(1.5);
-    opacity: 0.8;
-} */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgb(51, 128, 242);
+}
+
+.pic {
+  display: inline-block;
+  vertical-align: top;
+  /* border: 1px solid black; */
+  width: 150px;
+  height: 150px;
+  /* border: 1px solid white; */
+  border-radius: 10px;
+  margin-right:25px;
+}
+.pic img{
+  width: 100%;
+  height: 100%;
+}
+.country {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  border: 1px solid white;
+  margin: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.images {
+  width: 98%;
+  border: 1px solid white;
+  border-radius: 10px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+}
+.pic .img {
+  width: 90%;
+  height: 250px;
+  /* border: 1px solid red !important; */
+  /* border: 1px solid lightgray; */
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0px 0 20px 7%;
+  position: relative;
+  text-align: center;
+  border: none;
+}
+.populardestinationscontainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+}
+
+img {
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
 .bottom-left {
-    position: absolute;
-    bottom: 40px;
-    left: 20px;
-    color: white;
-    font-weight: bold;
-    font-size: 25px;
-  }
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
 
-  @media screen and (max-width: 950px) {
-     .title3{
-        display: none;
-     }
-     .title1{
-        font-size: 30px;
-     }
-     .title2{
-        font-size: 30px;
-     }
-     .title4{
-        margin-left: 200px;
-     }
-     .data{
-        flex-direction: column;
-     }
-     .names{
-        width: 98%;
-     }
-     .container{
-        margin: 20px 500px 20px 0;
-        width: 95%; 
-     }
-    .main{
-        width: 90%;
-        height: auto;
-    }
-    img{
-        width: 100%;
-    }
+@media screen and (max-width: 950px) {
+  .title3 {
+    display: none;
+  }
+  .title1 {
+    font-size: 30px;
+  }
+  .title2 {
+    font-size: 30px;
+  }
+  .title4 {
+    margin-left: 200px;
+  }
+  .data {
+    flex-direction: column;
+  }
+  .populardestinationsnames {
+    width: 98%;
+  }
+  .populardestinationscontainer {
+    margin: 20px 500px 20px 0;
+    width: 95%;
+  }
+  .main {
+    width: 90%;
+    height: auto;
+  }
+  img {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 500px) {
-    .title3{
-        display: none;
-     }
-     .title1{
-        font-size: 25px;
-     }
-     .title2{
-        font-size: 25px;
-     }
-     .title4{
-        margin-left: 50px;
-     }
-     .data{
-        flex-direction: column;
-     }
-     .names{
-        width: 95%;
-     }
-     .container{
-        margin: 20px 500px 20px 0;
-        width: 100%; 
-     }
-    .main{
-        width: 98%;
-        height: auto;
-    }
-    .images{
-        flex-direction: column;
-    }
-    .img{
-        margin: 10px 0px 10px 5px;
-        width: 95%;
-    }
-    .title4{
-        font-size: 12px;
-    }
+  .title3 {
+    display: none;
+  }
+  .title1 {
+    font-size: 25px;
+  }
+  .title2 {
+    font-size: 25px;
+  }
+  .title4 {
+    margin-left: 50px;
+  }
+  .data {
+    flex-direction: column;
+  }
+  .populardestinationsnames {
+    width: 95%;
+  }
+  .populardestinationscontainer {
+    margin: 20px 500px 20px 0;
+    width: 100%;
+  }
+  .main {
+    width: 98%;
+    height: auto;
+  }
+  .images {
+    flex-direction: column;
+  }
+  .img {
+    margin: 10px 0px 10px 5px;
+    width: 95%;
+  }
+  .title4 {
+    font-size: 12px;
+  }
+}
+
+
+
+
+/* This css is for the carousel part */
+.topcities_title {
+  color: rgb(51, 128, 242);
+  margin-top: 4%;
+}
+.slider_title {
+  font-size: 35px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 15%;
+  margin-bottom: 5%;
+  text-decoration: none solid rgb(45, 44, 44);
+  vertical-align: baseline;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgb(51, 128, 242);
+}
+
+.card-wrapper {
+  position: relative;
+  width: 100%;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.populardestinationssliderdiv {
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+
+.populardestinationcardimage {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 320px;
+  z-index: 2;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.populardestinationcardimage img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.populardestinationssliderdiv:hover img {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.populardestinationssliderdiv:hover .populardestinationcardimage {
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.card:hover .populardestinationsdetails {
+  bottom: 0;
+}
+
+.populardestinationsdetails {
+  position: absolute;
+  bottom: -79%;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  z-index: 100000000;
+  padding: 10px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  color: white;
+}
+
+.populardestinationsdetails :hover {
+  color: white;
+}
+
+.populardestinationsdetails h2 {
+  margin: 0px 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+}
+
+.populardestinationsdetails h2 .job-title {
+  font-size: 16px;
+  line-height: 2;
+  font-weight: 300;
+  display: block;
+}
+
+.card:hover .populardestinationsdetails {
+  bottom: 0;
+}
+
+.carousel .slick-dots {
+  bottom: -2.5vw;
+}
+
+.carousel .slick-dots li button {
+  width: 20px;
+  height: 20px;
+  background: rgb(51, 128, 242);
+  border: 1px solid rgb(51, 128, 242);
+  border-radius: 20px;
+}
+
+.carousel .slick-dots li button:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  content: "";
+  text-align: center;
+  opacity: 0.5;
+  color: #000;
+  background-color: #fff;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.carousel .slick-prev,
+.carousel .slick-next {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+}
+
+.carousel .slick-prev:hover,
+.carousel .slick-prev:focus,
+.carousel .slick-next:hover,
+.carousel .slick-next:focus {
+  color: #fff;
+  outline: none;
+  background: #fff;
+}
+
+.carousel .slick-prev:before,
+.carousel .slick-next:before {
+  color: #000;
+  font-family: "Raleway", sans-serif;
+}
+
+.carousel .slick-next {
+  right: -55px;
+}
+
+.carousel .slick-prev {
+  left: -55px;
 }

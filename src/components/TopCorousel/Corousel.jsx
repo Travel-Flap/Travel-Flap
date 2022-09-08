@@ -4,13 +4,11 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
-// import InputGroup from 'react-bootstrap/InputGroup';
 import Row from 'react-bootstrap/Row';
 import Carousel from 'react-bootstrap/Carousel';
+import "./Booking.css";
 
 import { AiOutlineMenu, AiOutlineSearch } from "react-icons/ai";
-// import Navbar from "../Nav";
-// import { Navbar } from "../Navbar/Navbar";
 import "./Corousel.css";
 
 import { BiTaxi } from "react-icons/bi";
@@ -20,7 +18,7 @@ import { GiDoubleStreetLights, GiCruiser, GiVillage } from "react-icons/gi";
 import { TbScubaMask } from "react-icons/tb";
 import { MdExpandMore } from "react-icons/md";
 import { Nav } from '../Nav/Nav';
-
+import Booking from './Booking';
 export const ControlledCarousel = () => {
 
   const [validated, setValidated] = useState(false);
@@ -105,17 +103,16 @@ export const ControlledCarousel = () => {
               <div className="carouselbtn">Explore...</div> */}
             </Carousel.Caption>
           </Carousel.Item>
-          
+
         </Carousel>
 
-        
+
         <Form className='main-trevform text-info trevFormdiv' noValidate validated={validated} onSubmit={handleSubmit}>
 
           {/* This is for the services section div */}
           <div className='formservices'>
-            <div>
-              {/* <div className='serviceicons' style={{ color: "white" }}> */}
 
+            <div>
               <FaHotel className='icons' fontSize="15px" style={{ color: "blue" }} />
               {/* </div> */}
               {/* <div style={{ color: 'blue' }}>
@@ -167,13 +164,29 @@ export const ControlledCarousel = () => {
               {/* <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAgCAYAAADqgqNBAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAy9JREFUeNq8l0tsTVEUhntpkxKlEc+oCPWKNh4Rb6MWNTAV0oiqR0zadGBSpIpSTBAiYtJ6RBoMJIKgNSCEqBioR1WpBGlD00Y8Si+9vtX8V3Zvbntue/Xu5Ms6Z51z9n/22muvs48vEAjEBZu/fHxcNC0h931YP/3OwNwAE3gKWdzbNCCunxvCgzGPYRDshJlQjT+p38VphRIey2hLsamQAttjIZ4F3xD+ral5K/+KWIi/hCFh/K/iYyC+D3KY4zPY/VAmf0m/j5ww12M2wXobLSyBVfhrYxF2ewEb7Vqdzuf8mh3ERFzto2xT0BFL8aGyw4KOcAlnmbkAkiAgemo2gD9gS+h5b94m3qlE1skp2BxFNfuAyWVOqyIW5yGruc8UGiuBpxUBn+ipBTR6K5slUEl/xbzAXk9xbkzEvoFfMBxaYQTU9baYIHiB/nZzvAfr5/yA13xV2mqAkRJ+B59gYB+XlYkfhlJeINVLfClk89BP7EWYYHUXOqJY19swNv9nHXeDbF2XOefmCt5yGYerLWGgKpo1RV+ZmB+wmONjGsgkXS7H12zWXWpW9p4o2aJtGfYJ1XF+yLVs2Xu+9rKUzmxl9IH/uZOhr6OYAnw+JxoW0TR8L9wKN70XIxoX4b0m1ujOhmxbaHndEWGHt6Eogjm36UyHk457jmyzK24JsY4HJnr0uUt2SwSF57rsIce3Ab4T8q//xDkpwNarNmd201ln4dBm4LNID7dZhPMcLrdPKH23O6V7NhwJV9utNN5VQliBuQNftDwynB1JkSJlW6MavfB9MBHbHi/SvTlW7Ryd47JdKp4vZN9uH/w8mAuJGuEtha8mZKD52qGkaRCW6pfhIMKNTp9jlHgn8Of1JO6VS2tUMC5F+tNAn1ayfVxL7vaT6tGmwSNnQ9AC8xT27jJ+lJ5Jdqpbr8UtWR6C7bun6oNjfyAPYHQY0cmajkJFyYpKQ1/FF+rtLaFey2c5UavO/cGlh3CC89w52Ipwm+dOpofWKjtLWR4Uj9Pc+xWdDt1bDVcRbYl4G+Xxx3ETKmCKwl4MV5SAnn+p0YhbW6kwBrdG5bAx2k/fXwEGAJUOBO3xFs2MAAAAAElFTkSuQmCC" alt="" /> */}
             </div>
 
+
             {/* This is for the form section */}
 
 
           </div>
           {/* This is for the form input part */}
           <Row className="mt-4 justify-content-center align-items-end trevformrow">
-            <div></div>
+            <div>
+
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" />
+                <label class="form-check-label" for="inlineRadio1">One Way</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" />
+                <label class="form-check-label" for="inlineRadio2">Round Trip</label>
+              </div>
+              {/* <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" disabled />
+                <label class="form-check-label" for="inlineRadio3">MultiCity (disabled)</label>
+              </div> */}
+            </div>
+            {/* <Booking/> */}
             <Form.Group className='text-info forminput_value' as={Col} md="2" controlId="validationCustom01">
               <Form.Label>DESTINATION</Form.Label>
               <Form.Control xs={4}
@@ -222,7 +235,6 @@ export const ControlledCarousel = () => {
             {/* This Form Group is for the Selecting Adult Values */}
             <Form.Group className='forminput_value' as={Col} md="2" xs={3} controlId="validationCustom04">
               <Form.Label>ADULTS</Form.Label>
-              {/* <Form.Control type="text" placeholder="State" required /> */}
               <Form.Select defaultValue="">
                 <option>1</option>
                 <option>2</option>
@@ -238,7 +250,6 @@ export const ControlledCarousel = () => {
             <Form.Group className='forminput_value' as={Col} md="2" xs={3} controlId="validationCustom04">
               <Form.Label>
                 CHILDREN</Form.Label>
-              {/* <Form.Control type="text" placeholder="State" required /> */}
               <Form.Select defaultValue="0">
                 <option>02</option>
                 <option>03</option>
@@ -252,12 +263,17 @@ export const ControlledCarousel = () => {
 
             {/* This Form Froup is for the button of the form group */}
             <Form.Group className='text-center button-info forminput_value' as={Col} md="1" controlId="validationCustom02">
-              {/* <Button type="submit">Search</Button> */}
+
               <button className='trevButton'>SEARCH</button>
             </Form.Group>
           </Row>
+
+
+
         </Form>
+
       </div>
+
 
 
 

@@ -1,14 +1,10 @@
-/* .multiCardSlider{
-  border: 1px solid red;
-  position: relative;
-} */
 
 .slider_title {
   font-size: 35px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: 15%;
+  /* margin-top: 15%; */
   margin-bottom: 5%;
   text-decoration: none solid rgb(45,44,44);
   vertical-align: baseline;
@@ -26,16 +22,8 @@
   box-sizing: border-box;
 }
 
-/* .card-wrapper:active,
-.card-wrapper:hover,
-.card-wrapper:focus {
-  outline: none;
-  border: none;
-} */
-
 .multisection-image {
   width: 100%;
-  /* height: 600px; */
   border-radius: 16px;
   overflow: hidden;
   cursor: pointer;
@@ -43,7 +31,6 @@
 }
 
 .card-image {
-  /* position: absolute; */
   top: 0;
   left: 0;
   width: 100%;
@@ -97,7 +84,6 @@
 .details h2 .job-title {
   font-size: 16px;
   line-height: 2;
-  /* color: #333; */
   color: white;
   font-weight: 300;
   display: block;
