@@ -12,7 +12,7 @@ export default class ImageSlider extends Component {
             infinite: true,
             // autoplay: true,
             // speed: 500,
-            slidesToShow: 3,
+            slidesToShow: 4,
             slidesToScroll: 1,
             cssEase: "linear"
         };

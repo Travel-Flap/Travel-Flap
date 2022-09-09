@@ -17,7 +17,7 @@ export default class Awards extends Component {
             slidesToShow: 4,
             slidesToScroll: 1,
             cssEase: "linear",
-            // arrows : false, 
+            arrows : false, 
             responsive: [
                 {
                     breakpoint: 1024,

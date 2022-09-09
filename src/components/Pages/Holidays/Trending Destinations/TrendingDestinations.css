@@ -1,11 +1,11 @@
-.easyvisadestinationscontainer{
+.trendingdestinationscontainer{
     /* border: 2px solid red; */
     width: 92%;
     margin-top: 5%;
     margin-left: 3%;
   }
   
-  .easyvisadestinations_title {
+  .trendingdestinations_title {
       font-size: 35px;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
         Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -29,7 +29,7 @@
     }
     
     
-    .easyvisadestinationsdiv {
+    .trendingdestinationsdiv {
       width: 107%;
       border-radius: 16px;
       overflow: hidden;
@@ -37,7 +37,7 @@
       position: relative;
     }
     
-    .easyvisacardimage {
+    .trendingdestinationscardimage {
       top: 0;
       left: 0;
       width: 100%;
@@ -48,25 +48,25 @@
       transition: 0.5s;
     }
     
-    .easyvisacardimage img {
+    .trendingdestinationscardimage img {
       width: 100%;
       height: 100%;
       -o-object-fit: cover;
       object-fit: cover;
     }
     
-    .easyvisadestinationsdiv:hover img {
+    .trendingdestinationsdiv:hover img {
       -webkit-transition: 0.5s;
       transition: 0.5s;
     }
     
-    .easyvisadestinationsdiv:hover .easyvisacardimage {
+    .trendingdestinationsdiv:hover .trendingdestinationscardimage {
       -moz-transform: scale(1.5);
       -webkit-transform: scale(1.5);
       transform: scale(1.5);
     }
     
-    .easyvisadestinationsdetails {
+    .trendingdestinationsdetails {
       position: absolute;
       bottom: -72%;
       left: 0;
@@ -78,14 +78,14 @@
       transition: 0.6s;
     }
     
-    .easyvisadestinationsdetails h2 {
+    .trendingdestinationsdetails h2 {
       margin: 0px 0;
       padding: 0;
       text-align: center;
       color: white;
     }
     
-    .easyvisadestinationsdetails h2 .job-title {
+    .trendingdestinationsdetails h2 .job-title {
       font-size: 16px;
       line-height: 2;
       color: white;
@@ -93,7 +93,7 @@
       display: block;
     }
     
-    .card:hover .easyvisadestinationsdetails {
+    .card:hover .trendingdestinationsdetails {
       bottom: 0;
     }
     

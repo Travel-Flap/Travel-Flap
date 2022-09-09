@@ -1,6 +1,6 @@
 .main {
-  width: 81%;
-  height: 850px;
+  width: 90%;
+  height: 750px;
   /* border: 1px solid lightgray; */
   margin: auto;
   margin-top: 20px;
@@ -40,7 +40,7 @@
   width: 12%;
   height: 39px;
   /* padding: 16px; */
-  padding-top: 10x;
+  padding-top: 5px;
 }
 .title3:hover {
   color: white;

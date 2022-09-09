@@ -17,7 +17,7 @@ export default class EasyVisaDestinations extends Component {
             slidesToScroll: 1,
             cssEase: "linear",
             // arrows:true,
-            // arrows : false, 
+            arrows : false, 
             responsive: [
                 {
                   breakpoint: 1024,

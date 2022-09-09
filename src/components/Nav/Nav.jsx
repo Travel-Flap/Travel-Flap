@@ -178,7 +178,7 @@ export const Nav = () => {
                         </div>
                         <div className='navbar-links-container' id='hide' >
                             {/* <div  className='nav-link'> <p>Akbar Bizz</p></div> */}
-                            <div className='nav-link'> <p>IRCTC</p></div>
+                            <div className='nav-link'> <p>OFFERS</p></div>
                             <div className='nav-link' onClick={handleClick1}> <p>₹ INR <FaCaretDown /></p></div>
                             {shown && <Box1 />}
                             <div className='nav-link' onClick={handleClick}><p> INDIA <FaCaretDown /></p></div>

@@ -40,6 +40,7 @@ export const Home = () => {
 
             <ControlledCarousel />
 
+            <ExclusiveDeals />
             {/* <div className="container mt-5 carousel">
                 <h3 className="exclusivedeals_title">Exclusive Deals</h3>
             </div> */}
@@ -47,7 +48,6 @@ export const Home = () => {
             {/* <TravelForm /> */}
 
             <PopularDestinations />
-            {/* <ExclusiveDeals /> */}
 
             <DataCards />
 
@@ -62,19 +62,19 @@ export const Home = () => {
 
             {/* <Middleslider /> */}
             <div className='container mt-3 carousel'>
-                <h1 className='partners_title'>Travel Stories</h1>
+                <h1 className='travelstories_title'>Travel Stories</h1>
                 <TravelStories />
             </div>
 
             <div className="container mt-5 carousel">
-                <h1 className="slider_title">Achievement and Awards</h1>
+                <h1 className="achievements_title">Achievement and Awards</h1>
                 <Awards />
             </div>
 
             {/* <Awards /> */}
 
             <div className="container mt-5 carousel">
-                <h1 className="slider_title">What our Clients say about us</h1>
+                <h1 className="clientstestimonial_title">What our Clients say about us</h1>
                 <ImageSlider />
             </div>
 

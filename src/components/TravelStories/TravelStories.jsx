@@ -16,7 +16,8 @@ export default class TravelStories extends Component {
             slidesToShow: 4,
             slidesToScroll: 1,
             cssEase: "linear",
-            // arrows : false, 
+            // arrows:true,
+            arrows : false, 
             responsive: [
                 {
                   breakpoint: 1024,
@@ -64,7 +65,7 @@ export default class TravelStories extends Component {
                 
                 <Slider {...settings} className="multiCardSlider">
                     <div className="card-wrapper">
-                        <div className="card travelstoriesdiv">
+                        <div className="card travelstoriesmaindiv">
                             <div className="card-image travelstoriescardimage">
                                 <img src="images/TravelStoriesImage1.jpg" />
                             </div>
@@ -82,7 +83,7 @@ export default class TravelStories extends Component {
                     </div>
 
                     <div className="card-wrapper">
-                        <div className="card travelstoriesdiv">
+                        <div className="card travelstoriesmaindiv">
                             <div className="card-image travelstoriescardimage">
                                 <img src="images/TravelStoriesImage2.jpg" />
                             </div>
@@ -99,7 +100,7 @@ export default class TravelStories extends Component {
                     </div>
 
                     <div className="card-wrapper">
-                        <div className="card travelstoriesdiv">
+                        <div className="card travelstoriesmaindiv">
                             <div className="card-image travelstoriescardimage">
                                 <img src="images/TravelStoriesImage3.jpg" />
                             </div>
@@ -115,7 +116,7 @@ export default class TravelStories extends Component {
                     </div>
 
                     <div className="card-wrapper">
-                        <div className="card travelstoriesdiv">
+                        <div className="card travelstoriesmaindiv">
                             <div className="card-image travelstoriescardimage">
                                 <img src="images/TravelStoriesImage4.jpg" />
                             </div>
@@ -131,7 +132,7 @@ export default class TravelStories extends Component {
                     </div>
 
                     <div className="card-wrapper">
-                        <div className="card travelstoriesdiv">
+                        <div className="card travelstoriesmaindiv">
                             <div className="card-image travelstoriescardimage">
                                 <img src="images/TravelStoriesImage5.jpg" />
                             </div>
@@ -147,7 +148,7 @@ export default class TravelStories extends Component {
                     </div>
 
                     <div className="card-wrapper">
-                        <div className="card travelstoriesdiv">
+                        <div className="card travelstoriesmaindiv">
                             <div className="card-image travelstoriescardimage">
                                 <img src="images/TravelStoriesImage6.jpg" />
                             </div>
@@ -163,7 +164,7 @@ export default class TravelStories extends Component {
                     </div>
 
                     <div className="card-wrapper">
-                        <div className="card travelstoriesdiv">
+                        <div className="card travelstoriesmaindiv">
                             <div className="card-image travelstoriescardimage">
                                 <img src="images/TravelStoriesImage7.jpg" />
                             </div>
@@ -179,7 +180,7 @@ export default class TravelStories extends Component {
                     </div>
 
                     <div className="card-wrapper">
-                        <div className="card travelstoriesdiv">
+                        <div className="card travelstoriesmaindiv">
                             <div className="card-image travelstoriescardimage">
                                 <img src="images/TravelStoriesImage8.jpg" />
                             </div>

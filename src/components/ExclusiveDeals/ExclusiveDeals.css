@@ -1,7 +1,13 @@
-.exclusivedealsouterdiv{
+/* .exclusivemaindiv{
+  border: 1px solid red;
+} */
+
+.exclusivedealsouterdiv {
   /* border: 2px solid red !important; */
+  border: 2px solid lightgray;
   display: flex !important;
   flex-direction: row !important;
+  /* border: none; */
 }
 .exclusivedealsheadingcontainer {
   display: flex;
@@ -9,87 +15,122 @@
   width: 75%;
   margin: auto;
   margin-top: 3%;
-  /* border: 1px solid red; */
+  /* border: 1px solid black; */
 }
 
 .exclusivedealsheading1 {
   /* border: 1px solid black; */
   font-size: 25px;
   font-weight: 600;
-  width: 18%;
-  color: #3380F2;
+  width: 23%;
+  color: #3380f2;
 }
 
 .exclusivedealsheading2 {
   /* border: 1px solid blue; */
-  width: 40%;
+  width: 60%;
   height: 40px;
   justify-content: center;
-  margin: -0.5% 0 1% 1% ;
+  margin: -0.5% 0 1% 1%;
   font-size: 15px;
   display: flex;
   flex-direction: row;
   /* padding: 0px 0px; */
 }
-.exclusivedealsheading{
+.exclusivedealsheading {
   border-radius: 50px;
 }
+
 .exclusivedealsheading2 div {
   border: 3px solid rgb(51, 128, 242);
   width: 100px !important;
-  height: 40px;
+  height: 33px;
   font-size: 17px;
-  margin: auto;
   font-weight: 500;
   text-align: center;
-  margin-right: 7%;
-  border-radius: 10px;
+  margin-top: 0.5%;
+  margin-right: 4%;
+  border-radius: 25px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    color: #3380F2;
+  color: #3380f2;
 }
-.viewallbuttons{
-  color: #3380F2;
+
+.exclusivedealsheading2 div:hover{
+  background-color: #3380f2;
+  color: white;
+}
+.viewallbuttons {
+  color: #3380f2;
   font-weight: 700;
   text-decoration: underline;
   /* border: 1px solid red; */
   display: flex;
-  margin:1% 0 0 24%;
+  margin: 0% 0 0 12%;
+  width: 18%;
 }
 
-
-.exclusivecardtitle{
-  color: #3380F2 !important;
-  font-size: 17px;
-  margin-top: -10px;
-}
-.card-text{
-  color: #3380F2;
-  font-size: 12px;
-}
-.exclusivedealsimagetextcontainer{
-  border: 2px solid red;
-  display: flex !important;
-  flex-direction: column !important;
-  height: 190px;
-}
-.col-md-4{
-  width: 80%;
-}
-.exclusivetextcard{
-  margin-right: 30px;
+.exclusivecardtitle {
+  color: #3380f2 !important;
+  font-size: 25px;
+  margin-top: 1%;
 }
 
-.exclusivedealsimagediv{
+.exclusivecard_desc {
+  /* border: 1px solid red; */
+  width: 90%;
+  color: #3380f2;
+  font-size: 14px;
+}
+
+.exclusivedealsimagetextcontainer {
+  width: 100%;
+  height: 420px;
+}
+
+.exclusivetextcard {
+  margin-left: 9% !important;
+  width: 100% !important;
+}
+/* 
+.exclusivetextcard:hover{
+  color: white;
+  background-color: #3380F2;
+} */
+
+.exclusivetextcard:hover div {
+  color: white;
+}
+
+.exclusivedealsimagediv {
   /* border: 2px solid red !important; */
-  width: 500px;
+  width: 800px;
   height: 200px !important;
 }
-.exclusivedealsimage{
-  /* border: 2px solid red; */
-  width: 100%;
-  height: 200px;
+.exclusivedealsimage {
+  /* border: 1px solid black !important; */
+  width: 700px;
+  height: 10px;
+  margin-left: 40%;
 }
+
+.exclusivecardimage {
+  /* border: 1px solid red !important; */
+  /* height: 300px; */
+  border: none;
+  width: 100% !important;
+}
+
+.exclusivecarddescmain {
+  /* border: 1px solid red; */
+  width: 100%;
+  margin-left: -9%;
+}
+
+.exclusivecarddesc:hover {
+  color: white;
+}
+
 /* .exclusivedealsheading2 div:hover{
   color: white;
   background-color: #3380F2;
@@ -101,7 +142,7 @@
   font-weight: 500;
 } */
 .exclusivedealdsheadingbuttons {
-  /* border: 1px solid yellow; */
+  /* border: 1px solid yellow !important; */
   justify-content: flex-end;
   width: 13%;
   margin-left: 15%;
@@ -134,20 +175,20 @@
   /* color: orangered !important; */
   transform: scale(1.1);
 }
-.booknowbutton{
-  border: 3px solid #3380F2;
-  width: 90px;
-  height: 35px;
-  border-radius: 50px;
+.booknowbutton {
+  border: 3px solid #3380f2;
+  width: 30%;
+  border-radius: 25px;
   background-color: white;
-  color: #3380F2;
+  color: #3380f2;
+  padding: 4px 12px;
   font-weight: 500;
-  margin-bottom: 5px;
-  font-size: 14px !important;
+  margin-bottom: 1%;
+  font-size: 15px !important;
 }
-.booknowbutton:hover{
+.booknowbutton:hover {
   border: 3px solid white;
-  background-color: #3380F2;
+  background-color: #3380f2;
   color: white;
   font-size: 14px !important;
 }
@@ -237,6 +278,234 @@
 }
 
    */
+
+@media screen and (max-width: 950px) {
+  .exclusivedealsimagetextcontainer {
+    flex-direction: column;
+  }
+  .col-md-4 {
+    width: 90%;
+    height: 280px;
+    margin-left: 3%;
+    margin-top: 10%;
+  }
+  .card-title {
+    font-size: 17px;
+  }
+  .card-text {
+    font-size: 13px;
+  }
+  .viewallbuttons {
+    display: none;
+  }
+  .exclusivedealsheading1 {
+    display: none;
+  }
+  .exclusivedealsheadingcontainer {
+    flex-direction: column;
+  }
+  .exclusivedealsheading2 {
+    width: 100%;
+  }
+  .exclusivedealsimagetextcontainer img {
+    width: 100%;
+    height: 100%;
+  }
+  .exclusivedealsimage {
+    width: 100%;
+    height: 100%;
+  }
+  .exclusivetextcard {
+    margin-left: 8px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .exclusivedealsimagetextcontainer {
+    flex-direction: column;
+  }
+  .col-md-4 {
+    width: 90%;
+    height: 280px;
+    margin-left: 3%;
+    margin-top: 5%;
+  }
+  .card-title {
+    font-size: 17px;
+  }
+  .card-text {
+    font-size: 13px;
+  }
+  .viewallbuttons {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -50px;
+    text-align: right;
+    width: 40%;
+    font-size: 14px;
+    margin-left: 52%;
+  }
+  .exclusivedealsheading2 {
+    display: none;
+  }
+  .exclusivedealdsheadingbuttons {
+    display: none;
+  }
+  .exclusivedealsheading1 {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    font-size: 16px;
+    margin-left: 3%;
+  }
+  .exclusivedealsheadingcontainer {
+    flex-direction: column;
+  }
+  .exclusivedealsimagetextcontainer img {
+    width: 100%;
+    height: 100%;
+  }
+  .exclusivedealsimage {
+    width: 100%;
+    height: 100%;
+  }
+  .exclusivetextcard {
+    margin-left: 8px;
+  }
+}
+
+/* .exclusivedealsouterdiv{
+  display: flex !important;
+  flex-direction: row !important;
+}
+.exclusivedealsheadingcontainer {
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  margin: auto;
+  margin-top: 3%;
+}
+
+.exclusivedealsheading1 {
+  font-size: 25px;
+  font-weight: 600;
+  width: 18%;
+  color: #3380F2;
+}
+
+.exclusivedealsheading2 {
+  width: 40%;
+  height: 40px;
+  justify-content: center;
+  margin: -0.5% 0 1% 1% ;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+}
+.exclusivedealsheading{
+  border-radius: 50px;
+}
+.exclusivedealsheading2 div {
+  border: 3px solid rgb(51, 128, 242);
+  width: 100px !important;
+  height: 40px;
+  font-size: 17px;
+  margin: auto;
+  font-weight: 500;
+  text-align: center;
+  margin-right: 7%;
+  border-radius: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #3380F2;
+}
+.viewallbuttons{
+  color: #3380F2;
+  font-weight: 700;
+  text-decoration: underline;
+  display: flex;
+  margin:1% 0 0 24%;
+}
+
+
+.exclusivecardtitle{
+  color: #3380F2 !important;
+  font-size: 17px;
+  margin-top: -10px;
+}
+.card-text{
+  color: #3380F2;
+  font-size: 12px;
+}
+.exclusivedealsimagetextcontainer{
+  border: 2px solid red;
+  display: flex !important;
+  flex-direction: column !important;
+  height: 190px;
+}
+.col-md-4{
+  width: 80%;
+}
+.exclusivetextcard{
+  margin-right: 30px;
+}
+
+.exclusivedealsimagediv{
+  width: 500px;
+  height: 200px !important;
+}
+.exclusivedealsimage{
+  width: 100%;
+  height: 200px;
+}
+
+.exclusivedealdsheadingbuttons {
+  justify-content: flex-end;
+  width: 13%;
+  margin-left: 15%;
+}
+
+.line-indicator li {
+  height: 4px;
+  width: 70px;
+  background: lightgray;
+  border-radius: 5px;
+}
+
+.line-indicator li:hover {
+  background: gray;
+}
+
+.line-indicator li.slick-active {
+  background: blue;
+}
+.buttons {
+  background: rgb(51, 128, 242) !important;
+  color: white !important;
+  transition: 700ms;
+  border: 3px solid red;
+}
+.buttons:hover {
+  transform: scale(1.1);
+}
+.booknowbutton{
+  border: 3px solid #3380F2;
+  width: 90px;
+  height: 35px;
+  border-radius: 50px;
+  background-color: white;
+  color: #3380F2;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 14px !important;
+}
+.booknowbutton:hover{
+  border: 3px solid white;
+  background-color: #3380F2;
+  color: white;
+  font-size: 14px !important;
+}
+
 
    @media screen  and (max-width:950px){
      .exclusivedealsimagetextcontainer{
@@ -333,4 +602,4 @@
    }
   }
 
-   
+    */
