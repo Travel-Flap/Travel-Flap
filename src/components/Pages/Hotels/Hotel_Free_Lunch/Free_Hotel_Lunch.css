@@ -1,0 +1,108 @@
+.parrent_recom_div{
+    /* border: 2px solid red; */
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-top: 100px;
+}
+.parrent_recom_div>h1{
+    color: blue;
+    margin: 0%;
+}
+.option_select_div{
+    padding-bottom: 10px;
+    width: 50%;
+    display: flex;
+    border-bottom: 1px solid rgb(194, 194, 194);
+    justify-content: space-around;
+    font-size: 1.3vw;
+    
+}
+.option_select_div>a{
+    text-decoration: none;
+    color: rgb(105, 103, 103);
+}
+.option_select_div>a:hover{
+    text-decoration: underline;
+}
+
+.all_image_card{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    row-gap: 10px;
+}
+.Image_card{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 250px;
+    height: 300px;
+    border-radius:  0px 20px 0px;
+
+    /* border: 2px solid royalblue; */
+    /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+    /* border: 2px solid rgb(4, 0, 255); */
+    
+}
+.Image_card:hover{
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.02);
+    border-radius: 20px;
+    /* border: 2px solid blue; */
+    border-radius:  0px 20px 10px;
+
+}
+.Image_card>img{
+    width: 100%;
+    border-radius:  0px 20px 0px;
+
+}
+.rating_chat{
+    width: 60px;
+    height: 40px;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    margin-left: 180px;
+    margin-bottom: -50px;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+     color: yellow;
+     
+    
+}
+.Image_card>th{
+    color: brown;
+    margin-left: 0px;
+    padding-left: 0px;
+
+}
+
+.rating_num{
+    margin-left: -30px;
+    margin-top: -10px;
+   font-size: 1vw;
+    border: 1px solid red;
+    color: white;
+    transform: rotate(180deg);
+}
+.rating_start{
+    color: orangered;
+}
+.place_name{
+    color:  cornflowerblue;
+}
+.Free_Lunch{
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}

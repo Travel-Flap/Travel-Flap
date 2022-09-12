@@ -60,27 +60,31 @@
   background-color: #3380f2;
   color: white;
 }
-.viewallbuttons {
+.exclusiveviewallbuttons {
   color: #3380f2;
   font-weight: 700;
   text-decoration: underline;
   /* border: 1px solid red; */
   display: flex;
   margin: 0% 0 0 12%;
-  width: 18%;
+  width: 23%;
 }
 
+.exclusiveviewalltext{
+  margin-top: 2%;
+}
 .exclusivecardtitle {
   color: #3380f2 !important;
   font-size: 25px;
   margin-top: 1%;
 }
 
-.exclusivecard_desc {
+.exclusivecardmain_desc {
   /* border: 1px solid red; */
   width: 90%;
   color: #3380f2;
   font-size: 14px;
+  text-align: left;
 }
 
 .exclusivedealsimagetextcontainer {
@@ -144,7 +148,7 @@
 .exclusivedealdsheadingbuttons {
   /* border: 1px solid yellow !important; */
   justify-content: flex-end;
-  width: 13%;
+  width: -1%;
   margin-left: 15%;
 }
 
@@ -183,7 +187,7 @@
   color: #3380f2;
   padding: 4px 12px;
   font-weight: 500;
-  margin-bottom: 1%;
+  margin-top: 4%;
   font-size: 15px !important;
 }
 .booknowbutton:hover {
@@ -192,92 +196,7 @@
   color: white;
   font-size: 14px !important;
 }
-/* .carousel-control-prev{
-    border: 1px solid red;
 
-} */
-
-/* .main_container{
-    border: 1px solid red;
-    height: 500px;
-}
-
-.line-indicator li {
-    height: 4px;
-    width: 70px;
-    background: lightgray;
-    border-radius: 5px;
-  }
-  
-  .line-indicator li:hover {
-    background: gray;
-  }
-  
-  .line-indicator li.slick-active {
-    background: blue;
-  }
-  .buttons {
-    background: orangered !important;
-    color: white !important;
-    transition: 700ms;
-  }
-  .buttons:hover {
-    transform: scale(1.1);
-  } */
-
-/* .partners_title{
-    font-size: 35px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-top: 10%;
-  margin-bottom: 4%;
-  text-decoration: none solid rgb(154, 148, 148);
-  vertical-align: baseline;
-  letter-spacing: normal;
-  text-align: center;
-  color: #3380f2;
-}
-
-._carouseldiv1{
-   position: relative;
-}
-._imagediv{
-    height:100%;
-    width:100%;
-}
-.slick-slide > div {
-  margin: 0 10px;
-}
-.slick-list {
-  margin: 0 -10px;
-}
-._hoverdiv{
-    border:1px solid green;
-    position: absolute;
-    top:0px;
-    width:100%;
-    height:85%;
-    background-color: yellow;
-    visibility: hidden;
-}
-._carouseldiv1 > div:hover{
-    visibility: visible;
-}
-._staticdiv{
-    border:1px solid darkblue;
-    position: absolute;
-    bottom:0px;
-    width:100%;
-    height:14.3%;
-    background-color:#203e50; 
-    text-align: center;
-    box-sizing: border-box;
-    font-size: larger;
-    padding-top: 4%;
-}
-
-   */
 
 @media screen and (max-width: 950px) {
   .exclusivedealsimagetextcontainer {
@@ -289,13 +208,13 @@
     margin-left: 3%;
     margin-top: 10%;
   }
-  .card-title {
+  .exclusivecardtitle{
     font-size: 17px;
   }
   .card-text {
     font-size: 13px;
   }
-  .viewallbuttons {
+  .exclusiveviewallbuttons {
     display: none;
   }
   .exclusivedealsheading1 {
@@ -324,18 +243,22 @@
   .exclusivedealsimagetextcontainer {
     flex-direction: column;
   }
+
+  .exclusivecardmain_desc{
+    margin-top: 5% !important;
+    line-height: 17px !important;
+    font-size: 23px;
+  }
   .col-md-4 {
     width: 90%;
     height: 280px;
     margin-left: 3%;
     margin-top: 5%;
   }
-  .card-title {
-    font-size: 17px;
+  .exclusivecardtitle {
+    font-size: 22px !important;
   }
-  .card-text {
-    font-size: 13px;
-  }
+
   .viewallbuttons {
     display: inline-block;
     vertical-align: top;
@@ -371,6 +294,20 @@
   }
   .exclusivetextcard {
     margin-left: 8px;
+  }
+  .exclusivecardimage{
+    z-index: 0;
+  }
+  .exclusivetextcard{
+    z-index: 1;
+    height: 80px !important;
+  }
+  .booknowbutton{
+    margin-top: 5%;
+    width: 50%;
+  }
+  .exclusivedealsouterdiv{
+    margin-top: 5%;
   }
 }
 
@@ -419,7 +356,7 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: #3380F2;
 }
-.viewallbuttons{
+.exclusiveviewallbuttons{
   color: #3380F2;
   font-weight: 700;
   text-decoration: underline;
@@ -523,7 +460,7 @@
      .card-text{
       font-size: 13px;
      }
-     .viewallbuttons{
+     .exclusiveviewallbuttons{
       display: none;
      }
      .exclusivedealsheading1{
@@ -564,7 +501,7 @@
     .card-text{
      font-size: 13px;
     }
-   .viewallbuttons{
+   .exclusiveviewallbuttons{
       display: inline-block;
       vertical-align: top;
       margin-top: -50px;

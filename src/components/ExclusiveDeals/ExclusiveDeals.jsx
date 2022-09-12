@@ -27,8 +27,8 @@ export const ExclusiveDeals = () => {
           {/* </div> */}
         </div>
 
-        <div className="viewallbuttons" >
-          <p className="viewalltext">view all deals</p>
+        <div className="exclusiveviewallbuttons" >
+          <p className="exclusiveviewalltext">view all deals</p>
           <div className="exclusivedealdsheadingbuttons">
             <div style={{ display: "flex" }}>
 
@@ -147,7 +147,7 @@ export const ExclusiveDeals = () => {
               <div class="col-md-4 exclusivetextcard">
                 <div class="card-body exclusivecarddescmain">
                   <h3 class="card-title exclusivecardtitle">Save Flat Rs. 450 on flights</h3>
-                  <p class="card-text exclusivecard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text exclusivecardmain_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
                   <Button className="booknowbutton" variant="primary" >Book Now</Button>
                 </div>
@@ -163,7 +163,7 @@ export const ExclusiveDeals = () => {
               <div class="col-md-4 exclusivetextcard">
                 <div class="card-body exclusivecarddescmain">
                   <h3 class="card-title exclusivecardtitle">Save Flat Rs. 450 on flights</h3>
-                  <p class="card-text exclusivecard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text exclusivecardmain_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
                   <Button className="booknowbutton" variant="primary" >Book Now</Button>
                 </div>
@@ -179,7 +179,7 @@ export const ExclusiveDeals = () => {
               <div class="col-md-4 exclusivetextcard">
                 <div class="card-body exclusivecarddescmain">
                   <h3 class="card-title exclusivecardtitle">Save Flat Rs. 450 on flights</h3>
-                  <p class="card-text exclusivecard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text exclusivecardmain_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
                   <Button className="booknowbutton" variant="primary" >Book Now</Button>
                 </div>
@@ -195,7 +195,7 @@ export const ExclusiveDeals = () => {
               <div class="col-md-4 exclusivetextcard">
                 <div class="card-body exclusivecarddescmain">
                   <h3 class="card-title exclusivecardtitle">Save Flat Rs. 450 on flights</h3>
-                  <p class="card-text exclusivecard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text exclusivecardmain_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
                   <Button className="booknowbutton" variant="primary" >Book Now</Button>
                 </div>
@@ -211,7 +211,7 @@ export const ExclusiveDeals = () => {
               <div class="col-md-4 exclusivetextcard">
                 <div class="card-body exclusivecarddescmain">
                   <h3 class="card-title exclusivecardtitle">Save Flat Rs. 450 on flights</h3>
-                  <p class="card-text exclusivecard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text exclusivecardmain_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
                   <Button className="booknowbutton" variant="primary" >Book Now</Button>
                 </div>
@@ -435,7 +435,7 @@ export const ExclusiveDeals = () => {
 //           {/* </div> */}
 //         </div>
 
-//         <div className="viewallbuttons" >
+//         <div className="exclusiveviewallbuttons" >
 //           <p className="viewalltext">view all deals</p>
 //           <div className="exclusivedealdsheadingbuttons">
 //             <div style={{ display: "flex" }}>

@@ -16,7 +16,22 @@
   /* margin-left:8%; */
   padding-left: 9%;
   /* padding-bottom: 8%; */
-  width: 92% !important;
+  /* width: 92% !important; */
+}
+
+.maincoldiv{
+  /* border: 2px solid red; */
+  margin-left: -4%;
+  margin-right: 2%;
+  /* width: 35% !important; */
+}
+
+.maincoldiv:hover{
+  background-color: white;
+  width:500px;
+  transition: 0.5s ease-in-out;
+  color:#f93c0d; 
+  
 }
 .cards-container {
   /* border: 2px solid red; */
@@ -78,10 +93,15 @@
 
 .card-img {
   /* border: 2px solid red; */
+  /* width: 100%; */
   height: 440px;
   margin-left: 8%;
   /* width: 10%; */
 }
+
+/* .card-img:hover{
+  width: 120%;
+} */
 .card-img-overlay {
   /* border: 1px solid red; */
   margin-top: 18%;

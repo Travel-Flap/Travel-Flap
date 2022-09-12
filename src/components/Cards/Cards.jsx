@@ -17,7 +17,7 @@ export const DataCards = () => {
 
           <div className="card_row row row-cols-1 row-cols-md-3 g-4 align-center">
             {/* <div className='image_cards'> */}
-            <div className="col ">
+            <div className="col maincoldiv">
               <div className="card text-white border-0">
                 <img src="https://i.imgur.com/eKZd0rc.jpg" className="card-img" alt="card image" />
                 <div className="card-img-overlay image-texts">
@@ -53,7 +53,7 @@ export const DataCards = () => {
       </div>
     </div> */}
             </div>
-            <div className="col">
+            <div className="col maincoldiv">
               <div className="card  text-white border-0">
                 <img src="https://images.unsplash.com/photo-1433838552652-f9a46b332c40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" className="card-img" alt="card image" />
                 <div className="card-img-overlay">
@@ -83,7 +83,7 @@ export const DataCards = () => {
                 </div>
               </div>
             </div>
-            <div className="col">
+            <div className="col maincoldiv">
               <div className="card  text-white border-0">
                 <img src="https://images.unsplash.com/photo-1482192505345-5655af888cc4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1856&q=80" className="card-img" alt="card image" />
                 <div className="card-img-overlay">

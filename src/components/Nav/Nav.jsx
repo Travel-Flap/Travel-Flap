@@ -1,5 +1,6 @@
 // New code for the navbar
 import { useState, useEffect } from 'react';
+import { Outlet, Link } from "react-router-dom";
 import './Nav.css';
 import { BiCurrentLocation } from 'react-icons/bi';
 import { IoIosArrowDown } from 'react-icons/io';
@@ -11,7 +12,7 @@ import { RiVisaFill } from 'react-icons/ri';
 import { GiPalmTree } from 'react-icons/gi';
 import { GrBus } from 'react-icons/gr';
 import { GiCruiser } from 'react-icons/gi';
-import { FaLaptopHouse, FaPhoneAlt, FaTags } from 'react-icons/fa';
+import { FaLaptopHouse, FaPhoneAlt, FaTags,FaBars } from 'react-icons/fa';
 import { FaUserLock,FaMoneyCheck,FaPenFancy,FaCopy,FaUserCheck  } from 'react-icons/fa';
 import { CgMoreAlt } from 'react-icons/cg';
 
@@ -23,6 +24,7 @@ export const Nav = () => {
     const [shown, setShown] = useState(false);
     const [show, setshow] = useState(false);
     const [isShow, setIsShow] = useState(false);
+    const[Menu,setMenu] = useState(false);
 
     const handleClick = event => {
         setIsShown(current => !current);
@@ -39,7 +41,10 @@ export const Nav = () => {
     const handleClick4 = event => {
         setIsShow(current => !current);
     };
-    
+    const getMenu = event => {
+       setMenu(current => !current);
+    };
+
 
     function Box() {
         return (
@@ -135,6 +140,21 @@ export const Nav = () => {
         );
     }
 
+    function MenuBox() {
+        return (
+            <div className='Menuoptions'>
+                <div className='Menudropdowns'>
+                        <div className='Menudropdownsoptions'>Flights</div>
+                        <div className='Menudropdownsoptions'>Hotels</div>
+                        <div className='Menudropdownsoptions'>Holidays</div>
+                        <div className='Menudropdownsoptions'>Staycations</div>
+                        <div className='Menudropdownsoptions'>Activities</div>
+                        <div className='Menudropdownsoptions'>Car Rentals</div>
+                        <div className='Menudropdownsoptions'>Cruises</div>
+                </div>
+            </div>
+        );
+    }
 
 
     useEffect(() => {
@@ -153,6 +173,13 @@ export const Nav = () => {
     }, [])
 
     return (
+        <>
+        <div className='travelflapmainlogo'>
+                <img style={{height:"50px",width:"150px"}} src="images/travelFlapLogo.jpg" alt="travelflap logo" />
+                <FaBars style={{width:"30px",height:"30px"}} className='hamburgermenuicon' onClick={getMenu}/>
+        </div>
+        
+        {Menu && <MenuBox/>}
         <div className='navbar-container'>
             <div className={`${isScrolled ? 'navbar-fixed' : 'navbar'}`} >
                 {isScrolled ?
@@ -165,10 +192,13 @@ export const Nav = () => {
                         <div>
 
                             <div className='menu-links'>
-                                <li> <MdFlight size={"1.5em"} /> <p className='fixed-menu-link'>Flights</p> </li>
-                                <li> <FaHotel size={"1.5em"} /> <p className='fixed-menu-link'>Hotel</p> </li>
+                                <li> <MdFlight className='menuicons' size={"1.5em"} /> <p className='fixed-menu-link'>Flights</p> </li>
+                                <li> <FaHotel size={"1.5em"} />
+                                <Link to="/hotel"> <p className='fixed-menu-link'>Hotel</p> </Link> </li>
                                 <li> <FaCcVisa size={"1.5em"} /> <p className='fixed-menu-link'>Visa</p> </li>
-                                <li> <GiPalmTree size={"1.5em"} /> <p className='fixed-menu-link'>Holidays</p> </li>
+                                <li> <GiPalmTree size={"1.5em"} />
+                                <Link to='/holidays'> <p className='fixed-menu-link'>Holidays</p> </Link> </li>
+                                    
                                 <li> <FaBus size={"1.5em"} /> <p className='fixed-menu-link'>Bus</p> </li>
                                 <li> <FaShip size={"1.5em"} /> <p className='fixed-menu-link'>Cruise</p> </li>
                                 <li> <FaLaptopHouse size={"1.5em"} /> <p className='fixed-menu-link'>Villa</p> </li>
@@ -178,7 +208,8 @@ export const Nav = () => {
                         </div>
                         <div className='navbar-links-container' id='hide' >
                             {/* <div  className='nav-link'> <p>Akbar Bizz</p></div> */}
-                            <div className='nav-link'> <p>OFFERS</p></div>
+                            <div id='offerslink'> <Link to="/offers"> <p style={{color:"white",textDecoration:"none"}}>Offers</p></Link> </div>
+                            {/* <div className='nav-link'> <p>OFFERS</p></div> */}
                             <div className='nav-link' onClick={handleClick1}> <p>₹ INR <FaCaretDown /></p></div>
                             {shown && <Box1 />}
                             <div className='nav-link' onClick={handleClick}><p> INDIA <FaCaretDown /></p></div>
@@ -188,18 +219,20 @@ export const Nav = () => {
                         </div>
                     </div>
                     : <>
+
+                    
                         <div className='transparentNavbar'>
                             <div className='logo2'>
                                 <img src="images/travelFlapLogo.jpg" alt="travelflap logo" />
                             </div>
                         <div className='navbar-links-container1'>
                             {/* <div  className='nav-link'> <p>Akbar Bizz</p></div> */}
-                            <div className='nav-link' style={{fontSiz:"1px"}}> <p>Offers</p></div>
+                            <div id='offerslink'> <Link to="/offers"> <p style={{color:"white",textDecoration:"none"}}>Offers</p></Link> </div>
                             <div className='nav-link' onClick={handleClick1}> <p>₹ INR <FaCaretDown /></p></div>
                             {shown && <Box1 />}
                             <div className='nav-link' onClick={handleClick}><p> INDIA <FaCaretDown /></p></div>
                             {isShown && <Box />}
-                            <div className='login-register' onClick={handleClick4}> Login  </div>
+                            <div className='login-register' onClick={handleClick4}> Login/Register  </div>
                             {isShow && <Box4/>}
                         </div> 
                         </div> 
@@ -274,7 +307,7 @@ export const Nav = () => {
             <img src='https://wwwnc.cdc.gov/travel/images/travel-industry-air.jpg'/>
          </div> */}
         </div>
-
+        </>
     )
 }
 

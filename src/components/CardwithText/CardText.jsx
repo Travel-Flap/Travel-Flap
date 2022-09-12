@@ -3,7 +3,7 @@ import "./CardText.css";
 import { Button } from "react-bootstrap";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 import { IconContext } from "react-icons";
-import {Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export const CardText = () => {
     return (
@@ -17,12 +17,10 @@ export const CardText = () => {
                     <div className="row row-cols-1 row-cols-md-2 ">
                         <div className="col card-column">
                             <div className="card border-0">
-                                <div className="row mb-5 textcards_main">
+                                <div className="row row mb-5 textcards_main">
                                     <div className="col-md-6 image_container">
-                                    <Button className="image_button" >Grand Castle</Button>
-                                        <img src="https://i.imgur.com/8IRk2Wo.jpg" className="img-fluid rounded-start card_image" alt="card"> 
-                                        </img>
-                                        
+                                        <Button className="image_button" >Grand Castle</Button>
+                                        <img src="https://i.imgur.com/8IRk2Wo.jpg" className="img-fluid rounded-start card_image" alt="card" />
                                     </div>
                                     <div className="col-md-6">
                                         <div className="card-body cards_body ">
@@ -37,25 +35,26 @@ export const CardText = () => {
                                                 </IconContext.Provider>
                                             </div>
                                             {/* <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
-                                            <p className="card-text"><small className="text-muted">Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.</small></p>
+                                            <p className="card-text"><small className="text-muted cards_desc">Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.</small></p>
                                             <div className="card-text card-images">
                                                 <img src="https://preview.colorlib.com/theme/travelix/images/compass.png.webp" alt="minicard images" />
                                                 <img src="https://preview.colorlib.com/theme/travelix/images/compass.png.webp" alt="minicard images" />
                                                 <img src="https://preview.colorlib.com/theme/travelix/images/bicycle.png.webp" alt="minicard images" />
                                                 <img src="https://preview.colorlib.com/theme/travelix/images/sailboat.png.webp" alt="minicard images" />
                                             </div>
-                                            <p className="button"><a className="card_button" href="/src/components/OffersPage/OfferPage.jsx">Read More...</a></p>
+                                            <p className="button"><a className="card_button" href="#">Read More...</a></p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
+                        {/* row mb-5 textcards_main */}
                         <div className="col border-0 card-column">
                             <div className="card border-0">
-                                <div className="row mb-5 textcards_main">
+                                <div className="row  textcards_main">
                                     <div className="col-md-6 image_container">
-                                    <Button className="image_button" >Turkey Hills</Button>
+                                        <Button className="image_button" >Turkey Hills</Button>
                                         <img src="https://i.imgur.com/8IRk2Wo.jpg" className="img-fluid rounded-start card_image" alt="card" />
                                     </div>
                                     <div className="col-md-6">
@@ -110,9 +109,9 @@ export const CardText = () => {
 
                         <div className="col card-column">
                             <div className="card border-0">
-                                <div className="row ">
+                                <div className="row textcards_main">
                                     <div className="col-md-6 image_container">
-                                    <Button className="image_button" >Island Dream</Button>
+                                        <Button className="image_button" >Island Dream</Button>
                                         <img src="https://i.imgur.com/8IRk2Wo.jpg" className="img-fluid rounded-start card_image" alt="card" />
                                     </div>
                                     <div className="col-md-6">
@@ -143,9 +142,9 @@ export const CardText = () => {
 
                         <div className="col card-column">
                             <div className="card border-0">
-                                <div className="row ">
+                                <div className="row textcards_main">
                                     <div className="col-md-6 image_container">
-                                    <Button className="image_button" >Travel Light</Button>
+                                        <Button className="image_button" >Travel Light</Button>
                                         <img src="https://i.imgur.com/8IRk2Wo.jpg" className="img-fluid rounded-start card_image" alt="card" />
                                     </div>
                                     <div className="col-md-6">

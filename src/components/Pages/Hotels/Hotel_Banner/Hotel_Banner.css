@@ -1,0 +1,101 @@
+.container_banner{
+    border: 1px solid red;
+    height: 500px;
+    background-image: url("https://content.skyscnr.com/m/5283dbe4ac4c9189/original/alexander-kaunas-xEaAoizNFV8-unsplash_CROP.jpg?resize=2880px:1148px&quality=80");
+    background-size:cover;
+    /* margin: auto; */
+    
+}
+.container_banner>div>p{
+    margin-top: 120px;
+    font-size: 50px;
+    color:blue;
+    width: 70%;
+    font-weight: 500;
+}
+.banner_title{
+    /* border: 2px solid green; */
+    width: 70%;
+    font-size: 50px;
+    margin: auto;
+}
+
+.banner_input{
+    /* border: 2px solid blue; */
+    color:white;
+    background-color: blue;
+    height: 200px;
+    width: 70%;
+    border-radius: 15px;
+    margin: auto;
+}
+.want_stay{
+    /* border: 2px solid gold; */
+    padding: 1%;
+    margin-top: 10px;
+    display: flex;
+    font-weight: 500;
+    justify-content: space-between;
+    width: 90%;
+}
+.search_hotel{
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+}
+.search_hotel>input{
+    height: 100%;
+    border: none;
+    width: 25;
+    border: 2px solid gray;
+
+}
+
+.hotel_search_destination{
+    /* border: 2px solid black; */
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 95%;
+    border-radius: 5px;
+    color: black;
+    /* border: 2px solid red; */
+}
+
+.hotel_search_destination>div{
+    padding: 1%;
+}
+.hotel_search_destination>div>input{
+    font-weight: 600;
+    color: blue;
+    border: none;
+    
+}
+.checkfilter{
+/* border: 2px solid rebeccapurple; */
+display: flex;
+width:50%;
+justify-content: space-between;
+
+}
+.popularfilter{
+    /* border: 2px solid gainsboro; */
+    display: flex;
+    justify-content:space-between;
+    width: 89%;
+    margin:  30px auto;
+}
+.search_hotel_button{
+height: 35px;
+border-radius: 5px;
+width: 150%;
+font-weight: bold;
+border: none;
+color: blue;
+}
+.adult_select{
+    border: none;
+    color: blue;
+    font-weight: 600;
+}

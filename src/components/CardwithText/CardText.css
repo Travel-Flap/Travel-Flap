@@ -45,6 +45,17 @@
   object-fit: cover;
 }
 
+.textcards_main{
+  /* border: 1px solid red;  */
+  box-shadow: 14px 10px 25px lightgrey;
+}
+
+.textcards_main:hover {
+  transition: all 45ms linear;
+  padding: 5px;
+  box-shadow: 5px 10px 25px  #3380f2;
+}
+
 .image_container {
   /* border: 1px solid red; */
   position: relative;
@@ -64,8 +75,12 @@
   text-transform: uppercase;
   font-weight: 700;
   /* border: 2px solid red; */
-  width: 265px;
+  width: 90%;
 }
+
+/* .image_button:hover{
+  width: 94%;
+} */
 
 .col-md-6 {
   /* border: 2px solid red; */
@@ -95,13 +110,15 @@
   font-weight: 400;
   vertical-align: baseline;
   line-height: 33px;
+  text-align: left;
 }
 
 .cards_body > .button {
   /* border: 1px solid blue; */
   /* padding: auto; */
   text-decoration: none;
-  margin-top: 30%;
+  margin-top: 13%;
+  text-align: left;
 }
 
 .cards_body > .button a {

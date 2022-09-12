@@ -156,9 +156,11 @@ h4 img {
 }
 
 .footerContect p {
+  /* border: 1px solid red; */
   text-decoration: none;
   color: white;
-  font-size: 15px;
+  font-size: 14px;
+  text-align: left;
   margin: 0;
 }
 
