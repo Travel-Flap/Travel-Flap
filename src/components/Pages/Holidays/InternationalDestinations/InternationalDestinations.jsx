@@ -28,7 +28,7 @@ export const InternationalDestinations = () => {
                 </div>
 
                 <div className="viewallinternationalbuttons" >
-                    <p className="viewallinternationaltext">view all deals</p>
+                    <p className="viewallinternationaltext">view deals</p>
                     <div className="internationalheadingbuttons">
                         <div style={{ display: "flex" }}>
 
@@ -146,8 +146,8 @@ export const InternationalDestinations = () => {
                             <div class="col-md-4 domestictextcard">
                                 <div class="card-body domesticcarddescmain">
                                     <h3 class="card-title domesticcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                    <p class="card-text domesticcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <Button className="domesticbutton" variant="primary" >Book Now</Button>
+                                    <p class="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <Button className="internationalbutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>
@@ -161,8 +161,8 @@ export const InternationalDestinations = () => {
                             <div class="col-md-4 experimenttextcard">
                                 <div class="card-body domesticcarddescmain">
                                     <h3 class="card-title domesticcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                    <p class="card-text domesticcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <Button className="domesticbutton" variant="primary" >Book Now</Button>
+                                    <p class="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <Button className="internationalbutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>
@@ -176,8 +176,8 @@ export const InternationalDestinations = () => {
                             <div class="col-md-4 experimenttextcard">
                                 <div class="card-body domesticcarddescmain">
                                     <h3 class="card-title domesticcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                    <p class="card-text domesticcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <Button className="domesticbutton" variant="primary" >Book Now</Button>
+                                    <p class="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <Button className="internationalbutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>
@@ -191,8 +191,8 @@ export const InternationalDestinations = () => {
                             <div class="col-md-4 experimenttextcard">
                                 <div class="card-body domesticcarddescmain">
                                     <h3 class="card-title domesticcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                    <p class="card-text domesticcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <Button className="domesticbutton" variant="primary" >Book Now</Button>
+                                    <p class="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <Button className="internationalbutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>
@@ -206,8 +206,8 @@ export const InternationalDestinations = () => {
                             <div class="col-md-4 experimenttextcard">
                                 <div class="card-body domesticcarddescmain">
                                     <h3 class="card-title domesticcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                    <p class="card-text domesticcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <Button className="domesticbutton" variant="primary" >Book Now</Button>
+                                    <p class="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <Button className="internationalbutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>
@@ -221,8 +221,8 @@ export const InternationalDestinations = () => {
                             <div class="col-md-4 experimenttextcard">
                                 <div class="card-body domesticcarddescmain">
                                     <h3 class="card-title domesticcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                    <p class="card-text domesticcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <Button className="domesticbutton" variant="primary" >Book Now</Button>
+                                    <p class="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <Button className="internationalbutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>
@@ -236,8 +236,8 @@ export const InternationalDestinations = () => {
                             <div class="col-md-4 experimenttextcard">
                                 <div class="card-body domesticcarddescmain">
                                     <h3 class="card-title domesticcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                    <p class="card-text domesticcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <Button className="domesticbutton" variant="primary" >Book Now</Button>
+                                    <p class="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <Button className="internationalbutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>

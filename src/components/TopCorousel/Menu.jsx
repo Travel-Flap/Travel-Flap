@@ -7,64 +7,76 @@ import { FaBus } from 'react-icons/fa';
 import { GiCruiser } from 'react-icons/gi';
 import { BsFillMoonFill } from 'react-icons/bs';
 import { CgMoreAlt } from 'react-icons/cg';
-import './Form.css';
-
+import './CarouselForm.css';
+import {Link} from 'react-router-dom';
+import { NavLink } from "react-router-dom";
 export const Menu = () => {
     const [selected, setSelected] = useState(0);
 
     const handleClick = (id) => () => {
         setSelected(id);
     };
-    const items = [
+    const links = [
         {
             id: 0,
             name: 'Flight',
-            icon: <MdFlight/>,
+            icon: <MdFlight size={"1.5em"}/>,
+            link:"/flight",
+            
         },
         {
             id: 1,
             name: 'Hotel',
-            icon: <FaHotel />
+            icon: <FaHotel size={"1.5em"} />,
+            link: "/hotel",
         },
         {
             id: 2,
             name: 'Visa',
-            icon: <RiVisaFill />
+            icon: <RiVisaFill size={"1.5em"}/>,
+            link:"/visa",
         },
         {
             id: 3,
             name: 'Holidays',
-            icon: <GiPalmTree />
+            icon: <GiPalmTree size={"1.5em"}/>,
+            link:"/holidays",
         },
         {
             id: 4,
             name: 'Bus',
-            icon: <FaBus />
+            icon: <FaBus size={"1.5em"}/>,
+            link:"/bus",
         },
         {
             id: 5,
             name: 'Cruise',
-            icon: <GiCruiser />
+            icon: <GiCruiser size={"1.5em"}/>,
+            link:"/cruise",
         },
        
         {
             id: 7,
             name: 'More',
-            icon: <CgMoreAlt />
+            icon: <CgMoreAlt size={"1.5em"}/>,
+            link:"/more",
         },
 
     ];
 
     return (
-        <div className='menu'>
-            {items.map((item) => (
-                 <div key={item.id} to={item.link} className={selected == item.id ? 'menu-icon-active' : 'menu-icon'} onClick={handleClick(item.id)}>
-                     {item.icon}
-                     <span className='iconname'>{item.name}</span>
-                 </div>
-            ))}
-        </div>
+
+        <div className='carouselmenu'>
+         {links.map((item) => {
+           return <NavLink key={item.id} to={item.link} className={selected == item.id ? 'carouselmenu-icon-active ' : 'carouselmenu-icon'} onClick={handleClick(item.id)}>
+           {item.icon}
+           <span id='iconnames'>{item.name}</span>
+       
+           </NavLink>
+         })}
+        
+       </div>
+       
     )
 }
 
-// export default Menu;

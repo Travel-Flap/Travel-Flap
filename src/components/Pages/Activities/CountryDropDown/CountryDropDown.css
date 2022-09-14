@@ -1,0 +1,21 @@
+.dropcontainer{
+    border: 1px solid red;
+    display: flex;
+    /* border: 2px solid black; */
+    background-color: #3380f2
+}
+
+.innerdropdowncontainer{
+    /* border: 1px solid red; */
+    display: flex;
+    ;
+    width: 70%;
+    margin-left: 14%;
+}
+
+.singledropcontainer{
+    /* border: 1px solid red; */
+    /* width: 80%; */
+    margin-left: 5%;
+    border: none;
+}

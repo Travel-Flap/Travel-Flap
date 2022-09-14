@@ -1,8 +1,9 @@
 import React from 'react';
 import { Nav } from "../../Nav/Nav";
+import { ExclusiveDeals } from "../../ExclusiveDeals/ExclusiveDeals"
 import { Choose_Travelflap } from './Choose Travelflap/Choose_Travelflap';
-import { Popular_Destination_In } from './Popular_destination_india/Popular_Dest_In';
-import { Downloadapp } from './Download_App/Downloadapp';
+import { PopularDestinations } from '../../PopularDestinations/PopularDestinations';
+import { Newsletter } from '../../NewsLetter/NewsLetter';
 import { Favourite_Hotels } from './Favourite_hotels/Favourite_hotels';
 import { Hotel_Banner } from './Hotel_Banner/Hotel_Banner';
 import { Free_Hotel_Lunch } from './Hotel_Free_Lunch/Free_Lunch_Hotel';
@@ -14,11 +15,15 @@ export const Hotel = () => {
         <div>
             <Nav/>
             <Hotel_Banner />
-            <Free_Hotel_Lunch />
             <Choose_Travelflap />
-            <Popular_Destination_In />
+            <div className='container mt-5 carousel'>
+               
+            <ExclusiveDeals/>
+            </div>
+            <PopularDestinations/>
             <Favourite_Hotels />
-            <Downloadapp />
+            <Free_Hotel_Lunch />
+            <Newsletter />
             <FooterLinks/>
             <Footer/>
         </div>

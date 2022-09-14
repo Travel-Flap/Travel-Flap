@@ -1,3 +1,11 @@
+.footerparentcontainer {
+  display: flex;
+}
+
+/* .mapimagediv{
+  border: 1px solid red;
+  width: 35%;
+} */
 .footer {
   width: 100%;
   background: #3380f2;
@@ -5,23 +13,78 @@
   justify-content: center;
   column-gap: 1%;
   box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 
-.footerSection {
-  width: 18%;
-  padding: 21px;
+.footercontainer {
+  /* border: 2px solid red; */
+  /* background: #3380f2; */
+  display: flex;
+}
+
+.footerSectionMapcontainer {
+  width: 111%;
+  height: 480px;
+  /* padding: 21px; */
   display: flex;
   flex-direction: column;
+  background: #3380f2;
+  /* border: 2px solid blue; */
   row-gap: 16px;
   color: white;
 }
-.footerSection h4 {
+
+.footerSectionMapcontainer h2 {
+  margin-left: 15%;
+  margin-top: 7%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* .footerSectionMapdiv img{
+  width: 100%;
+  object-fit: contain;
+} */
+
+.footerSectionbottom {
+  width: 30%;
+  padding: 21px;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid blue; */
+  row-gap: 16px;
+  color: white;
+}
+
+.footerSectionbottom h4 {
   margin-bottom: 5%;
   text-align: left;
   font-size: 28px;
 }
 
-.footerSection .footerLogo {
+.footerSectionMapdiv {
+  width: 18%;
+  padding: 21px;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid blue; */
+  row-gap: 16px;
+  color: white;
+}
+.footerSectionMapdiv .footerMap {
+  border: 1px solid red;
+  margin-left: -60%;
+  height: 285px;
+  margin-top: 22%;
+}
+.footerMap img {
+  border: 1px solid blue;
+  width: 100%;
+}
+
+.footerSectionbottom .footerLogo {
   font-size: 24px;
   margin-top: 18%;
   line-height: 45px;
@@ -32,6 +95,11 @@
 .footerLogo img {
   width: 70%;
   margin: 0px 0px;
+}
+ 
+.footerSectionbottom .footerlogodesc{
+  /* border: 1px solid red !important; */
+  font-size: 13px;
 }
 .footer-heading {
   font-size: 15px;
@@ -49,6 +117,7 @@ h4 img {
 .footersocialmedia {
   display: flex;
   width: 86%;
+  margin-top: 24% !important;
   justify-content: center;
   column-gap: 16px;
 }
@@ -59,17 +128,14 @@ h4 img {
   margin: 20px 0;
   background-color: white;
   border-radius: 20px;
-  
 }
 .socialIcons {
- 
   color: #dee2e6;
   font-size: 28px;
-  
+
   padding: 3%;
 }
 .socialIcons:hover {
-
   color: rgb(2, 2, 86);
 }
 
@@ -106,7 +172,7 @@ h4 img {
 }
 .blogText p {
   margin: 0;
-  font-size: 15px;
+  font-size: 13px;
   color: white;
 }
 .blogText p:nth-child(1) {
@@ -135,7 +201,6 @@ h4 img {
   color: white;
 }
 .tags button:hover {
-  
   background-color: rgba(255, 255, 255, 0.877);
   color: blue;
 }
@@ -159,13 +224,13 @@ h4 img {
   /* border: 1px solid red; */
   text-decoration: none;
   color: white;
-  font-size: 14px;
+  font-size: 13px;
   text-align: left;
   margin: 0;
 }
 
 #contactdetails {
-  width: 25%;
+  width: 35%;
 }
 
 .footerContect {
@@ -176,7 +241,6 @@ h4 img {
   margin: 0;
 }
 .footerContect p:hover {
-
   color: rgb(2, 2, 86);
 }
 .footerContect img {
@@ -186,7 +250,6 @@ h4 img {
 }
 
 .contecticonsdiv {
-
   height: 40px;
 }
 
@@ -201,7 +264,6 @@ h4 img {
 
 .contecticonsglobe {
   font-size: 23px;
-  
 }
 
 .contecticonsmail {
@@ -212,7 +274,7 @@ h4 img {
   .footer {
     flex-direction: column;
   }
-  .footerSection {
+  .footerSectionbottom {
     width: 100%;
   }
 
@@ -225,7 +287,7 @@ h4 img {
   .footer {
     flex-direction: column;
   }
-  .footerSection {
+  .footerSectionbottom {
     width: 100%;
   }
 }

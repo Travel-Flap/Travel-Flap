@@ -4,26 +4,26 @@ export function Favourite_Hotels(){
 
     return( 
         <>
-        <h1 className="Favouite_hotels">Favourite hotels around the globe</h1>
+        <h5 className="Favouite_hotels">Favourite hotels around the globe</h5>
         <div className="main_nexttrip_div">
           <div className="all_trip_card_div">
               <div className=" trip_card_div">
                   <div className="reviwe">
                   <th>Exeptional
                           <br />
-                          <span style={{fontSize:"12px"}}>1872 reviews</span>
+                          <span style={{fontSize:"10px"}}>1872 reviews</span>
                       </th>
-                      <BsFillChatLeftFill style={{color:"cornflowerblue"}} fontSize={"40px"}/><span className="reviwe_rating_num">9.0</span>
+                      <BsFillChatLeftFill style={{color:"#3380F2"}} fontSize={"40px"}/><span className="reviwe_rating_num">9.0</span>
                   </div>
                   <img src="https://www.kayak.co.in/rimg/kimg/fd/91/0b066e48084831ec.jpg?xhint=486&yhint=300" alt="" />
                   <div className="card_title">Beach Club By Haad Tien
                    <br />
                    <span className="title_rating">
-                       <BsFillStarFill/>
-                       <BsFillStarFill/>
-                       <BsFillStarFill/>
-                       <BsFillStarFill/>
-                       <BsFillStarFill/>
+                       <BsFillStarFill className="staricon"/>
+                       <BsFillStarFill className="staricon"/>
+                       <BsFillStarFill className="staricon"/>
+                       <BsFillStarFill className="staricon"/>
+                       <BsFillStarFill className="staricon"/>
                    </span>
                    </div>
                   <div className="discount_price">
@@ -36,19 +36,19 @@ export function Favourite_Hotels(){
                   <div className="reviwe">
                   <th>Excellent
                           <br />
-                          <span style={{fontSize:"12px"}}>198 reviews</span>
+                          <span style={{fontSize:"10px"}}>198 reviews</span>
                       </th>
-                      <BsFillChatLeftFill style={{color:"cornflowerblue"}} fontSize={"40px"}/><span className="reviwe_rating_num">8.0</span>
+                      <BsFillChatLeftFill style={{color:"#3380F2"}} fontSize={"40px"}/><span className="reviwe_rating_num">8.0</span>
                   </div>
                   <img src="https://www.kayak.co.in/rimg/himg/a1/bb/9f/expediav2-681434-414e81-091812.jpg?xhint=500&yhint=385" alt="" />
                   <div className="card_title">Novotel Phuket City Phokeethra(SHA Extra Plus) Phuket Town
                    <br />
                    <span className="title_rating">
-                       <BsFillStarFill/>
-                       <BsFillStarFill/>
-                       <BsFillStarFill/>
-                       <BsFillStarFill/>
-                       <BsFillStarFill/>
+                       <BsFillStarFill className="staricon"/>
+                       <BsFillStarFill className="staricon"/>
+                       <BsFillStarFill className="staricon"/>
+                       <BsFillStarFill className="staricon"/>
+                       <BsFillStarFill className="staricon"/>
                    </span>
                    </div>
                   <div className="discount_price">
@@ -61,19 +61,19 @@ export function Favourite_Hotels(){
                   <div className="reviwe">
                   <th>Excellent
                           <br />
-                          <span style={{fontSize:"12px"}}>1573 reviews</span>
+                          <span style={{fontSize:"10px"}}>1573 reviews</span>
                       </th>
-                      <BsFillChatLeftFill style={{color:"cornflowerblue"}} fontSize={"40px"}/><span className="reviwe_rating_num">8.5</span>
+                      <BsFillChatLeftFill style={{color:"#3380F2"}} fontSize={"40px"}/><span className="reviwe_rating_num">8.5</span>
                   </div>
                   <img src="https://www.kayak.co.in/rimg/himg/54/c0/56/leonardo-2104836-20_Premium_Panorama_Room_O-373903.jpg?xhint=1620&yhint=1000" alt="" />
                   <div className="card_title"> Pullman Phuket Panwa Beach Resorts(SHA Plus+)Panwa Cape
                    <br />
                    <span className="title_rating">
-                       <BsFillStarFill/>
-                       <BsFillStarFill/>
-                       <BsFillStarFill/>
-                       <BsFillStarFill/>
-                       <BsFillStarFill/>
+                       <BsFillStarFill className="staricon"/>
+                       <BsFillStarFill className="staricon"/>
+                       <BsFillStarFill className="staricon"/>
+                       <BsFillStarFill className="staricon"/>
+                       <BsFillStarFill className="staricon"/>
                    </span>
                    </div>
                   <div className="discount_price">
@@ -86,19 +86,19 @@ export function Favourite_Hotels(){
                   <div className="reviwe">
                   <th>Excellent
                           <br />
-                          <span style={{fontSize:"12px"}}>1411 reviews</span>
+                          <span style={{fontSize:"10px"}}>1411 reviews</span>
                       </th>
-                      <BsFillChatLeftFill style={{color:"cornflowerblue"}} fontSize={"40px"}/><span className="reviwe_rating_num">8.9</span>
+                      <BsFillChatLeftFill style={{color:"#3380F2"}} fontSize={"40px"}/><span className="reviwe_rating_num">8.9</span>
                   </div>
                   <img src="https://pix8.agoda.net/hotelImages/89341/-1/ee2dde7b03f89e48a4f88eef95ef194d.jpg?ca=9&ce=1" alt="" />
                   <div className="card_title">Pullman Phuket Arcadia Naithon Beach Resort(SHA Plus+) Naithon
                    <br />
                    <span className="title_rating">
-                       <BsFillStarFill/>
-                       <BsFillStarFill/>
-                       <BsFillStarFill/>
-                       <BsFillStarFill/>
-                       <BsFillStarFill/>
+                       <BsFillStarFill className="staricon"/>
+                       <BsFillStarFill className="staricon"/>
+                       <BsFillStarFill className="staricon"/>
+                       <BsFillStarFill className="staricon"/>
+                       <BsFillStarFill className="staricon"/>
                    </span>
                    </div>
                   <div className="discount_price">
@@ -111,20 +111,20 @@ export function Favourite_Hotels(){
                   <div className="reviwe">
                       <th>Exeptional
                           <br />
-                          <span style={{fontSize:"12px"}}>531 reviews</span>
+                          <span style={{fontSize:"10px"}}>531 reviews</span>
                       </th>
-                      <BsFillChatLeftFill style={{color:"cornflowerblue"}} fontSize={"40px"}/><span className="reviwe_rating_num">9.1</span>
+                      <BsFillChatLeftFill style={{color:"#3380F2"}} fontSize={"40px"}/><span className="reviwe_rating_num">9.1</span>
                   </div>
                   <img src="https://www.kayak.co.in/rimg/kimg/7e/b6/431c1748-6065ec08-0.jpeg?xhint=810&yhint=500" alt="" />
                   <div className="card_title">Anantara Layan Phuket Resort (SHA Extra Plus)
                   Layan
                    <br />
                    <span className="title_rating">
-                       <BsFillStarFill/>
-                       <BsFillStarFill/>
-                       <BsFillStarFill/>
-                       <BsFillStarFill/>
-                       <BsFillStarFill/>
+                       <BsFillStarFill className="staricon"/>
+                       <BsFillStarFill className="staricon"/>
+                       <BsFillStarFill className="staricon"/>
+                       <BsFillStarFill className="staricon"/>
+                       <BsFillStarFill className="staricon"/>
                    </span>
                    </div>
                   <div className="discount_price">

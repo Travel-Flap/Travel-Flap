@@ -36,9 +36,10 @@
 
 .topcitiesdiv {
   /* border: 1px solid red !important; */
-  width: 105%;
+  width: 100%;
   border: none;
-  border-radius: 16px;
+  /* border-bottom-left-radius: 50%; */
+
   overflow: hidden;
   cursor: pointer;
   position: relative;
@@ -53,14 +54,20 @@
   background-color: #000;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+ /* border-bottom-left-radius: 50%; */
 }
 
 .topcitiescardimage img {
   width: 100%;
   height: 100%;
+  /* border-radius: 50%; */
   -o-object-fit: cover;
   object-fit: cover;
 }
+
+/* .topcitiesdiv img{
+  border-bottom-left-radius: 25%;
+} */
 
 .topcitiesdiv:hover img {
   -webkit-transition: 0.5s;

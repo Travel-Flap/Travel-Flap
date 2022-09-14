@@ -5,7 +5,6 @@
     align-items: center;
     width: 80%;
     margin: auto;
-    margin-bottom: 100px;
 }
 .all_trip_card_div{
    /* border: 2px solid red; */
@@ -39,6 +38,7 @@
     width: 150px;
     height: 50px;
     /* border: 1px solid red; */
+    font-size: 12px;
     display: flex;
     /* color: rgb(244, 244, 249); */
     justify-content: space-around;
@@ -59,10 +59,13 @@
     /* border: 1px solid red; */
     width: 90%;
     height: 80px;
-  
+    font-size: 13px;
 }
 .title_rating{
-    color: rgb(0, 68, 255);
+    color: #3380F2;
+}
+.staricon{
+    margin-left: 2%;
 }
 .discount_price{
     width: 90%;
@@ -79,21 +82,24 @@
     margin-top: -6px;
 }
 .discount_percent{
-     border: 2px solid blue;
+     border: 2px solid #3380F2;
      border-radius:5px ;
-     color: blue;
-   
+     color: #3380F2;
+     font-size: 12px;
     padding-left: 5px;
     padding-right: 5px;
 }
 .Price_before_discount{
     text-decoration: line-through;
+    font-size: 13px;
 }
 .Price_after_discount{
-   color: rgb(202, 36, 36);
+   color: #3380F2;
    font-weight: bold;
+   font-size: 13px;
 }
 .Favouite_hotels{
-    color: blue;
-    margin-left: 150px;
+    color: #3380F2;
+    margin-left:10%;
+    font-weight: 700;
 }

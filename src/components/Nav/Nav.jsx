@@ -210,12 +210,81 @@ export const Nav = () => {
                             {/* <div  className='nav-link'> <p>Akbar Bizz</p></div> */}
                             <div id='offerslink'> <Link to="/offers"> <p style={{color:"white",textDecoration:"none"}}>Offers</p></Link> </div>
                             {/* <div className='nav-link'> <p>OFFERS</p></div> */}
-                            <div className='nav-link' onClick={handleClick1}> <p>₹ INR <FaCaretDown /></p></div>
-                            {shown && <Box1 />}
-                            <div className='nav-link' onClick={handleClick}><p> INDIA <FaCaretDown /></p></div>
-                            {isShown && <Box />}
-                            <div className='login-register' onClick={handleClick4}> Login / Register <FaCaretDown /></div>
-                            {isShow && <Box4/>}
+                            <div className='nav-link'> <p>₹ INR <FaCaretDown /></p>
+                            <div className='chooseCountry'>
+                                       <div className='countrynames'>
+                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
+                                       </div>
+                                       <div className='countrynames'>
+                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
+                                       </div>
+                                       <div className='countrynames'>
+                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
+                                       </div>
+                                       <div className='countrynames'>
+                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
+                                       </div>
+                                       <div className='countrynames'>
+                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
+                                       </div>
+                            </div>
+                            </div>
+                            
+                            <div className='nav-link'><p> INDIA <FaCaretDown /></p>
+                            <div className='chooseCountry'>
+                                       <div className='countrynames'>
+                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
+                                       </div>
+                                       <div className='countrynames'>
+                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
+                                       </div>
+                                       <div className='countrynames'>
+                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
+                                       </div>
+                                       <div className='countrynames'>
+                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
+                                       </div>
+                                       <div className='countrynames'>
+                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
+                                       </div>
+                {/* <div className='partLeft'>
+                    <ul>
+                        <li>INDIA <img src="images/Flags/India.jpg" className='flags' /> </li>
+                        <li>UAE <img src="images/Flags/UAE.png" className='flags' /> </li>
+                        <li>UK <img src="images/Flags/Uk.webp" className='flags' /></li>
+                        <li>QAT <img src="images/Flags/QAT.webp" className='flags' /></li>
+                    </ul>
+                </div>
+                <div className='partRight'>
+                    <ul>
+                        <li>USA <img src="images/Flags/USA.webp" className='flags' /></li>
+                        <li>KWT <img src="images/Flags/KWT.svg" className='flags' /></li>
+                        <li>KSA <img src="images/Flags/KSA.png" className='flags' /></li>
+                    </ul>
+                </div> */}
+            </div>
+                            </div>
+                            
+                            <div className='login-register'> Login / Register <FaCaretDown />
+                                  <div className='LoginRegisterDropDown'>
+                                       <div className='LoginRegisterOptions'>
+                                           <FaUserLock className='LoginIcon' /> Login
+                                       </div>
+                                       <div className='LoginRegisterOptions '>
+                                           <FaUserCheck className='RegisterIcon' /> Register
+                                       </div>
+                                       <div className='LoginRegisterOptions'>
+                                           <FaPenFancy className='BlogsIcon' /> Blogs
+                                       </div>
+                                       <div className='LoginRegisterOptions'>
+                                            <FaMoneyCheck className='PaymentIcon' /> Make Payments
+                                       </div>
+                                       <div className='LoginRegisterOptions'>
+                                            <FaCopy className='BookingIcon' /> My Bookings
+                                       </div>
+                                   </div>
+                            </div>
+
                         </div>
                     </div>
                     : <>
@@ -232,8 +301,25 @@ export const Nav = () => {
                             {shown && <Box1 />}
                             <div className='nav-link' onClick={handleClick}><p> INDIA <FaCaretDown /></p></div>
                             {isShown && <Box />}
-                            <div className='login-register' onClick={handleClick4}> Login/Register  </div>
-                            {isShow && <Box4/>}
+                            <div className='login-register'> Login/Register  
+                                 <div className='LoginRegisterDropDown'>
+                                     <div className='LoginRegisterOptions1'>
+                                         <FaUserLock className='LoginIcon' /> Login
+                                     </div>
+                                     <div className='LoginRegisterOptions '>
+                                         <FaUserCheck className='RegisterIcon' /> Register
+                                     </div>
+                                     <div className='LoginRegisterOptions'>
+                                         <FaPenFancy className='BlogsIcon' /> Blogs
+                                     </div>
+                                     <div className='LoginRegisterOptions'>
+                                         <FaMoneyCheck className='PaymentIcon' /> Make Payments
+                                     </div>
+                                     <div className='LoginRegisterOptions'>
+                                         <FaCopy className='BookingIcon' /> My Bookings
+                                     </div>
+                                </div>
+                             </div>
                         </div> 
                         </div> 
                         </>

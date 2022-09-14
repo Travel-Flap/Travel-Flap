@@ -38,6 +38,9 @@
   width: 45%;
 }
 
+.innerdiv2 p{
+  text-align: left;
+}
 .innerdiv2 h3 {
   font-size: 25px;
   margin-top: 4%;

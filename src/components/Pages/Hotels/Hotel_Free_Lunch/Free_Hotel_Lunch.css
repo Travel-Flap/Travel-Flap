@@ -1,15 +1,16 @@
 .parrent_recom_div{
     /* border: 2px solid red; */
-    margin-left: 120px;
+    margin: auto;
     display: flex;
+    text-align: left;
     flex-direction: column;
     align-items: center;
     width: 80%;
-    margin-top: 100px;
+    margin-top: 5%;
 }
-.parrent_recom_div>h1{
-    color: blue;
-    margin: 0%;
+.parrent_recom_div>h5{
+    color: #3380F2;
+    font-weight: 700;
 }
 .option_select_div{
     padding-bottom: 10px;
@@ -33,19 +34,18 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 50px;
+    margin-top: 1%;
     row-gap: 10px;
 }
 .Image_card{
-    
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 250px;
     height: 300px;
-    border-radius:  0px 20px 0px;
+    border-radius:  20px 20px 0px 0px;
 
-    /* border: 2px solid royalblue; */
+    /* border: 2px solid royal#3380F2; */
     /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
     /* border: 2px solid rgb(4, 0, 255); */
     
@@ -55,19 +55,23 @@
     transition: 0.3s ease-in-out;
     transform: scale(1.02);
     border-radius: 20px;
-    /* border: 2px solid blue; */
+    /* border: 2px solid #3380F2; */
     border-radius:  0px 20px 10px;
 
 }
 .Image_card>img{
     width: 100%;
-    border-radius:  0px 20px 0px;
+    border-radius:  20px 20px 0px 0px;
 
+}
+.Image_card p{
+    color: #3380F2;
+    font-size: 14px;
 }
 .rating_chat{
     width: 60px;
     height: 40px;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     margin-top: 10px;
     margin-left: 180px;
     margin-bottom: -50px;
@@ -81,10 +85,9 @@
     
 }
 .Image_card>th{
-    color: brown;
-    margin-left: 0px;
-    padding-left: 0px;
-
+    color: #3380F2;
+    margin-top: -5%;
+    margin-left: 2%;
 }
 
 .rating_num{
@@ -96,13 +99,20 @@
     transform: rotate(180deg);
 }
 .rating_start{
-    color: orangered;
+    color: #3380F2;
+    margin-top: -5%;
+    width: 100%;
+}
+.staricon{
+    margin-left: 2%;
 }
 .place_name{
-    color:  cornflowerblue;
+    color:#3380F2;
+    font-size: 13px;
+    margin-left: 1%;
 }
 .Free_Lunch{
-    color: blue;
+    color: #3380F2;
     font-size: 20px;
     font-weight: bold;
 }

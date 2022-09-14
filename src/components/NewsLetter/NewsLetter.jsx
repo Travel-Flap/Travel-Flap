@@ -24,7 +24,7 @@ export const Newsletter = () => {
       <div className='downloadLinks'>
           <div className='section2'>
             <div className='downloadText'>
-             <h2>Download <br/> Our Mobile App</h2>
+             <h2>Download  Our Mobile App</h2>
             </div>
             <div className='downloadButtons'>
                <div className='googleButtons'>

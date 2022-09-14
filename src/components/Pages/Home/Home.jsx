@@ -4,6 +4,7 @@ import { DataCards } from "../../Cards/Cards";
 import { Middleslider } from "../../MiddleCorousel/Middleslider";
 import { Footer } from "../../Footer/Footer";
 
+// import Footer from '../../FooterSection/Footer';
 // import Navbar from "../../Navbar/Navbar";
 import { TitleBar } from "../../TopTitleBar/TitleBar";
 import { CardText } from "../../CardwithText/CardText";
@@ -26,7 +27,10 @@ import { Nav } from "../../Nav/Nav";
 import { FooterLinks } from '../../FooterLinks/FooterLinks';
 import TopCities from '../../TopCities/TopCities';
 // import ExclusiveDeals from '../../ExclusiveDeals/ExclusiveDeals';
+// import { ExclusiveDeals } from '../../ExclusiveDeals/ExclusiveDeals';
 import { ExclusiveDeals } from '../../ExclusiveDeals/ExclusiveDeals';
+import { Experiment } from '../../Experiment/Experiment';
+import { Plan } from '../../NextHolidaysPlan/Plan';
 export const Home = () => {
     return (
         <div>
@@ -40,7 +44,11 @@ export const Home = () => {
 
             <ControlledCarousel />
 
-            <ExclusiveDeals />
+            <div className='container mt-3 carousel'>
+                <ExclusiveDeals />
+            </div>
+
+            {/* <ExclusiveDeals /> */}
             {/* <div className="container mt-5 carousel">
                 <h3 className="exclusivedeals_title">Exclusive Deals</h3>
             </div> */}
@@ -98,7 +106,8 @@ export const Home = () => {
 
             <ContactForm /> */}
 
-
+            <Experiment/>
+            <Plan/>
             <Footer />
 
             <BottomBar />
