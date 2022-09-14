@@ -7,6 +7,7 @@ import { Holidays } from "./components/Pages/Holidays/HolidayMainFile/Holidays";
 // import { Route, Routes } from "react-router-dom";
 import { Footer } from "./components/Footer/Footer";
 
+import { Activities } from "./components/Pages/Activities/Activities";
 import { Hotel } from "./components/Pages/Hotels/Hotel";
 
 function App() {
@@ -15,13 +16,16 @@ function App() {
     {/* <Hotel/> */}
     {/* <Holidays /> */}
       {/* <Navbar /> */}
-      <Link to="/Holidays"></Link>
+      {/* <Activities /> */}
+      {/* <Link to="/hotels"><Hotel/></Link> */}
+      {/* <Link to="/Holidays"></Link> */}
         {/* <Router path="./components/Pages/Home/Home.jsx">Home</Router> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/offers" element={<Offers />}   />
         <Route path="/holidays" element={<Holidays />} />
         <Route path="/hotel" element={<Hotel />} />
+        <Route path="/activities" element={<Activities />} />
       </Routes>
     </>
   );
