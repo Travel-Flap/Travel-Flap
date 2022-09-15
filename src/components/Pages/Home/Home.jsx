@@ -43,9 +43,8 @@ export const Home = () => {
             <Nav />
 
             <ControlledCarousel />
-
-            <div className='carousel'>
                 <ExclusiveDeals />
+            <div className='carousel'>
             </div>
 
             {/* <ExclusiveDeals /> */}

@@ -6,6 +6,10 @@
     z-index: -1;
 }
 
+.holidaybannerimage{
+    height: 500px;
+}
+
 .bannersearchdiv{
     position: absolute;
     display: flex;

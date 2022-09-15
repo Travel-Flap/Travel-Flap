@@ -1,8 +1,7 @@
 .easyvisadestinationscontainer{
   /* border: 2px solid red; */
-  width: 90%;
+  width: 100%;
   margin-top: 5%;
-  margin-left: 4.5%;
 }
 
 .easyvisadestinations_title {
@@ -16,9 +15,15 @@
     text-decoration: none solid rgb(45, 44, 44);
     vertical-align: baseline;
     letter-spacing: normal;
-    margin-left: 2%;
+    margin-left: 4.5%;
     /* text-align: center; */
     color: rgb(51, 128, 242);
+  }
+
+  .easyvisaslidercontainer{
+    /* border: 2px solid red; */
+    width: 94%;
+    margin: auto;
   }
   
   .card-wrapper {

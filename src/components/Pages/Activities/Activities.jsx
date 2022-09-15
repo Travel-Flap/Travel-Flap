@@ -9,6 +9,9 @@ import { Experiment } from '../../Experiment/Experiment';
 import { CountryDropdown } from './CountryDropDown/CountryDropdown';
 // import { TopActivities } from "./WorldActivities/WorldActivities";
 import TopActivities from "./TopCityActivity/TopActivity";
+import WorldActivities from './WorldActivities/WorldActivities';
+import { ActivityAround } from './ActivitiesAroundyou/ActivitiesAroundyou';
+
 
 export const Activities = () => {
   return (
@@ -17,10 +20,20 @@ export const Activities = () => {
       <ControlledCarousel />
       <CountryDropdown />
 
-      {/* <div className='container mt-3 carousel'>
-        <h1 className="topcityActivity_title">Top Activitites in the Citites</h1>
+      <div className='mt-3 carousel'>
+        <ActivityAround/>
+      </div>
+
+      <div className="carousel">
+        <h1 className="clientstestimonial_title">Best Activities Around the World</h1>
+        <WorldActivities/>
+      </div>
+      
+      <div className='mt-3 carousel'>
         <TopActivities />
-      </div> */}
+      </div>
+
+
 
       <Newsletter />
       <FooterLinks />

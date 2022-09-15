@@ -1,7 +1,7 @@
 // New code for the navbar
 import { useState, useEffect } from 'react';
 import { Outlet, Link } from "react-router-dom";
-import './Nav.css';
+import './HotelNav.css';
 import { BiCurrentLocation } from 'react-icons/bi';
 import { IoIosArrowDown } from 'react-icons/io';
 import { FaCalendarAlt } from 'react-icons/fa';
@@ -15,10 +15,9 @@ import { GiCruiser } from 'react-icons/gi';
 import { FaLaptopHouse, FaPhoneAlt, FaTags,FaBars } from 'react-icons/fa';
 import { FaUserLock,FaMoneyCheck,FaPenFancy,FaCopy,FaUserCheck  } from 'react-icons/fa';
 import { CgMoreAlt } from 'react-icons/cg';
+// import { Home } from "../Pages/Home/Home";
 
-import { Home } from "../Pages/Home/Home";
-
-export const Nav = () => {
+export const HotelNav = () => {
     const [isScrolled, setIsScrolled] = useState(false);
     const [isShown, setIsShown] = useState(false);
     const [shown, setShown] = useState(false);
@@ -47,25 +46,25 @@ export const Nav = () => {
 
 
     function Box() {
-        return (
-            <div className='chooseCountry'>
-                <div className='partLeft'>
-                    <ul>
-                        <li>INDIA <img src="images/Flags/India.jpg" className='flags' /> </li>
-                        <li>UAE <img src="images/Flags/UAE.png" className='flags' /> </li>
-                        <li>UK <img src="images/Flags/Uk.webp" className='flags' /></li>
-                        <li>QAT <img src="images/Flags/QAT.webp" className='flags' /></li>
-                    </ul>
-                </div>
-                <div className='partRight'>
-                    <ul>
-                        <li>USA <img src="images/Flags/USA.webp" className='flags' /></li>
-                        <li>KWT <img src="images/Flags/KWT.svg" className='flags' /></li>
-                        <li>KSA <img src="images/Flags/KSA.png" className='flags' /></li>
-                    </ul>
-                </div>
-            </div>
-        );
+        // return (
+        //     <div className='hotelnavchooseCountry'>
+        //         <div className='partLeft'>
+        //             <ul>
+        //                 <li>INDIA <img src="images/Flags/India.jpg" className='flags' /> </li>
+        //                 <li>UAE <img src="images/Flags/UAE.png" className='flags' /> </li>
+        //                 <li>UK <img src="images/Flags/Uk.webp" className='flags' /></li>
+        //                 <li>QAT <img src="images/Flags/QAT.webp" className='flags' /></li>
+        //             </ul>
+        //         </div>
+        //         <div className='partRight'>
+        //             <ul>
+        //                 <li>USA <img src="images/Flags/USA.webp" className='flags' /></li>
+        //                 <li>KWT <img src="images/Flags/KWT.svg" className='flags' /></li>
+        //                 <li>KSA <img src="images/Flags/KSA.png" className='flags' /></li>
+        //             </ul>
+        //         </div>
+        //     </div>
+        // );
     }
 
     function Box1() {
@@ -118,27 +117,27 @@ export const Nav = () => {
         );
     }
 
-    function Box4() {
-        return (
-            <div className='LoginRegisterDropDown'>
-                <div className='LoginRegisterOptions'>
-                    <FaUserLock className='LoginIcon' /> Login
-                </div>
-                <div className='LoginRegisterOptions '>
-                    <FaUserCheck className='RegisterIcon' /> Register
-                </div>
-                <div className='LoginRegisterOptions'>
-                    <FaPenFancy className='BlogsIcon' /> Blogs
-                </div>
-                <div className='LoginRegisterOptions'>
-                    <FaMoneyCheck className='PaymentIcon' /> Make Payments
-                </div>
-                <div className='LoginRegisterOptions'>
-                    <FaCopy className='BookingIcon' /> My Bookings
-                </div>
-            </div>
-        );
-    }
+    // function Box4() {
+    //     return (
+    //         <div className='hotelnavLoginRegisterDropDown'>
+    //             <div className='hotelnavLoginRegisterOptions'>
+    //                 <FaUserLock className='hotelnavLoginIcon' /> Login
+    //             </div>
+    //             <div className='hotelnavLoginRegisterOptions '>
+    //                 <FaUserCheck className='hotelnavRegisterIcon' /> Register
+    //             </div>
+    //             <div className='hotelnavLoginRegisterOptions'>
+    //                 <FaPenFancy className='hotelnavBlogsIcon' /> Blogs
+    //             </div>
+    //             <div className='hotelnavLoginRegisterOptions'>
+    //                 <FaMoneyCheck className='hotelnavPaymentIcon' /> Make Payments
+    //             </div>
+    //             <div className='hotelnavLoginRegisterOptions'>
+    //                 <FaCopy className='hotelnavBookingIcon' /> My Bookings
+    //             </div>
+    //         </div>
+    //     );
+    // }
 
     function MenuBox() {
         return (
@@ -157,36 +156,26 @@ export const Nav = () => {
     }
 
 
-    useEffect(() => {
-        const handleScroll = () => {
-            if (window.scrollY > 0) {
-                setIsScrolled(true);
-            } else {
-                setIsScrolled(false);
-            }
-        }
-        window.addEventListener("scroll", handleScroll)
+    // useEffect(() => {
+    //     const handleScroll = () => {
+    //         if (window.scrollY > 0) {
+    //             setIsScrolled(true);
+    //         } else {
+    //             setIsScrolled(false);
+    //         }
+    //     }
+    //     window.addEventListener("scroll", handleScroll)
 
-        return () => {
-            window.removeEventListener("scroll", handleScroll)
-        }
-    }, [])
+    //     return () => {
+    //         window.removeEventListener("scroll", handleScroll)
+    //     }
+    // }, [])
 
     return (
         <>
         
         
-        <Link to="/home"><div className='travelflapmainlogo'>
-              <img style={{height:"50px",width:"150px"}} src="images/travelFlapLogo.jpg" alt="travelflap logo" />
-                <FaBars style={{width:"30px",height:"30px"}} className='hamburgermenuicon' onClick={getMenu}/>
-        </div>
-        </Link>  
-        
-        {Menu && <MenuBox/>}
-        <div className='navbar-container'>
-            <div className={`${isScrolled ? 'navbar-fixed' : 'navbar'}`} >
-                {isScrolled ?
-                    <div className='navbar_fixed'>
+        <div className='hotelnavbar_fixed' >
                         <div>
                             <Link to="/">
                             <div className='logo1'>
@@ -207,8 +196,7 @@ export const Nav = () => {
                                 <li> <FaBus size={"1.5em"} /> <p className='fixed-menu-link'>Bus</p> </li>
                                 <li> <FaShip size={"1.5em"} /> <p className='fixed-menu-link'>Cruise</p> </li>
                                 <li> <FaLaptopHouse size={"1.5em"} /> <p className='fixed-menu-link'>Villa</p> </li>
-                                <li> <MdOutlineLocalActivity size={"1.5em"} />
-                                <Link to="/activities"> <p className='fixed-menu-link'>Activities</p> </Link> </li>
+                                <li> <MdOutlineLocalActivity size={"1.5em"} /> <p className='fixed-menu-link'>Activities</p> </li>
                                 <li> <CgMoreAlt size={"1.5em"} /> <p className='fixed-menu-link' onClick={handleClick3}>More</p> </li>
                                 {show && <Box3 />}
                             </div>
@@ -279,155 +267,11 @@ export const Nav = () => {
 
                         </div>
                     </div>
-                    : <>
-
-                    
-                    
-                        <div className='transparentNavbar'>
-                        {/* <Link to="/"> */}
-                            <div className='logo2'>
-                                <img src="images/travelFlapLogo.jpg" alt="travelflap logo" />
-                            </div>
-                            {/* </Link> */}
-                        <div className='navbar-links-container1'>
-                            {/* <div  className='nav-link'> <p>Akbar Bizz</p></div> */}
-                            <div id='offerslink'> <Link to="/offers"> <p style={{color:"white",textDecoration:"none"}}>Offers</p></Link> </div>
-                            <div className='nav-link'> <p>₹ INR <FaCaretDown /></p>
-                            <div className='chooseCountry'>
-                                       <div className='countrynames'>
-                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
-                                       </div>
-                                       <div className='countrynames'>
-                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
-                                       </div>
-                                       <div className='countrynames'>
-                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
-                                       </div>
-                                       <div className='countrynames'>
-                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
-                                       </div>
-                                       <div className='countrynames'>
-                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
-                                       </div>
-                            </div>
-                            </div>
-                            
-                            <div className='nav-link'><p> INDIA <FaCaretDown /></p>
-                            <div className='chooseCountry'>
-                                       <div className='countrynames'>
-                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
-                                       </div>
-                                       <div className='countrynames'>
-                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
-                                       </div>
-                                       <div className='countrynames'>
-                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
-                                       </div>
-                                       <div className='countrynames'>
-                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
-                                       </div>
-                                       <div className='countrynames'>
-                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
-                                       </div> 
-                           </div>
-                     </div>
-                            <div className='login-register'> Login/Register  
-                                 <div className='LoginRegisterDropDown' style={{marginRight:"-30%"}}>
-                                     <div className='LoginRegisterOptions' >
-                                         <FaUserLock className='LoginIcon' /> Login
-                                     </div>
-                                     <div className='LoginRegisterOptions '>
-                                         <FaUserCheck className='RegisterIcon' /> Register
-                                     </div>
-                                     <div className='LoginRegisterOptions'>
-                                         <FaPenFancy className='BlogsIcon' /> Blogs
-                                     </div>
-                                     <div className='LoginRegisterOptions'>
-                                         <FaMoneyCheck className='PaymentIcon' /> Make Payments
-                                     </div>
-                                     <div className='LoginRegisterOptions'>
-                                         <FaCopy className='BookingIcon' /> My Bookings
-                                     </div>
-                                </div>
-                             </div>
-                        </div> 
-                        </div> 
-                        </>
-                }
-            </div>
-
-            {/* <Menu />
-            <div className='banner'>
-                <div className='banner-service'>
-                    <div className='banner-radio-label' >
-                        <label class="form-control">
-                            <input type="radio" name="radio" />
-                            One Way
-                        </label>
-                        <label class="form-control">
-                            <input type="radio" name="radio" />
-                            Round Trip
-                        </label>
-                        <label class="form-control">
-                            <input type="radio" name="radio" />
-                            Multi City
-                        </label>
-                    </div>
-                    <div>
-                        <h1 >Book Flight Tickets</h1>
-                    </div>
-                </div>
-
-                <div className='filter-travel-container' >
-                    <div className='filter-fromTo' >
-                        <div className='from-name'>
-                            <label>FROM</label>
-                            <h6>Abu Dhabi</h6>
-                            <p>[AUH] Abu Dhabi International </p>
-                        </div>
-                        <BiCurrentLocation className='location' />
-                        <div className='from-name2'>
-                            <label>TO </label>
-                            <h6>Dubai</h6>
-                            <p>[DXB] Dubai</p>
-                        </div>
-                    </div>
-                    <div className='date-from'>
-                        <div className='depart' >
-                            <FaCalendarAlt />
-                            <label>Depart</label>
-                            <IoIosArrowDown />
-                            <h6>18 <span>Jul’22</span></h6>
-                            <p>Monday</p>
-                        </div>
-                        <div className='depart'>
-                            <FaCalendarAlt />
-                            <label>Return</label>
-                            <IoIosArrowDown />
-                            <h6>18 <span>Jul’22</span></h6>
-                            <p>Book a round trip to save more</p>
-                        </div>
-                        </div>
-                        <div  id='travel' >
-                        <div className='depart'>
-                            <label>Travellers & Class</label>
-                            <h6>1 <span>Travellers</span></h6>
-                            <p>Economy</p>
-                            </div>
-                        <div><button className='search-btn'>Search Flight</button></div>
-                        
-                        </div>
-                </div>
-            </div> */}
-            {/* <div className='test'>
-            <img src='https://wwwnc.cdc.gov/travel/images/travel-industry-air.jpg'/>
-         </div> */}
-        </div>
         </>
     )
 }
 
-// export default Nav;
+
 
 // Old code for the navbar
 // import { useState, useEffect } from 'react';
@@ -466,7 +310,7 @@ export const Nav = () => {
 
 //     function Box() {
 //         return (
-//             <div className='chooseCountry'>
+//             <div className='hotelnavchooseCountry'>
 //                 <div className='partLeft'>
 //                     <ul>
 //                         <li>INDIA <img src="images/Flags/India.jpg" className='flags' /> </li>
@@ -554,12 +398,12 @@ export const Nav = () => {
 //     }, [])
 
 //     return (
-//         <div className='navbar-container' >
+//         <div className='hotelnavbar-container' >
 //             <div className={`${isScrolled ? 'navbar-fixed' : 'navbar'}`} >
 //                 {isScrolled ?
-//                     <div className='navbar_fixed' >
+//                     <div className='hotelnavbar_fixed' >
 //                         <div>
-//                             <div className='logo1'>
+//                             <div className='hotellogo1'>
 //                                 <img src="images/travelFlapLogo.jpg" alt="travelflap logo" />
 //                             </div>
 //                         </div>
@@ -577,13 +421,13 @@ export const Nav = () => {
 //                                 {show && <Box3 />}
 //                             </div>
 //                         </div>
-//                         <div className='navbar-links-container' id='hide' >
+//                         <div className='hotelnavbar-links-container' id='hide' >
 //                             {/* <div  className='nav-link'> <p>Akbar Bizz</p></div> */}
 //                             <div className='nav-link'> <p>IRCTC</p></div>
 //                             <div className='nav-link' onClick={handleClick1}> <p>₹ INR <FaCaretDown /></p></div>
 //                             {shown && <Box1 />}
 //                             <div className='nav-link' onClick={handleClick}><p> INDIA <FaCaretDown /></p></div>
-//                             <div className='login-register'> Login / Register</div>
+//                             <div className='hotelnavlogin-register'> Login / Register</div>
 //                             {isShown && <Box />}
 //                         </div>
 //                     </div>
@@ -593,13 +437,13 @@ export const Nav = () => {
 //                                 <img src="images/travelFlapLogo.jpg" alt="travelflap logo" />
 //                             </div>
 //                         </div>
-//                         <div className='navbar-links-container'>
+//                         <div className='hotelnavbar-links-container'>
 //                             {/* <div  className='nav-link'> <p>Akbar Bizz</p></div> */}
 //                             <div className='nav-link'> <p>IRCTC</p></div>
 //                             <div className='nav-link' onClick={handleClick1}> <p>₹ INR <FaCaretDown /></p></div>
 //                             {shown && <Box1 />}
 //                             <div className='nav-link' onClick={handleClick}><p> INDIA <FaCaretDown /></p></div>
-//                             <div className='login-register'>Login / Register</div>
+//                             <div className='hotelnavlogin-register'>Login / Register</div>
 //                             {isShown && <Box />}
 //                         </div>  </>
 //                 }

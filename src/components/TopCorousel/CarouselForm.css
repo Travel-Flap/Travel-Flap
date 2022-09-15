@@ -7,7 +7,7 @@
   top: 37%;
   background-color: white;
   width: 70%;
-  border: 3px solid #3380f2 !important;
+  /* border: 3px solid #3380f2 !important; */
   color: #3380f2 !important;
   height: 220px;
   /* opacity: 0.9; */
@@ -66,14 +66,14 @@
   border: none;
   /* border: 2px solid #3380f2; */
   width: 100% !important;
-  margin-top: -8%;
+  margin-top: -10%;
   margin-left: -19%;
   height: 50px;
 }
 
 #dateonewayform::placeholder {
   /* border: 2px solid #3380F2; */
-  font-size: 34px !important;
+  font-size: 30px !important;
   font-weight: 700;
   color: #3380f2;
 }
@@ -104,13 +104,13 @@
 }
 .cityinput {
   margin-top: -5%;
-  margin-left: 2%;
+  margin-left: 10%;
   color: #3380f2;
   border: none;
   height: 50px;
   width: 100%;
-  font-weight: 700;
-  font-size: 37px;
+  font-weight: 600;
+  font-size: 31px;
 }
 .cityinput::placeholder {
   color: #3380f2;
@@ -199,7 +199,7 @@
   margin-top: 10px;
   position: relative;
   z-index: 1000;
-  bottom: 70%;
+  bottom: 73%;
   color: #3380f2;
 }
 /* #iconnames {

@@ -9,7 +9,7 @@ export default class OurPartners extends Component {
             // dots: true,
             infinite: true,
             speed: 1000,
-            slidesToShow: 4,
+            slidesToShow: 5,
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 2000,

@@ -1,11 +1,11 @@
-/* .footerparentcontainer {
+.footerparentcontainer {
   display: flex;
-} */
+}
 
-/* .mapimagediv{
-  border: 1px solid red;
+.mapimagediv{
+  /* border: 1px solid red; */
   width: 35%;
-} */
+}
 .footer {
   width: 100%;
   background: #3380f2;
@@ -117,7 +117,7 @@ h4 img {
 .footersocialmedia {
   display: flex;
   width: 86%;
-  margin-top: 24% !important;
+  /* margin-top: 24% !important; */
   justify-content: center;
   column-gap: 16px;
 }

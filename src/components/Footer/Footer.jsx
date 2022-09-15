@@ -9,15 +9,15 @@ import { IconContext } from "react-icons";
 export const Footer = () => {
   return (
     <div className="footerparentcontainer">
-      {/* <div className="mapimagediv">
+      <div className="mapimagediv">
         <div className="footerSectionMapcontainer">
           <h2>Our Offices</h2>
-          <img
+          {/* <img
             src="images/WorldMapImage.jpeg"
             alt="footer logo"
-          />
+          /> */}
         </div>
-      </div> */}
+      </div>
 
       <div className="footer">
 
@@ -87,7 +87,7 @@ export const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="footerSectionbottom">
+        {/* <div className="footerSectionbottom">
         <h6 className="footer-heading">TAGS</h6>
         <div className="tags">
           <button>design</button>
@@ -99,7 +99,7 @@ export const Footer = () => {
           <button>adventure</button>
           <button>travel</button>
         </div>
-      </div>
+      </div> */}
         <div className="footerSectionbottom" id="contactdetails">
           <h6 className="footer-heading">CONTACT INFO</h6>
 

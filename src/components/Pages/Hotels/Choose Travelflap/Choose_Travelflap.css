@@ -33,12 +33,15 @@ height: 200px;
     width: 20%;
     border-radius: 12px;
     color: white;
-    background-color: #3380F2;
+    background-color: blue;
 }
-#container_chid2 :hover{
-    background-color: white;
-    color: #3380F2;
+#container_chid2 .common_chid:hover{
+    background-color: #3380f2;
+    color: white;
 }
+/* .common_chid{
+    background-color: blue;
+} */
 .choose_icons{
     color: white;
     font-size: 140%;

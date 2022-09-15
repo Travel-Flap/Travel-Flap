@@ -40,6 +40,7 @@ export const DomesticDestinations = () => {
                                     justifyContent: "center",
                                     marginRight: 10,
                                     borderRadius: 7,
+                                    color:"rgb(9,32,75)",
                                     boxShadow: "0 1px 3px rgb(0 0 0 / 10%)",
                                     cursor: "pointer",
 
@@ -71,7 +72,7 @@ export const DomesticDestinations = () => {
                 </div>
             </div>
 
-            <div style={{ margin: 30, width: "105%", margin: "auto", marginRight: "5%" }}>
+            <div className="domesticslidercontainer">
                 <Slider
                     arrows={false}
                     // autoplay={true}

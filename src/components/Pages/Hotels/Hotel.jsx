@@ -9,15 +9,15 @@ import { Hotel_Banner } from './Hotel_Banner/Hotel_Banner';
 import { Free_Hotel_Lunch } from './Hotel_Free_Lunch/Free_Lunch_Hotel';
 import { Footer } from '../../Footer/Footer';
 import { FooterLinks } from '../../FooterLinks/FooterLinks';
-
+import { HotelNav } from './HotelNavbar/HotelNav';
 export const Hotel = () => {
     return (
         <div>
-            <Nav/>
+            {/* <Nav/> */}
+            <HotelNav/>
             <Hotel_Banner />
             <Choose_Travelflap />
             <div className=' mt-5 carousel'>
-               
             <ExclusiveDeals/>
             </div>
             <PopularDestinations/>

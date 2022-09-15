@@ -72,7 +72,7 @@ export const InternationalDestinations = () => {
                 </div>
             </div>
 
-            <div style={{ margin: 30, width: "105%", margin: "auto", marginRight: "5%" }}>
+            <div className="internationalslidercontainer">
                 <Slider
                     arrows={false}
                     autoplay={true}

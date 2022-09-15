@@ -15,7 +15,6 @@
 .exclusivemaindiv {
     /* border: 1px solid red; */
     width: 100%;
-    margin-top: 5%;
   }
   
   .exclusiveouterdivtop {
@@ -42,14 +41,14 @@
     width: 100%;
     /* margin: auto; */
     background-color: #3380f2 !important;
-    margin-top: 3%;
+    margin-top: 1%;
     height: 75px;
     /* border: 1px solid black !important; */
   }
   
   .exclusiveheading1 {
     /* border: 1px solid black; */
-    font-size: 23px;
+    font-size: 25px;
     font-weight: 600;
     width: 30%;
     margin-left: 6%;
@@ -89,8 +88,8 @@
   }
   
   .exclusiveheading2 div:hover {
-    background-color: #3380f2;
-    color: white;
+    background-color: white;
+    color: #3380f2;
   }
 
   .viewallexclusivebuttons {
