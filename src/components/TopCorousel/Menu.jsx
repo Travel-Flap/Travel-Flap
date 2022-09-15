@@ -20,45 +20,45 @@ export const Menu = () => {
         {
             id: 0,
             name: 'Flight',
-            icon: <MdFlight size={"1.5em"}/>,
+            icon: <MdFlight size={"1.9em"}/>,
             link:"/flight",
             
         },
         {
             id: 1,
             name: 'Hotel',
-            icon: <FaHotel size={"1.5em"} />,
+            icon: <FaHotel size={"1.9em"} />,
             link: "/hotel",
         },
         {
             id: 2,
             name: 'Visa',
-            icon: <RiVisaFill size={"1.5em"}/>,
+            icon: <RiVisaFill size={"1.9em"}/>,
             link:"/visa",
         },
         {
             id: 3,
             name: 'Holidays',
-            icon: <GiPalmTree size={"1.5em"}/>,
+            icon: <GiPalmTree size={"1.9em"}/>,
             link:"/holidays",
         },
         {
             id: 4,
             name: 'Bus',
-            icon: <FaBus size={"1.5em"}/>,
+            icon: <FaBus size={"1.9em"}/>,
             link:"/bus",
         },
         {
             id: 5,
             name: 'Cruise',
-            icon: <GiCruiser size={"1.5em"}/>,
+            icon: <GiCruiser size={"1.9em"}/>,
             link:"/cruise",
         },
        
         {
             id: 7,
             name: 'More',
-            icon: <CgMoreAlt size={"1.5em"}/>,
+            icon: <CgMoreAlt size={"1.9em"}/>,
             link:"/more",
         },
 
@@ -68,9 +68,10 @@ export const Menu = () => {
 
         <div className='carouselmenu'>
          {links.map((item) => {
-           return <NavLink key={item.id} to={item.link} className={selected == item.id ? 'carouselmenu-icon-active ' : 'carouselmenu-icon'} onClick={handleClick(item.id)}>
+           return <NavLink key={item.id} to={item.link} className={selected == item.id ? 'carouselmenu-icon-active'  : 'carouselmenu-icon'} onClick={handleClick(item.id)}>
            {item.icon}
-           <span id='iconnames'>{item.name}</span>
+           {item.name}
+           {/* <span id='iconnames'>{item.name}</span> */}
        
            </NavLink>
          })}

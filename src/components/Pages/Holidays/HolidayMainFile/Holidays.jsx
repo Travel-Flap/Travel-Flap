@@ -21,15 +21,15 @@ export const Holidays = () => {
       <Nav />
       <Banner />
 
-      <div className='container mt-3 carousel'>
+      <div className='mt-3 carousel'>
         <DomesticDestinations />
       </div>
 
-      <div className='container mt-3 carousel'>
+      <div className='mt-3 carousel'>
         <InternationalDestinations />
       </div>
 
-      <div className='container mt-3 carousel'>
+      <div className='mt-3 carousel'>
         {/* <h1 className='holidaydeals_title'>Travel Stories</h1> */}
         <PackageDeals />
       </div>
@@ -37,7 +37,7 @@ export const Holidays = () => {
       <EasyVisaDestinations />
       {/* <TrendingDestinations /> */}
 
-      <div className='container mt-3 carousel'>
+      <div className='mt-3 carousel'>
         <HolidayExperiment />
       </div>
 

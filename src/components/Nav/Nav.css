@@ -144,13 +144,12 @@
   text-decoration: none;
   cursor: pointer;
   background-color: white;
+  border:3px solid #3380f2;
+  color: #3380f2 !important;
 }
-.nav-link p:hover {
-  color: #3380f2;
-}
+
 .login-register {
   height: 36px;
-  padding: 0 10px;
   border-radius: 4px;
   color: white;
   font-size: 12px;
@@ -200,19 +199,23 @@
 
 .chooseCountry {
   width: 200px;
-  height: 180px;
+  height: 220px;
   position: absolute;
   z-index: 1;
-  margin-top: 0.5%;
+  margin-top: -0.5%;
   background-color: #3380f2;
   border-radius: 5px;
   display: none;
   font-weight: 700;
+  color: white;
 }
 .countrynames{
-  margin-top: 2%;
+  margin-top: 4%;
   margin-left: 2%;
-  padding: 2%;
+  padding: 3%;
+  background-color: #3380f2;
+  color: white;
+  
 }
 .countrynames:hover{
   background-color: white;

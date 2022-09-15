@@ -20,9 +20,12 @@
     font-size: 27px;
     font-weight: 600;
     line-height: 1.5;
-    color: #380ff2 !important;
+    color: #3380f2 !important;
 }
 
+#newemail{
+    border: 3px solid #3380f2 !important;
+}
 .cta_content h5{
     font-size: 18px;
     font-weight: 500;

@@ -1,17 +1,30 @@
 /* This is a new css file */
+/* .exclusivedealmaincontainer{
+  border: 1px solid red ;
+  display: flex !important;
+  flex-direction: row !important;
+  width: 100%;
+} */
+
+.exclusivemaindivslider{
+  /* border: 1px solid red; */
+  width: 91%;
+  margin: auto;
+}
+
 .exclusivemaindiv {
     /* border: 1px solid red; */
     width: 100%;
-    margin-left: -2.5%;
     margin-top: 5%;
   }
   
   .exclusiveouterdivtop {
     /* border: 2px solid red !important; */
     border: 2px solid lightgray;
-    display: flex !important;
-    flex-direction: row !important;
+    /* display: flex !important; */
+    /* flex-direction: row !important; */
     width: 95% !important;
+    margin-top: 4%;
     box-shadow: 4px 4px 4px rgb(211,211,211);
     border: none;
     transition: all 300ms ease-in-out;
@@ -26,27 +39,30 @@
   .exclusiveheadingcontainer {
     display: flex;
     flex-direction: row;
-    width: 105%;
-    margin: auto;
+    width: 100%;
+    /* margin: auto; */
+    background-color: #3380f2 !important;
     margin-top: 3%;
+    height: 75px;
     /* border: 1px solid black !important; */
   }
   
   .exclusiveheading1 {
     /* border: 1px solid black; */
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 600;
     width: 30%;
-    margin-left: 1%;
-    color: #3380f2;
+    margin-left: 6%;
+    margin-top: 1.3%;
+   color: white;
   }
   
   .exclusiveheading2 {
-    /* border: 1px solid blue; */
+    /* border: 3px solid white; */
     width: 60%;
     height: 40px;
     justify-content: center;
-    margin: -0.5% 0 1% 1%;
+    margin: -0.6% 0 1% 1%;
     font-size: 15px;
     display: flex;
     flex-direction: row;
@@ -57,32 +73,40 @@
   }
   
   .exclusiveheading2 div {
-    border: 3px solid rgb(51, 128, 242);
+    /* border: 3px solid rgb(51, 128, 242); */
+    border: 3px solid white;
     width: 130px !important;
     height: 33px;
     font-size: 17px;
     font-weight: 500;
     text-align: center;
-    margin-top: 0.5%;
+    margin-top: 4%;
     margin-right: 4%;
     border-radius: 25px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
       Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    color: #3380f2;
+    color: white;
   }
   
   .exclusiveheading2 div:hover {
     background-color: #3380f2;
     color: white;
   }
+
   .viewallexclusivebuttons {
-    color: #3380f2;
-    font-weight: 700;
+    color: white;
     text-decoration: underline;
-    /* border: 1px solid red; */
+    /* border: 3px solid white; */
+    border-radius: 20px;
     display: flex;
-    margin: 0% 0 0 18%;
-    width: 25%;
+    margin: 1% 6% 1% 13%;
+    width: 22%;
+  }
+
+  .viewallexclusivetext{
+    /* border: 1px solid red; */
+    margin-top: 2%;
+    margin-left: 5%;
   }
   
   .exclusivecardtitle {
@@ -100,7 +124,7 @@
   
   .exclusiveimagetextcontainer {
     width: 100%;
-    height: 520px;
+    height: 445px;
   }
   
   .exclusivetextcard {
@@ -164,7 +188,12 @@
     width: -1%;
     margin-left: 6%;
   }
-  
+
+  .exclusiveheadingbuttons button{
+    color: #3380f2 !important;
+    background-color: white !important;
+  }
+
   .line-indicator li {
     /* border: 2px solid; */
     height: 4px;

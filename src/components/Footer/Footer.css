@@ -1,6 +1,6 @@
-.footerparentcontainer {
+/* .footerparentcontainer {
   display: flex;
-}
+} */
 
 /* .mapimagediv{
   border: 1px solid red;
@@ -50,7 +50,7 @@
 
 .footerSectionbottom {
   width: 30%;
-  padding: 21px;
+  padding: 45px;
   display: flex;
   flex-direction: column;
   /* border: 2px solid blue; */

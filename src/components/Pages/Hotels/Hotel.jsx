@@ -16,7 +16,7 @@ export const Hotel = () => {
             <Nav/>
             <Hotel_Banner />
             <Choose_Travelflap />
-            <div className='container mt-5 carousel'>
+            <div className=' mt-5 carousel'>
                
             <ExclusiveDeals/>
             </div>

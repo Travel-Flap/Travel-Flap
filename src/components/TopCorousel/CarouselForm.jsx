@@ -26,11 +26,11 @@ export const CarouselForm = () => {
             <div id='filter-travel-container'>
                 <div className='chooseoptions'>
                     <input type="radio" className='chooseoptions1' />
-                    <label>One Way</label>
+                    <label className='radiodesc'>One Way</label>
                     <input type="radio" className='chooseoptions2' />
-                    <label>Round Trip</label>
+                    <label className='radiodesc'>Round Trip</label>
                     <input type="radio" className='chooseoptions3' />
-                    <label>Multi Trip</label>
+                    <label className='radiodesc'>Multi Trip</label>
                 </div>
                 <div className='maindatesections'>
                     <div className='filter-fromTo'>
@@ -51,14 +51,14 @@ export const CarouselForm = () => {
                     <div id='formdates'>
                         <div className='selectdate'>
                             <h5>Departure</h5>
-                            <DatePicker style={{ border: "none" }} placeholderText='Departure Date' id='dateonewayform' />
+                            <DatePicker style={{ border: "none" }} placeholderText='Departure' id='dateonewayform' />
                         </div>
-                        <div className='selectReturndate1'>
+                        <div id='selectReturndate1'>
                             <h5>Return</h5>
-                            <DatePicker placeholderText='Return Date' id='dateonewayform' />
+                            <DatePicker placeholderText='Return' id='dateonewayform' />
                         </div>
                     </div>
-                    <div id='travel'>
+                    <div id='travel' >
                         <div id='departure'>
                             <h3>Choose Passengers <FaArrowCircleDown className='downarrowicon' /></h3>
                             <div className="dropdown-content">

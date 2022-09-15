@@ -68,8 +68,8 @@ export const PopularDestinations = () => {
                   <div className='title2'>Destinations</div>
                </div>
                <div className='title3'>DESTINATIONS</div>
-               <div className='title3'>INTERNATIONAL</div>
-               <div className='title3'>DOMESTIC</div>
+               <div className='title3_inner1'>INTERNATIONAL</div>
+               <div className='title3_inner2'>DOMESTIC</div>
                <div className='title4'>View All Destinations</div>
             </div>
 
