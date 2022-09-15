@@ -95,6 +95,7 @@ width: 150%;
 font-weight: bold;
 border: none;
 color: #3380F2;
+margin-left: -18% !important;
 }
 .adult_select{
     border: none;

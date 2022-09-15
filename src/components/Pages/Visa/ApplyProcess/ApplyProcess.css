@@ -1,0 +1,58 @@
+.applyprocessouter{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 250px;
+    background-color: #3380F2;
+    margin-top: 2%;
+}
+.applyprocessheading{
+   border: 2px solid;
+   text-align: center;
+   color: white;
+   font-size: 25px;
+   font-weight: 700;
+   height: 25%;
+}
+.applyprocessheading p{
+    margin-top: 0.5%;
+}
+.applyprocessstepsdiv{
+    width: 100%;
+    /* border: 1px solid black; */
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+}
+.stepone{
+    /* border: 1px solid saddlebrown; */
+    height: 100%;
+    width:33%;
+    color: white;
+}
+.steponeheading h2{
+    margin-left:20% ;
+    margin-top: 2%;
+}
+.steponeheading h4{
+    margin-top:3.5%;
+}
+.steponeheading{
+    display: flex;
+    flex-direction: row;
+}
+.steptwo{
+    /* border: 1px solid salmon; */
+    height: 100%;
+    width: 33%;
+    color: white;
+}
+.stepthree{
+    /* border: 1px solid blue; */
+    height: 100%;
+    width: 33%;
+    color: white;
+}
+.imageone{
+    margin-top: 10%;
+    margin-left:-20%;
+}

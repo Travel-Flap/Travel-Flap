@@ -40,6 +40,7 @@ export const ExclusiveDeals = () => {
                                     justifyContent: "center",
                                     marginRight: 10,
                                     borderRadius: 7,
+                                    color:"blue",
                                     boxShadow: "0 1px 3px rgb(0 0 0 / 10%)",
                                     cursor: "pointer",
                                 }}
