@@ -9,6 +9,7 @@ import { Footer } from "./components/Footer/Footer";
 
 import { Activities } from "./components/Pages/Activities/Activities";
 import { Hotel } from "./components/Pages/Hotels/Hotel";
+import { Visa } from "./components/Pages/Visa/Visa";
 
 function App() {
   return (
@@ -21,11 +22,13 @@ function App() {
       {/* <Link to="/Holidays"></Link> */}
         {/* <Router path="./components/Pages/Home/Home.jsx">Home</Router> */}
       <Routes>
+        {/* <Router path="/home" element={<Home/>}></Router> */}
         <Route path="/" element={<Home />} />
         <Route path="/offers" element={<Offers />}   />
         <Route path="/holidays" element={<Holidays />} />
         <Route path="/hotel" element={<Hotel />} />
         <Route path="/activities" element={<Activities />} />
+        <Route path="/visa" element={<Visa/>}/>
       </Routes>
     </>
   );
