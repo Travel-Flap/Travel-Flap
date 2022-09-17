@@ -6,7 +6,10 @@ import { useRef } from "react";
 import { useEffect } from "react";
 import "./DomesticDestinations.css";
 import { ButtonBase } from "@material-ui/core";
-import { Button } from "react-bootstrap"
+import { Button } from "react-bootstrap";
+
+import { FaAngleLeft,FaAngleRight } from 'react-icons/fa';
+
 
 export const DomesticDestinations = () => {
     const sliderRef = useRef(null);
@@ -29,8 +32,7 @@ export const DomesticDestinations = () => {
                 <div className="viewalldomesticbuttons" >
                     <p className="viewallexperimenttext">view all deals</p>
                     <div className="experimentheadingbuttons">
-                        <div style={{ display: "flex" }}>
-
+                        {/* <div style={{ display: "flex" }}>
                             <ButtonBase
                                 style={{
                                     width: 35,
@@ -66,6 +68,49 @@ export const DomesticDestinations = () => {
                             >
                                 <ArrowForwardIos />
                             </ButtonBase>
+                        </div> */}
+                        <div style={{ display: "flex" }}>
+                            <FaAngleLeft size={"2.5em"}
+                            onClick={() => sliderRef.current.slickPrev()}
+                            />
+                            {/* <ButtonBase
+                                style={{
+                                    width: 35,
+                                    height: 35,
+                                    display: "flex",
+                                    alignItems: "center",
+                                    justifyContent: "center",
+                                    marginRight: 10,
+                                    borderRadius: 7,
+                                    color:"blue",
+                                    boxShadow: "0 1px 3px rgb(0 0 0 / 10%)",
+                                    cursor: "pointer",
+                                    border:"2px solid black",
+                                }}
+                                className="buttons exclusivebutton1"
+                                onClick={() => sliderRef.current.slickPrev()}
+                            >
+                                <ArrowBackIos />
+                            </ButtonBase> */}
+                            {/* <ButtonBase
+                                style={{
+                                    width: 35,
+                                    height: 35,
+                                    display: "flex",
+                                    alignItems: "center",
+                                    justifyContent: "center",
+                                    borderRadius: 7,
+                                    boxShadow: "0 1px 3px rgb(0 0 0 / 10%)",
+                                    cursor: "pointer",
+                                }}
+                                className="buttons"
+                                onClick={() => sliderRef.current.slickNext()}
+                            >
+                                <ArrowForwardIos />
+                            </ButtonBase> */}
+                            <FaAngleRight size={"2.5em"}
+                               onClick={() => sliderRef.current.slickNext()}
+                           />
                         </div>
                     </div>
 

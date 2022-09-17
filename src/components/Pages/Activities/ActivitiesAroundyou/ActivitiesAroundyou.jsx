@@ -14,10 +14,10 @@ export const ActivityAround = () => {
         console.log(sliderRef);
     }, []);
     return (
-        <div className="experimentmaindiv">
+        <div className="activitiesaroundmaindiv">
             {/* <h1>Ipl</h1> */}
-            <div className="experimentheadingcontainer" >
-                <h2 className="experimentheading1">Best Budget Destinations</h2>
+            <div className="activitiesaroundheadingcontainer" >
+                <h2 className="activitiesaroundheading1">Best Budget Destinations</h2>
                 {/* <div className="experimentheading2">
                 <div className="experimentheading" >Deals</div>
                 <div>Flights</div>
@@ -26,9 +26,9 @@ export const ActivityAround = () => {
                 <div>Cruise</div>
                 </div> */}
 
-                <div className="viewallexperimentbuttons" >
-                    <p className="viewallexperimenttext">view all deals</p>
-                    <div className="experimentheadingbuttons">
+                <div className="viewallactivitiesaroundbuttons" >
+                    <p className="viewallactivitiesaroundtext">view all deals</p>
+                    <div className="activitiesaoundheadingbuttons">
                         <div style={{ display: "flex" }}>
 
                             <ButtonBase
@@ -71,7 +71,7 @@ export const ActivityAround = () => {
                 </div>
             </div>
 
-            <div className="bestbudgetslidercontainer">
+            <div className="activitiesaroundslidercontainer">
                 <Slider
                     arrows={false}
                     autoplay={true}
@@ -140,11 +140,11 @@ export const ActivityAround = () => {
 
 
                     <div className="card-wrapper">
-                        <div className="card topactivitymaindiv">
-                            <div className="card-image topactivitycardimage">
+                        <div className="card activitiesaroundmaindiv">
+                            <div className="card-image activitiesaroundcardimage">
                                 <img src="images/TravelStoriesImage1.jpg" />
                             </div>
-                            <div className="topactivitydetails">
+                            <div className="activitiesarounddetails">
                                 <h2>Olivia <span className="job-title">"Best Holiday trip Ever"
                                     <p>I love the experience with the travel Flap. I surely recommend it
                                         other for same
@@ -158,11 +158,11 @@ export const ActivityAround = () => {
                     </div>
 
                     <div className="card-wrapper">
-                        <div className="card topactivitymaindiv">
-                            <div className="card-image topactivitycardimage">
+                        <div className="card activitiesaroundmaindiv">
+                            <div className="card-image activitiesaroundcardimage">
                                 <img src="images/TravelStoriesImage2.jpg" />
                             </div>
-                            <div className="topactivitydetails">
+                            <div className="activitiesarounddetails">
                                 <h2>Amirt Maan <span className="job-title">"Best Holiday trip Ever"
                                     <p>I love the experience with the travel Flap. I surely recommend it
                                         other for same
@@ -175,11 +175,11 @@ export const ActivityAround = () => {
                     </div>
 
                     <div className="card-wrapper">
-                        <div className="card topactivitymaindiv">
-                            <div className="card-image topactivitycardimage">
+                        <div className="card activitiesaroundmaindiv">
+                            <div className="card-image activitiesaroundcardimage">
                                 <img src="images/TravelStoriesImage3.jpg" />
                             </div>
-                            <div className="topactivitydetails">
+                            <div className="activitiesarounddetails">
                                 <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
                                     <p>I love the experience with the travel Flap. I surely recommend it
                                         other for same
@@ -191,11 +191,11 @@ export const ActivityAround = () => {
                     </div>
 
                     <div className="card-wrapper">
-                        <div className="card topactivitymaindiv">
-                            <div className="card-image topactivitycardimage">
+                        <div className="card activitiesaroundmaindiv">
+                            <div className="card-image activitiesaroundcardimage">
                                 <img src="images/TravelStoriesImage4.jpg" />
                             </div>
-                            <div className="topactivitydetails">
+                            <div className="activitiesarounddetails">
                                 <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
                                     <p>I love the experience with the travel Flap. I surely recommend it
                                         other for same
@@ -207,11 +207,11 @@ export const ActivityAround = () => {
                     </div>
 
                     <div className="card-wrapper">
-                        <div className="card topactivitymaindiv">
-                            <div className="card-image topactivitycardimage">
+                        <div className="card activitiesaroundmaindiv">
+                            <div className="card-image activitiesaroundcardimage">
                                 <img src="images/TravelStoriesImage5.jpg" />
                             </div>
-                            <div className="topactivitydetails">
+                            <div className="activitiesarounddetails">
                                 <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
                                     <p>I love the experience with the travel Flap. I surely recommend it
                                         other for same
@@ -223,11 +223,11 @@ export const ActivityAround = () => {
                     </div>
 
                     <div className="card-wrapper">
-                        <div className="card topactivitymaindiv">
-                            <div className="card-image topactivitycardimage">
+                        <div className="card activitiesaroundmaindiv">
+                            <div className="card-image activitiesaroundcardimage">
                                 <img src="images/TravelStoriesImage6.jpg" />
                             </div>
-                            <div className="topactivitydetails">
+                            <div className="activitiesarounddetails">
                                 <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
                                     <p>I love the experience with the travel Flap. I surely recommend it
                                         other for same
@@ -239,11 +239,11 @@ export const ActivityAround = () => {
                     </div>
 
                     <div className="card-wrapper">
-                        <div className="card topactivitymaindiv">
-                            <div className="card-image topactivitycardimage">
+                        <div className="card activitiesaroundmaindiv">
+                            <div className="card-image activitiesaroundcardimage">
                                 <img src="images/TravelStoriesImage7.jpg" />
                             </div>
-                            <div className="topactivitydetails">
+                            <div className="activitiesarounddetails">
                                 <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
                                     <p>I love the experience with the travel Flap. I surely recommend it
                                         other for same
@@ -255,11 +255,11 @@ export const ActivityAround = () => {
                     </div>
 
                     <div className="card-wrapper">
-                        <div className="card topactivitymaindiv">
-                            <div className="card-image topactivitycardimage">
+                        <div className="card activitiesaroundmaindiv">
+                            <div className="card-image activitiesaroundcardimage">
                                 <img src="images/TravelStoriesImage8.jpg" />
                             </div>
-                            <div className="topactivitydetails">
+                            <div className="activitiesarounddetails">
                                 <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
                                     <p>I love the experience with the travel Flap. I surely recommend it
                                         other for same

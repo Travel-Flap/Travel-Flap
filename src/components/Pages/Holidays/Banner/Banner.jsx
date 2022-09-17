@@ -9,13 +9,13 @@ export const Banner = () => {
                 <div id="carouselExampleFade" className="carousel slide carousel-fade bannercarousel" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img src="images/HolidayBanner/HolidaysCarouselImage3.jpg" className="holidaybannerimage d-block w-100 " alt="..." />
+                            <img src="images/Holidays/HolidayBanner.jpg" className="holidaybannerimage d-block w-100 " alt="..." />
                         </div>
                         <div className="carousel-item">
-                            <img src="images/HolidayBanner/HolidaysCarouselImage4.jpg" className="holidaybannerimage d-block w-100" alt="..." />
+                            <img src="images/Holidays/HolidayBanner.jpg" className="holidaybannerimage d-block w-100" alt="..." />
                         </div>
                         <div className="carousel-item">
-                            <img src="images/HolidayBanner/HolidaysCarouselImage1.jpg" className="holidaybannerimage d-block w-100" alt="..." />
+                            <img src="images/Holidays/HolidayBanner.jpg" className="holidaybannerimage d-block w-100" alt="..." />
                         </div>
                     </div>
                     

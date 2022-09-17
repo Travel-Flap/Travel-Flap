@@ -41,7 +41,7 @@
     width: 100%;
     /* margin: auto; */
     background-color: #3380f2 !important;
-    margin-top: 1%;
+    /* margin-top: 1%; */
     height: 75px;
     /* border: 1px solid black !important; */
   }
@@ -49,9 +49,9 @@
   .exclusiveheading1 {
     /* border: 1px solid black; */
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 700;
     width: 30%;
-    margin-left: 6%;
+    margin-left: 5%;
     margin-top: 1.3%;
    color: white;
   }
@@ -99,7 +99,7 @@
     border-radius: 20px;
     display: flex;
     margin: 1% 6% 1% 13%;
-    width: 22%;
+    width: 29%;
   }
 
   .viewallexclusivetext{
@@ -109,6 +109,7 @@
     width: 75%;
     border-radius: 14px;
     margin-left: 2%;
+    padding-left: 22px;
   }
   
   .exclusivecardtitle {
@@ -126,7 +127,7 @@
   
   .exclusiveimagetextcontainer {
     width: 100%;
-    height: 445px;
+    height: 400px;
   }
   
   .exclusivetextcard {
@@ -225,19 +226,20 @@
   }
   .exclusivebutton {
     border: 3px solid #3380f2;
-    width: 30%;
-    border-radius: 25px;
+    width: 35%;
+    border-radius: 25px !important;
     background-color: white;
     color: #3380f2;
     padding: 4px 12px;
-    font-weight: 500;
-    margin-bottom: 5% !important;
-    font-size: 15px !important;
+    font-weight: 700 !important;
+    margin-bottom: 0% !important;
+    font-size: 14px !important;
   }
   .exclusivebutton:hover {
     border: 3px solid white;
     background-color: #3380f2;
     color: white;
+    padding: 7px 7px;
     font-size: 14px !important;
   }
   /* .carousel-control-prev{

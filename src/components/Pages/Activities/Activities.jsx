@@ -11,6 +11,7 @@ import { CountryDropdown } from './CountryDropDown/CountryDropdown';
 import TopActivities from "./TopCityActivity/TopActivity";
 import WorldActivities from './WorldActivities/WorldActivities';
 import { ActivityAround } from './ActivitiesAroundyou/ActivitiesAroundyou';
+// import { SeoLocal } from './SeoLocalServices/SeoLocal';
 
 
 export const Activities = () => {
@@ -20,6 +21,7 @@ export const Activities = () => {
       <ControlledCarousel />
       <CountryDropdown />
 
+      {/* <SeoLocal/> */}
       <div className='mt-3 carousel'>
         <ActivityAround/>
       </div>

@@ -9,7 +9,7 @@
   width: 70%;
   /* border: 3px solid #3380f2 !important; */
   color: #3380f2 !important;
-  height: 220px;
+  height: 245px;
   /* opacity: 0.9; */
   left: 15%;
   border-radius: 10px;
@@ -25,8 +25,8 @@
   font-size: 18px;
   width: 95%;
   border-bottom: 1px solid lightblue;
-  height: 50px;
-  margin: 4% 0 0% 2%;
+  height: 29px;
+  margin: 5% 0 0% 4.5%;
 }
 
 .radiodesc{
@@ -34,7 +34,7 @@
   margin-left: 0.6%;
 }
 .chooseoptions1 label {
-  margin-top: 0%;
+  margin-top: 1% !important;
   margin-left: 0.5%;
 }
 .chooseoptions2 {
@@ -158,18 +158,24 @@
 #departure {
   margin: 12px;
   border: 1.4px solid #3380f2;
-  background-color: white;
-  width: 51%;
+  background-color: #3380f2;
+  width: 52%;
   border-radius: 5px;
   height: 43px;
   cursor: pointer;
-  margin-left: -0.5%;
-  margin-top: 1%;
+  margin-left: 0.5%;
+  margin-top: -2%;
+  color: white;
+}
+#departure:hover{
+  background-color: blue;
+  color: white;
 }
 #departure h3 {
   font-size: 13px;
   font-weight: 700;
   padding: 12px;
+  padding-left: 16px;
 }
 .searchbtn {
   font-size: 15px;
@@ -183,14 +189,16 @@
   height: 45px;
   width: 40%;
   margin-left: 2%;
-  margin-top: 1%;
+  margin-top: -2%;
 }
 .searchbtn:hover {
-  background-color: white !important;
-  border: 3px soli #3380f2 !important;
-  color: #3380f2 !important;
+  background-color: blue !important;
+  border: 3px solid blue !important;
+  color: white !important;
 }
 .carouselmenu {
+  width: 55%;
+  margin: auto;
   flex-direction: row;
   box-sizing: border-box;
   display: flex;
@@ -200,7 +208,14 @@
   position: relative;
   z-index: 1000;
   bottom: 73%;
-  color: #3380f2;
+  color: white  !important;
+  border-radius: 40px;
+}
+#borderLeft{
+  border-radius: 40px 0 0 40px;
+}
+#borderright{
+  border-radius: 0 40px 40px 0;
 }
 /* #iconnames {
   color: #3380f2;
@@ -215,31 +230,32 @@
   color: white;
 } */
 .carouselmenu-icon {
-  height: 70px;
-  width: 90px;
-  border-radius: 7px;
-  background: #fff;
-  border: 1px solid rgba(255, 255, 255, 0.28);
-  box-shadow: 0 3px 5px 0 rgb(0 0 0 / 30%);
+  height: 80px;
+  width: 15%;
+  background-color: #3380f2;
   flex-direction: column;
   box-sizing: border-box;
   display: flex;
   place-content: center;
   align-items: center;
-  margin-right: 12px;
   cursor: pointer;
   border: none;
-  margin-left: 1%;
-  color: #3380f2 !important;
+  color: white;
   text-decoration: none;
+}
+.flighttext{
+  color: white;
+  text-decoration: none;
+}
+.flighttext:hover{
+  color: #3380f2;
 }
 .carouselmenu-icon:hover {
   text-decoration: none;
+  color: #3380f2;
+  background-color: white;
   transition: all 0.5s ease;
-  height: 75px;
-  /* width: 95px; */
   cursor: pointer;
-  /* color: white !important; */
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
@@ -309,11 +325,13 @@
   height: 20px;
 }
 .flightscheckbox {
-  margin-left: 10%;
+  margin-left: 5%;
   margin-bottom: -0.5%;
+  /* margin-top: -3%; */
 }
 .flightscheckbox1 {
-  margin-left: 1%;
+  margin-left: 0.5%;
+  /* margin-top: -1.2%; */
 }
 
 @media screen and (min-width: 560px) and (max-width: 950px) {

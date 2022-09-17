@@ -11,7 +11,7 @@ export const PopularDestinations = () => {
    const settings = {
       // dots: true,
       infinite: true,
-      autoplay: true,
+      // autoplay: true,
       speed: 900,
       slidesToShow: 4,
       slidesToScroll: 1,
@@ -78,7 +78,7 @@ export const PopularDestinations = () => {
                   <div className='namesContainer'>
                      <div className='picimg'>
                         <div className='pic'>
-                           <img  src='images/PopularDestinationImages/PopularDestinationImage1.jpg' />
+                           <img  src='images/PopularDestinationImages/PopularDestinationImage5.jpg' />
                         </div>
                         <div className='country'>Europe</div>
                      </div>
@@ -103,13 +103,14 @@ export const PopularDestinations = () => {
                      </div>
                      <div className='picimg'>
                         <div className='pic'>
-                           <img src='images/PopularDestinationImages/PopularDestinationImage5.jpg' />
+                        
+                           <img src='images/PopularDestinationImages/PopularDestinationImage1.jpg' />
                         </div>
                         <div className='country'>Maldives</div>
                      </div>
                      <div className='picimg'>
                         <div className='pic'>
-                           <img src='images/PopularDestinationImages/PopularDestinationImage6.jpg' />
+                           <img src='images/PopularDestinationImages/destination9.jpg' />
                         </div>
                         <div className='country'>Switzerland</div>
                      </div>
@@ -121,7 +122,7 @@ export const PopularDestinations = () => {
                      </div>
                      <div className='picimg'>
                         <div className='pic'>
-                           <img src='images/PopularDestinationImages/PopularDestinationImage8.jpg' />
+                           <img src='images/PopularDestinationImages/destination2.jpg' />
                         </div>
                         <div className='country'>Srilanka</div>
                      </div>
@@ -133,7 +134,7 @@ export const PopularDestinations = () => {
                      </div>
                      <div className='picimg'>
                         <div className='pic'>
-                           <img src='images/PopularDestinationImages/PopularDestinationImage10.jpg' />
+                           <img src='images/PopularDestinationImages/destination10.jpg' />
                         </div>
                         <div className='country'>Italy</div>
                      </div>
@@ -151,7 +152,7 @@ export const PopularDestinations = () => {
                      <div className="card-wrapper">
                         <div className="card populardestinationssliderdiv">
                            <div className=" populardestinationcardimage">
-                              <img src="images/TopCitiesImage7.jpg" />
+                              <img src="images/PopularDestinationImages/PopularDestinationImage11.jpg" />
                            </div>
                            <div className="populardestinationsdetails">
                               <h2>Goa <span className="job-title">"Best Holiday trip Ever"
@@ -165,7 +166,7 @@ export const PopularDestinations = () => {
                      <div className="card-wrapper">
                         <div className="card populardestinationssliderdiv">
                            <div className=" populardestinationcardimage">
-                              <img src="images/TopCitiesImage2.jpg" />
+                              <img src="images/PopularDestinationImages/PopularDestinationImage9.jpg" />
                            </div>
                            <div className="populardestinationsdetails">
                               <h2>Singapore <span className="job-title">"Best Holiday trip Ever"
@@ -230,7 +231,7 @@ export const PopularDestinations = () => {
                      <div className="card-wrapper">
                         <div className="card populardestinationssliderdiv">
                            <div className=" populardestinationcardimage">
-                              <img src="images/TopCitiesImage8.jpg" />
+                              <img src="images/PopularDestinationImages/destination10.jpg" />
                            </div>
                            <div className="populardestinationsdetails">
                               <h2>New York <span className="job-title">"Best Holiday trip Ever"
@@ -243,7 +244,7 @@ export const PopularDestinations = () => {
                      <div className="card-wrapper">
                         <div className="card populardestinationssliderdiv">
                            <div className=" populardestinationcardimage">
-                              <img src="images/TopCitiesImage9.jpg" />
+                              <img src="images/PopularDestinationImages/destination9.jpg" />
                            </div>
                            <div className="populardestinationsdetails">
                               <h2>France <span className="job-title">"Best Holiday trip Ever"

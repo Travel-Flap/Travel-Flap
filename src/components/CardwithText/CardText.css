@@ -9,6 +9,40 @@
   margin: auto;
   box-sizing: border-box;
   border: transparent;
+  margin-top: 3%;
+}
+
+.hotelroomheadingdropdown{
+  display: flex;
+  width: 100%;
+  margin: auto;
+  color: white;
+  background-color: #3380f2;
+  height: 90px;
+  margin-top: 3%;
+}
+
+.hotelroomfilterdrop{
+  /* background-color: green; */
+  width: 35%;
+  display: flex;
+  margin-left: 8%;
+  margin-top: 1.7%;
+}
+
+.hotelroomfilterdrop h5{
+  margin-top: 1.5%;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.datadrop{
+  width: 30%;
+}
+
+.carddropvalue{
+  color: #3380f2;
+  font-weight: 500;
 }
 
 .heading-container {
@@ -19,6 +53,8 @@
   padding-bottom: 5%;
   color: rgb(51, 128, 242);
 }
+
+
 
 .heading-container h4 {
   /* border: 1px solid red;  */

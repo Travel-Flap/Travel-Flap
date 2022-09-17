@@ -1,17 +1,18 @@
-.experimentmaindiv{
+.bestbudgetmaindiv{
   /* border: 1px solid red; */
   width: 100%;
 }
 
-.experimentouterdiv {
+.bestbudgetouterdiv {
   /* border: 2px solid red !important; */
-  border: 2px solid lightgray;
+  height: 460px !important;
+  /* border: 2px solid lightgray; */
   display: flex !important;
   flex-direction: row !important;
   width: 96%;
   /* border: none; */
 }
-.experimentheadingcontainer {
+.bestbudgetheadingcontainer {
 
   display: flex;
   flex-direction: row;
@@ -19,20 +20,23 @@
   background-color: #3380f2;
   height: 80px;
   margin: auto;
-  margin-top: 2%;
+  /* margin-top: 2%; */
   /* border: 1px solid black; */
 }
 
-.experimentheading1 {
+.bestbudgetheading1 {
   /* border: 1px solid black; */
   font-size: 25px;
   font-weight: 600;
   width:30%;
   margin: auto;
-  margin-left: 3%;
+  margin-left: 5.5% !important;
   color: white;
 }
 
+/* .viewallbestbudgettext{
+
+} */
 .experimentheading2 {
   /* border: 1px solid blue; */
   width: 60%;
@@ -67,16 +71,32 @@
   background-color: #3380f2;
   color: white;
 }
-.viewallexperimentbuttons {
+.viewallbestbudgetbuttons {
   color: white;
   font-weight: 700;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   /* border: 1px solid red; */
   display: flex;
   margin: 1.5% 2% 0 5%;
-  width: 18%;
+  width: 20%;
+  margin-left: 15% !important;
 }
 
+.viewallbestbudgettext{
+  margin-top: 1.5%;
+  border: 3px solid white;
+  border-radius: 20px;
+  width: 48%;
+  padding-left: 10px;
+  margin-bottom: 7%;
+  text-decoration: none !important;
+}
+
+.viewallbestbudgettext:hover{
+  background-color: white;
+  color: #3380f2;
+  padding-top: 1%;
+}
 .bestbudgetslidercontainer{
   /* border: 2px solid red; */
   width: 90%;
@@ -84,13 +104,13 @@
   margin-top: 2%;
 }
 
-.experimentcardtitle {
+.bestbudgetcardtitle {
   color: #3380f2 !important;
   font-size: 22px;
   margin-top: 1%;
 }
 
-.experimentcard_desc {
+.bestbudgetcard_desc {
   /* border: 1px solid red; */
   width: 90%;
   color: #3380f2;
@@ -98,22 +118,22 @@
   text-align: left;
 }
 
-.experimentimagetextcontainer {
+.bestbudgetimagetextcontainer {
   width: 100%;
-  height: 420px;
+  height: 440px !important;
 }
 
-.experimenttextcard {
+.bestbudgettextcard {
   margin-left: 9% !important;
   width: 100% !important;
 }
 /* 
-  .experimenttextcard:hover{
+  .bestbudgettextcard:hover{
     color: white;
     background-color: #3380F2;
   } */
 
-.experimenttextcard:hover div {
+.bestbudgettextcard:hover div {
   color: white;
 }
 
@@ -129,14 +149,14 @@
   margin-left: 40%;
 }
 
-.exclusivecardimage {
+.bestbudgetcardimage {
   /* border: 1px solid red !important; */
   /* height: 300px; */
   border: none;
   width: 100% !important;
 }
 
-.experimentcarddescmain {
+.bestbudgetcarddescmain {
   /* border: 1px solid red; */
   width: 100%;
   margin-left: -9%;
@@ -156,7 +176,7 @@
     color: #3380F2;
     font-weight: 500;
   } */
-.experimentheadingbuttons {
+.bestbudgetheadingbuttons {
   /* border: 1px solid yellow !important; */
   justify-content: flex-end;
   width: -1%;
@@ -190,7 +210,7 @@
   /* color: orangered !important; */
   transform: scale(1.1);
 }
-.experimetbutton {
+.bestbudgetbutton {
   border: 3px solid #3380f2;
   width: 30%;
   border-radius: 25px;
@@ -202,7 +222,7 @@
   margin-top: 4%;
   font-size: 15px !important;
 }
-.experimetbutton:hover {
+.bestbudgetbutton:hover {
   border: 3px solid white;
   background-color: #3380f2;
   color: white;
@@ -296,7 +316,7 @@
      */
 
 @media screen and (max-width: 950px) {
-  .experimentimagetextcontainer {
+  .bestbudgetimagetextcontainer {
     flex-direction: column;
   }
   .col-md-4 {
@@ -311,19 +331,19 @@
   .card-text {
     font-size: 13px;
   }
-  .viewallexperimentbuttons {
+  .viewallbestbudgetbuttons {
     display: none;
   }
-  .experimentheading1 {
+  .bestbudgetheading1 {
     display: none;
   }
-  .experimentheadingcontainer {
+  .bestbudgetheadingcontainer {
     flex-direction: column;
   }
   .experimentheading2 {
     width: 100%;
   }
-  .experimentimagetextcontainer img {
+  .bestbudgetimagetextcontainer img {
     width: 100%;
     height: 100%;
   }
@@ -331,13 +351,13 @@
     width: 100%;
     height: 100%;
   }
-  .experimenttextcard {
+  .bestbudgettextcard {
     margin-left: 8px;
   }
 }
 
 @media screen and (max-width: 450px) {
-  .experimentimagetextcontainer {
+  .bestbudgetimagetextcontainer {
     flex-direction: column;
   }
   .col-md-4 {
@@ -352,7 +372,7 @@
   .card-text {
     font-size: 13px;
   }
-  .viewallexperimentbuttons {
+  .viewallbestbudgetbuttons {
     display: inline-block;
     vertical-align: top;
     margin-top: -50px;
@@ -364,20 +384,20 @@
   .experimentheading2 {
     display: none;
   }
-  .experimentheadingbuttons {
+  .bestbudgetheadingbuttons {
     display: none;
   }
-  .experimentheading1 {
+  .bestbudgetheading1 {
     display: inline-block;
     vertical-align: top;
     width: 40%;
     font-size: 16px;
     margin-left: 3%;
   }
-  .experimentheadingcontainer {
+  .bestbudgetheadingcontainer {
     flex-direction: column;
   }
-  .experimentimagetextcontainer img {
+  .bestbudgetimagetextcontainer img {
     width: 100%;
     height: 100%;
   }
@@ -385,7 +405,7 @@
     width: 100%;
     height: 100%;
   }
-  .experimenttextcard {
+  .bestbudgettextcard {
     margin-left: 8px;
   }
 }

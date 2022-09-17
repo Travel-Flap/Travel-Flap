@@ -20,6 +20,13 @@
     margin-left: 5%;
     color: #3380F2;
 }
+
+#container_chid1 h5{
+    /* border: 1px solid red; */
+    margin-left: 33%;
+    font-size: 25px;
+    font-weight: 700 !important;
+}
 #container_chid2{
    margin-top: 2%;
     display: flex;

@@ -57,7 +57,7 @@ export const ControlledCarousel = () => {
             <div className='carousel_image'>
               <img width={100} height={470}
                 className="d-block w-100"
-                src="images/TopCarouselImage9.png"
+                src="images/HomeTopCarousel/topbanner1.jpg"
                 alt="First slide"
               />
             </div>
@@ -72,7 +72,7 @@ export const ControlledCarousel = () => {
             <div className='carousel_image'>
               <img width={100} height={470}
                 className="d-block w-100"
-                src="images/TopCarouselImage13.jpg"
+                src="images/HomeTopCarousel/topbanner2.jpg"
                 alt="First slide"
               />
             </div>
@@ -87,7 +87,7 @@ export const ControlledCarousel = () => {
             <div className='carousel_image'>
               <img width={100} height={470}
                 className="d-block w-100"
-                src="images/TopCarouselImage.png"
+                src="images/HomeTopCarousel/topbanner3.jpg"
                 alt="First slide"
               />
             </div>
@@ -102,7 +102,7 @@ export const ControlledCarousel = () => {
             <div className='carousel_image'>
               <img width={100} height={470}
                 className="d-block w-100"
-                src="images/TopCarouselImage12.jpg"
+                src="images/HomeTopCarousel/topbanner2.jpg"
                 alt="First slide"
               />
             </div>

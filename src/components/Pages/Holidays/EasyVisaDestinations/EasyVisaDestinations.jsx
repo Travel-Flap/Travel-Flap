@@ -119,10 +119,10 @@ export default class EasyVisaDestinations extends Component {
                         <div className="card-wrapper">
                             <div className="card easyvisadestinationsdiv">
                                 <div className="card-image easyvisacardimage">
-                                    <img src="images/TravelStoriesImage4.jpg" />
+                                    <img src="images/TopCities/zambiaafrica.jpg" />
                                 </div>
                                 <div className="easyvisadestinationsdetails">
-                                    <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
+                                    <h2>Aman Gupta <span className="job-title">"Best Holiday trip Ever"
                                         <p>I love the experience with the travel Flap. I surely recommend it
                                             other for same
                                         </p></span>
@@ -167,10 +167,10 @@ export default class EasyVisaDestinations extends Component {
                         <div className="card-wrapper">
                             <div className="card easyvisadestinationsdiv">
                                 <div className="card-image easyvisacardimage">
-                                    <img src="images/TravelStoriesImage7.jpg" />
+                                    <img src="images/TopCities/denmark.jpg" />
                                 </div>
                                 <div className="easyvisadestinationsdetails">
-                                    <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
+                                    <h2>Yuvraj <span className="job-title">"Best Holiday trip Ever"
                                         <p>I love the experience with the travel Flap. I surely recommend it
                                             other for same
                                         </p></span>
@@ -183,10 +183,10 @@ export default class EasyVisaDestinations extends Component {
                         <div className="card-wrapper">
                             <div className="card easyvisadestinationsdiv">
                                 <div className="card-image easyvisacardimage">
-                                    <img src="images/TravelStoriesImage8.jpg" />
+                                    <img src="images/TopCities/swedan.jpg" />
                                 </div>
                                 <div className="easyvisadestinationsdetails">
-                                    <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
+                                    <h2>Charles Darvin <span className="job-title">"Best Holiday trip Ever"
                                         <p>I love the experience with the travel Flap. I surely recommend it
                                             other for same
                                         </p></span>

@@ -12,10 +12,10 @@ export const Footer = () => {
       <div className="mapimagediv">
         <div className="footerSectionMapcontainer">
           <h2>Our Offices</h2>
-          {/* <img
-            src="images/WorldMapImage.jpeg"
+          <img
+            src="images/WorldMap/WorldMap.png"
             alt="footer logo"
-          /> */}
+          />
         </div>
       </div>
 

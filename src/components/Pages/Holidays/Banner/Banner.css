@@ -10,6 +10,9 @@
     height: 500px;
 }
 
+.carousel-item img{
+    object-fit: cover !important;
+}
 .bannersearchdiv{
     position: absolute;
     display: flex;

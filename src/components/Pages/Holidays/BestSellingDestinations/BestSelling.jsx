@@ -118,10 +118,10 @@ export default class PackageDeals extends Component {
                         <div className="card-wrapper">
                             <div className="card packagedealsdiv">
                                 <div className="card-image packagedealcardimage">
-                                    <img src="images/TravelStoriesImage4.jpg" />
+                                    <img src="images/TravelStories/TravelStoriesImage4.jpg" />
                                 </div>
                                 <div className="packaggedealsdetails">
-                                    <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
+                                    <h2>Akash <span className="job-title">"Best Holiday trip Ever"
                                         <p>I love the experience with the travel Flap. I surely recommend it
                                             other for same
                                         </p></span>
@@ -166,7 +166,7 @@ export default class PackageDeals extends Component {
                         <div className="card-wrapper">
                             <div className="card packagedealsdiv">
                                 <div className="card-image packagedealcardimage">
-                                    <img src="images/TravelStoriesImage7.jpg" />
+                                    <img src="images/TravelStories/TravelStoriesImage7.jpg" />
                                 </div>
                                 <div className="packaggedealsdetails">
                                     <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
@@ -182,7 +182,7 @@ export default class PackageDeals extends Component {
                         <div className="card-wrapper">
                             <div className="card packagedealsdiv">
                                 <div className="card-image packagedealcardimage">
-                                    <img src="images/TravelStoriesImage8.jpg" />
+                                    <img src="images/TravelStories/TravelStoriesImage8.jpg" />
                                 </div>
                                 <div className="packaggedealsdetails">
                                     <h2>John Doe <span className="job-title">"Best Holiday trip Ever"

@@ -6,7 +6,8 @@ import { useRef } from "react";
 import { useEffect } from "react";
 import "./ExclusiveDeals.css";
 import { ButtonBase } from "@material-ui/core";
-import { Button } from "react-bootstrap"
+import { Button } from "react-bootstrap";
+import { FaAngleLeft,FaAngleRight } from 'react-icons/fa';
 
 export const ExclusiveDeals = () => {
     const sliderRef = useRef(null);
@@ -25,13 +26,14 @@ export const ExclusiveDeals = () => {
                     <div className="exclusiveheading">Holidays</div>
                     <div className="exclusiveheading">Cruise</div>
                 </div>
-
                 <div className="viewallexclusivebuttons" >
                     <p className="viewallexclusivetext">view all deals</p>
                     <div className="exclusiveheadingbuttons">
                         <div style={{ display: "flex" }}>
-
-                            <ButtonBase
+                            <FaAngleLeft size={"2.5em"}
+                            onClick={() => sliderRef.current.slickPrev()}
+                            />
+                            {/* <ButtonBase
                                 style={{
                                     width: 35,
                                     height: 35,
@@ -43,13 +45,14 @@ export const ExclusiveDeals = () => {
                                     color:"blue",
                                     boxShadow: "0 1px 3px rgb(0 0 0 / 10%)",
                                     cursor: "pointer",
+                                    border:"2px solid black",
                                 }}
                                 className="buttons exclusivebutton1"
                                 onClick={() => sliderRef.current.slickPrev()}
                             >
                                 <ArrowBackIos />
-                            </ButtonBase>
-                            <ButtonBase
+                            </ButtonBase> */}
+                            {/* <ButtonBase
                                 style={{
                                     width: 35,
                                     height: 35,
@@ -64,7 +67,10 @@ export const ExclusiveDeals = () => {
                                 onClick={() => sliderRef.current.slickNext()}
                             >
                                 <ArrowForwardIos />
-                            </ButtonBase>
+                            </ButtonBase> */}
+                            <FaAngleRight size={"2.5em"}
+                               onClick={() => sliderRef.current.slickNext()}
+                           />
                         </div>
                     </div>
 
@@ -80,7 +86,7 @@ export const ExclusiveDeals = () => {
                     // dots
                     dotsclassName="slick-dots line-indicator"
                     ref={sliderRef}
-                    slidesToShow={3}
+                    slidesToShow={4}
                     slidesToScroll={2}
                     responsive={[
                         {
@@ -139,7 +145,7 @@ export const ExclusiveDeals = () => {
                     {/* <div className="experimentdivcontainer" style={{display:"flex",flexDirection:"row"}}> */}
 {/* 
                     <div className="exclusivedealmaincontainer"> */}
-                        <div className="card mb-3 exclusiveouterdivtop" >
+                        <div className="card mb-4 exclusiveouterdivtop" >
                             <div className="row g-0 exclusiveimagetextcontainer">
                                 <div className="col-md-8 exclusivecardimage">
                                     <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />

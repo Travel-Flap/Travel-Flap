@@ -4,7 +4,7 @@ import { Banner } from '../Banner/Banner';
 import PackageDeals from '../BestSellingDestinations/BestSelling';
 import EasyVisaDestinations from '../EasyVisaDestinations/EasyVisaDestinations';
 import TrendingDestinations from '../Trending Destinations/TrendingDestinations';
-import { HolidayExperiment } from '../BestBudget/BestBudget';
+import { BestBudget } from '../BestBudget/BestBudget';
 import { Footer } from "../../../Footer/Footer";
 import { BottomBar } from '../../../BottomBar/BottomBar';
 import Newsletter from '../../../NewsLetter/NewsLetter';
@@ -23,8 +23,8 @@ export const Holidays = () => {
       <Nav />
       <Banner />
 
-      <div className='mt-3 carousel'>
-        <HolidayExperiment />
+      <div className=' carousel'>
+        <BestBudget />
       </div>
       <div className='mt-3 carousel'>
         {/* <h1 className='holidaydeals_title'>Travel Stories</h1> */}

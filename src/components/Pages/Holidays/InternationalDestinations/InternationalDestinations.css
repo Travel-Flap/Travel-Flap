@@ -8,6 +8,7 @@
     display: flex !important;
     flex-direction: row !important;
     width: 96%;
+    height: 460px !important;
     box-shadow: 4px 4px 4px rgb(211,211,211);
     border: none;
     transition: all 300ms ease-in-out;
@@ -79,10 +80,10 @@
   .viewallinternationalbuttons {
     color: white;
     font-weight: 700;
-    text-decoration: underline;
+    text-decoration: none !important;
     display: flex;
-    margin: 1.4% 0 0 9%;
-    width: 42%;
+    margin: 1% 0 0 6%;
+    width: 56%;
   }
   
   .internationalslidercontainer{
@@ -91,7 +92,7 @@
     margin: auto;
     margin-top: 1.7%;
   }
-  .domesticcardtitle {
+  .internationalcardtitle {
     color: #3380f2 !important;
     font-size: 22px;
     margin-top: 1%;
@@ -104,17 +105,17 @@
     text-align: left;
   }
   
-  .domesticimagetextcontainer {
+  .internationalimagetextcontainer {
     width: 100%;
-    height: 420px;
+    height: 430px;
   }
   
-  .domestictextcard {
+  .internationaltextcard {
     margin-left: 9% !important;
     width: 100% !important;
   }
 
-  .domestictextcard:hover div {
+  .internationaltextcard:hover div {
     color: white;
   }
   
@@ -133,7 +134,7 @@
     width: 100% !important;
   }
   
-  .domesticcarddescmain {
+  .internationalcarddescmain {
     width: 100%;
     margin-left: -9%;
   }
@@ -143,8 +144,21 @@
   }
 
   .viewallinternationaltext{
-    margin-top: 1.5%;
+    margin-top: 3.5%;
+    border: 3px solid white;
+    padding: 3px;
+    margin-bottom: 7%;
+    margin-left: 11px;
+    border-radius: 20px;
+    width: 40%;
+    padding-left: 10px;
   }
+
+  .viewallinternationaltext:hover{
+    background-color: white;
+    color: #3380f2;
+  }
+  
   .internationalheadingbuttons {
     justify-content: flex-end;
     width: -1%;
@@ -203,7 +217,7 @@
   
   
   @media screen and (max-width: 950px) {
-    .domesticimagetextcontainer {
+    .internationalimagetextcontainer {
       flex-direction: column;
     }
     .col-md-4 {
@@ -230,7 +244,7 @@
     .internationalheading2 {
       width: 100%;
     }
-    .domesticimagetextcontainer img {
+    .internationalimagetextcontainer img {
       width: 100%;
       height: 100%;
     }
@@ -238,13 +252,13 @@
       width: 100%;
       height: 100%;
     }
-    .domestictextcard {
+    .internationaltextcard {
       margin-left: 8px;
     }
   }
   
   @media screen and (max-width: 450px) {
-    .domesticimagetextcontainer {
+    .internationalimagetextcontainer {
       flex-direction: column;
     }
     .col-md-4 {
@@ -284,7 +298,7 @@
     .internationalheadingcontainer {
       flex-direction: column;
     }
-    .domesticimagetextcontainer img {
+    .internationalimagetextcontainer img {
       width: 100%;
       height: 100%;
     }
@@ -292,7 +306,7 @@
       width: 100%;
       height: 100%;
     }
-    .domestictextcard {
+    .internationaltextcard {
       margin-left: 8px;
     }
   }
