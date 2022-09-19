@@ -1,13 +1,14 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { ArrowBackIos, ArrowForwardIos } from "@material-ui/icons";
+// import { ArrowBackIos, ArrowForwardIos } from "@material-ui/icons";
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import "./ExclusiveDeals.css";
-import { ButtonBase } from "@material-ui/core";
+// import { ButtonBase } from "@material-ui/core";
 import { Button } from "react-bootstrap";
-import { FaAngleLeft,FaAngleRight } from 'react-icons/fa';
+import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
 
 export const ExclusiveDeals = () => {
     const sliderRef = useRef(null);
@@ -21,6 +22,7 @@ export const ExclusiveDeals = () => {
                 <h2 className="exclusiveheading1">Exclusive Deals</h2>
                 <div className="exclusiveheading2">
                     <div className="exclusiveheading">Deals</div>
+                    {/* <Link to="/flights"><div className="exclusiveheading">Flights</div></Link>  */}
                     <div className="exclusiveheading">Flights</div>
                     <div className="exclusiveheading">Hotels</div>
                     <div className="exclusiveheading">Holidays</div>
@@ -31,7 +33,7 @@ export const ExclusiveDeals = () => {
                     <div className="exclusiveheadingbuttons">
                         <div style={{ display: "flex" }}>
                             <FaAngleLeft size={"2.5em"}
-                            onClick={() => sliderRef.current.slickPrev()}
+                                onClick={() => sliderRef.current.slickPrev()}
                             />
                             {/* <ButtonBase
                                 style={{
@@ -69,8 +71,8 @@ export const ExclusiveDeals = () => {
                                 <ArrowForwardIos />
                             </ButtonBase> */}
                             <FaAngleRight size={"2.5em"}
-                               onClick={() => sliderRef.current.slickNext()}
-                           />
+                                onClick={() => sliderRef.current.slickNext()}
+                            />
                         </div>
                     </div>
 
@@ -143,120 +145,120 @@ export const ExclusiveDeals = () => {
                     )}
                 >
                     {/* <div className="experimentdivcontainer" style={{display:"flex",flexDirection:"row"}}> */}
-{/* 
+                    {/* 
                     <div className="exclusivedealmaincontainer"> */}
-                        <div className="card mb-4 exclusiveouterdivtop" >
-                            <div className="row g-0 exclusiveimagetextcontainer">
-                                <div className="col-md-8 exclusivecardimage">
-                                    <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
-                                </div>
-                                <div className="col-md-4 exclusivetextcard">
-                                    <div className="card-body exclusivecarddescmain">
-                                        <h3 className="card-title exclusivecardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                        <p className="card-text exclusivecard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
-                                        <Button className="exclusivebutton" variant="primary" >Book Now</Button>
-                                    </div>
+                    <div className="card mb-4 exclusiveouterdivtop" >
+                        <div className="row g-0 exclusiveimagetextcontainer">
+                            <div className="col-md-8 exclusivecardimage">
+                                <img src="images/ExclusiveDeals/jaipur.jpg" class="img-fluid rounded-start" alt="..." />
+                            </div>
+                            <div className="col-md-4 exclusivetextcard">
+                                <div className="card-body exclusivecarddescmain">
+                                    <h3 className="card-title exclusivecardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
+                                    <p className="card-text exclusivecard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
+                                    <Button className="exclusivebutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div className="card mb-3 exclusiveouterdivtop" >
-                            <div className="row g-0 exclusiveimagetextcontainer">
-                                <div className="col-md-8 exclusivecardimage">
-                                    <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
-                                </div>
-                                <div className="col-md-4 experimenttextcard">
-                                    <div className="card-body exclusivecarddescmain">
-                                        <h3 className="card-title exclusivecardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                        <p className="card-text exclusivecard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
-                                        <Button className="exclusivebutton" variant="primary" >Book Now</Button>
-                                    </div>
+                    <div className="card mb-3 exclusiveouterdivtop" >
+                        <div className="row g-0 exclusiveimagetextcontainer">
+                            <div className="col-md-8 exclusivecardimage">
+                                <img src="images/ExclusiveDeals/amritsar.jpg" class="img-fluid rounded-start" alt="..." />
+                            </div>
+                            <div className="col-md-4 exclusivetextcard">
+                                <div className="card-body exclusivecarddescmain">
+                                    <h3 className="card-title exclusivecardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
+                                    <p className="card-text exclusivecard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
+                                    <Button className="exclusivebutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div className="card mb-3 exclusiveouterdivtop" >
-                            <div className="row g-0 exclusiveimagetextcontainer">
-                                <div className="col-md-8 exclusivecardimage">
-                                    <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
-                                </div>
-                                <div className="col-md-4 experimenttextcard">
-                                    <div className="card-body exclusivecarddescmain">
-                                        <h3 className="card-title exclusivecardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                        <p className="card-text exclusivecard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
-                                        <Button className="exclusivebutton" variant="primary" >Book Now</Button>
-                                    </div>
+                    <div className="card mb-3 exclusiveouterdivtop" >
+                        <div className="row g-0 exclusiveimagetextcontainer">
+                            <div className="col-md-8 exclusivecardimage">
+                                <img src="images/ExclusiveDeals/assam.jpg" class="img-fluid rounded-start" alt="..." />
+                            </div>
+                            <div className="col-md-4 exclusivetextcard">
+                                <div className="card-body exclusivecarddescmain">
+                                    <h3 className="card-title exclusivecardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
+                                    <p className="card-text exclusivecard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
+                                    <Button className="exclusivebutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div className="card mb-3 exclusiveouterdivtop" >
-                            <div className="row g-0 exclusiveimagetextcontainer">
-                                <div className="col-md-8 exclusivecardimage">
-                                    <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
-                                </div>
-                                <div className="col-md-4 experimenttextcard">
-                                    <div className="card-body exclusivecarddescmain">
-                                        <h3 className="card-title exclusivecardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                        <p className="card-text exclusivecard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
-                                        <Button className="exclusivebutton" variant="primary" >Book Now</Button>
-                                    </div>
+                    <div className="card mb-3 exclusiveouterdivtop" >
+                        <div className="row g-0 exclusiveimagetextcontainer">
+                            <div className="col-md-8 exclusivecardimage">
+                                <img src="images/ExclusiveDeals/China.jpg" class="img-fluid rounded-start" alt="..." />
+                            </div>
+                            <div className="col-md-4 exclusivetextcard">
+                                <div className="card-body exclusivecarddescmain">
+                                    <h3 className="card-title exclusivecardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
+                                    <p className="card-text exclusivecard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
+                                    <Button className="exclusivebutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div className="card mb-3 exclusiveouterdivtop" >
-                            <div className="row g-0 exclusiveimagetextcontainer">
-                                <div className="col-md-8 exclusivecardimage">
-                                    <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
-                                </div>
-                                <div className="col-md-4 experimenttextcard">
-                                    <div className="card-body exclusivecarddescmain">
-                                        <h3 className="card-title exclusivecardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                        <p className="card-text exclusivecard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
-                                        <Button className="exclusivebutton" variant="primary" >Book Now</Button>
-                                    </div>
+                    <div className="card mb-3 exclusiveouterdivtop" >
+                        <div className="row g-0 exclusiveimagetextcontainer">
+                            <div className="col-md-8 exclusivecardimage">
+                                <img src="images/ExclusiveDeals/japan.jpg" class="img-fluid rounded-start" alt="..." />
+                            </div>
+                            <div className="col-md-4 exclusivetextcard">
+                                <div className="card-body exclusivecarddescmain">
+                                    <h3 className="card-title exclusivecardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
+                                    <p className="card-text exclusivecard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
+                                    <Button className="exclusivebutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div className="card mb-3 exclusiveouterdivtop" >
-                            <div className="row g-0 exclusiveimagetextcontainer">
-                                <div className="col-md-8 exclusivecardimage">
-                                    <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
-                                </div>
-                                <div className="col-md-4 experimenttextcard">
-                                    <div className="card-body exclusivecarddescmain">
-                                        <h3 className="card-title exclusivecardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                        <p className="card-text exclusivecard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
-                                        <Button className="exclusivebutton" variant="primary" >Book Now</Button>
-                                    </div>
+                    <div className="card mb-3 exclusiveouterdivtop" >
+                        <div className="row g-0 exclusiveimagetextcontainer">
+                            <div className="col-md-8 exclusivecardimage">
+                                <img src="images/ExclusiveDeals/kashmir.jpg" class="img-fluid rounded-start" alt="..." />
+                            </div>
+                            <div className="col-md-4 exclusivetextcard">
+                                <div className="card-body exclusivecarddescmain">
+                                    <h3 className="card-title exclusivecardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
+                                    <p className="card-text exclusivecard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
+                                    <Button className="exclusivebutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div className="card mb-3 exclusiveouterdivtop" >
-                            <div className="row g-0 exclusiveimagetextcontainer">
-                                <div className="col-md-8 exclusivecardimage">
-                                    <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
-                                </div>
-                                <div className="col-md-4 experimenttextcard">
-                                    <div className="card-body exclusivecarddescmain">
-                                        <h3 className="card-title exclusivecardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                        <p className="card-text exclusivecard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
-                                        <Button className="exclusivebutton" variant="primary" >Book Now</Button>
-                                    </div>
+                    <div className="card mb-3 exclusiveouterdivtop" >
+                        <div className="row g-0 exclusiveimagetextcontainer">
+                            <div className="col-md-8 exclusivecardimage">
+                                <img src="images/ExclusiveDeals/scotland.png" class="img-fluid rounded-start" alt="..." />
+                            </div>
+                            <div className="col-md-4 exclusivetextcard">
+                                <div className="card-body exclusivecarddescmain">
+                                    <h3 className="card-title exclusivecardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
+                                    <p className="card-text exclusivecard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
+                                    <Button className="exclusivebutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>
-                        {/* </div> */}
+                    </div>
+                    {/* </div> */}
                     {/* </div> */}
 
 

@@ -197,16 +197,25 @@ export const Nav = () => {
                         <div>
 
                             <div className='menu-links'>
-                                <li> <MdFlight className='menuicons' size={"1.5em"} /> <p className='fixed-menu-link'>Flights</p> </li>
+                                <li> <MdFlight className='menuicons' size={"1.5em"} />
+                                <Link to="/flights"> <p className='fixed-menu-link'>Flights</p> </Link> </li>
                                 <li> <FaHotel size={"1.5em"} />
-                                <Link to="/hotel"> <p className='fixed-menu-link'>Hotel</p> </Link> </li>
-                                <li> <FaCcVisa size={"1.5em"} /> <p className='fixed-menu-link'>Visa</p> </li>
+                                <Link to="/hotel">
+                                <Link to="/hotel"> <p className='fixed-menu-link'>Hotel</p> </Link> </Link> </li>
+                                <li> <FaCcVisa size={"1.5em"} />
+                                <Link to="/visa"> <p className='fixed-menu-link'>Visa</p> </Link> </li>
                                 <li> <GiPalmTree size={"1.5em"} />
                                 <Link to='/holidays'> <p className='fixed-menu-link'>Holidays</p> </Link> </li>
                                     
-                                <li> <FaBus size={"1.5em"} /> <p className='fixed-menu-link'>Bus</p> </li>
-                                <li> <FaShip size={"1.5em"} /> <p className='fixed-menu-link'>Cruise</p> </li>
-                                <li> <FaLaptopHouse size={"1.5em"} /> <p className='fixed-menu-link'>Villa</p> </li>
+                                <li> <FaBus size={"1.5em"} /> 
+                                <Link to="/rentals"> <p className='fixed-menu-link'>Bus</p> </Link> </li>
+
+                                <li> <FaShip size={"1.5em"} /> 
+                                <Link to="/cruise"><p className='fixed-menu-link'>Cruise</p> </Link> </li>
+
+                                <li> <FaLaptopHouse size={"1.5em"} /> 
+                                <Link to="/villa"> <p className='fixed-menu-link'>Villa</p> </Link> </li>
+                                
                                 <li> <MdOutlineLocalActivity size={"1.5em"} />
                                 <Link to="/activities"> <p className='fixed-menu-link'>Activities</p> </Link> </li>
                                 <li> <CgMoreAlt size={"1.5em"} /> <p className='fixed-menu-link' onClick={handleClick3}>More</p> </li>
@@ -284,11 +293,11 @@ export const Nav = () => {
                     
                     
                         <div className='transparentNavbar'>
-                        {/* <Link to="/"> */}
+                        <Link to="/">
                             <div className='logo2'>
                                 <img src="images/travelFlapLogo.jpg" alt="travelflap logo" />
                             </div>
-                            {/* </Link> */}
+                            </Link>
                         <div className='navbar-links-container1'>
                             {/* <div  className='nav-link'> <p>Akbar Bizz</p></div> */}
                             <div id='offerslink'> <Link to="/offers"> <p style={{color:"white",textDecoration:"none"}}>Offers</p></Link> </div>

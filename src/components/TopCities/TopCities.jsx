@@ -96,7 +96,7 @@ export default class TopCities extends Component {
                                     <img src="images/TopCities/africa1.jpg" />
                                 </div>
                                 <div className="topcitiesdetails">
-                                    <h2>Africa <span className="job-title">"Best Holiday trip Ever"
+                                    <h2>Namibia <span className="job-title">"Best Holiday trip Ever"
                                         <p>I love the experience with the travel Flap. I surely recommend it
                                             other for same
                                         </p>
@@ -113,7 +113,7 @@ export default class TopCities extends Component {
                                     <img src="images/TopCities/america.jpg" />
                                 </div>
                                 <div className="topcitiesdetails">
-                                    <h2>America <span className="job-title">"Best Holiday trip Ever"
+                                    <h2>Las Vegas <span className="job-title">"Best Holiday trip Ever"
                                         <p>I love the experience with the travel Flap. I surely recommend it
                                             other for same
                                         </p></span>
@@ -129,7 +129,7 @@ export default class TopCities extends Component {
                                     <img src="images/TopCities/australia.jpg" />
                                 </div>
                                 <div className="topcitiesdetails">
-                                    <h2>Australia <span className="job-title">"Best Holiday trip Ever"
+                                    <h2>Sydney <span className="job-title">"Best Holiday trip Ever"
                                         <p>I love the experience with the travel Flap. I surely recommend it
                                             other for same
                                         </p></span>
@@ -145,7 +145,7 @@ export default class TopCities extends Component {
                                     <img src="images/TopCities/canada.jpg" />
                                 </div>
                                 <div className="topcitiesdetails">
-                                    <h2>Canada <span className="job-title">"Best Holiday trip Ever"
+                                    <h2>Toronto <span className="job-title">"Best Holiday trip Ever"
                                         <p>I love the experience with the travel Flap. I surely recommend it
                                             other for same
                                         </p></span>
@@ -193,7 +193,7 @@ export default class TopCities extends Component {
                                     <img src="images/TopCities/denmark.jpg" />
                                 </div>
                                 <div className="topcitiesdetails">
-                                    <h2>Denmark <span className="job-title">"Best Holiday trip Ever"
+                                    <h2>Aarhus <span className="job-title">"Best Holiday trip Ever"
                                         <p>I love the experience with the travel Flap. I surely recommend it
                                             other for same
                                         </p></span>

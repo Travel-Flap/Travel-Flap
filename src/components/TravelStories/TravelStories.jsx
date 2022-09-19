@@ -67,7 +67,7 @@ export default class TravelStories extends Component {
                     <div className="card-wrapper">
                         <div className="card travelstoriesmaindiv">
                             <div className="card-image travelstoriescardimage">
-                                <img src="images/TravelStoriesImage1.jpg" />
+                                <img src="images/TravelStories/bailmanali.jpg" />
                             </div>
                             <div className="travelstoriesdetails">
                                 <h2>Olivia <span className="job-title">"Best Holiday trip Ever"
@@ -85,7 +85,7 @@ export default class TravelStories extends Component {
                     <div className="card-wrapper">
                         <div className="card travelstoriesmaindiv">
                             <div className="card-image travelstoriescardimage">
-                                <img src="images/TravelStoriesImage2.jpg" />
+                                <img src="images/TravelStories/jaipurCityPalace.jpg" />
                             </div>
                             <div className="travelstoriesdetails">
                                 <h2>Amirt Maan <span className="job-title">"Best Holiday trip Ever"
@@ -102,7 +102,7 @@ export default class TravelStories extends Component {
                     <div className="card-wrapper">
                         <div className="card travelstoriesmaindiv">
                             <div className="card-image travelstoriescardimage">
-                                <img src="images/TravelStoriesImage3.jpg" />
+                                <img src="images/TravelStories/kasolCamp.jpg" />
                             </div>
                             <div className="travelstoriesdetails">
                                 <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
@@ -118,7 +118,7 @@ export default class TravelStories extends Component {
                     <div className="card-wrapper">
                         <div className="card travelstoriesmaindiv">
                             <div className="card-image travelstoriescardimage">
-                                <img src="images/TravelStoriesImage4.jpg" />
+                                <img src="images/TravelStories/TravelstoriesImage4.jpg" />
                             </div>
                             <div className="travelstoriesdetails">
                                 <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
@@ -134,7 +134,9 @@ export default class TravelStories extends Component {
                     <div className="card-wrapper">
                         <div className="card travelstoriesmaindiv">
                             <div className="card-image travelstoriescardimage">
-                                <img src="images/TravelStoriesImage5.jpg" />
+                                {/* */}
+                                {/* images/TravelStoriesImage5.jpg */}
+                                <img src="images/TravelStories/rainDays.jpg " />
                             </div>
                             <div className="travelstoriesdetails">
                                 <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
@@ -150,7 +152,7 @@ export default class TravelStories extends Component {
                     <div className="card-wrapper">
                         <div className="card travelstoriesmaindiv">
                             <div className="card-image travelstoriescardimage">
-                                <img src="images/TravelStoriesImage6.jpg" />
+                                <img src="images/TravelStories/river.jpg " />
                             </div>
                             <div className="travelstoriesdetails">
                                 <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
@@ -166,7 +168,7 @@ export default class TravelStories extends Component {
                     <div className="card-wrapper">
                         <div className="card travelstoriesmaindiv">
                             <div className="card-image travelstoriescardimage">
-                                <img src="images/TravelStoriesImage7.jpg" />
+                                <img src="images/TravelStories/TravelStoriesImage7.jpg" />
                             </div>
                             <div className="travelstoriesdetails">
                                 <h2>John Doe <span className="job-title">"Best Holiday trip Ever"

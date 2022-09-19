@@ -13,7 +13,7 @@ export const Footer = () => {
         <div className="footerSectionMapcontainer">
           <h2>Our Offices</h2>
           <img
-            src="images/WorldMap/WorldMap.png"
+            src="images/WorldMap/FooterMap.png"
             alt="footer logo"
           />
         </div>

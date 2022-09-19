@@ -66,9 +66,9 @@
   transition: all 0.9s;
 }
 
-.details {
+.multicardsdetails {
   position: absolute;
-  bottom: -50%;
+  bottom: -55%;
   left: 0;
   background: #3380f2;
   width: 100%;
@@ -79,14 +79,35 @@
   transition: 0.6s;
 }
 
-.details h2 {
+.multicardsimage {
+  /* border: 3px solid red !important; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 400px !important;
+  border-radius: 16px !important;
+  z-index: 2;
+  background-color: #000;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.multicardsimage img {
+  width: 100%;
+  height: 100%;
+  /* border-radius: 15px !important; */
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.multicardsdetails h2 {
   margin: 30px 0;
   padding: 0;
   text-align: center;
   color: white;
 }
 
-.details h2 .job-title {
+.multicardsdetails h2 .job-title {
   font-size: 16px;
   line-height: 2;
   color: white;
@@ -94,7 +115,7 @@
   display: block;
 }
 
-.card:hover .details {
+.card:hover .multicardsdetails {
   bottom: 0;
 }
 

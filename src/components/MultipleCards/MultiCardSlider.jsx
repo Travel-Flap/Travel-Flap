@@ -22,10 +22,10 @@ export default class ImageSlider extends Component {
                 <Slider {...settings} className="multiCardSlider">
                     <div className="card-wrapper">
                         <div className="card multisection-image">
-                            <div className="card-image">
+                            <div className="card-image multicardsimage">
                                 <img src="images/TravelImage2.jpg" />
                             </div>
-                            <div className="details">
+                            <div className="multicardsdetails">
                                 <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
                                     <p>I love the experience with the travel Flap. I surely recommend it
                                         other for same
@@ -37,10 +37,10 @@ export default class ImageSlider extends Component {
 
                     <div className="card-wrapper">
                         <div className="card multisection-image">
-                            <div className="card-image">
+                            <div className="card-image multicardsimage">
                                 <img src="images/TravelImage6.jpg" />
                             </div>
-                            <div className="details">
+                            <div className="multicardsdetails">
                                 <h2>Amirt Maan <span className="job-title">"Best Holiday trip Ever"
                                     <p>I love the experience with the travel Flap. I surely recommend it
                                         other for same
@@ -52,10 +52,10 @@ export default class ImageSlider extends Component {
 
                     <div className="card-wrapper">
                         <div className="card multisection-image">
-                            <div className="card-image">
+                            <div className="card-image multicardsimage">
                                 <img src="images/TravelImage3.jpg" />
                             </div>
-                            <div className="details">
+                            <div className="multicardsdetails">
                                 <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
                                     <p>I love the experience with the travel Flap. I surely recommend it
                                         other for same
@@ -67,10 +67,10 @@ export default class ImageSlider extends Component {
 
                     <div className="card-wrapper">
                         <div className="card multisection-image">
-                            <div className="card-image">
+                            <div className="card-image multicardsimage">
                                 <img src="images/TravelImage4.jpg" />
                             </div>
-                            <div className="details">
+                            <div className="multicardsdetails">
                                 <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
                                     <p>I love the experience with the travel Flap. I surely recommend it
                                         other for same

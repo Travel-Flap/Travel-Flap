@@ -1,9 +1,9 @@
-.internationalmaindiv{
+.natureactivitymaindiv{
     width: 100%;
     margin-top: 5%;
   }
   
-  .internationalouterdiv {
+  .natureloveouterdiv {
     border: 2px solid lightgray;
     display: flex !important;
     flex-direction: row !important;
@@ -14,13 +14,13 @@
     transition: all 300ms ease-in-out;
   }
 
-  .internationalouterdiv:hover {
+  .natureloveouterdiv:hover {
     width: 100%;
     padding: 5px;
     box-shadow: 5px 10px 25px  #3380f2;
   }
   
-  .internationalheadingcontainer {
+  .natureloveheadingcontainer {
     background-color: #3380f2;
     display: flex;
     flex-direction: row;
@@ -30,7 +30,7 @@
     margin-top: 3%;
   }
   
-  .internationalheading1 {
+  .natureloveheading1 {
     font-size: 20px;
     font-weight: 600;
     margin-top: 2%;
@@ -40,7 +40,7 @@
     /* color: #3380f2; */
   }
   
-  .internationalheading2 {
+  .natureloveheading2 {
     width: 50%;
     height: 40px;
     justify-content: center;
@@ -49,15 +49,15 @@
     display: flex;
     flex-direction: row;
   }
-  .internationalheading {
+  .natureloveheading {
     border-radius: 50px;
   }
   
-  .internationalheading:hover{
+  .natureloveheading:hover{
     background-color: white;
     color: #3380f2;
   }
-  .internationalheading2 div {
+  .natureloveheading2 div {
     /* border: 3px solid rgb(51, 128, 242); */
     border: 2px solid white;
     width: 130px !important;
@@ -73,26 +73,26 @@
     color: white;
   }
   
-  /* .internationalheading2 div:hover {
+  /* .natureloveheading2 div:hover {
     background-color: #3380f2;
     color: white;
   } */
-  .viewallinternationalbuttons {
+  .viewallnaturelovebuttons {
     color: white;
     font-weight: 700;
     text-decoration: none !important;
     display: flex;
-    margin: 1% 0 0 6%;
+    margin: 1% 0 0 60%;
     width: 56%;
   }
   
-  .internationalslidercontainer{
+  .natureloveslidercontainer{
     /* border: 2px solid red; */
     width: 90%;
     margin: auto;
     margin-top: 1.7%;
   }
-  .internationalcardtitle {
+  .naturelovecardtitle {
     color: #3380f2 !important;
     font-size: 22px;
     margin-top: 1%;
@@ -105,20 +105,17 @@
     text-align: left;
   }
   
-  .internationalimagetextcontainer {
+  .natureloveimagetextcontainer {
     width: 100%;
     height: 430px;
   }
   
-  .internationaltextcard {
+  .naturelovetextcard {
     margin-left: 9% !important;
     width: 100% !important;
   }
 
-  .internationaltextcard:hover div {
-    color: white;
-  }
-  
+
   .exclusivedealsimagediv {
     width: 800px;
     height: 200px !important;
@@ -129,12 +126,12 @@
     margin-left: 40%;
   }
   
-  .domesticcardimage {
+  .naturelovecardimage {
     border: none;
     width: 100% !important;
   }
   
-  .internationalcarddescmain {
+  .naturelovecarddescmain {
     width: 100%;
     margin-left: -9%;
   }
@@ -143,33 +140,32 @@
     color: white;
   }
 
-  .viewallinternationaltext{
+  .viewallnaturelovetext{
     margin-top: 1.5%;
     border: 2px solid white;
-    padding: 3px;
+    padding: 0px;
     margin-bottom: 9%;
     margin-left: 11px;
     border-radius: 20px;
-    width: 34%;
+    width: 40%;
     font-size: 14px;
     font-weight: 700;
-    padding-left: 9px;
+    padding-left: 13px;
     padding-top: 5px;
   }
 
-  .viewallinternationaltext:hover{
+  .viewallnaturelovetext:hover{
     background-color: white;
     color: #3380f2;
   }
   
-  .internationalheadingbuttons {
+  .natureloveheadingbuttons {
     justify-content: flex-end;
-    width: -1%;
-    margin-left: 6%;
+    margin-left: 0%;
   }
 
   
-  .internationalheadingbuttons button{
+  .natureloveheadingbuttons button{
     color: #3380f2 !important;
     background-color: white !important;
   }
@@ -198,19 +194,19 @@
   .buttons:hover {
     transform: scale(1.1);
   }
-  .internationalbutton {
+  .naturelovebutton {
     border: 3px solid #3380f2;
     width: 34%;
     border-radius: 15px !important;
     background-color: white;
     color: #3380f2;
-    padding: 4px 12px;
+    padding: 4px 10px;
     font-weight: 500;
     margin-bottom: 1%;
     margin-top: 3%;
     font-size: 15px !important;
   }
-  .internationalbutton:hover {
+  .naturelovebutton:hover {
     border: 3px solid white;
     background-color: #3380f2;
     color: white;
@@ -220,7 +216,7 @@
   
   
   @media screen and (max-width: 950px) {
-    .internationalimagetextcontainer {
+    .natureloveimagetextcontainer {
       flex-direction: column;
     }
     .col-md-4 {
@@ -235,19 +231,19 @@
     .card-text {
       font-size: 13px;
     }
-    .viewallinternationalbuttons {
+    .viewallnaturelovebuttons {
       display: none;
     }
-    .internationalheading1 {
+    .natureloveheading1 {
       display: none;
     }
-    .internationalheadingcontainer {
+    .natureloveheadingcontainer {
       flex-direction: column;
     }
-    .internationalheading2 {
+    .natureloveheading2 {
       width: 100%;
     }
-    .internationalimagetextcontainer img {
+    .natureloveimagetextcontainer img {
       width: 100%;
       height: 100%;
     }
@@ -255,13 +251,13 @@
       width: 100%;
       height: 100%;
     }
-    .internationaltextcard {
+    .naturelovetextcard {
       margin-left: 8px;
     }
   }
   
   @media screen and (max-width: 450px) {
-    .internationalimagetextcontainer {
+    .natureloveimagetextcontainer {
       flex-direction: column;
     }
     .col-md-4 {
@@ -276,7 +272,7 @@
     .card-text {
       font-size: 13px;
     }
-    .viewallinternationalbuttons {
+    .viewallnaturelovebuttons {
       display: inline-block;
       vertical-align: top;
       margin-top: -50px;
@@ -285,23 +281,23 @@
       font-size: 14px;
       margin-left: 52%;
     }
-    .internationalheading2 {
+    .natureloveheading2 {
       display: none;
     }
-    .internationalheadingbuttons {
+    .natureloveheadingbuttons {
       display: none;
     }
-    .internationalheading1 {
+    .natureloveheading1 {
       display: inline-block;
       vertical-align: top;
       width: 40%;
       font-size: 16px;
       margin-left: 3%;
     }
-    .internationalheadingcontainer {
+    .natureloveheadingcontainer {
       flex-direction: column;
     }
-    .internationalimagetextcontainer img {
+    .natureloveimagetextcontainer img {
       width: 100%;
       height: 100%;
     }
@@ -309,7 +305,7 @@
       width: 100%;
       height: 100%;
     }
-    .internationaltextcard {
+    .naturelovetextcard {
       margin-left: 8px;
     }
   }

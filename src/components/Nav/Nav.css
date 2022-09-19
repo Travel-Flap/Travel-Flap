@@ -44,7 +44,7 @@
   display: flex;
   width: 85%;
   height: 70px;
-  margin-left: 15%;
+  margin-left: 5% !important;
 }
 
 .logo2 {
@@ -158,6 +158,8 @@
   text-transform: uppercase;
   border: 2px solid white;
   background-color: #3380f2;
+  width: 36%;
+  padding-left: 7px;
 }
 /* .login-register:hover {
   background-color: white;

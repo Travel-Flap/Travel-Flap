@@ -25,7 +25,7 @@
 .footerSectionMapcontainer {
   /* border: 1px solid red; */
   width: 100%;
-  height: 470px;
+  height: 400px;
   /* padding: 21px; */
   display: flex;
   flex-direction: column;
@@ -37,7 +37,7 @@
 
 .footerSectionMapcontainer h2 {
   margin-left: 15%;
-  margin-top: 7%;
+  margin-top: 8%;
   text-transform: uppercase;
   font-weight: 700;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -92,7 +92,7 @@
 
 .footerSectionbottom .footerLogo {
   font-size: 24px;
-  margin-top: 18%;
+  margin-top: 0%;
   line-height: 45px;
   font-weight: 800;
   text-transform: uppercase;
@@ -109,7 +109,7 @@
 }
 .footer-heading {
   font-size: 15px;
-  margin-top: 18%;
+  margin-top: 0%;
   font-weight: 700;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -122,10 +122,10 @@ h4 img {
 }
 .footersocialmedia {
   display: flex;
-  width: 86%;
+  width: 100%;
   /* margin-top: 24% !important; */
   justify-content: center;
-  column-gap: 16px;
+  column-gap: 12px;
 }
 
 .socialmedia div {
@@ -137,9 +137,8 @@ h4 img {
 }
 .socialIcons {
   color: #dee2e6;
-  font-size: 28px;
-
-  padding: 3%;
+  font-size: 24px;
+  padding: 10%;
 }
 .socialIcons:hover {
   color: rgb(2, 2, 86);
@@ -167,7 +166,7 @@ h4 img {
 }
 
 .blogImg img {
-  width: 85%;
+  width: 100%;
   height: 80%;
   object-fit: cover;
 }
@@ -183,6 +182,7 @@ h4 img {
 }
 .blogText p:nth-child(1) {
   color: white;
+  margin-top: 5%;
 }
 .blogText p:nth-child(1):hover {
   color: rgb(2, 2, 86);

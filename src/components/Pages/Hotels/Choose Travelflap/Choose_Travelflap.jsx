@@ -9,7 +9,7 @@ export const Choose_Travelflap = () => {
                 </div>
                 <div id="container_chid2">
                     <div id="chid2_part1" className="common_chid">
-                        <div className="choose_icons"><MdLocalOffer /></div>
+                        <div className="choose_icons "><MdLocalOffer /></div>
                         <div className="choose_data">
                             <h6>Search for the best hotel deals</h6>
                             <span>Compare deals from 3M+ hotels and accommodations in one place.</span>
@@ -32,7 +32,6 @@ export const Choose_Travelflap = () => {
                         </div>
                     </div>
                     <div id="chid2_part4" className="common_chid">
-                       
                         <div className="choose_icons"> <MdOutlineMessage /></div>
                         <div className="choose_data">
                             <h6>Millions of reviews</h6>

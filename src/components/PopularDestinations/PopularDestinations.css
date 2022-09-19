@@ -92,7 +92,7 @@
   color: #3380f2;
   background-color: white;
 }
-.title4 {
+.title4_viewall {
   border: 2px solid white;
   padding-top: 6px;
   padding-left: 10px;
@@ -105,7 +105,7 @@
   font-weight: 800;
   font-size: 11px;
 }
-.title4:hover{
+.title4_viewall:hover{
   color: white;
   background-color: #3380f2;
 }
@@ -264,7 +264,7 @@ img {
   .title2 {
     font-size: 30px;
   }
-  .title4 {
+  .title4_viewall {
     margin-left: 200px;
   }
   .data {
@@ -296,7 +296,7 @@ img {
   .title2 {
     font-size: 25px;
   }
-  .title4 {
+  .title4_viewall {
     margin-left: 50px;
   }
   .data {
@@ -320,7 +320,7 @@ img {
     margin: 10px 0px 10px 5px;
     width: 95%;
   }
-  .title4 {
+  .title4_viewall {
     font-size: 12px;
   }
 }

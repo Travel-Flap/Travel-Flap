@@ -4,12 +4,9 @@ import { DataCards } from "../../Cards/Cards";
 import { Middleslider } from "../../MiddleCorousel/Middleslider";
 import { Footer } from "../../Footer/Footer";
 
-// import Footer from '../../FooterSection/Footer';
-// import Navbar from "../../Navbar/Navbar";
 import { TitleBar } from "../../TopTitleBar/TitleBar";
 import { CardText } from "../../CardwithText/CardText";
 import { BottomBar } from "../../BottomBar/BottomBar";
-// import { ImageSlider } from "../../MultipleCards/MultiCardSlider";
 
 import ImageSlider from "../../MultipleCards/MultiCardSlider";
 
@@ -100,10 +97,6 @@ export const Home = () => {
             <Newsletter />
 
             <FooterLinks />
-
-            {/* <TrendingNow />
-
-            <ContactForm /> */}
 
             <Experiment/>
             <Plan/>

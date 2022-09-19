@@ -10,6 +10,7 @@ import { Free_Hotel_Lunch } from './Hotel_Free_Lunch/Free_Lunch_Hotel';
 import { Footer } from '../../Footer/Footer';
 import { FooterLinks } from '../../FooterLinks/FooterLinks';
 import { HotelNav } from './HotelNavbar/HotelNav';
+import { BottomBar } from '../../BottomBar/BottomBar';
 export const Hotel = () => {
     return (
         <div>
@@ -26,6 +27,7 @@ export const Hotel = () => {
             <Newsletter />
             <FooterLinks/>
             <Footer/>
+            <BottomBar/>
         </div>
     )
 }

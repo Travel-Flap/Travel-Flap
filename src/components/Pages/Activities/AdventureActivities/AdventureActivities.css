@@ -1,9 +1,9 @@
-.internationalmaindiv{
+.adventureactivitymaindiv{
     width: 100%;
     margin-top: 5%;
   }
   
-  .internationalouterdiv {
+  .adventureactivityouterdiv {
     border: 2px solid lightgray;
     display: flex !important;
     flex-direction: row !important;
@@ -14,13 +14,13 @@
     transition: all 300ms ease-in-out;
   }
 
-  .internationalouterdiv:hover {
+  .adventureactivityouterdiv:hover {
     width: 100%;
     padding: 5px;
     box-shadow: 5px 10px 25px  #3380f2;
   }
   
-  .internationalheadingcontainer {
+  .adventureactivityheadingcontainer {
     background-color: #3380f2;
     display: flex;
     flex-direction: row;
@@ -30,7 +30,7 @@
     margin-top: 3%;
   }
   
-  .internationalheading1 {
+  .adventureactivityheading1 {
     font-size: 20px;
     font-weight: 600;
     margin-top: 2%;
@@ -77,45 +77,45 @@
     background-color: #3380f2;
     color: white;
   } */
-  .viewallinternationalbuttons {
+  .viewalladventureactivitybuttons {
     color: white;
     font-weight: 700;
     text-decoration: none !important;
     display: flex;
-    margin: 1% 0 0 6%;
+    margin: 1% 0 0 55%;
     width: 56%;
   }
   
-  .internationalslidercontainer{
+  .adventureactivityslidercontainer{
     /* border: 2px solid red; */
     width: 90%;
     margin: auto;
     margin-top: 1.7%;
   }
-  .internationalcardtitle {
+  .adventureactivitycardtitle {
     color: #3380f2 !important;
     font-size: 22px;
     margin-top: 1%;
   }
   
-  .internationalcard_desc {
+  .adventureactivitycard_desc {
     width: 90%;
     color: #3380f2;
     font-size: 13px;
     text-align: left;
   }
   
-  .internationalimagetextcontainer {
+  .adventureactivityimagetextcontainer {
     width: 100%;
     height: 430px;
   }
   
-  .internationaltextcard {
+  .adventureactivitytextcard {
     margin-left: 9% !important;
     width: 100% !important;
   }
 
-  .internationaltextcard:hover div {
+  .adventureactivitytextcard:hover div {
     color: white;
   }
   
@@ -129,12 +129,12 @@
     margin-left: 40%;
   }
   
-  .domesticcardimage {
+  .adventureactivitycardimage {
     border: none;
     width: 100% !important;
   }
   
-  .internationalcarddescmain {
+  .adventureactivitycarddescmain {
     width: 100%;
     margin-left: -9%;
   }
@@ -143,7 +143,7 @@
     color: white;
   }
 
-  .viewallinternationaltext{
+  .viewalladventureactivitytext{
     margin-top: 1.5%;
     border: 2px solid white;
     padding: 3px;
@@ -157,19 +157,19 @@
     padding-top: 5px;
   }
 
-  .viewallinternationaltext:hover{
+  .viewalladventureactivitytext:hover{
     background-color: white;
     color: #3380f2;
   }
   
-  .internationalheadingbuttons {
+  .adventureactivityheadingbuttons {
     justify-content: flex-end;
     width: -1%;
     margin-left: 6%;
   }
 
   
-  .internationalheadingbuttons button{
+  .adventureactivityheadingbuttons button{
     color: #3380f2 !important;
     background-color: white !important;
   }
@@ -198,19 +198,19 @@
   .buttons:hover {
     transform: scale(1.1);
   }
-  .internationalbutton {
+  .adventureactivitybutton {
     border: 3px solid #3380f2;
     width: 34%;
     border-radius: 15px !important;
     background-color: white;
     color: #3380f2;
-    padding: 4px 12px;
+    padding: 4px 9px;
     font-weight: 500;
     margin-bottom: 1%;
     margin-top: 3%;
     font-size: 15px !important;
   }
-  .internationalbutton:hover {
+  .adventureactivitybutton:hover {
     border: 3px solid white;
     background-color: #3380f2;
     color: white;
@@ -220,7 +220,7 @@
   
   
   @media screen and (max-width: 950px) {
-    .internationalimagetextcontainer {
+    .adventureactivityimagetextcontainer {
       flex-direction: column;
     }
     .col-md-4 {
@@ -235,19 +235,19 @@
     .card-text {
       font-size: 13px;
     }
-    .viewallinternationalbuttons {
+    .viewalladventureactivitybuttons {
       display: none;
     }
-    .internationalheading1 {
+    .adventureactivityheading1 {
       display: none;
     }
-    .internationalheadingcontainer {
+    .adventureactivityheadingcontainer {
       flex-direction: column;
     }
     .internationalheading2 {
       width: 100%;
     }
-    .internationalimagetextcontainer img {
+    .adventureactivityimagetextcontainer img {
       width: 100%;
       height: 100%;
     }
@@ -255,13 +255,13 @@
       width: 100%;
       height: 100%;
     }
-    .internationaltextcard {
+    .adventureactivitytextcard {
       margin-left: 8px;
     }
   }
   
   @media screen and (max-width: 450px) {
-    .internationalimagetextcontainer {
+    .adventureactivityimagetextcontainer {
       flex-direction: column;
     }
     .col-md-4 {
@@ -276,7 +276,7 @@
     .card-text {
       font-size: 13px;
     }
-    .viewallinternationalbuttons {
+    .viewalladventureactivitybuttons {
       display: inline-block;
       vertical-align: top;
       margin-top: -50px;
@@ -288,20 +288,20 @@
     .internationalheading2 {
       display: none;
     }
-    .internationalheadingbuttons {
+    .adventureactivityheadingbuttons {
       display: none;
     }
-    .internationalheading1 {
+    .adventureactivityheading1 {
       display: inline-block;
       vertical-align: top;
       width: 40%;
       font-size: 16px;
       margin-left: 3%;
     }
-    .internationalheadingcontainer {
+    .adventureactivityheadingcontainer {
       flex-direction: column;
     }
-    .internationalimagetextcontainer img {
+    .adventureactivityimagetextcontainer img {
       width: 100%;
       height: 100%;
     }
@@ -309,7 +309,7 @@
       width: 100%;
       height: 100%;
     }
-    .internationaltextcard {
+    .adventureactivitytextcard {
       margin-left: 8px;
     }
   }

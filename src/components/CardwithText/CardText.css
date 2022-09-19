@@ -31,9 +31,9 @@
 }
 
 .hotelroomfilterdrop h5{
-  margin-top: 1.5%;
+  margin-top: 1%;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .datadrop{
@@ -42,9 +42,14 @@
 
 .carddropvalue{
   color: #3380f2;
-  font-weight: 500;
+  font-weight: 700;
+  height: 100px !important;
 }
 
+.carddropvalue:hover{
+  background-color: #3380f2;
+  color: white;
+}
 .heading-container {
   /* border: 1px solid red; */
   margin: auto;
@@ -326,117 +331,109 @@ body{
   }
 }
 
-/* This is the previous css */
-/* 
-.card_container{
-    width: 85%;
-    margin: auto;
-    box-sizing: border-box;
-    border: transparent;
+/* This css is for the card reference taken from the hotels page */
+ 
+.home_hotelmaincard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 88%;
+  margin: auto;
 }
-
-.heading-container{
-    margin: auto;
-    width: 36%;
-    padding-top: 7%;
-    padding-bottom: 5%;
-    color: rgb(51,128,242);
+.hotelmaincardouter{
+ /* border: 2px solid red; */
+  width: 100%;
+  /* height: 400px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
 }
-
-.heading-container h4{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 700;
-    font-size: 30px;
-    text-transform: uppercase;
-    
+.tripcard_maindiv{
+  width: 18.5%;
+  height: 360px;
+   
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+ 
 }
-
-
-.main_container{
-    margin: auto;
-    text-align: center;
+.tripcard_maindiv:hover{
+  transform: scale(1.01);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
-.card_images{
-    border: 1px solid orange !important;
-    width:100%;
-    height: 12px;
-
-    object-fit: cover;
+.review{
+  background-color: white;
+  width: 150px;
+  height: 50px;
+  /* border: 1px solid red; */
+  font-size: 12px;
+  display: flex;
+  /* color: rgb(244, 244, 249); */
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 3px;
+  margin-top: 10px;
+  margin-bottom: -82px;
+  margin-right: -60px;
+  z-index: 10;
 }
-
-.image_container{
-    position: relative;
+.tripcard_maindiv>img{
+  width: 100%;
+  height: 50%;
+  border-radius: 10px 10px 0px 0px;
+  
 }
-
-.image_container > .image_button{
-    margin-top: 100%;
-    padding: 4px 75px;
-    border-radius: 0%;
-    position: absolute;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 16px;
-    line-height: 35px;
-    vertical-align: baseline;
-    text-transform: uppercase;
-    font-weight: 700;
-} 
-
-.col-md-6{
-    text-align: left;
+.card_title{
+  /* border: 1px solid red; */
+  width: 90%;
+  height: 80px;
+  font-size: 13px;
 }
-
-
-.cards_body{
-    object-fit: cover;
+.hoteltitle_rating{
+  color: #3380F2;
 }
-
-.cards_body h3{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 36px;
-    line-height: 31px;
-    font-weight: 700;
-    color: rgb(48,115,245);
+.staricon{
+  margin-left: 2%;
 }
-
-.cards_body > .card-text{
-    font-family:"Open Sans",sans-serif;
-    font-size: 20px;
-    margin-top: 7%;
-    font-weight: 400;
-    vertical-align: baseline;
-    line-height: 33px;
+.hoteldicsountprice{
+  width: 90%;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
-
-
-.cards_body > .button{
-    text-decoration: none;
-    margin-top: 30%;
+.review_rating_num{
+  color: white;
+  margin-left: -40px;
+  margin-right: 20px;
+  margin-top: -6px;
 }
-
-.cards_body > .button a{
-    text-decoration: none;
-    color: black;
-    font-size: 14px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
+.hoteldiscountpercent{
+   border: 2px solid #3380F2;
+   border-radius:5px ;
+   color: #3380F2;
+   font-size: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
-
-.cards_body > .button a:hover{
-    color: rgb(53, 53, 186);
-    
+.hotelPricebeforediscount{
+  text-decoration: line-through;
+  font-size: 13px;
 }
-
-.card-images{
-    display: flex;
-    column-gap: 20px;
-    text-align: center;
+.hotel_Priceafterdiscount{
+ color: #3380F2;
+ font-weight: bold;
+ font-size: 13px;
 }
-
-.ratings {
-    width: 86px;
-    display: flex;
-    justify-content: center;
-    margin: 3px 0;
-  }
- */
+.Favouite_hotels{
+  color: #3380F2;
+  margin-left:38%;
+  font-weight: 700;
+}

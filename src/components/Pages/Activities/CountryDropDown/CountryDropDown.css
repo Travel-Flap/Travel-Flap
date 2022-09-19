@@ -32,14 +32,18 @@
 .singledropcontainer{
     /* border: 1px solid red; */
     /* width: 80%; */
-    margin-left: 5%;
+    margin-left: 3%;
     border: none;
 }
 
 .singledropcontainer button{
-    margin-left: 8%;
+    /* margin-left: 3%; */
     background-color: blue !important;
     color:white;
 }
 
+.singledropcontainer button:hover{
+    background-color: #3380f2;
+    color: white;
+}
 /* style={{ marginLeft: "8%", background: "white", color: "blue" }} */

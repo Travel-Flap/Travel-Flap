@@ -17,35 +17,44 @@
 #container_chid1{
     width: 99%;
     /* border: 2px solid green; */
-    margin-left: 5%;
+    margin-left: 38%;
     color: #3380F2;
 }
-
 #container_chid1 h5{
-    /* border: 1px solid red; */
-    margin-left: 33%;
-    font-size: 25px;
-    font-weight: 700 !important;
+    font-weight: 700;
 }
 #container_chid2{
    margin-top: 2%;
     display: flex;
 /* border: 2px  solid red; */
-
 justify-content: space-between;
 height: 200px;
 }
 #container_chid2>div{
-    border: 2px solid rgb(7, 91, 201);
+    /* border: 2px solid rgb(7, 91, 201); */
     width: 20%;
     border-radius: 12px;
     color: white;
-    background-color: blue;
+    background-color: #3380F2;
 }
 #container_chid2 .common_chid:hover{
-    background-color: #3380f2;
-    color: white;
+    background-color: white;
+    color: #3380F2;
+    border: 2px solid #3380F2;
 }
+
+#container_chid2:hover .choose_icons{
+    /* background-color: white; */
+    color: blue;
+}
+
+/* .choose_icons{
+    background-color: #3380F2;
+} */
+/* #chid2_part2:hover div{
+    background-color: wheat;
+    color: #3380F2;
+} */
 /* .common_chid{
     background-color: blue;
 } */
@@ -55,6 +64,7 @@ height: 200px;
     margin-left: 5%;
     margin-top: 3%;  
 }
+
 
 .choose_data{
     margin-left: 5%;

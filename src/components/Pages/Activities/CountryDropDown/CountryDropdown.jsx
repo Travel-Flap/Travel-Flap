@@ -57,7 +57,7 @@ export const CountryDropdown = () => {
                                 <option value="3">Manipur</option>
                             </select>
                         </div>
-                        <div className='singledropconatiner'>
+                        <div className='singledropcontainer'>
                             <button type="button" className="btn btn-primary">Search</button>
                         </div>
                     </div>

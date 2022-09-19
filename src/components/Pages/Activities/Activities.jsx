@@ -11,6 +11,9 @@ import { CountryDropdown } from './CountryDropDown/CountryDropdown';
 import TopActivities from "./TopCityActivity/TopActivity";
 import WorldActivities from './WorldActivities/WorldActivities';
 import { ActivityAround } from './ActivitiesAroundyou/ActivitiesAroundyou';
+import { AdventureActivities } from './AdventureActivities/AdventureActivitites';
+import { NatureLove } from './NatureLove/NatureLove';
+import { ActivityCarousel } from './ActivitiesCarouselCompo/ActivityCarousel';
 // import { SeoLocal } from './SeoLocalServices/SeoLocal';
 
 
@@ -18,24 +21,32 @@ export const Activities = () => {
   return (
     <div>
       <Nav />
-      <ControlledCarousel />
-      <CountryDropdown />
+      <ActivityCarousel/>
+      {/* <ControlledCarousel /> */}
+      {/* <CountryDropdown /> */}
 
       {/* <SeoLocal/> */}
       <div className='mt-3 carousel'>
-        <ActivityAround/>
+        <ActivityAround />
       </div>
 
-      <div className="carousel">
-        <h1 className="clientstestimonial_title">Best Activities Around the World</h1>
-        <WorldActivities/>
-      </div>
-      
       <div className='mt-3 carousel'>
         <TopActivities />
       </div>
 
+      <div className="carousel">
+        <h1 className="clientstestimonial_title">Best Activities Around the World</h1>
+        <WorldActivities />
+      </div>
 
+
+      <div className='mt-3 carousel'>
+        <AdventureActivities />
+      </div>
+
+      <div className='mt-3 carousel'>
+        <NatureLove />
+      </div>
 
       <Newsletter />
       <FooterLinks />

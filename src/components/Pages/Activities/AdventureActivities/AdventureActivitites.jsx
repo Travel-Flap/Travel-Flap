@@ -4,33 +4,33 @@ import "slick-carousel/slick/slick-theme.css";
 // import { ArrowBackIos, ArrowForwardIos } from "@material-ui/icons";
 import { useRef } from "react";
 import { useEffect } from "react";
-import "./InternationalDestinations.css";
+import "./AdventureActivities.css";
 // import { ButtonBase } from "@material-ui/core";
 import { Button } from "react-bootstrap"
 import { FaAngleLeft,FaAngleRight } from 'react-icons/fa';
 
-export const InternationalDestinations = () => {
+export const AdventureActivities = () => {
     const sliderRef = useRef(null);
     useEffect(() => {
         console.log(sliderRef);
     }, []);
     return (
-        <div className="internationalmaindiv">
+        <div className="adventureactivitymaindiv">
             {/* <h1>Ipl</h1> */}
-            <div className="internationalheadingcontainer" >
-                <h2 className="internationalheading1">InterNational Destinations</h2>
-                <div className="internationalheading2">
+            <div className="adventureactivityheadingcontainer" >
+                <h2 className="adventureactivityheading1">Adventure Activities</h2>
+                {/* <div className="internationalheading2">
                     <div className="internationalheading">Asia</div>
                     <div className="internationalheading">Africa</div>
                     <div className="internationalheading">America</div>
                     <div className="internationalheading">Antarctica</div>
                     <div className="internationalheading">Australia</div>
                     <div className="internationalheading">Europe</div>
-                </div>
+                </div> */}
 
-                <div className="viewallinternationalbuttons" >
-                    <p className="viewallinternationaltext">view deals</p>
-                    <div className="internationalheadingbuttons">
+                <div className="viewalladventureactivitybuttons" >
+                    <p className="viewalladventureactivitytext">view deals</p>
+                    <div className="adventureactivityheadingbuttons">
                         {/* <div style={{ display: "flex" }}>
                             <ButtonBase
                                 style={{
@@ -46,7 +46,7 @@ export const InternationalDestinations = () => {
                                     cursor: "pointer",
 
                                 }}
-                                className="buttons internationalbutton1"
+                                className="buttons adventureactivitybutton1"
                                 onClick={() => sliderRef.current.slickPrev()}
                             >
                                 <ArrowBackIos />
@@ -117,7 +117,7 @@ export const InternationalDestinations = () => {
                 </div>
             </div>
 
-            <div className="internationalslidercontainer">
+            <div className="adventureactivityslidercontainer">
                 <Slider
                     arrows={false}
                     // autoplay={true}
@@ -183,106 +183,106 @@ export const InternationalDestinations = () => {
                     {/* <div className="experimentdivcontainer" style={{display:"flex",flexDirection:"row"}}/> */}
 
                     
-                    <div class="card mb-3 internationalouterdiv" >
-                        <div class="row g-0 internationalimagetextcontainer">
-                            <div class="col-md-8 domesticcardimage">
+                    <div class="card mb-3 adventureactivityouterdiv" >
+                        <div class="row g-0 adventureactivityimagetextcontainer">
+                            <div class="col-md-8 adventureactivitycardimage">
                                 <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
                             </div>
-                            <div class="col-md-4 internationaltextcard">
-                                <div class="card-body internationalcarddescmain">
-                                    <h3 class="card-title internationalcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                    <p class="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <Button className="internationalbutton" variant="primary" >Book Now</Button>
+                            <div class="col-md-4 adventureactivitytextcard">
+                                <div class="card-body adventureactivitycarddescmain">
+                                    <h3 class="card-title adventureactivitycardtitle">River Rafting</h3>
+                                    <p class="card-text adventureactivitycard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <Button className="adventureactivitybutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card mb-3 internationalouterdiv" >
-                        <div class="row g-0 internationalimagetextcontainer">
-                            <div class="col-md-8 domesticcardimage">
+                    <div class="card mb-3 adventureactivityouterdiv" >
+                        <div class="row g-0 adventureactivityimagetextcontainer">
+                            <div class="col-md-8 adventureactivitycardimage">
                                 <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
                             </div>
-                            <div class="col-md-4 experimenttextcard">
-                                <div class="card-body domesticcarddescmain">
-                                    <h3 class="card-title internationalcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                    <p class="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <Button className="internationalbutton" variant="primary" >Book Now</Button>
+                            <div class="col-md-4 adventureactivitytextcard">
+                                <div class="card-body adventureactivitycarddescmain">
+                                    <h3 class="card-title adventureactivitycardtitle">Sea Diving</h3>
+                                    <p class="card-text adventureactivitycard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <Button className="adventureactivitybutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card mb-3 internationalouterdiv" >
-                        <div class="row g-0 internationalimagetextcontainer">
-                            <div class="col-md-8 domesticcardimage">
+                    <div class="card mb-3 adventureactivityouterdiv" >
+                        <div class="row g-0 adventureactivityimagetextcontainer">
+                            <div class="col-md-8 adventureactivitycardimage">
                                 <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
                             </div>
-                            <div class="col-md-4 experimenttextcard">
-                                <div class="card-body domesticcarddescmain">
-                                    <h3 class="card-title internationalcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                    <p class="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <Button className="internationalbutton" variant="primary" >Book Now</Button>
+                            <div class="col-md-4 adventureactivitytextcard">
+                                <div class="card-body adventureactivitycarddescmain">
+                                    <h3 class="card-title adventureactivitycardtitle">Paragliding</h3>
+                                    <p class="card-text adventureactivitycard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <Button className="adventureactivitybutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card mb-3 internationalouterdiv" >
-                        <div class="row g-0 internationalimagetextcontainer">
-                            <div class="col-md-8 domesticcardimage">
+                    <div class="card mb-3 adventureactivityouterdiv" >
+                        <div class="row g-0 adventureactivityimagetextcontainer">
+                            <div class="col-md-8 adventureactivitycardimage">
                                 <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
                             </div>
-                            <div class="col-md-4 experimenttextcard">
-                                <div class="card-body domesticcarddescmain">
-                                    <h3 class="card-title internationalcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                    <p class="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <Button className="internationalbutton" variant="primary" >Book Now</Button>
+                            <div class="col-md-4 adventureactivitytextcard">
+                                <div class="card-body adventureactivitycarddescmain">
+                                    <h3 class="card-title adventureactivitycardtitle">Xline Ride</h3>
+                                    <p class="card-text adventureactivitycard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <Button className="adventureactivitybutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card mb-3 internationalouterdiv" >
-                        <div class="row g-0 internationalimagetextcontainer">
-                            <div class="col-md-8 domesticcardimage">
+                    <div class="card mb-3 adventureactivityouterdiv" >
+                        <div class="row g-0 adventureactivityimagetextcontainer">
+                            <div class="col-md-8 adventureactivitycardimage">
                                 <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
                             </div>
-                            <div class="col-md-4 experimenttextcard">
-                                <div class="card-body domesticcarddescmain">
-                                    <h3 class="card-title internationalcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                    <p class="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <Button className="internationalbutton" variant="primary" >Book Now</Button>
+                            <div class="col-md-4 adventureactivitytextcard">
+                                <div class="card-body adventureactivitycarddescmain">
+                                    <h3 class="card-title adventureactivitycardtitle">Gyrocopter Ride.</h3>
+                                    <p class="card-text adventureactivitycard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <Button className="adventureactivitybutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card mb-3 internationalouterdiv" >
-                        <div class="row g-0 internationalimagetextcontainer">
-                            <div class="col-md-8 domesticcardimage">
+                    <div class="card mb-3 adventureactivityouterdiv" >
+                        <div class="row g-0 adventureactivityimagetextcontainer">
+                            <div class="col-md-8 adventureactivitycardimage">
                                 <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
                             </div>
-                            <div class="col-md-4 experimenttextcard">
-                                <div class="card-body domesticcarddescmain">
-                                    <h3 class="card-title internationalcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                    <p class="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <Button className="internationalbutton" variant="primary" >Book Now</Button>
+                            <div class="col-md-4 adventureactivitytextcard">
+                                <div class="card-body adventureactivitycarddescmain">
+                                    <h3 class="card-title adventureactivitycardtitle">Downhill Bike Riding</h3>
+                                    <p class="card-text adventureactivitycard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <Button className="adventureactivitybutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card mb-3 internationalouterdiv" >
-                        <div class="row g-0 internationalimagetextcontainer">
-                            <div class="col-md-8 domesticcardimage">
+                    <div class="card mb-3 adventureactivityouterdiv" >
+                        <div class="row g-0 adventureactivityimagetextcontainer">
+                            <div class="col-md-8 adventureactivitycardimage">
                                 <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
                             </div>
-                            <div class="col-md-4 experimenttextcard">
-                                <div class="card-body domesticcarddescmain">
-                                    <h3 class="card-title internationalcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                    <p class="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <Button className="internationalbutton" variant="primary" >Book Now</Button>
+                            <div class="col-md-4 adventureactivitytextcard">
+                                <div class="card-body adventureactivitycarddescmain">
+                                    <h3 class="card-title adventureactivitycardtitle">Ekart Riding</h3>
+                                    <p class="card-text adventureactivitycard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <Button className="adventureactivitybutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>

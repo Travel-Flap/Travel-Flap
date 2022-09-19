@@ -70,7 +70,7 @@ export const PopularDestinations = () => {
                <div className='title3'>DESTINATIONS</div>
                <div className='title3_inner1'>INTERNATIONAL</div>
                <div className='title3_inner2'>DOMESTIC</div>
-               <div className='title4'>View All Destinations</div>
+               <div className='title4_viewall'>View All Destinations</div>
             </div>
 
             <div className='data'>
@@ -78,69 +78,69 @@ export const PopularDestinations = () => {
                   <div className='namesContainer'>
                      <div className='picimg'>
                         <div className='pic'>
-                           <img  src='images/PopularDestinationImages/PopularDestinationImage5.jpg' />
+                           <img  src='images/country images/europe 2.jpg' />
                         </div>
                         <div className='country'>Europe</div>
                      </div>
                      <div className='picimg'>
                         <div className='pic'>
-                           <img src='images/PopularDestinationImages/PopularDestinationImage2.jpg' />
+                           <img src='images/country images/turkey.jpg' />
                         </div>
                         <div className='country'>Turkey</div>
                      </div>
                      <div className='picimg'>
                         <div className='pic'>
-                           <img src='images/PopularDestinationImages/PopularDestinationImageDubai.jpg' />
+                           <img src='images/country images/dubai 3.jpg' />
                            {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsC0i3udOZCYJrxE-ga1W9-XW3BpgxLNDPPP2kA72r&s" alt="Dubai image"/> */}
                         </div>
                         <div className='country'>Dubai</div>
                      </div>
                      <div className='picimg'>
                         <div className='pic'>
-                           <img src='images/PopularDestinationImages/PopularDestinationImage4.jpg' />
+                           <img src='images/country images/thailand 2.jpg' />
                         </div>
                         <div className='country'>Thailand</div>
                      </div>
                      <div className='picimg'>
                         <div className='pic'>
                         
-                           <img src='images/PopularDestinationImages/PopularDestinationImage1.jpg' />
+                           <img src='images/country images/maldives 2.jpg' />
                         </div>
                         <div className='country'>Maldives</div>
                      </div>
                      <div className='picimg'>
                         <div className='pic'>
-                           <img src='images/PopularDestinationImages/destination9.jpg' />
+                           <img src='images/country images/switzerland 2.jpg' />
                         </div>
                         <div className='country'>Switzerland</div>
                      </div>
                      <div className='picimg'>
                         <div className='pic'>
-                           <img src='images/PopularDestinationImages/PopularDestinationImage7.jpg' />
+                           <img src='images/country images/mauritius.jpg' />
                         </div>
                         <div className='country'>Mauritius</div>
                      </div>
                      <div className='picimg'>
                         <div className='pic'>
-                           <img src='images/PopularDestinationImages/destination2.jpg' />
+                           <img src='images/country images/srilanka 3.jpg' />
                         </div>
                         <div className='country'>Srilanka</div>
                      </div>
                      <div className='picimg'>
                         <div className='pic'>
-                           <img src='images/PopularDestinationImages/PopularDestinationImage9.jpg' />
+                           <img src='images/country images/uk 2.jpg' />
                         </div>
                         <div className='country'>UK</div>
                      </div>
                      <div className='picimg'>
                         <div className='pic'>
-                           <img src='images/PopularDestinationImages/destination10.jpg' />
+                           <img src='images/country images/italy.jpg' />
                         </div>
                         <div className='country'>Italy</div>
                      </div>
                      <div className='picimg'>
                         <div className='pic'>
-                           <img src='images/PopularDestinationImages/PopularDestinationImage11.jpg' />
+                           <img src='images/country images/serbia 1.jpg' />
                         </div>
                         <div className='country'>Serbia</div>
                      </div>
@@ -152,7 +152,7 @@ export const PopularDestinations = () => {
                      <div className="card-wrapper">
                         <div className="card populardestinationssliderdiv">
                            <div className=" populardestinationcardimage">
-                              <img src="images/PopularDestinationImages/PopularDestinationImage11.jpg" />
+                              <img src="images/country images/Goa.jpg" />
                            </div>
                            <div className="populardestinationsdetails">
                               <h2>Goa <span className="job-title">"Best Holiday trip Ever"
@@ -166,7 +166,7 @@ export const PopularDestinations = () => {
                      <div className="card-wrapper">
                         <div className="card populardestinationssliderdiv">
                            <div className=" populardestinationcardimage">
-                              <img src="images/PopularDestinationImages/PopularDestinationImage9.jpg" />
+                              <img src="images/country images/singapore.jpg" />
                            </div>
                            <div className="populardestinationsdetails">
                               <h2>Singapore <span className="job-title">"Best Holiday trip Ever"
@@ -179,7 +179,7 @@ export const PopularDestinations = () => {
                      <div className="card-wrapper">
                         <div className="card populardestinationssliderdiv">
                            <div className=" populardestinationcardimage">
-                              <img src="https://media.istockphoto.com/photos/muttrah-corniche-muscat-oman-picture-id936440920?b=1&k=20&m=936440920&s=170667a&w=0&h=rPQve6hnNUHyhgPv116KL79LugjcZRL_bk7O8JU2z4Q=" />
+                              <img src="images/country images/oman 2.jpg" />
                            </div>
                            <div className="populardestinationsdetails">
                               <h2>Oman <span className="job-title">"Best Holiday trip Ever"
@@ -192,7 +192,7 @@ export const PopularDestinations = () => {
                      <div className="card-wrapper">
                         <div className="card populardestinationssliderdiv">
                            <div className=" populardestinationcardimage">
-                              <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" />
+                              <img src="images/country images/paris.jpg " />
                            </div>
                            <div className="populardestinationsdetails">
                               <h2>Paris <span className="job-title">"Best Holiday trip Ever"
@@ -205,7 +205,7 @@ export const PopularDestinations = () => {
                      <div className="card-wrapper">
                         <div className="card populardestinationssliderdiv">
                            <div className=" populardestinationcardimage">
-                              <img src="images/PopularDestinationImages/PopularDestinationImageDubai.jpg" />
+                              <img src="images/country images/dubai2.jpg" />
                            </div>
                            <div className="populardestinationsdetails">
                               <h2>Dubai <span className="job-title">"Best Holiday trip Ever"

@@ -1,11 +1,11 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { ArrowBackIos, ArrowForwardIos } from "@material-ui/icons";
+// import { ArrowBackIos, ArrowForwardIos } from "@material-ui/icons";
 import { useRef } from "react";
 import { useEffect } from "react";
 import "./BestBudget.css";
-import { ButtonBase } from "@material-ui/core";
+// import { ButtonBase } from "@material-ui/core";
 import { Button } from "react-bootstrap";
 import { FaAngleLeft,FaAngleRight } from 'react-icons/fa';
 
@@ -125,7 +125,7 @@ export const BestBudget = () => {
                     // dots
                     dotsclassName="slick-dots line-indicator"
                     ref={sliderRef}
-                    slidesToShow={3}
+                    slidesToShow={4}
                     slidesToScroll={2}
                     responsive={[
                         {

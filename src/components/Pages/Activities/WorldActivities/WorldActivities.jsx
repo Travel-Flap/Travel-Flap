@@ -23,7 +23,7 @@ export default class WorldActivities extends Component {
                     <div className="card-wrapper worldactivitywrapper">
                         <div className="card multisection-image">
                             <div className="card-image worldactivitycardimage">
-                                <img src="images/TravelImage2.jpg" />
+                                <img src="images/ExclusiveDeals/jaipur.jpg" />
                             </div>
                             <div className="worldactivitydetails">
                                 <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
@@ -38,7 +38,7 @@ export default class WorldActivities extends Component {
                     <div className="card-wrapper">
                         <div className="card multisection-image">
                             <div className="card-image worldactivitycardimage">
-                                <img src="images/TravelImage6.jpg" />
+                                <img src="images/ExclusiveDeals/russisa.jpg" />
                             </div>
                             <div className="worldactivitydetails">
                                 <h2>Amirt Maan <span className="job-title">"Best Holiday trip Ever"
@@ -53,7 +53,7 @@ export default class WorldActivities extends Component {
                     <div className="card-wrapper">
                         <div className="card multisection-image">
                             <div className="card-image worldactivitycardimage">
-                                <img src="images/TravelImage3.jpg" />
+                                <img src="images/ExclusiveDeals/China.jpg" />
                             </div>
                             <div className="worldactivitydetails">
                                 <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
@@ -68,7 +68,7 @@ export default class WorldActivities extends Component {
                     <div className="card-wrapper">
                         <div className="card multisection-image">
                             <div className="card-image " id='worldactivitycardimage'>
-                                <img src="images/TravelImage4.jpg" />
+                                <img src="images/ExclusiveDeals/kashmir.jpg" />
                             </div>
                             <div className="worldactivitydetails">
                                 <h2>John Doe <span className="job-title">"Best Holiday trip Ever"

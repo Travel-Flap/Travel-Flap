@@ -1,3 +1,5 @@
+
+
 #filter-travel-container {
   display: flex;
   flex-direction: column;
@@ -84,7 +86,7 @@
   margin-left: 5%;
 }
 .selectdate h5 {
-  font-size: 16px;
+  font-size: 14px !important;
   font-weight: 500;
   margin-top: -12%;
   margin-bottom: 13%;
@@ -110,7 +112,7 @@
   height: 50px;
   width: 100%;
   font-weight: 600;
-  font-size: 31px;
+  font-size: 29px !important;
 }
 .cityinput::placeholder {
   color: #3380f2;
@@ -159,8 +161,8 @@
   margin: 12px;
   border: 1.4px solid #3380f2;
   background-color: #3380f2;
-  width: 52%;
-  border-radius: 5px;
+  width: 51%;
+  border-radius: 8px;
   height: 43px;
   cursor: pointer;
   margin-left: 0.5%;
@@ -217,6 +219,7 @@
 #borderright{
   border-radius: 0 40px 40px 0;
 }
+
 /* #iconnames {
   color: #3380f2;
   font-size: 15px;
@@ -283,7 +286,34 @@
   color: white !important;
   text-decoration: none;
 }
-
+.moredropdowncontent{
+  display: none;
+  position: absolute;
+  color: white;
+  background-color: #3380f2;
+  width: 200px;
+  height: 215px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 10px;
+  margin-top: 32%;
+}
+#borderright:hover .moredropdowncontent{
+   display: block;
+}
+.moreOptions:hover {
+  background-color: white;
+  color: #3380f2;
+}
+.moreOptions{
+margin-top: 5%;
+padding: 5%;
+color: white;
+}
+.moreOptions a{
+  text-decoration: none;
+  color: white;
+}
 .date-picker input {
   width: 100%;
   border: none;
@@ -327,11 +357,11 @@
 .flightscheckbox {
   margin-left: 5%;
   margin-bottom: -0.5%;
-  /* margin-top: -3%; */
+  margin-top: -3%;
 }
 .flightscheckbox1 {
   margin-left: 0.5%;
-  /* margin-top: -1.2%; */
+  margin-top: -1.2%;
 }
 
 @media screen and (min-width: 560px) and (max-width: 950px) {

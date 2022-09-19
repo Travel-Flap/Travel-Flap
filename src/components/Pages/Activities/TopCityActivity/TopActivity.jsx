@@ -13,7 +13,7 @@ export default class TopActivities extends Component {
             infinite: true,
             autoplay: true,
             speed:700,
-            slidesToShow: 4,
+            slidesToShow: 5,
             slidesToScroll: 1,
             cssEase: "linear",
             // arrows:true,
@@ -67,7 +67,7 @@ export default class TopActivities extends Component {
                     <div className="card-wrapper">
                         <div className="card topactivitymaindiv">
                             <div className="card-image topactivitycardimage">
-                                <img src="images/TravelStoriesImage1.jpg" />
+                                <img src="images/TopCities/abudhabhi.jpg" />
                             </div>
                             <div className="topactivitydetails">
                                 <h2>Olivia <span className="job-title">"Best Holiday trip Ever"
@@ -85,7 +85,7 @@ export default class TopActivities extends Component {
                     <div className="card-wrapper">
                         <div className="card topactivitymaindiv">
                             <div className="card-image topactivitycardimage">
-                                <img src="images/TravelStoriesImage2.jpg" />
+                                <img src="images/TopCities/america.jpg" />
                             </div>
                             <div className="topactivitydetails">
                                 <h2>Amirt Maan <span className="job-title">"Best Holiday trip Ever"
@@ -102,7 +102,7 @@ export default class TopActivities extends Component {
                     <div className="card-wrapper">
                         <div className="card topactivitymaindiv">
                             <div className="card-image topactivitycardimage">
-                                <img src="images/TravelStoriesImage3.jpg" />
+                                <img src="images/TopCities/bangkok.jpg" />
                             </div>
                             <div className="topactivitydetails">
                                 <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
@@ -118,7 +118,7 @@ export default class TopActivities extends Component {
                     <div className="card-wrapper">
                         <div className="card topactivitymaindiv">
                             <div className="card-image topactivitycardimage">
-                                <img src="images/TravelStoriesImage4.jpg" />
+                                <img src="images/TopCities/canada.jpg" />
                             </div>
                             <div className="topactivitydetails">
                                 <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
@@ -134,7 +134,23 @@ export default class TopActivities extends Component {
                     <div className="card-wrapper">
                         <div className="card topactivitymaindiv">
                             <div className="card-image topactivitycardimage">
-                                <img src="images/TravelStoriesImage5.jpg" />
+                                <img src="images/TopCities/bangalore.jpg" />
+                            </div>
+                            <div className="topactivitydetails">
+                                <h2>Vaibhav <span className="job-title">"Best Holiday trip Ever"
+                                    <p>I love the experience with the travel Flap. I surely recommend it
+                                        other for same
+                                    </p></span>
+                                    <Button variant="primary">Read More</Button>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="card-wrapper">
+                        <div className="card topactivitymaindiv">
+                            <div className="card-image topactivitycardimage">
+                                <img src="images/TopCities/denmark2.jpg" />
                             </div>
                             <div className="topactivitydetails">
                                 <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
@@ -150,10 +166,10 @@ export default class TopActivities extends Component {
                     <div className="card-wrapper">
                         <div className="card topactivitymaindiv">
                             <div className="card-image topactivitycardimage">
-                                <img src="images/TravelStoriesImage6.jpg" />
+                                <img src="images/TopCities/gulmarg.jpg" />
                             </div>
                             <div className="topactivitydetails">
-                                <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
+                                <h2>Gulmarg <span className="job-title">"Best Holiday trip Ever"
                                     <p>I love the experience with the travel Flap. I surely recommend it
                                         other for same
                                     </p></span>
@@ -166,23 +182,7 @@ export default class TopActivities extends Component {
                     <div className="card-wrapper">
                         <div className="card topactivitymaindiv">
                             <div className="card-image topactivitycardimage">
-                                <img src="images/TravelStoriesImage7.jpg" />
-                            </div>
-                            <div className="topactivitydetails">
-                                <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
-                                    <p>I love the experience with the travel Flap. I surely recommend it
-                                        other for same
-                                    </p></span>
-                                    <Button variant="primary">Read More</Button>
-                                </h2>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="card-wrapper">
-                        <div className="card topactivitymaindiv">
-                            <div className="card-image topactivitycardimage">
-                                <img src="images/TravelStoriesImage8.jpg" />
+                                <img src="images/TopCities/Mauritius.jpg" />
                             </div>
                             <div className="topactivitydetails">
                                 <h2>John Doe <span className="job-title">"Best Holiday trip Ever"

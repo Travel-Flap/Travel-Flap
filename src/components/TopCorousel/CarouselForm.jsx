@@ -7,6 +7,7 @@ import { FaAccessibleIcon, FaCalendarAlt } from 'react-icons/fa';
 import { Menu } from './Menu.jsx';
 import { MdFlight,MdOutlineLocalActivity } from 'react-icons/md';
 import { FaPlusCircle, FaMinusCircle, FaArrowCircleDown,FaHotel,FaLaptopHouse } from 'react-icons/fa';
+import { FaShip,FaPhoneAlt,FaTags} from 'react-icons/fa';
 import { RiVisaFill } from 'react-icons/ri';
 import { GiPalmTree } from 'react-icons/gi';
 import { GrBus } from 'react-icons/gr';
@@ -23,37 +24,55 @@ export const CarouselForm = () => {
             {/* <Menu /> */}
            <div className='carouselmenu'>
            
-              <div className='carouselmenu-icon' id='borderLeft'>
+           <Link to="/flights" className='carouselmenu-icon' id='borderLeft'>
               <MdFlight size={"1.9em"} className="carouselFormicon"/>
-              <Link to="/flights" className='flighttext'> Flight </Link>
-              </div>
-              <div className='carouselmenu-icon'>
+               Flight 
+           </Link>
+           <Link to="/hotel" className='carouselmenu-icon'>
               <FaHotel size={"1.9em"} className="carouselFormicon"/>
-              <Link to="/hotel" className='flighttext'> Hotel </Link>
-              </div>
-              <div className='carouselmenu-icon'>
-               <RiVisaFill size={"1.9em"} className="carouselFormicon"/>
-               <Link to="/visa" className='flighttext'> Visa </Link>
-              </div>
-              <div className='carouselmenu-icon'>
+               Hotel 
+           </Link>
+           <Link to="/visa" className='carouselmenu-icon' >
+              <RiVisaFill size={"1.9em"} className="carouselFormicon"/>
+               Visa 
+           </Link>
+           <Link to="/holidays" className='carouselmenu-icon' >
               <GiPalmTree size={"1.9em"} className="carouselFormicon"/>
-              <Link to="/holidays" className='flighttext'> Holidays </Link>
-              </div>
-              <div className='carouselmenu-icon'>
+               Holidays 
+           </Link>
+           <Link to="/Villa" className='carouselmenu-icon' >
               <FaLaptopHouse size={"1.9em"} className="carouselFormicon"/>
-              <Link to="/villa" className='flighttext'> Villas </Link>
-              </div>
-              <div className='carouselmenu-icon'>
-               <GiCruiser size={"1.9em"} className="carouselFormicon"/>
-               <Link to="/cruise" className='flighttext'> Cruise </Link>
-              </div>
-              <div className='carouselmenu-icon'>
+               Villas 
+           </Link>
+           <Link to="/cruise" className='carouselmenu-icon' >
+              <GiCruiser size={"1.9em"} className="carouselFormicon"/>
+               Cruise 
+           </Link>
+           <Link to="/activities" className='carouselmenu-icon' >
               <MdOutlineLocalActivity size={"1.9em"} className="carouselFormicon"/>
-              <Link to="/activities" className='flighttext'> Activities </Link>
-              </div>
+               Activities 
+           </Link>
+          
+              
               <div className='carouselmenu-icon' id='borderright'>
               <CgMoreAlt size={"1.9em"}/>
                 More
+                 
+                <div className='moredropdowncontent'>
+                <div className='moreOptions'>
+                <Link to='/contact' className='moreOptions'><FaPhoneAlt className='contactIcon' /> ContactUs</Link>
+                </div>
+                <div className='moreOptions '>
+                <Link to='/mice' className='moreOptions'><GiPalmTree className='miceIcon' />  Mice </Link>
+                </div>
+                <div className='moreOptions'>
+                <Link to='/offers' className='moreOptions'>   <FaTags className='offersIcon' /> Offers </Link>
+                </div>
+                <div className='moreOptions'>
+                <Link to='/inspire' className='moreOptions'> <FaShip className='inspireIcon' /> Inspire </Link> 
+                </div>
+            </div>
+               
               </div>
            </div>
 
@@ -67,7 +86,7 @@ export const CarouselForm = () => {
                     <input type="radio" className='chooseoptions3' />
                     <label className='radiodesc'>Multi Trip</label>
                 </div>
-                <div className='maindatesections'>
+                <div className='maindatesections' style={{boreder:"10px solid red"}}>
                     <div className='filter-fromTo'>
                         <div className='from-name'>
                             <h5>FROM</h5>

@@ -1,12 +1,14 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { ArrowBackIos, ArrowForwardIos } from "@material-ui/icons";
+// import { ArrowBackIos, ArrowForwardIos } from "@material-ui/icons";
 import { useRef } from "react";
 import { useEffect } from "react";
 import "./ActivitiesAroundyou.css";
-import { ButtonBase } from "@material-ui/core";
-import { Button } from "react-bootstrap"
+// import { ButtonBase } from "@material-ui/core";
+import { Button } from "react-bootstrap";
+import { FaAngleLeft,FaAngleRight } from 'react-icons/fa';
+
 
 export const ActivityAround = () => {
     const sliderRef = useRef(null);
@@ -14,10 +16,10 @@ export const ActivityAround = () => {
         console.log(sliderRef);
     }, []);
     return (
-        <div className="activitiesaroundmaindiv">
+        <div className="activituaroundmaindiv">
             {/* <h1>Ipl</h1> */}
-            <div className="activitiesaroundheadingcontainer" >
-                <h2 className="activitiesaroundheading1">Best Budget Destinations</h2>
+            <div className="activityaroundheadingcontainer" >
+                <h2 className="activityaroundheading1">Activities Around You</h2>
                 {/* <div className="experimentheading2">
                 <div className="experimentheading" >Deals</div>
                 <div>Flights</div>
@@ -26,10 +28,10 @@ export const ActivityAround = () => {
                 <div>Cruise</div>
                 </div> */}
 
-                <div className="viewallactivitiesaroundbuttons" >
-                    <p className="viewallactivitiesaroundtext">view all deals</p>
-                    <div className="activitiesaoundheadingbuttons">
-                        <div style={{ display: "flex" }}>
+                <div className="viewallactivityaroundbuttons" >
+                    <p className="viewallactivityaroundtext" style={{width:"45"}}>view all deals</p>
+                    <div className="activityaroundheadingbuttons">
+                        {/* <div style={{ display: "flex" }}>
 
                             <ButtonBase
                                 style={{
@@ -65,16 +67,59 @@ export const ActivityAround = () => {
                             >
                                 <ArrowForwardIos />
                             </ButtonBase>
+                        </div> */}
+                         <div style={{ display: "flex" }}>
+                            <FaAngleLeft size={"2.5em"}
+                            onClick={() => sliderRef.current.slickPrev()}
+                            />
+                            {/* <ButtonBase
+                                style={{
+                                    width: 35,
+                                    height: 35,
+                                    display: "flex",
+                                    alignItems: "center",
+                                    justifyContent: "center",
+                                    marginRight: 10,
+                                    borderRadius: 7,
+                                    color:"blue",
+                                    boxShadow: "0 1px 3px rgb(0 0 0 / 10%)",
+                                    cursor: "pointer",
+                                    border:"2px solid black",
+                                }}
+                                className="buttons exclusivebutton1"
+                                onClick={() => sliderRef.current.slickPrev()}
+                            >
+                                <ArrowBackIos />
+                            </ButtonBase> */}
+                            {/* <ButtonBase
+                                style={{
+                                    width: 35,
+                                    height: 35,
+                                    display: "flex",
+                                    alignItems: "center",
+                                    justifyContent: "center",
+                                    borderRadius: 7,
+                                    boxShadow: "0 1px 3px rgb(0 0 0 / 10%)",
+                                    cursor: "pointer",
+                                }}
+                                className="buttons"
+                                onClick={() => sliderRef.current.slickNext()}
+                            >
+                                <ArrowForwardIos />
+                            </ButtonBase> */}
+                            <FaAngleRight size={"2.5em"}
+                               onClick={() => sliderRef.current.slickNext()}
+                           />
                         </div>
                     </div>
 
                 </div>
             </div>
 
-            <div className="activitiesaroundslidercontainer">
+            <div className="activityaroundslidercontainer">
                 <Slider
                     arrows={false}
-                    autoplay={true}
+                      autoplay={true}
                     speed={1000}
                     autoplaySpeed={2000}
                     // dots
@@ -139,136 +184,119 @@ export const ActivityAround = () => {
                     {/* <div className="experimentdivcontainer" style={{display:"flex",flexDirection:"row"}}> */}
 
 
-                    <div className="card-wrapper">
-                        <div className="card activitiesaroundmaindiv">
-                            <div className="card-image activitiesaroundcardimage">
-                                <img src="images/TravelStoriesImage1.jpg" />
-                            </div>
-                            <div className="activitiesarounddetails">
-                                <h2>Olivia <span className="job-title">"Best Holiday trip Ever"
-                                    <p>I love the experience with the travel Flap. I surely recommend it
-                                        other for same
-                                    </p>
-
-                                </span>
-                                    <Button variant="primary">Read More</Button>
-                                </h2>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="card-wrapper">
-                        <div className="card activitiesaroundmaindiv">
-                            <div className="card-image activitiesaroundcardimage">
-                                <img src="images/TravelStoriesImage2.jpg" />
-                            </div>
-                            <div className="activitiesarounddetails">
-                                <h2>Amirt Maan <span className="job-title">"Best Holiday trip Ever"
-                                    <p>I love the experience with the travel Flap. I surely recommend it
-                                        other for same
-                                    </p>
-                                </span>
-                                    <Button variant="primary">Read More</Button>
-                                </h2>
+                        <div class="card mb-3 activityaroundouterdiv" >
+                            <div class="row g-0 activityaroundimagetextcontainer">
+                                <div class="col-md-8 activityaroundcardimage">
+                                    <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                                </div>
+                                <div class="col-md-4 activityaroundtextcard">
+                                    <div class="card-body activityaroundcarddescmain">
+                                        <h3 class="card-title activityaroundcardtitle">Water Sports</h3>
+                                        <p class="card-text activityaroundcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
+                                        <Button className="activityaroundbutton" variant="primary" >Book Now</Button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div className="card-wrapper">
-                        <div className="card activitiesaroundmaindiv">
-                            <div className="card-image activitiesaroundcardimage">
-                                <img src="images/TravelStoriesImage3.jpg" />
-                            </div>
-                            <div className="activitiesarounddetails">
-                                <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
-                                    <p>I love the experience with the travel Flap. I surely recommend it
-                                        other for same
-                                    </p></span>
-                                    <Button variant="primary">Read More</Button>
-                                </h2>
+                        <div class="card mb-3 activityaroundouterdiv" >
+                            <div class="row g-0 activityaroundimagetextcontainer">
+                                <div class="col-md-8 activityaroundcardimage">
+                                    <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                                </div>
+                                <div class="col-md-4 activityaroundtextcard">
+                                    <div class="card-body activityaroundcarddescmain">
+                                        <h3 class="card-title activityaroundcardtitle">Mountain Hiking</h3>
+                                        <p class="card-text activityaroundcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
+                                        <Button className="activityaroundbutton" variant="primary" >Book Now</Button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div className="card-wrapper">
-                        <div className="card activitiesaroundmaindiv">
-                            <div className="card-image activitiesaroundcardimage">
-                                <img src="images/TravelStoriesImage4.jpg" />
-                            </div>
-                            <div className="activitiesarounddetails">
-                                <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
-                                    <p>I love the experience with the travel Flap. I surely recommend it
-                                        other for same
-                                    </p></span>
-                                    <Button variant="primary">Read More</Button>
-                                </h2>
+                        <div class="card mb-3 activityaroundouterdiv" >
+                            <div class="row g-0 activityaroundimagetextcontainer">
+                                <div class="col-md-8 activityaroundcardimage">
+                                    <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                                </div>
+                                <div class="col-md-4 activityaroundtextcard">
+                                    <div class="card-body activityaroundcarddescmain">
+                                        <h3 class="card-title activityaroundcardtitle">Adventure Sports</h3>
+                                        <p class="card-text activityaroundcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
+                                        <Button className="activityaroundbutton" variant="primary" >Book Now</Button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div className="card-wrapper">
-                        <div className="card activitiesaroundmaindiv">
-                            <div className="card-image activitiesaroundcardimage">
-                                <img src="images/TravelStoriesImage5.jpg" />
-                            </div>
-                            <div className="activitiesarounddetails">
-                                <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
-                                    <p>I love the experience with the travel Flap. I surely recommend it
-                                        other for same
-                                    </p></span>
-                                    <Button variant="primary">Read More</Button>
-                                </h2>
+                        <div class="card mb-3 activityaroundouterdiv" >
+                            <div class="row g-0 activityaroundimagetextcontainer">
+                                <div class="col-md-8 activityaroundcardimage">
+                                    <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                                </div>
+                                <div class="col-md-4 activityaroundtextcard">
+                                    <div class="card-body activityaroundcarddescmain">
+                                        <h3 class="card-title activityaroundcardtitle">Adventure Sports</h3>
+                                        <p class="card-text activityaroundcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
+                                        <Button className="activityaroundbutton" variant="primary" >Book Now</Button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div className="card-wrapper">
-                        <div className="card activitiesaroundmaindiv">
-                            <div className="card-image activitiesaroundcardimage">
-                                <img src="images/TravelStoriesImage6.jpg" />
-                            </div>
-                            <div className="activitiesarounddetails">
-                                <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
-                                    <p>I love the experience with the travel Flap. I surely recommend it
-                                        other for same
-                                    </p></span>
-                                    <Button variant="primary">Read More</Button>
-                                </h2>
+                        <div class="card mb-3 activityaroundouterdiv" >
+                            <div class="row g-0 activityaroundimagetextcontainer">
+                                <div class="col-md-8 activityaroundcardimage">
+                                    <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                                </div>
+                                <div class="col-md-4 activityaroundtextcard">
+                                    <div class="card-body activityaroundcarddescmain">
+                                        <h3 class="card-title activityaroundcardtitle">Adventure Sports</h3>
+                                        <p class="card-text activityaroundcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
+                                        <Button className="activityaroundbutton" variant="primary" >Book Now</Button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div className="card-wrapper">
-                        <div className="card activitiesaroundmaindiv">
-                            <div className="card-image activitiesaroundcardimage">
-                                <img src="images/TravelStoriesImage7.jpg" />
-                            </div>
-                            <div className="activitiesarounddetails">
-                                <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
-                                    <p>I love the experience with the travel Flap. I surely recommend it
-                                        other for same
-                                    </p></span>
-                                    <Button variant="primary">Read More</Button>
-                                </h2>
+                        <div class="card mb-3 activityaroundouterdiv" >
+                            <div class="row g-0 activityaroundimagetextcontainer">
+                                <div class="col-md-8 activityaroundcardimage">
+                                    <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                                </div>
+                                <div class="col-md-4 activityaroundtextcard">
+                                    <div class="card-body activityaroundcarddescmain">
+                                        <h3 class="card-title activityaroundcardtitle">Adventure Sports</h3>
+                                        <p class="card-text activityaroundcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
+                                        <Button className="activityaroundbutton" variant="primary" >Book Now</Button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div className="card-wrapper">
-                        <div className="card activitiesaroundmaindiv">
-                            <div className="card-image activitiesaroundcardimage">
-                                <img src="images/TravelStoriesImage8.jpg" />
-                            </div>
-                            <div className="activitiesarounddetails">
-                                <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
-                                    <p>I love the experience with the travel Flap. I surely recommend it
-                                        other for same
-                                    </p></span>
-                                    <Button variant="primary">Read More</Button>
-                                </h2>
+                        <div class="card mb-3 activityaroundouterdiv" >
+                            <div class="row g-0 activityaroundimagetextcontainer">
+                                <div class="col-md-8 activityaroundcardimage">
+                                    <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                                </div>
+                                <div class="col-md-4 activityaroundtextcard">
+                                    <div class="card-body activityaroundcarddescmain">
+                                        <h3 class="card-title activityaroundcardtitle">Adventure Sports</h3>
+                                        <p class="card-text activityaroundcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
+                                        <Button className="activityaroundbutton" variant="primary" >Book Now</Button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    {/* </div> */}
+
 
 
                 </Slider>

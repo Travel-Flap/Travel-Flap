@@ -16,24 +16,24 @@ export const DataCards = () => {
             servicename: "Mauritius",
             buttontext: "Tap for more",
             // icons: <BsSearch />,
-            img: "/images/CardImage1.jpg",
+            img: "https://images.unsplash.com/photo-1513415563383-4e580ed27a46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1hdXJpdGl1c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
             data: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit."
         },
         {
             servicename: "Greece",
-            img: "/images/CardImage1.jpg",
+            img: "https://c4.wallpaperflare.com/wallpaper/144/949/164/nature-photography-landscape-road-wallpaper-preview.jpg",
             buttontext: "Tap for more",
             data: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit."
         },
         {
             servicename: "Scotland",
-            img: "/images/CardImage1.jpg",
+            img: "https://images.pexels.com/photos/4064432/pexels-photo-4064432.jpeg?auto=compress&cs=tinysrgb&w=600",
             buttontext: "Tap for more",
             data: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit."
         },
         {
             servicename: "Paris",
-            img: "/images/CardImage1.jpg",
+            img: "https://cdn.pixabay.com/photo/2019/04/11/13/59/paris-4119828__340.jpg",
             buttontext: "Tap for more",
             data: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit."
         },
@@ -91,7 +91,7 @@ export const DataCards = () => {
 
                             <div className='cardfilterdrop'>
                                 <h5>Choose your Destination</h5>
-                                <select className="form-select datadrop" aria-label="Default select example" style={{color:"#3380f2",fontWeight:"500", border: "3px solid #3380f2", width:"30%",height:"40px",marginLeft:"2%",borderRadius:"12px"}}>
+                                <select className="form-select datadrop" aria-label="Default select example" style={{color:"#3380f2",fontWeight:"700", border: "2px solid #3380f2", width:"31%",height:"40px",marginLeft:"2%",borderRadius:"14px"}}>
                                     <option className='carddropvalue' selected>select here</option>
                                     <option className='carddropvalue' value="1">Asia</option>
                                     <option className='carddropvalue' value="2">Africa</option>
