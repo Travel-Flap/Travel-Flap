@@ -14,7 +14,7 @@ export default class TopCities extends Component {
             infinite: true,
             autoplay: true,
             speed: 700,
-            slidesToShow: 4,
+            slidesToShow: 4 ,
             slidesToScroll: 1,
             cssEase: "linear",
             arrows: false,
@@ -96,7 +96,7 @@ export default class TopCities extends Component {
                                     <img src="images/TopCities/africa1.jpg" />
                                 </div>
                                 <div className="topcitiesdetails">
-                                    <h2>Namibia <span className="job-title">"Best Holiday trip Ever"
+                                    <h2>Epupa Falls <span className="job-title">"Best Holiday trip Ever"
                                         <p>I love the experience with the travel Flap. I surely recommend it
                                             other for same
                                         </p>
@@ -225,7 +225,7 @@ export default class TopCities extends Component {
                                     <img src="images/TopCities/swedan.jpg" />
                                 </div>
                                 <div className="topcitiesdetails">
-                                    <h2>Swedan <span className="job-title">"Best Holiday trip Ever"
+                                    <h2>Stockholm <span className="job-title">"Best Holiday trip Ever"
                                         <p>I love the experience with the travel Flap. I surely recommend it
                                             other for same
                                         </p></span>

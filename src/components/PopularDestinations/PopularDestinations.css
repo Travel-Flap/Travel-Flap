@@ -1,3 +1,225 @@
+/* This css is for the upper slider countries sliders one */
+
+.countrycardmaindiv {
+  /* border: 2px solid red !important; */
+  width: 90%;
+  margin: auto;
+}
+/* .multiCardSlider{
+  border: 2px solid rebeccapurple;
+} */
+.achievements_title {
+  font-size: 28px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 4%;
+  margin-bottom: 5%;
+  text-decoration: none solid rgb(45, 44, 44);
+  vertical-align: baseline;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgb(51, 128, 242);
+}
+
+.maincountrycardwrapper {
+  /* border: 1px solid green; */
+  align-items: center;
+  position: relative;
+  width: 100%;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* .countrycard_img:hover {
+  width: 160px;
+  height: 160px;
+  border-radius: 50% !important;
+  transition: 0.5s ease-in-out;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+} */
+
+.countrycard {
+ /* border: 3px solid red; */
+ width: 180px;
+ height: 220px;
+}
+
+
+
+.counrtycard-img-top img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.countrycard_img{
+  /* border: 3px solid greenyellow; */
+  width: 180px;
+  height: 180px;
+}
+
+.countrycard_img img {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 25px;
+  /* border: 3px solid saddlebrown; */
+}
+.countrycard_img img:hover{
+  border-radius: 50%;
+}
+
+.countrycard_img:hover{
+  width: 160px;
+  height: 160px;
+  border: none !important;
+  border-radius: 50% !important;
+  transition: 0.5s ease-in-out;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+} 
+/* .countrycard_img img:hover {
+  border-radius: 50%;
+} */
+
+.country_title .countrycard-title{
+  margin: auto;
+  /* border: 1px solid blue; */
+  margin-top: 2%;
+  text-align: center;
+  /* margin-left: 30%; */
+  width: 100%;
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 29px;
+  vertical-align: baseline;
+  color: #3380f2;
+  font-weight: 700;
+}
+/* .countrycard-title {
+  border: 1px solid red;
+  margin-top: 2%;
+  width: 100%;
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 29px;
+  vertical-align: baseline;
+  color: #3380f2;
+  font-weight: 700;
+} */
+
+.awards_desc p {
+  font-size: 13px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 23.8px;
+  font-weight: 700;
+  text-transform: uppercase;
+  vertical-align: baseline;
+  color: rgb(170, 176, 180);
+}
+
+.travelstoriesdiv:hover .card-image {
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.travelstoriesdetails {
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  width: 100%;
+  height: 310px;
+  z-index: 100000000;
+  padding: 10px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.travelstoriesdetails h2 {
+  margin: 0px 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+}
+
+.travelstoriesdetails h2 .job-title {
+  font-size: 16px;
+  line-height: 2;
+  color: white;
+  font-weight: 300;
+  display: block;
+}
+
+.card:hover .travelstoriesdetails {
+  bottom: 0;
+}
+
+.carousel .slick-dots {
+  bottom: -2.5vw;
+}
+
+.carousel .slick-dots li button {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+
+.carousel .slick-dots li button:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  content: "";
+  text-align: center;
+  opacity: 0.5;
+  color: #000;
+  background-color: #fff;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.carousel .slick-prev,
+.carousel .slick-next {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+}
+
+.carousel .slick-prev:hover,
+.carousel .slick-prev:focus,
+.carousel .slick-next:hover,
+.carousel .slick-next:focus {
+  color: #fff;
+  outline: none;
+  background: #fff;
+}
+
+.carousel .slick-prev:before,
+.carousel .slick-next:before {
+  color: #000;
+  font-family: "Raleway", sans-serif;
+}
+
+.carousel .slick-next {
+  right: -55px;
+}
+
+.carousel .slick-prev {
+  left: -55px;
+}
+
 .main {
   width: 100%;
   height: 750px;
@@ -6,10 +228,10 @@
   margin-top: 20px;
   border-radius: 10px;
 }
-.head{
+.head {
   display: flex;
   width: 100%;
- 
+
   background-color: #3380f2;
 }
 .title {
@@ -50,10 +272,10 @@
 
 .title3:hover {
   color: #3380f2;
- background-color: white;
+  background-color: white;
 }
 
-.title3_inner1{
+.title3_inner1 {
   border: 2px solid white;
   text-align: center;
   margin: 24px 0 20px 1%;
@@ -68,12 +290,12 @@
   padding-top: 7px;
 }
 
-.title3_inner1:hover{
+.title3_inner1:hover {
   color: #3380f2;
   background-color: white;
 }
 
-.title3_inner2{
+.title3_inner2 {
   border: 2px solid white;
   text-align: center;
   margin: 24px 0 20px 1%;
@@ -88,7 +310,7 @@
   padding-top: 7px;
 }
 
-.title3_inner2:hover{
+.title3_inner2:hover {
   color: #3380f2;
   background-color: white;
 }
@@ -105,7 +327,7 @@
   font-weight: 800;
   font-size: 11px;
 }
-.title4_viewall:hover{
+.title4_viewall:hover {
   color: white;
   background-color: #3380f2;
 }
@@ -133,16 +355,6 @@
   flex-direction: row;
   overflow-x: scroll;
   overflow-y: hidden;
-}
-.picimg {
-  /* border: 1px solid white; */
-  /* border: 1px solid blue; */
-  /* margin-top: 25px; */
-  margin-right: 2%;
-  width: 150px;
-  height: 200px;
-  text-align: center;
-  color:rgb(51, 128, 242);
 }
 
 .popularimagediv:hover {
@@ -180,26 +392,29 @@
   /* border: 1px solid black; */
   width: 150px;
   height: 150px;
-  margin-right:25px;
+  margin-right: 25px;
   border-radius: 25px !important;
 }
-.pic img{
+.pic img {
   width: 100%;
   height: 100%;
   border-radius: 25px;
 }
 
-.pic img:hover{
+.pic img:hover {
   border-radius: 50%;
 }
 
-.pic:hover{
+
+.pic:hover {
   width: 160px;
   height: 160px;
   border-radius: 50% !important;
   transition: 0.5s ease-in-out;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-} 
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
 
 .country {
   display: inline-block;
@@ -325,9 +540,6 @@ img {
   }
 }
 
-
-
-
 /* This css is for the carousel part */
 .topcities_title {
   color: rgb(51, 128, 242);
@@ -348,7 +560,7 @@ img {
   color: rgb(51, 128, 242);
 }
 
-.card-wrapper {
+.maincountrycardwrapper {
   position: relative;
   width: 100%;
   padding: 0 10px;
