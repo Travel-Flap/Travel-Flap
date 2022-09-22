@@ -1,0 +1,60 @@
+.homecarddropcontainer{
+    display: flex;
+    height: 80px !important;
+    background-color: #3380f2;
+}
+
+.homecardinnerdropdowncontiner1{
+    /* background-color: red; */
+    width: 32%;
+    margin-left: 10%;
+}
+
+.homecardinnerdropdowncontiner1 h2{
+    color: white;
+   margin-top: 8%;
+   font-size: 26px;
+   font-weight: 700;
+
+}
+.homecarddropdowncontainer2{
+    /* border: 1px solid red; */
+    /* border: 3px solid white; */
+    /* background-color: blue; */
+    width: 70%;
+    margin-left: 5%;
+    margin-top: 0.5%;
+}
+
+
+.countryhomecardselectdrop{
+    border: 3px solid white !important;
+    border-radius: 20px !important;
+    color: #3380f2 !important;
+    font-weight: 600 !important;
+}
+.optionshomecardcontainer{
+    /* border: 2px solid white; */
+    display: flex;
+    margin-top: 2%;
+}
+.singlehomedropcontainer{
+    /* border: 1px solid red; */
+    /* width: 80%; */
+    margin-left: 3%;
+    border: none;
+}
+.singlehomedropcontainer > .homecardbutton{
+    /* margin-left: 3%; */
+    background-color: white !important;
+    color: #3380f2;
+    font-weight: 700;
+    width: 140%;
+    border-radius: 20px;
+}
+
+.singlehomedropcontainer button:hover{
+    background-color: blue !important;
+    color: white;
+}
+/* style={{ marginLeft: "8%", background: "white", color: "blue" }} */

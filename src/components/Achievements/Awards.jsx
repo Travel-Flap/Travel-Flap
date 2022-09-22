@@ -64,8 +64,8 @@ export default class Awards extends Component {
             <div className='travelstoriescontainer'>
 
                 <Slider {...settings} className="multiCardSlider">
-                    <div className="card-wrapper">
-                        <div className="main_card card">
+                    <div className="card-wrapper awardscardwrapper">
+                        <div className="awardscard card">
                             <div className='card_img'><img src="images/AchievementsImage1.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top " alt="..." /></div>
 
                             <div className="card-body">
@@ -79,8 +79,8 @@ export default class Awards extends Component {
                         </div>
                     </div>
 
-                    <div className="card-wrapper">
-                        <div className="main_card card">
+                    <div className="card-wrapper awardscardwrapper">
+                        <div className="awardscard card">
                             <div className='card_img'><img src="images/AchievementsImage2.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
 
                             <div className="card-body">
@@ -94,9 +94,9 @@ export default class Awards extends Component {
                         </div>
                     </div>
 
-                    <div className="card-wrapper">
+                    <div className="card-wrapper awardscardwrapper">
                         {/* <div className="card travelstoriesdiv"> */}
-                        <div className="main_card card">
+                        <div className="awardscard card">
                             <div className='card_img'><img src="images/AchievementsImage3.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
 
                             <div className="card-body">
@@ -111,9 +111,9 @@ export default class Awards extends Component {
                         {/* </div> */}
                     </div>
 
-                    <div className="card-wrapper">
+                    <div className="card-wrapper awardscardwrapper">
                         {/* <div className="card travelstoriesdiv"> */}
-                        <div className="main_card card">
+                        <div className="awards">
                             <div className='card_img'><img src="images/AchievementsImage4.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
 
                             <div className="card-body">
@@ -128,9 +128,9 @@ export default class Awards extends Component {
                         {/* </div> */}
                     </div>
 
-                    <div className="card-wrapper">
+                    <div className="card-wrapper awardscardwrapper">
                         {/* <div className="card travelstoriesdiv"> */}
-                        <div className="main_card card">
+                        <div className="awardscard card">
                             <div className='card_img'><img src="images/AchievementsImage5.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
 
                             <div className="card-body">
@@ -145,9 +145,9 @@ export default class Awards extends Component {
                         {/* </div> */}
                     </div>
 
-                    <div className="card-wrapper">
+                    <div className="card-wrapper awardscardwrapper">
                         {/* <div className="card travelstoriesdiv"> */}
-                        <div className="main_card card">
+                        <div className="awardscard card">
                             <div className='card_img'><img src="images/AchievementsImage6.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
 
                             <div className="card-body">
@@ -162,9 +162,9 @@ export default class Awards extends Component {
                         {/* </div> */}
                     </div>
 
-                    <div className="card-wrapper">
+                    <div className="card-wrapper awardscardwrapper">
                         {/* <div className="card travelstoriesdiv"> */}
-                        <div className="main_card card">
+                        <div className="awardscard card">
                             <div className='card_img'><img src="images/AchievementsImage3.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
 
                             <div className="card-body">
@@ -180,9 +180,9 @@ export default class Awards extends Component {
                         {/* </div> */}
                     </div>
 
-                    <div className="card-wrapper">
+                    <div className="card-wrapper awardscardwrapper">
                         {/* <div className="card travelstoriesdiv"> */}
-                        <div className="main_card card">
+                        <div className="awardscard card">
                             <div className='card_img'><img src="images/AchievementsImage2.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
 
                             <div className="card-body">
@@ -197,9 +197,9 @@ export default class Awards extends Component {
                         {/* </div> */}
                     </div>
 
-                    <div className="card-wrapper">
+                    <div className="card-wrapper awardscardwrapper">
                         {/* <div className="card travelstoriesdiv"> */}
-                        <div className="main_card card">
+                        <div className="awardscard card">
                             <div className='card_img'><img src="images/AchievementsImage1.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
 
                             <div className="card-body">
@@ -286,7 +286,7 @@ export default class Awards extends Component {
 
 //                 <Slider {...settings} className="multiCardSlider">
 //                     <div className="card-wrapper">
-//                         <div className="main_card card">
+//                         <div className="awardscard card">
 //                             <div className='card_img'><img src="https://blueberry-travel.com/src/img/award/iata.jpg" className="card-img-top " alt="..." /></div>
 
 //                             <div className="card-body">
@@ -302,7 +302,7 @@ export default class Awards extends Component {
 
 //                     <div className="card-wrapper">
 
-//                         <div className="main_card card">
+//                         <div className="awardscard card">
 //                             <div className='card_img'><img src="https://blueberry-travel.com/src/img/award/ethiopian.jpg" className="card-img-top" alt="..." /></div>
 
 //                             <div className="card-body">
@@ -319,7 +319,7 @@ export default class Awards extends Component {
 
 //                     <div className="card-wrapper">
 
-//                         <div className="main_card card">
+//                         <div className="awardscard card">
 //                             <div className='card_img'><img src="https://blueberry-travel.com/src/img/award/rwand.jpg" className="card-img-top" alt="..." /></div>
 
 //                             <div className="card-body">
@@ -335,7 +335,7 @@ export default class Awards extends Component {
 //                     </div>
 
 //                     <div className="card-wrapper">
-//                         <div className="main_card card">
+//                         <div className="awardscard card">
 //                             <div className='card_img'><img src="https://blueberry-travel.com/src/img/award/tchadia.jpg" className="card-img-top" alt="..." /></div>
 
 //                             <div className="card-body">
@@ -351,7 +351,7 @@ export default class Awards extends Component {
 //                     </div>
 
 //                     <div className="card-wrapper">
-//                         <div className="main_card card">
+//                         <div className="awardscard card">
 //                             <div className='card_img'><img src="https://blueberry-travel.com/src/img/award/rwand.jpg" className="card-img-top" alt="..." /></div>
 
 //                             <div className="card-body">
@@ -367,7 +367,7 @@ export default class Awards extends Component {
 //                     </div>
 
 //                     <div className="card-wrapper">
-//                         <div className="main_card card">
+//                         <div className="awardscard card">
 //                             <div className='card_img'><img src="https://blueberry-travel.com/src/img/award/s-amadeus.jpeg" className="card-img-top" alt="..." /></div>
 
 //                             <div className="card-body">
@@ -383,7 +383,7 @@ export default class Awards extends Component {
 //                     </div>
 
 //                     <div className="card-wrapper">
-//                         <div className="main_card card">
+//                         <div className="awardscard card">
 //                             <div className='card_img'><img src="https://i.imgur.com/fIyyxWz.jpg" className="card-img-top" alt="..." /></div>
 
 //                             <div className="card-body">
@@ -399,7 +399,7 @@ export default class Awards extends Component {
 //                     </div>
 
 //                     <div className="card-wrapper">
-//                         <div className="main_card card">
+//                         <div className="awardscard card">
 //                             <div className='card_img'><img src="https://blueberry-travel.com/src/img/award/a-south-african-airways.jpeg" className="card-img-top" alt="..." /></div>
 
 //                             <div className="card-body">
@@ -415,7 +415,7 @@ export default class Awards extends Component {
 //                     </div>
 
 //                     <div className="card-wrapper">
-//                         <div className="main_card card">
+//                         <div className="awardscard card">
 //                             <div className='card_img'><img src="https://blueberry-travel.com/src/img/award/a-south-african-airways.jpeg" className="card-img-top" alt="..." /></div>
 
 //                             <div className="card-body">

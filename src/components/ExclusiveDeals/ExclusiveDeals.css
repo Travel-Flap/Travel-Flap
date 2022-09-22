@@ -10,6 +10,7 @@
   /* border: 1px solid red; */
   width: 91%;
   margin: auto;
+  margin-top: 1%;
 }
 
 .exclusivemaindiv {
@@ -171,10 +172,12 @@
     /* height: 300px; */
     border: none;
     width: 100% !important;
+    object-fit: cover;
   }
   
   .exclusivecardimage img{
     height: 200px;
+    width: 100%;
   }
 
   .exclusivecarddescmain {

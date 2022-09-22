@@ -1,594 +1,540 @@
-/* This is the upgraded css*/
-.top-heading {
-  /* border: 1px solid red; */
-  margin-bottom: 0.5%;
-  margin-top: 2.5%;
-  margin-right: 55%;
-  text-align: left !important;
+/* this css is for the card */
+
+/* This css is for the upper slider countries sliders one */
+
+.slider_title {
+  font-size: 35px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 28px;
   font-weight: 700;
-  line-height: 43.2px;
-  color: white;
-  width: 60%;
-  /* color: rgb(51, 128, 242); */
+  text-transform: uppercase;
+  margin-top: 15%;
+  margin-bottom: 5%;
+  text-decoration: none solid rgb(45, 44, 44);
+  vertical-align: baseline;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgb(51, 128, 242);
 }
 
-.card_row {
-  /* border: 1px solid red !important; */
-  /* margin-left:8%; */
-  padding-left: 9%;
-  /* padding-bottom: 8%; */
-  /* width: 92% !important; */
-}
 
-.tourheadingdropdown {
-  display: flex;
+.activityexperimentsliderdiv {
   width: 100%;
-  margin: auto;
-  color: white;
-  background-color: #3380f2;
-  height: 90px;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
 }
 
-.cardtextheading {
+.activityexperimentcardimage {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 320px;
+  z-index: 2;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.activityexperimentcardimage img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.activityexperimentsliderdiv:hover img {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  /* border-radius: 10%; */
+}
+
+.activityexperimentsliderdiv:hover .activityexperimentcardimage {
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  /* border-radius: 10%; */
+}
+
+/* .card:hover .activityexperimentdetails {
+  bottom: -40%;
+  transition: 0.5s ease-in-out;
+} */
+
+.activityexperimentdetails {
+  position: absolute;
+  /* bottom: -77%; */
+  top: 35%;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  z-index: 100;
+  padding: 10px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  color: white;
+}
+
+.activityexperimentdetails :hover {
+  color: white;
+}
+
+.activityexperimentdetails h2 {
+  margin: 0px 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+}
+
+.activityexperimentdetails h2 .activityexperimentjobtitle {
+  font-size: 16px;
+  line-height: 2;
+  font-weight: 300;
+  display: block;
+}
+
+.card:hover .activityexperimentdetails {
+  bottom: 1;
+}
+
+.activityexperimentdetails p{
+  border: 3px solid white;
+  width: 40%;
+  border-radius: 20px;
+  margin: auto;
+  height: 30px;
+  margin-top: 15%;
+  padding-top: 5px;
+  font-size: 12px;
+}
+
+.cardParent{
+  position: relative;
+}
+
+.none{
+  display: none;
+}
+.none1{
+  display: none;
+}
+.experimentText{
+  /* border: 1px solid red; */
+  position: absolute !important;
+  display: block;
+  top: 25%;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  color: white;
+  font-weight: 500;
+  background-color: transparent;
+}
+.activityexperimentdetails p:hover{
+  background-color: #3380f2;
+  color: white;
+}
+
+.carousel .slick-dots {
+  bottom: -2.5vw;
+}
+
+.carousel .slick-dots li button {
+  width: 20px;
+  height: 20px;
+  background: rgb(51, 128, 242);
+  border: 1px solid rgb(51, 128, 242);
+  border-radius: 20px;
+}
+
+.carousel .slick-dots li button:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  content: "";
+  text-align: center;
+  opacity: 0.5;
+  color: #000;
+  background-color: #fff;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.carousel .slick-prev,
+.carousel .slick-next {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+}
+
+.carousel .slick-prev:hover,
+.carousel .slick-prev:focus,
+.carousel .slick-next:hover,
+.carousel .slick-next:focus {
+  color: #fff;
+  outline: none;
+  background: #fff;
+}
+
+.carousel .slick-prev:before,
+.carousel .slick-next:before {
+  color: #000;
+  font-family: "Raleway", sans-serif;
+}
+
+.carousel .slick-next {
+  right: -55px;
+}
+
+.carousel .slick-prev {
+  left: -55px;
+}
+
+
+
+.activityexperimentmaindiv{
+  /* border: 1px solid red; */
+  width: 100%;
+}
+
+.activityaroundouterdiv {
   /* border: 2px solid red !important; */
-  /* background-color: red; */
-  width: 50% !important;
+  height: 460px !important;
+  /* border: 2px solid lightgray; */
+  display: flex !important;
+  flex-direction: row !important;
+  width: 96%;
+  /* border: none; */
+}
+.cardexperimentheadingcontainer {
+
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #3380f2;
+  height: 80px;
+  margin: auto;
+  /* margin-top: 2%; */
+  /* border: 1px solid black; */
+}
+
+.carddropcontainer{
+  width: 75%;
+}
+
+.cardendcontinerdiv{
+  width: 20%;
+}
+
+.activityexperimentheading1 {
+  /* border: 1px solid black; */
+  font-size: 25px;
+  font-weight: 600;
+  width:30%;
+  margin: auto;
+  margin-left: 5.5% !important;
+  color: white;
+}
+
+/* .viewallhomecardtext{
+
+} */
+.experimentheading2 {
+  /* border: 1px solid blue; */
+  width: 60%;
+  height: 40px;
+  justify-content: center;
+  margin: -0.5% 0 1% 1%;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  /* padding: 0px 0px; */
+}
+.experimentheading {
+  border-radius: 50px;
+}
+
+.experimentheading2 div {
+  border: 3px solid rgb(51, 128, 242);
+  width: 100px !important;
+  height: 33px;
+  font-size: 17px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 0.5%;
+  margin-right: 4%;
+  border-radius: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #3380f2;
+}
+
+.experimentheading2 div:hover {
+  background-color: #3380f2;
+  color: white;
+}
+.viewallhomecardbuttons {
+  color: white;
+  font-weight: 700;
+  /* text-decoration: underline; */
+  /* border: 1px solid red; */
+  display: flex;
+  margin: 6.5% 2% 0 5%;
+  width: 100%;
+  margin-left: 28% !important;
+}
+
+.viewallhomecardtext{
+  margin-top: 0.5%;
+  height: 30px;
+  border: 2px solid white;
+  border-radius: 20px;
+  width: 38%;
+  font-size: 14px;
+  font-weight: 700;
+  padding-left: 10px;
+  padding-top: 2.3px;
+  margin-bottom: 8%;
+  text-decoration: none !important;
+}
+
+.viewallhomecardtext:hover{
+  background-color: white;
+  color: #3380f2;
+  padding-top: 1%;
+}
+.activityaroundslidercontainer{
+  /* border: 2px solid red; */
+  width: 90%;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.activityaroundcardtitle {
+  color: #3380f2 !important;
+  font-size: 22px;
+  margin-top: 1%;
+}
+
+.activityaroundcard_desc {
+  /* border: 1px solid red; */
+  width: 90%;
+  color: #3380f2;
+  font-size: 13px;
   text-align: left;
 }
 
-.cardfilterdrop {
-  /* background-color: green; */
-  width: 35%;
-  display: flex;
-  margin-left: 8%;
-  margin-top: 1.7%;
+.activityaroundimagetextcontainer {
+  width: 100%;
+  height: 440px !important;
 }
 
-.cardfilterdrop h5 {
-  margin-top: 1%;
-  font-size: 20px;
-  font-weight: 700;
+.activityaroundtextcard {
+  margin-left: 9% !important;
+  width: 100% !important;
+}
+/* 
+  .activityaroundtextcard:hover{
+    color: white;
+    background-color: #3380F2;
+  } */
+
+.activityaroundtextcard:hover div {
+  color: white;
 }
 
-.carddropvalue {
+.exclusivedealsimagediv {
+  /* border: 2px solid red !important; */
+  width: 800px;
+  height: 200px !important;
+}
+.exclusivedealsimage {
+  /* border: 1px solid black !important; */
+  width: 700px;
+  height: 10px;
+  margin-left: 40%;
+}
+
+.activityaroundcardimage {
+  /* border: 1px solid red !important; */
+  /* height: 300px; */
+  border: none;
+  width: 100% !important;
+}
+
+.activityaroundcarddescmain {
+  /* border: 1px solid red; */
+  width: 100%;
+  margin-left: -9%;
+}
+
+.exclusivecarddesc:hover {
+  color: white;
+}
+
+/* .experimentheading2 div:hover{
+    color: white;
+    background-color: #3380F2;
+  } */
+
+/* .experimentheading2 p{
+    width: 300px;
+    color: #3380F2;
+    font-weight: 500;
+  } */
+.homecardheadingbuttons {
+  /* border: 1px solid yellow !important; */
+  justify-content: flex-end;
+  /* width: -1%; */
+  margin-left: 6%;
+  margin-top: -2%;
+}
+
+.line-indicator li {
+  /* border: 2px solid; */
+  height: 4px;
+  width: 70px;
+  background: lightgray;
+  border-radius: 5px;
+}
+
+.line-indicator li:hover {
+  background: gray;
+}
+
+.line-indicator li.slick-active {
+  background: blue;
+}
+.buttons {
+  /* background: orangered !important; */
+  background: rgb(51, 128, 242) !important;
+  color: white !important;
+  transition: 700ms;
+  border: 3px solid red;
+}
+.buttons:hover {
+  /* background: white !important; */
+  /* color: orangered !important; */
+  transform: scale(1.1);
+}
+.activityaroundbutton {
+  border: 3px solid #3380f2;
+  width: 34%;
+  border-radius: 15px !important;
+  background-color: white;
   color: #3380f2;
+  padding: 4px 12px;
   font-weight: 500;
-  height: 100px !important;
+  margin-bottom: 1%;
+  margin-top: 4%;
+  font-size: 15px !important;
 }
-
-.carddropvalue:hover {
+.activityaroundbutton:hover {
+  border: 3px solid white;
   background-color: #3380f2;
   color: white;
-}
-.maincoldiv {
-  /* border: 2px solid red; */
-  margin-left: -4%;
-  margin-right: 2%;
-  /* width: 35% !important; */
-}
-/* 
-.maincoldiv:hover{
-  background-color: white;
-  width:500px;
-  transition: 0.5s ease-in-out;
-  color:#f93c0d; 
-} */
-.cards-container {
-  /* border: 2px solid red; */
-  margin: auto;
-  width: 100%;
-  /* padding-top: 5%; */
-  box-sizing: border-box;
+  font-size: 14px !important;
 }
 
-.datadrop {
-  width: 30%;
-}
-.belowheadingtext {
-  /* border: 2px solid black; */
-  font-size: 19px;
-  font-weight: 400;
-  font-style: italic;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 400px;
-  margin: auto;
-  width: 64%;
-  /* padding-bottom: 3%; */
-  color: rgb(146, 145, 145);
-}
-/* p{
-    
-    border: 1px solid red;
-    
-} */
-
-.cards_button button {
-  /* border: 1px solid red; */
-  font-size: 14px;
-  font-weight: 600;
-  border: none;
-  border-radius: 30px;
-  padding: 12px 0px;
-  margin-top: 14%;
-  color: white;
-  /* background: linear-gradient(45deg, #3408f3, #c0d3e7); */
-  background: rgb(51, 128, 242);
-
-  width: 74%;
-  /* background: #31124b; */
-}
-
-.cards_button button:hover {
-  background: #3206f1;
-  /* background: #3380f2; */
-}
-
-.cards_container {
-  /* border: 1px solid red; */
-  /* width: 85%; */
-  margin: auto;
-}
-
-.row-cols-md-3 > * {
-  /* border: 2px solid red; */
-  width: 29.333333%;
-}
-
-.card-img {
-  /* border: 2px solid red; */
-  /* width: 100%; */
-  height: 440px;
-  margin-left: 8%;
-  /* width: 10%; */
-}
-
-/* .card-img:hover{
-  width: 120%;
-} */
-.card-img-overlay {
-  /* border: 1px solid red; */
-  margin-top: 18%;
-  margin-left: 23%;
-  text-align: center;
-}
-.card {
-  /* border: 1px solid red; */
-  width: 90%;
-  margin: auto;
-  /* justify-content: center; */
-}
-
-.cards_heading {
-  /* border: 1px solid blue; */
-  margin-top: 30%;
-}
-
-.cards_content {
-  /* border: 1px solid red; */
-  /* font-size: 25px; */
-  margin-top: 10%;
-  font-size: 59px;
-  font-weight: 700;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-.cards_content > p {
-  /* border: 1px solid blue; */
-  font-size: 15px;
-}
-.cards_button {
-  /* border: 1px solid red; */
-  /* background: linear-gradient(45deg, #3408F3, #c0d3e7); */
-  margin-top: -2%;
-  /* border-radius: 50%; */
-}
-
-.cards_heading {
-  /* border: 1px solid red !important; */
-  margin-bottom: -7%;
-}
-
-/* .cards_description{
-    border: 1px solid red !important;
-} */
-.cardsrating {
-  /* border: 1px solid red !important; */
-  width: 100px;
-  display: flex;
-  justify-content: center;
-  margin: 8px auto;
-}
-
-.cardsrating {
-  /* border: 1px solid red; */
-  font-size: 25px;
-}
-
-/* .btn{
-    border: 1px solid red;
-} */
-/* .cards_button btn:hover{
-    background: linear-gradient(45deg, #3408F3, #c0d3e7);
-} */
-/* 
-.btn-primary{
-    border: 1px solid red;
-} */
-
-@media screen and (max-device-width: 765px), screen and (max-width: 1024px) {
-  .cards_heading {
-    font-size: medium;
+@media screen and (max-width: 950px) {
+  .activityaroundimagetextcontainer {
+    flex-direction: column;
+  }
+  .col-md-4 {
+    width: 90%;
+    height: 280px;
+    margin-left: 3%;
+    margin-top: 10%;
   }
   .card-title {
-    font-size: large;
+    font-size: 17px;
   }
-  .cards_button {
-    width: 200px;
-    margin-left: -55px;
-    border-radius: 25px;
+  .card-text {
+    font-size: 13px;
   }
-  .cards_button button {
-    /* border: 1px solid red !important; */
-    padding: 10px 0px !important;
-    font-weight: 300 !important;
+  .viewallhomecardbuttons {
+    display: none;
   }
-  .card-img {
-    /* border: 2px solid red; */
-    height: 260px;
-    margin-left: 8%;
-    /* width: 10%; */
-    font-size: 10px;
+  .activityexperimentheading1 {
+    display: none;
   }
-  .cards_content {
-    /* border: 1px solid red; */
-    /* font-size: 25px; */
-    margin-top: 10%;
-
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-      sans-serif;
+  .cardexperimentheadingcontainer {
+    flex-direction: column;
   }
-  .cardsrating {
-    /* border: 1px solid red !important; */
-    width: 100px;
+  .experimentheading2 {
+    width: 100%;
+  }
+  .activityaroundimagetextcontainer img {
+    width: 100%;
+    height: 100%;
+  }
+  .exclusivedealsimage {
+    width: 100%;
+    height: 100%;
+  }
+  .activityaroundtextcard {
+    margin-left: 8px;
   }
 }
 
-@media screen and (max-width: 480px) {
-  .cards_heading {
-    font-size: medium;
-    margin-top: 0%;
-    padding-top: 0%;
-    font-size: 60px !important;
+@media screen and (max-width: 450px) {
+  .activityaroundimagetextcontainer {
+    flex-direction: column;
   }
-  .cards_button {
-    /* border: 2px solid red; */
-
-    margin: 0%;
-    width: 180px;
-  }
-  .cards_content > p {
-    width: 101%;
-    margin-top: 10px;
-  }
-
-  .belowheadingtext {
-    font-size: 14px;
-  }
-  .top-heading {
-    font-size: 25px;
-  }
-  .cards_content > p {
-    font-size: 18px !important;
-  }
-}
-
-/* This css is for the cards image and the texts */
-/* ._SeoLocalservicesmaindiv {
-  border:1px solid maroon;
-  display: flex;
-  margin-top: 70px;
-  background-color:#f4f4f6;
-  background-color:rgb(226 226 226 / 38%);
-} */
-._SeoLocalServicesheading {
-  /* width:50%; */
-  /* border:1px solid green; */
-  font-size: 40px;
-  color: #00800075;
-  text-align: center;
-  margin-left: 32%;
-  font-weight: 600;
-  color: #3380f2;
-}
-._SeoLocalupperdiv {
-  background-color: #ef4c23;
-}
-._SeoLocalservicesslider {
-  /* border:1px solid blue; */
-  /* margin-top: 10px; */
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 50px;
-  justify-content: center;
-  box-sizing: border-box;
-  padding: 20px;
-}
-._SeoLocalServicesnames {
-  /* border:3px solid blue !important; */
-  width: 300px;
-  height: 300px;
-  /* background-color: rgb(226, 226, 226); */
-  border-radius: 30px;
-  box-shadow: 3px 3px 15px rgb(0 0 0 / 15%);
-  /* font-size: 30px; */
-  text-align: center;
-  /* color: #ef4c23; */
-  color: white;
-  box-sizing: border-box;
-  position: relative;
-  /* padding: 10px; */
-  /* margin: auto; */
-}
-
-._SeoLocalServicesnames:hover {
-  background-color: white;
-  /* width: 310px; */
-  /* transition: 0.3s ease-in-out; */
-  cursor: pointer;
-  transform: scale(1.06);
-  cursor: pointer;
-  transition: 0.3s ease-in-out;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
-    rgba(0, 0, 0, 0.22) 0px 15px 12px;
-  /* padding: 10px; */
-}
-._SeoLocalServicesnames:hover ._SeoLocalicons1 {
-  /* margin-top:25px; */
-  transition: 0.3s linear;
-}
-._SeoLocalicons1 {
-  font-size: 80px;
-  /* border:1px solid red; */
-  padding: 15px;
-  margin-top: 18px;
-  transition-delay: 0.3s ease-in-out;
-}
-._SeoLocalicons2 {
-  font-size: 80px;
-  /* border:1px solid red; */
-  padding: 15px;
-  margin-top: 18px;
-  opacity: 0;
-}
-._SeoLocaluppericon {
-  /* border:1px solid teal; */
-  font-size: 24px;
-  position: absolute;
-  bottom: 4px;
-  margin-left: 45%;
-}
-._SeoLocalservicedata {
-  /* border: 1px solid rebeccapurple; */
-  position: absolute;
-  /* font-size: 10px; */
-  top: 0px;
-  width: 300px;
-  height: 300px;
-  border-radius: 30px;
-  box-shadow: 3px 3px 40px rgb(0 0 0 / 15%);
-  color: #ef4c23;
-  box-sizing: border-box;
-  opacity: 0;
-  transition-delay: 0.3s ease-in-out;
-}
-
-._SeoLocalservicedata:hover {
-  width: 350px;
-  height: 400px;
-}
-._SeoLocalservicedata1 {
-  /* border: 1px solid rebeccapurple; */
-  position: absolute;
-  font-size: 15px;
-  top: 44px;
-  width: 300px;
-  height: 300px;
-  border-radius: 30px;
-  /* box-shadow: 3px 3px 40px rgb(0 0 0 / 15%); */
-  /* color: #ef4c23; */
-  color: white;
-  box-sizing: border-box;
-  padding: 25px;
-  opacity: 1;
-  transition-delay: 0.3s ease-in-out;
-  /* padding: 30px; */
-}
-._SeoLocalservicedata1:hover {
-  width: 310px;
-}
-._SeoLocalName {
-  font-size: 20px;
-  font-weight: 600;
-  transition-delay: 0.3s ease-in-out;
-  position: absolute;
-  top: 46%;
-  left: 37%;
-}
-
-._SeolocalNamebutton {
-  border: 2px solid white;
-  /* width: 35%; */
-  border-radius: 20px;
-  /* background-color: white; */
-  color: #3380f2;
-}
-
-._SeoLocalName2 {
-  font-size: 10px;
-  font-weight: 600;
-  opacity: 0;
-}
-._Activitiescard {
-  position: relative;
-  height: 300px;
-  width: 300px;
-  border-radius: 20px;
-  box-shadow: 8px 8px 30px lightgrey;
-}
-
-._Activitiescard img:hover {
-  box-shadow: 20px 20px 20px #3380f2;
-}
-
-._Activitiescard p {
-  position: absolute;
-  border: 2px solid white;
-  width: 40%;
-  color: white;
-  top: 70%;
-  left: 32%;
-  /* border: 2px solid white;
-    border-radius: 20px; */
-}
-
-._Activitiescard p:hover {
-  background-color: #3380f2;
-  color: white;
-}
-._Activitiescard > img {
-  border-radius: 20px;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  margin: 0 auto;
-  /* transition: 0.5s all ease-in-out; */
-}
-
-/* ._Activitiescard:hover img{
-    transform: scale(1.2);
-} */
-
-/* ._Activitiescard img:hover {
-  box-shadow: 20px 20px 20px #3380f2;
-  transition: 0.3s ease-in-out;
-  cursor: pointer;
-} */
-
-/* ._Activitiescard:hover img{
-    -moz-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    transform: scale(1.3);
-} */
-
-/* This is the prior css */
-/* .top-heading{
-    margin-bottom: 2%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 43.2px;
-    color: rgb(51,128,242);
-}
-
-
-.card_row{
-    padding-left: 9%;
-    padding-bottom: 8%;
-    width: 92% !important;
-}
-.cards-container{
-    margin: auto;
-    width: 98%;
-    padding-top: 5%;
-    box-sizing: border-box;
-}
-.belowheadingtext{
-    font-size: 24px;
-    font-weight: 400;
-    font-style: italic;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 400px;
-    margin: auto;
-    width: 64%;
-    padding-bottom: 3%;
-    color: rgb(146, 145, 145);
-}
-
-.cards_button button {
-    font-size: 14px;
-    font-weight: 600;
-    border: none;
-    border-radius: 30px;
-    padding: 12px 0px;
-    margin-top: 14%;
-    color: white;
-    background: rgb(51,128,242);
-    width: 74%;
-}
-
-.cards_button button:hover{
-    background: #3206f1;
-}
-
-.cards_container{
-    margin: auto;
-}
-
-.row-cols-md-3>*{
-    width: 29.333333%;
-}
-
-.card-img{
-    height: 440px;
-    margin-left: 8%;
-
-}
-.card-img-overlay{
-    margin-top: 18%;
-    margin-left: 23%;
-    text-align: center;
-}
-.card{
+  .col-md-4 {
     width: 90%;
-    margin: auto;
-}
-
-.cards_heading{
-    margin-top: 30%;
-}
-
-.cards_content{
-    margin-top: 10%;
-    font-size: 59px;
-    font-weight: 700;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.cards_content > p{
-    font-size: 15px;
-}
-.cards_button{
-    margin-top: -2%;
-}
-
-.cards_heading{
-    margin-bottom: -7%;
-}
-
-.cardsrating {
-    width: 130px;
-    display: flex;
-    justify-content: center;
-    margin: 8px auto;
+    height: 280px;
+    margin-left: 3%;
+    margin-top: 5%;
   }
+  .card-title {
+    font-size: 17px;
+  }
+  .card-text {
+    font-size: 13px;
+  }
+  .viewallhomecardbuttons {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -50px;
+    text-align: right;
+    width: 40%;
+    font-size: 14px;
+    margin-left: 52%;
+  }
+  .experimentheading2 {
+    display: none;
+  }
+  .homecardheadingbuttons {
+    display: none;
+  }
+  .activityexperimentheading1 {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    font-size: 16px;
+    margin-left: 3%;
+  }
+  .cardexperimentheadingcontainer {
+    flex-direction: column;
+  }
+  .activityaroundimagetextcontainer img {
+    width: 100%;
+    height: 100%;
+  }
+  .exclusivedealsimage {
+    width: 100%;
+    height: 100%;
+  }
+  .activityaroundtextcard {
+    margin-left: 8px;
+  }
+}
 
-.cardsrating{
-    font-size: 25px;
-}   */
+

@@ -150,54 +150,6 @@ export const ExclusiveDeals = () => {
                     <div className="card mb-4 exclusiveouterdivtop" >
                         <div className="row g-0 exclusiveimagetextcontainer">
                             <div className="col-md-8 exclusivecardimage">
-                                <img src="images/ExclusiveDeals/jaipur.jpg" class="img-fluid rounded-start" alt="..." />
-                            </div>
-                            <div className="col-md-4 exclusivetextcard">
-                                <div className="card-body exclusivecarddescmain">
-                                    <h3 className="card-title exclusivecardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                    <p className="card-text exclusivecard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
-                                    <Button className="exclusivebutton" variant="primary" >Book Now</Button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="card mb-3 exclusiveouterdivtop" >
-                        <div className="row g-0 exclusiveimagetextcontainer">
-                            <div className="col-md-8 exclusivecardimage">
-                                <img src="images/ExclusiveDeals/amritsar.jpg" class="img-fluid rounded-start" alt="..." />
-                            </div>
-                            <div className="col-md-4 exclusivetextcard">
-                                <div className="card-body exclusivecarddescmain">
-                                    <h3 className="card-title exclusivecardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                    <p className="card-text exclusivecard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
-                                    <Button className="exclusivebutton" variant="primary" >Book Now</Button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="card mb-3 exclusiveouterdivtop" >
-                        <div className="row g-0 exclusiveimagetextcontainer">
-                            <div className="col-md-8 exclusivecardimage">
-                                <img src="images/ExclusiveDeals/assam.jpg" class="img-fluid rounded-start" alt="..." />
-                            </div>
-                            <div className="col-md-4 exclusivetextcard">
-                                <div className="card-body exclusivecarddescmain">
-                                    <h3 className="card-title exclusivecardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                    <p className="card-text exclusivecard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
-                                    <Button className="exclusivebutton" variant="primary" >Book Now</Button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="card mb-3 exclusiveouterdivtop" >
-                        <div className="row g-0 exclusiveimagetextcontainer">
-                            <div className="col-md-8 exclusivecardimage">
                                 <img src="images/ExclusiveDeals/China.jpg" class="img-fluid rounded-start" alt="..." />
                             </div>
                             <div className="col-md-4 exclusivetextcard">
@@ -214,7 +166,7 @@ export const ExclusiveDeals = () => {
                     <div className="card mb-3 exclusiveouterdivtop" >
                         <div className="row g-0 exclusiveimagetextcontainer">
                             <div className="col-md-8 exclusivecardimage">
-                                <img src="images/ExclusiveDeals/japan.jpg" class="img-fluid rounded-start" alt="..." />
+                                <img src="images/ExclusiveDeals/GizaEjypt.jpg" class="img-fluid rounded-start" alt="..." />
                             </div>
                             <div className="col-md-4 exclusivetextcard">
                                 <div className="card-body exclusivecarddescmain">
@@ -230,7 +182,39 @@ export const ExclusiveDeals = () => {
                     <div className="card mb-3 exclusiveouterdivtop" >
                         <div className="row g-0 exclusiveimagetextcontainer">
                             <div className="col-md-8 exclusivecardimage">
-                                <img src="images/ExclusiveDeals/kashmir.jpg" class="img-fluid rounded-start" alt="..." />
+                                <img src="images/ExclusiveDeals/France.jpg" class="img-fluid rounded-start" alt="..." />
+                            </div>
+                            <div className="col-md-4 exclusivetextcard">
+                                <div className="card-body exclusivecarddescmain">
+                                    <h3 className="card-title exclusivecardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
+                                    <p className="card-text exclusivecard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
+                                    <Button className="exclusivebutton" variant="primary" >Book Now</Button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="card mb-3 exclusiveouterdivtop" >
+                        <div className="row g-0 exclusiveimagetextcontainer">
+                            <div className="col-md-8 exclusivecardimage">
+                                <img src="images/ExclusiveDeals/Israel.jpg" class="img-fluid rounded-start" alt="..." />
+                            </div>
+                            <div className="col-md-4 exclusivetextcard">
+                                <div className="card-body exclusivecarddescmain">
+                                    <h3 className="card-title exclusivecardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
+                                    <p className="card-text exclusivecard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
+                                    <Button className="exclusivebutton" variant="primary" >Book Now</Button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="card mb-3 exclusiveouterdivtop" >
+                        <div className="row g-0 exclusiveimagetextcontainer">
+                            <div className="col-md-8 exclusivecardimage">
+                                <img src="images/ExclusiveDeals/jaipur.jpg" class="img-fluid rounded-start" alt="..." />
                             </div>
                             <div className="col-md-4 exclusivetextcard">
                                 <div className="card-body exclusivecarddescmain">
@@ -247,6 +231,22 @@ export const ExclusiveDeals = () => {
                         <div className="row g-0 exclusiveimagetextcontainer">
                             <div className="col-md-8 exclusivecardimage">
                                 <img src="images/ExclusiveDeals/scotland.png" class="img-fluid rounded-start" alt="..." />
+                            </div>
+                            <div className="col-md-4 exclusivetextcard">
+                                <div className="card-body exclusivecarddescmain">
+                                    <h3 className="card-title exclusivecardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
+                                    <p className="card-text exclusivecard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
+                                    <Button className="exclusivebutton" variant="primary" >Book Now</Button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="card mb-3 exclusiveouterdivtop" >
+                        <div className="row g-0 exclusiveimagetextcontainer">
+                            <div className="col-md-8 exclusivecardimage">
+                                <img src="images/ExclusiveDeals/kashmir.jpg" class="img-fluid rounded-start" alt="..." />
                             </div>
                             <div className="col-md-4 exclusivetextcard">
                                 <div className="card-body exclusivecarddescmain">
