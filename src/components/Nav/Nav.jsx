@@ -224,7 +224,7 @@ export const Nav = () => {
                         </div>
                         <div className='navbar-links-container' id='hide' >
                             {/* <div  className='nav-link'> <p>Akbar Bizz</p></div> */}
-                            <div id='offerslink'> <Link to="/offers"> <p style={{color:"white",textDecoration:"none"}}>Offers</p></Link> </div>
+                            <Link to="/offers"><div id='offerlink'><p>Offers</p></div></Link>
                             {/* <div className='nav-link'> <p>OFFERS</p></div> */}
                             <div className='nav-link'> <p>₹ INR <FaCaretDown /></p>
                             <div className='chooseCountry'>
@@ -300,7 +300,7 @@ export const Nav = () => {
                             </Link>
                         <div className='navbar-links-container1'>
                             {/* <div  className='nav-link'> <p>Akbar Bizz</p></div> */}
-                            <div id='offerslink'> <Link to="/offers"> <p style={{color:"white",textDecoration:"none"}}>Offers</p></Link> </div>
+                            <Link to="/offers"><div id='offerlink'><p>Offers</p></div></Link>
                             <div className='nav-link'> <p>₹ INR <FaCaretDown /></p>
                             <div className='chooseCountry'>
                                        <div className='countrynames'>

@@ -122,24 +122,71 @@
   width: 70px;
   text-align: center;
   border: 2px solid white;
-  color: white !important;
-  margin-top: 0;
+  color:  white !important;
+  
+  margin-top:-2%;
   text-decoration: none !important;
 }
-/* #offerslink:hover{
-  text-decoration: none !important;
-  color: #3380f2 !important;
+
+#offerslink:hover{
+  text-decoration: none;
   cursor: pointer;
-  background-color: white !important;
-} */
+  background-color: #3380f2;
+  border:3px solid #3380f2;
+  color: blue;
+  font-size: 20px !important;
+}
 .nav-link p {
   margin-top: 6px;
   font-weight: 700;
 }
-#offerslink p{
-  margin-top: 6px;
+
+#offerlink{
+  height: 36px;
+  border-radius: 4px;
+  background-color: #3380f2;
+  cursor: pointer;
+  margin: 0% 5px 0 0;
+  width: 70px;
+  text-align: center;
+  border: 2px solid white;
+  color: white;
+  margin-top: 0;
   font-weight: 700;
+  text-decoration: none;
 }
+
+#offerlink p{
+  margin-top: 10%;
+  text-decoration: none !important;
+}
+#offerlink:hover{
+  text-decoration: none !important;
+  color: #3380f2 !important;
+  cursor: pointer;
+  background-color: white !important;
+}
+
+/* #offerslink p{
+  height: 36px;
+  border-radius: 4px;
+  background-color: #3380f2;
+  cursor: pointer;
+  margin: 0 5px 0 0;
+  width: 70px;
+  text-align: center;
+  border: 2px solid white;
+  color:  white !important;
+  font-size: 17px;
+  font-weight: 700;
+  
+  text-decoration: none !important;
+}
+#offerslink p:hover{
+  background-color: white;
+  text-decoration: none;
+  color: #3380f2 !important
+} */
 .nav-link:hover {
   text-decoration: none;
   cursor: pointer;
@@ -158,13 +205,13 @@
   text-transform: uppercase;
   border: 2px solid white;
   background-color: #3380f2;
-  width: 36%;
+  width: 40%;
   padding-left: 7px;
 }
-/* .login-register:hover {
+.login-register:hover {
   background-color: white;
   color: #3380f2;
-} */
+}
 
 
 .login-register:hover .LoginRegisterDropDown {
