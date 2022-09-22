@@ -120,7 +120,7 @@ export const AdventureActivities = () => {
             <div className="adventureactivityslidercontainer">
                 <Slider
                     arrows={false}
-                    // autoplay={true}
+                    autoplay={true}
                     speed={1000}
                     autoplaySpeed={2000}
                     dotsclassName="slick-dots line-indicator"
@@ -186,11 +186,11 @@ export const AdventureActivities = () => {
                     <div class="card mb-3 adventureactivityouterdiv" >
                         <div class="row g-0 adventureactivityimagetextcontainer">
                             <div class="col-md-8 adventureactivitycardimage">
-                                <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                                <img src="images/AdventureSportsActivity/wakeboarding maldives.jpg" class="img-fluid adventureimage rounded-start" alt="..." />
                             </div>
                             <div class="col-md-4 adventureactivitytextcard">
                                 <div class="card-body adventureactivitycarddescmain">
-                                    <h3 class="card-title adventureactivitycardtitle">River Rafting</h3>
+                                    <h3 class="card-title adventureactivitycardtitle">WakeBoarding Maldives</h3>
                                     <p class="card-text adventureactivitycard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <Button className="adventureactivitybutton" variant="primary" >Book Now</Button>
                                 </div>
@@ -201,11 +201,11 @@ export const AdventureActivities = () => {
                     <div class="card mb-3 adventureactivityouterdiv" >
                         <div class="row g-0 adventureactivityimagetextcontainer">
                             <div class="col-md-8 adventureactivitycardimage">
-                                <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                                <img src="images/AdventureSportsActivity/scubadivinggoa.jpg" class="img-fluid adventureimage rounded-start" alt="..." />
                             </div>
                             <div class="col-md-4 adventureactivitytextcard">
                                 <div class="card-body adventureactivitycarddescmain">
-                                    <h3 class="card-title adventureactivitycardtitle">Sea Diving</h3>
+                                    <h3 class="card-title adventureactivitycardtitle">Scuba Diving Goa</h3>
                                     <p class="card-text adventureactivitycard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <Button className="adventureactivitybutton" variant="primary" >Book Now</Button>
                                 </div>
@@ -216,7 +216,7 @@ export const AdventureActivities = () => {
                     <div class="card mb-3 adventureactivityouterdiv" >
                         <div class="row g-0 adventureactivityimagetextcontainer">
                             <div class="col-md-8 adventureactivitycardimage">
-                                <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                                <img src="images/AdventureSportsActivity/Paragliding2.jpg" class="img-fluid adventureimage rounded-start" alt="..." />
                             </div>
                             <div class="col-md-4 adventureactivitytextcard">
                                 <div class="card-body adventureactivitycarddescmain">
@@ -231,11 +231,11 @@ export const AdventureActivities = () => {
                     <div class="card mb-3 adventureactivityouterdiv" >
                         <div class="row g-0 adventureactivityimagetextcontainer">
                             <div class="col-md-8 adventureactivitycardimage">
-                                <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                                <img src="images/AdventureSportsActivity/volcanotrekking indonesia.jpg" class="img-fluid adventureimage rounded-start" alt="..." />
                             </div>
                             <div class="col-md-4 adventureactivitytextcard">
                                 <div class="card-body adventureactivitycarddescmain">
-                                    <h3 class="card-title adventureactivitycardtitle">Xline Ride</h3>
+                                    <h3 class="card-title adventureactivitycardtitle">Volcano trekking Indonesia</h3>
                                     <p class="card-text adventureactivitycard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <Button className="adventureactivitybutton" variant="primary" >Book Now</Button>
                                 </div>
@@ -246,11 +246,11 @@ export const AdventureActivities = () => {
                     <div class="card mb-3 adventureactivityouterdiv" >
                         <div class="row g-0 adventureactivityimagetextcontainer">
                             <div class="col-md-8 adventureactivitycardimage">
-                                <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                                <img src="images/AdventureSportsActivity/ZipLine.jpg" class="img-fluid adventureimage rounded-start" alt="..." />
                             </div>
                             <div class="col-md-4 adventureactivitytextcard">
                                 <div class="card-body adventureactivitycarddescmain">
-                                    <h3 class="card-title adventureactivitycardtitle">Gyrocopter Ride.</h3>
+                                    <h3 class="card-title adventureactivitycardtitle">XLine</h3>
                                     <p class="card-text adventureactivitycard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <Button className="adventureactivitybutton" variant="primary" >Book Now</Button>
                                 </div>
@@ -261,7 +261,7 @@ export const AdventureActivities = () => {
                     <div class="card mb-3 adventureactivityouterdiv" >
                         <div class="row g-0 adventureactivityimagetextcontainer">
                             <div class="col-md-8 adventureactivitycardimage">
-                                <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                                <img src="images/AdventureSportsActivity/DownhillBikeRide.jpg" class="img-fluid adventureimage rounded-start" alt="..." />
                             </div>
                             <div class="col-md-4 adventureactivitytextcard">
                                 <div class="card-body adventureactivitycarddescmain">
@@ -276,11 +276,11 @@ export const AdventureActivities = () => {
                     <div class="card mb-3 adventureactivityouterdiv" >
                         <div class="row g-0 adventureactivityimagetextcontainer">
                             <div class="col-md-8 adventureactivitycardimage">
-                                <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                                <img src="images/AdventureSportsActivity/dunebashing dubai.jpg" class="img-fluid adventureimage rounded-start" alt="..." />
                             </div>
                             <div class="col-md-4 adventureactivitytextcard">
                                 <div class="card-body adventureactivitycarddescmain">
-                                    <h3 class="card-title adventureactivitycardtitle">Ekart Riding</h3>
+                                    <h3 class="card-title adventureactivitycardtitle">DuneBashing Dubai</h3>
                                     <p class="card-text adventureactivitycard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <Button className="adventureactivitybutton" variant="primary" >Book Now</Button>
                                 </div>

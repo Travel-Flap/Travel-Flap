@@ -1,6 +1,6 @@
 import React from 'react';
 import { Nav } from "../../../Nav/Nav";
-import { Banner } from '../Banner/Banner';
+import { Banner, HolidayCarousel } from '../Banner/Banner';
 import PackageDeals from '../BestSellingDestinations/BestSelling';
 import EasyVisaDestinations from '../EasyVisaDestinations/EasyVisaDestinations';
 import TrendingDestinations from '../Trending Destinations/TrendingDestinations';
@@ -21,7 +21,8 @@ export const Holidays = () => {
   return (
     <div>
       <Nav />
-      <Banner />
+      <HolidayCarousel/>
+      {/* <Banner /> */}
 
       <div className=' carousel'>
         <BestBudget />

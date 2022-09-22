@@ -1,0 +1,66 @@
+.visadetailscontainer{
+    border: 2px solid red;
+    width: 89%;
+    margin: auto;
+    display: flex;
+}
+.visamainheading{
+    color: #3380F2;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 1%;
+    text-align: center;
+}
+.visadetailsmaindiv{
+    display: flex;
+    flex-direction: row;
+}
+.visadetailsimage{
+    border: 1px solid gold;
+    width: 15%;
+    height: 250px;
+    position:relative;
+}
+.visadetailsdata{
+    width: 75%;
+    /* margin-left: 10%; */
+}
+.visatype{
+    border: 1px solid red;
+}
+.visatypeheading{
+    color: #3380F2;
+    font-size: 25px;
+    font-weight: 700;}
+.visadetailslists{
+    list-style-type: square;
+    color: #3380F2;
+    font-size: 18px;
+}
+.visadetailstime{
+    color: #3380F2;
+    margin-left: 2%;
+    font-size: 18px;
+}
+.descriptiontext{
+    color: #3380F2 !important;
+    margin-left: 2%;
+}
+.visamainheading h1{
+    font-weight: 700;
+}
+/* .Visadocuments{
+    color: #3380F2;
+    font-size: 25px;
+    font-weight:700;
+}
+.Visaduration{
+    color: #3380F2;
+    font-size: 25px;
+    font-weight:700;
+}
+.Visadescription{
+    color: #3380F2;
+    font-size: 25px;
+    font-weight:700;
+} */

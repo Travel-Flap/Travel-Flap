@@ -17,7 +17,7 @@ export const Hotel_Banner = () => {
                     </div>
                     <div className="hotel_search_destination">
                         <div>
-                            <input type="text" placeholder="Enter Hotel Name " />
+                            <input type="text" placeholder="Enter Hotel Name " className="hotelnametext" />
                         </div>
                         <div><input type="date" /></div>
                         <div>

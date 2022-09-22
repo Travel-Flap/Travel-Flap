@@ -116,7 +116,7 @@
     margin-top: 0;
   }
   
-  #offerslink{
+  #hotellogin-register{
     height: 36px;
     border-radius: 4px;
     background-color: #3380f2;
@@ -129,7 +129,7 @@
     margin-top: 0;
     text-decoration: none !important;
   }
-  /* #offerslink:hover{
+  /* #hotellogin-register:hover{
     text-decoration: none !important;
     color: #3380f2 !important;
     cursor: pointer;
@@ -139,7 +139,7 @@
     margin-top: 6px;
     font-weight: 700;
   }
-  #offerslink p{
+  #hotellogin-register p{
     margin-top: 6px;
     font-weight: 700;
   }
@@ -151,7 +151,7 @@
     color: #3380f2 !important;
   }
   
-  .login-register {
+  .hotellogin-register {
     height: 36px;
     border-radius: 4px;
     color: white;
@@ -162,13 +162,13 @@
     border: 2px solid white;
     background-color: #3380f2;
   }
-  /* .login-register:hover {
+  /* .hotellogin-register:hover {
     background-color: white;
     color: #3380f2;
   } */
   
   
-  .login-register:hover .LoginRegisterDropDown {
+  .hotellogin-register:hover .LoginRegisterDropDown {
     display: block;
   }
   .topbanner {
@@ -533,7 +533,7 @@
     .chooseCurrrency{
       margin-top: 30%;
     }
-    .login-register{
+    .hotellogin-register{
       font-size: 10px;
       font-weight: 100;
       width: 80px;

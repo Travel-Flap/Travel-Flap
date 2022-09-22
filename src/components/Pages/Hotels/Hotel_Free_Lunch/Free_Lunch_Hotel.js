@@ -5,7 +5,7 @@ import "../Hotel_Free_Lunch/Free_Hotel_Lunch.css"
 export function Free_Hotel_Lunch() {
     return <div className="parrent_recom_div">
 
-        <h5>Hotels Near You With Free Lunch</h5>
+        <h4>Hotels Near You With Free Lunch</h4>
         <div className="all_image_card">
             <div className="Image_card">
                 {/* <div className="rating_chat"><MdLunchDining fontSize={"40px"} /></div> */}
@@ -25,6 +25,25 @@ export function Free_Hotel_Lunch() {
                 </p>
                 <th>INR ,8,100</th>
                 {/* <p className="Free_Lunch">Free Lunch</p> */}
+            </div>
+            <div className="Image_card">
+                {/* <div className="rating_chat"><MdLunchDining fontSize={"40px"} /></div> */}
+
+                <img src="https://pix8.agoda.net/hotelImages/20138677/0/ab9b36247d8754118deff18b32cb1255.jpg?ca=16&ce=1" alt="" />
+                <p>Gypsys 2BHK Apartment</p>
+                <p className="rating_start">
+                    <BsFillStarFill  className="staricon"/>
+                    <BsFillStarFill  className="staricon"/>
+                    <BsFillStarFill  className="staricon"/>
+                    <BsFillStarFill  className="staricon"/>
+                    <BsFillStarFill  className="staricon"/>
+                    <br/>
+                    <span className="place_name">
+                        <FaMapMarkerAlt />
+                        Colva,Goa
+                    </span>
+                </p>
+                <th>INR ,1,710</th>
             </div>
             <div className="Image_card">
                 {/* <div className="rating_chat"><MdLunchDining fontSize={"40px"} /></div> */}

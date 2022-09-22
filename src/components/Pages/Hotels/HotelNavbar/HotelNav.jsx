@@ -186,32 +186,29 @@ export const HotelNav = () => {
                         <div>
 
                             <div className='menu-links'>
-                                <li> <MdFlight className='menuicons' size={"1.5em"} />
-                                <Link to="/flights"> <p className='fixed-menu-link'>Flights</p> </Link> </li>
+                                <li> <MdFlight className='menuicons' size={"1.5em"} /> <p className='fixed-menu-link'>Flights</p> </li>
                                 <li> <FaHotel size={"1.5em"} />
                                 <Link to="/hotel"> <p className='fixed-menu-link'>Hotel</p> </Link> </li>
                                 <li> <FaCcVisa size={"1.5em"} />
-                                
-                                <Link to="/visa">  <p className='fixed-menu-link'>Visa</p> </Link> </li>
+                                <Link to="/visa"> <p className='fixed-menu-link'>Visa</p> </Link> </li>
                                 <li> <GiPalmTree size={"1.5em"} />
                                 <Link to='/holidays'> <p className='fixed-menu-link'>Holidays</p> </Link> </li>
                                     
-                                <li> <FaBus size={"1.5em"} /> 
+                                <li> <FaBus size={"1.5em"} />
                                 <Link to="/rentals"> <p className='fixed-menu-link'>Bus</p> </Link> </li>
-
                                 <li> <FaShip size={"1.5em"} />
                                 <Link to="/cruise"> <p className='fixed-menu-link'>Cruise</p> </Link> </li>
                                 <li> <FaLaptopHouse size={"1.5em"} />
-                                <Link to="/villas"> <p className='fixed-menu-link'>Villa</p> </Link> </li>
-                                <li> <MdOutlineLocalActivity size={"1.5em"} />
-                                <Link to="/activities">  <p className='fixed-menu-link'>Activities</p> </Link> </li>
+                                <Link to="/villa"> <p className='fixed-menu-link'>Villa</p> </Link> </li>
+                                <li> <MdOutlineLocalActivity size={"1.5em"} /> 
+                                <Link to="/activities"> <p className='fixed-menu-link'>Activities</p> </Link> </li>
                                 <li> <CgMoreAlt size={"1.5em"} /> <p className='fixed-menu-link' onClick={handleClick3}>More</p> </li>
                                 {show && <Box3 />}
                             </div>
                         </div>
                         <div className='navbar-links-container' id='hide' >
                             {/* <div  className='nav-link'> <p>Akbar Bizz</p></div> */}
-                            <div id='offerslink'> <Link to="/offers"> <p style={{color:"white",textDecoration:"none"}}>Offers</p></Link> </div>
+                            <div id='hotelofferslink'> <Link to="/offers"> <p style={{color:"white",textDecoration:"none"}}>Offers</p></Link> </div>
                             {/* <div className='nav-link'> <p>OFFERS</p></div> */}
                             <div className='nav-link'> <p>₹ INR <FaCaretDown /></p>
                             <div className='chooseCountry'>
@@ -253,7 +250,7 @@ export const HotelNav = () => {
                            </div>
                      </div>
                             
-                            <div className='login-register'> Login / Register <FaCaretDown />
+                            <div className='hotellogin-register'> Login / Register <FaCaretDown />
                                   <div className='LoginRegisterDropDown'>
                                        <div className='LoginRegisterOptions'>
                                            <FaUserLock className='LoginIcon' /> Login
@@ -435,7 +432,7 @@ export const HotelNav = () => {
 //                             <div className='nav-link' onClick={handleClick1}> <p>₹ INR <FaCaretDown /></p></div>
 //                             {shown && <Box1 />}
 //                             <div className='nav-link' onClick={handleClick}><p> INDIA <FaCaretDown /></p></div>
-//                             <div className='hotelnavlogin-register'> Login / Register</div>
+//                             <div className='hotelnavhotellogin-register'> Login / Register</div>
 //                             {isShown && <Box />}
 //                         </div>
 //                     </div>
@@ -451,7 +448,7 @@ export const HotelNav = () => {
 //                             <div className='nav-link' onClick={handleClick1}> <p>₹ INR <FaCaretDown /></p></div>
 //                             {shown && <Box1 />}
 //                             <div className='nav-link' onClick={handleClick}><p> INDIA <FaCaretDown /></p></div>
-//                             <div className='hotelnavlogin-register'>Login / Register</div>
+//                             <div className='hotelnavhotellogin-register'>Login / Register</div>
 //                             {isShown && <Box />}
 //                         </div>  </>
 //                 }

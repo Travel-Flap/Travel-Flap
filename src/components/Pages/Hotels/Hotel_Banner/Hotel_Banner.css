@@ -62,7 +62,7 @@
     border-radius: 5px;
     /* border: 2px solid red; */
 }
-.hotel_search_destination::placeholder{
+.hotelnametext::placeholder{
     color: #3380F2 !important;
 }
 .hotel_search_destination>div{

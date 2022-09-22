@@ -146,15 +146,16 @@
   .viewallinternationaltext{
     margin-top: 1.5%;
     border: 2px solid white;
-    padding: 3px;
+    /* padding: 3px; */
     margin-bottom: 9%;
     margin-left: 11px;
     border-radius: 20px;
-    width: 34%;
+    width: 37%;
     font-size: 14px;
     font-weight: 700;
-    padding-left: 9px;
-    padding-top: 5px;
+    padding: 5px 0px 3px 12px !important;
+    /* padding-left: 9px;
+    padding-top: 5px; */
   }
 
   .viewallinternationaltext:hover{

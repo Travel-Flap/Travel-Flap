@@ -203,8 +203,8 @@ export const InternationalDestinations = () => {
                             <div class="col-md-8 domesticcardimage">
                                 <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
                             </div>
-                            <div class="col-md-4 experimenttextcard">
-                                <div class="card-body domesticcarddescmain">
+                            <div class="col-md-4 internationaltextcard">
+                                <div class="card-body internationalcarddescmain">
                                     <h3 class="card-title internationalcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
                                     <p class="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <Button className="internationalbutton" variant="primary" >Book Now</Button>
@@ -218,8 +218,8 @@ export const InternationalDestinations = () => {
                             <div class="col-md-8 domesticcardimage">
                                 <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
                             </div>
-                            <div class="col-md-4 experimenttextcard">
-                                <div class="card-body domesticcarddescmain">
+                            <div class="col-md-4 internationaltextcard">
+                                <div class="card-body internationalcarddescmain">
                                     <h3 class="card-title internationalcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
                                     <p class="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <Button className="internationalbutton" variant="primary" >Book Now</Button>
@@ -233,8 +233,8 @@ export const InternationalDestinations = () => {
                             <div class="col-md-8 domesticcardimage">
                                 <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
                             </div>
-                            <div class="col-md-4 experimenttextcard">
-                                <div class="card-body domesticcarddescmain">
+                            <div class="col-md-4 internationaltextcard">
+                                <div class="card-body internationalcarddescmain">
                                     <h3 class="card-title internationalcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
                                     <p class="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <Button className="internationalbutton" variant="primary" >Book Now</Button>
@@ -248,8 +248,8 @@ export const InternationalDestinations = () => {
                             <div class="col-md-8 domesticcardimage">
                                 <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
                             </div>
-                            <div class="col-md-4 experimenttextcard">
-                                <div class="card-body domesticcarddescmain">
+                            <div class="col-md-4 internationaltextcard">
+                                <div class="card-body internationalcarddescmain">
                                     <h3 class="card-title internationalcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
                                     <p class="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <Button className="internationalbutton" variant="primary" >Book Now</Button>
@@ -263,8 +263,8 @@ export const InternationalDestinations = () => {
                             <div class="col-md-8 domesticcardimage">
                                 <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
                             </div>
-                            <div class="col-md-4 experimenttextcard">
-                                <div class="card-body domesticcarddescmain">
+                            <div class="col-md-4 internationaltextcard">
+                                <div class="card-body internationalcarddescmain">
                                     <h3 class="card-title internationalcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
                                     <p class="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <Button className="internationalbutton" variant="primary" >Book Now</Button>
@@ -278,8 +278,8 @@ export const InternationalDestinations = () => {
                             <div class="col-md-8 domesticcardimage">
                                 <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
                             </div>
-                            <div class="col-md-4 experimenttextcard">
-                                <div class="card-body domesticcarddescmain">
+                            <div class="col-md-4 internationaltextcard">
+                                <div class="card-body internationalcarddescmain">
                                     <h3 class="card-title internationalcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
                                     <p class="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <Button className="internationalbutton" variant="primary" >Book Now</Button>

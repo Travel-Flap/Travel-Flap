@@ -53,6 +53,9 @@
     border-radius: 50px;
   }
   
+  .adventureimage{
+    height: 265px;
+  }
   .internationalheading:hover{
     background-color: white;
     color: #3380f2;

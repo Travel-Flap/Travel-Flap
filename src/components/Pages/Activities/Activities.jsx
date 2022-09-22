@@ -6,7 +6,6 @@ import Newsletter from '../../NewsLetter/NewsLetter';
 import { Plan } from '../../NextHolidaysPlan/Plan';
 import { ControlledCarousel } from '../../TopCorousel/Corousel';
 import { Experiment } from '../../Experiment/Experiment';
-import { CountryDropdown } from './CountryDropDown/CountryDropdown';
 // import { TopActivities } from "./WorldActivities/WorldActivities";
 import TopActivities from "./TopCityActivity/TopActivity";
 import WorldActivities from './WorldActivities/WorldActivities';
@@ -14,18 +13,31 @@ import { ActivityAround } from './ActivitiesAroundyou/ActivitiesAroundyou';
 import { AdventureActivities } from './AdventureActivities/AdventureActivitites';
 import { NatureLove } from './NatureLove/NatureLove';
 import { ActivityCarousel } from './ActivitiesCarouselCompo/ActivityCarousel';
+import { ActivityExperiment } from './Experiment/Experiment';
+import { ActivityExperiment2 } from './Experiment/Experiment2';
 // import { SeoLocal } from './SeoLocalServices/SeoLocal';
 
 
 export const Activities = () => {
   return (
     <div>
+
       <Nav />
       <ActivityCarousel/>
       {/* <ControlledCarousel /> */}
       {/* <CountryDropdown /> */}
 
       {/* <SeoLocal/> */}
+      {/* <div className='carousel'>
+
+      <ActivityExperiment2/>
+      </div> */}
+
+      <div className='mt-3 carousel'>
+       <ActivityExperiment/>
+      </div>
+
+
       <div className='mt-3 carousel'>
         <ActivityAround />
       </div>

@@ -17,7 +17,7 @@ import OurPartners from '../../OurPatnersSection/OurPartners';
 import { PopularDestinations } from '../../PopularDestinations/PopularDestinations';
 // import PopularDestinations from '../../ExclusiveDeals/ExclusiveDeals';
 
-import TravelStories from "../../TravelStories/TravelStories";
+import TravelStories from "../../EasyVisaDestinations/EasyVisaDestinations";
 import { Newsletter } from '../../NewsLetter/NewsLetter';
 import Awards from '../../Achievements/Awards';
 import { Nav } from "../../Nav/Nav";
@@ -66,7 +66,7 @@ export const Home = () => {
 
             {/* <Middleslider /> */}
             <div className='carousel'>
-                <h1 className='travelstories_title'>Travel Stories</h1>
+                <h1 className='travelstories_title'>Easy Visa Destinations</h1>
                 <TravelStories />
             </div>
 
