@@ -49,8 +49,6 @@
  height: 220px;
 }
 
-
-
 .counrtycard-img-top img {
   width: 100%;
   height: 100%;
@@ -59,8 +57,8 @@
 }
 .countrycard_img{
   /* border: 3px solid greenyellow; */
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
 }
 
 .countrycard_img img {
@@ -264,10 +262,10 @@
   font-weight: 800;
   border-radius: 25px;
   width: 8%;
-  height: 34px;
-  font-size: 10px;
+  height: 38px !important;
+  font-size: 11px !important;
   /* padding: 16px; */
-  padding-top: 7px;
+  padding-top: 9px !important;
 }
 
 .title3:hover {
@@ -284,10 +282,10 @@
   font-weight: 800;
   border-radius: 25px;
   width: 8%;
-  height: 32px;
-  font-size: 10px;
+  height: 38px !important;
+  font-size: 11px !important;
   /* padding: 16px; */
-  padding-top: 7px;
+  padding-top: 9px !important;
 }
 
 .title3_inner1:hover {
@@ -304,10 +302,10 @@
   font-weight: 800;
   border-radius: 25px;
   width: 8%;
-  height: 32px;
-  font-size: 10px;
+  height: 38px !important;
+  font-size: 11px !important; 
   /* padding: 16px; */
-  padding-top: 7px;
+  padding-top:9px !important;
 }
 
 .title3_inner2:hover {

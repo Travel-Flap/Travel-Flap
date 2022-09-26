@@ -16,7 +16,7 @@ export const PopularDestinations = () => {
       autoplay: true,
       autoplaySpeed: 2000,
       speed: 2000,
-      slidesToShow: 6,
+      slidesToShow: 7,
       slidesToScroll: 1,
       cssEase: "linear",
       arrows: false,
@@ -313,12 +313,25 @@ export const PopularDestinations = () => {
                      <div className="card-wrapper">
                         <div className="card populardestinationssliderdiv">
                            <div className=" populardestinationcardimage">
-                              <img src='images/country images/Goa.jpg' />
+                              <img src='images/domestic destinations/agra.jpg' />
+                           </div>
+                           <div className="populardestinationsdetails">
+                              <h2>Agra <span className="job-title">"Best Holiday trip Ever"
+                              </span>
+
+                              </h2>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div className="card-wrapper">
+                        <div className="card populardestinationssliderdiv">
+                           <div className=" populardestinationcardimage">
+                              <img src='images/domestic destinations/Goa.jpg' />
                            </div>
                            <div className="populardestinationsdetails">
                               <h2>Goa <span className="job-title">"Best Holiday trip Ever"
                               </span>
-
                               </h2>
                            </div>
                         </div>
@@ -327,10 +340,10 @@ export const PopularDestinations = () => {
                      <div className="card-wrapper">
                         <div className="card populardestinationssliderdiv">
                            <div className=" populardestinationcardimage">
-                              <img src='images/country images/singapore.jpg' />
+                              <img src='images/domestic destinations/jaipur.jpg' />
                            </div>
                            <div className="populardestinationsdetails">
-                              <h2>Singapore <span className="job-title">"Best Holiday trip Ever"
+                              <h2>Jaipur <span className="job-title">"Best Holiday trip Ever"
                               </span>
                               </h2>
                            </div>
@@ -340,10 +353,10 @@ export const PopularDestinations = () => {
                      <div className="card-wrapper">
                         <div className="card populardestinationssliderdiv">
                            <div className=" populardestinationcardimage">
-                              <img src='images/country images/oman 2.jpg' />
+                              <img src='images/domestic destinations/Kerela.jpg' />
                            </div>
                            <div className="populardestinationsdetails">
-                              <h2>Oman <span className="job-title">"Best Holiday trip Ever"
+                              <h2>Kerala <span className="job-title">"Best Holiday trip Ever"
                               </span>
                               </h2>
                            </div>
@@ -353,10 +366,10 @@ export const PopularDestinations = () => {
                      <div className="card-wrapper">
                         <div className="card populardestinationssliderdiv">
                            <div className=" populardestinationcardimage">
-                              <img src='images/country images/paris.jpg' />
+                              <img src='images/domestic destinations/lonavala mumbai.jpg' />
                            </div>
                            <div className="populardestinationsdetails">
-                              <h2>Paris <span className="job-title">"Best Holiday trip Ever"
+                              <h2>Lonaval Pune <span className="job-title">"Best Holiday trip Ever"
                               </span>
                               </h2>
                            </div>
@@ -366,23 +379,10 @@ export const PopularDestinations = () => {
                      <div className="card-wrapper">
                         <div className="card populardestinationssliderdiv">
                            <div className=" populardestinationcardimage">
-                              <img src='images/country images/dubai 3.jpg' />
+                              <img src='images/domestic destinations/jammu and kashmir.jpg' />
                            </div>
                            <div className="populardestinationsdetails">
-                              <h2>Dubai <span className="job-title">"Best Holiday trip Ever"
-                              </span>
-                              </h2>
-                           </div>
-                        </div>
-                     </div>
-
-                     <div className="card-wrapper">
-                        <div className="card populardestinationssliderdiv">
-                           <div className=" populardestinationcardimage">
-                              <img src='images/PopularDestinationImages/destination10.jpg' />
-                           </div>
-                           <div className="populardestinationsdetails">
-                              <h2>New York <span className="job-title">"Best Holiday trip Ever"
+                              <h2>Jammu & Kashmir <span className="job-title">"Best Holiday trip Ever"
                               </span>
                               </h2>
                            </div>
