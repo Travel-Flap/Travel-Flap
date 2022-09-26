@@ -10,7 +10,7 @@ import { Footer } from "./components/Footer/Footer";
 import { Activities } from "./components/Pages/Activities/Activities";
 import { Hotel } from "./components/Pages/Hotels/Hotel";
 import { Visa } from "./components/Pages/Visa/Visa";
-
+import { VisaDetails} from "./components/Pages/Visa/VisaInnerpages/VisaDetails";
 function App() {
   return (
     <>
@@ -29,6 +29,7 @@ function App() {
         <Route path="/hotel" element={<Hotel />} />
         <Route path="/activities" element={<Activities />} />
         <Route path="/visa" element={<Visa/>}/>
+        <Route path="/visadetail" element={<VisaDetails/>} />
       </Routes>
     </>
   );
