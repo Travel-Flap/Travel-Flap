@@ -1,7 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./CountryDropHotel.css";
+import countrydata from '../../CountryData.json';
 
 export const CountryDropHotel = () => {
+    const [countryid, setCountryid] = useState('');
+    const [state, setState] = useState([]);
+    const [stateid, setStateid] = useState('');
+
+    const handlecounty = (e) => {
+        const getcountryId = e.target.value;
+        const getStatedata = countrydata.find(country => country.country_id === getcountryId).states;
+        setState(getStatedata);
+        setCountryid(getcountryId);
+        //console.log(getcountryId);
+    }
+
+    const handlestate = (e) => {
+        const stateid = e.target.value;
+        //console.log(stateid);
+        setStateid(stateid);
+
+    }
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        alert("Get Country id" + countryid + " And " + stateid);
+    }
+
     return (
         <>
 
@@ -25,8 +49,15 @@ export const CountryDropHotel = () => {
                         </div> */}
 
                         <div className='hotelsingledropcontainer'>
-                            <select className="form-select hotelcountryselectdrop" aria-label="Default select example" style={{border:"3px solid #3380f2"}}>
-                                <option value>Please Select Country</option>
+                            <select className="form-select hotelcountryselectdrop1" onChange={(e) => handlecounty(e)} aria-label="Default select example"
+                                style={{ border: "3px solid #3380f2", width: "60%" }}>
+                                <option value="" style={{ textAlign: "center" }}>Select Country</option>
+                                {
+                                    countrydata.map((getcountry, index) => (
+                                        <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                    ))
+                                }
+                                {/* <option value>Please Select Country</option>
                                 <option value="1">India</option>
                                 <option value="2">UAE</option>
                                 <option value="3">Pakistan</option>
@@ -39,7 +70,7 @@ export const CountryDropHotel = () => {
                                 <option value="10">Germany</option>
                                 <option value="11">United Kingdom</option>
                                 <option value="12">China</option>
-                                <option value="13">Korea</option>
+                                <option value="13">Korea</option> */}
                             </select>
                         </div>
 
@@ -57,8 +88,9 @@ export const CountryDropHotel = () => {
                                 <option value="3">Manipur</option>
                             </select>
                         </div> */}
-                        <div className='hotelsingledropcontainer'>
-                            <select className="form-select hotelcountryselectdrop" aria-label="Default select example" style={{border:"3px solid #3380f2"}}>
+                        <div className='hotelsingledropcontainer1'>
+                            <select className="form-select hotelcountryselectdrop" aria-label="Default select example"
+                                style={{width:"80%" ,border: "3px solid #3380f2" }}>
                                 <option value>Please Select Hotel</option>
                                 <option value="1">Cheap</option>
                                 <option value="2">Expensive</option>

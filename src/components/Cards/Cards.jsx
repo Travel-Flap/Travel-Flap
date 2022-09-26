@@ -11,6 +11,7 @@ import "./Cards.css";
 import { Button } from "react-bootstrap";
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
 import { CountryDropHomeCard } from "./CountryDropdHomeCard";
+import { Countrystate } from "./CountrySelect";
 
 
 export const DataCards = () => {
@@ -71,18 +72,19 @@ export const DataCards = () => {
         console.log(sliderRef);
     }, []);
     return (
-
+        
         <div className="activityexperimentmaindiv">
             {/* <h1>Ipl</h1> */}
-            
+            {/* <Countrystate/>            */}
             <div className="activityexperimentheadingcontainer" >
                 <div className="carddropcontainer">
                     <CountryDropHomeCard/>
+                    {/* <Countrystate/>   */}
                 </div>
 
                 <div className="cardendcontinerdiv">
                     <div className="viewallhomecardbuttons" >
-                        <p className="viewallhomecardtext" style={{ width: "45" }}>view all deals</p>
+                        <p className="viewallhomecardtext" >view all deals</p>
                         <div className="homecardheadingbuttons">
                             <div style={{ display: "flex" }}>
                                 <FaAngleLeft size={"2.5em"}
@@ -101,7 +103,7 @@ export const DataCards = () => {
             <div className="activityaroundslidercontainer">
                 <Slider
                     arrows={false}
-                    autoplay={true}
+                    // autoplay={true}
                     speed={1000}
                     autoplaySpeed={2000}
                     // dots
@@ -169,10 +171,10 @@ export const DataCards = () => {
                     <div onMouseLeave={cardhandleToggle} className="card-wrapper">
                         <div className=" cardParent card activityexperimentsliderdiv">
                             <div className=" activityexperimentcardimage">
-                                <img src='https://images.unsplash.com/photo-1513415563383-4e580ed27a46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1hdXJpdGl1c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60' />
+                                <img src='images/BestBudget/Bolivia.jpg' />
                             </div>
                             <div className={toggle ? "none" : "activityexperimentdetails"}>
-                                <h2>Goa <span className="activityexperimentjobtitle">"Best Holiday trip Ever"
+                                <h2>Bolivia <span className="activityexperimentjobtitle">"Best Holiday trip Ever"
                                 </span>
                                     <p onClick={handleText}>Tap to read more</p>
                                 </h2>
@@ -187,10 +189,10 @@ export const DataCards = () => {
                     <div onMouseLeave={cardhandleToggle1} className="card-wrapper">
                         <div className="cardParent card activityexperimentsliderdiv">
                             <div className=" activityexperimentcardimage">
-                                <img src='https://c4.wallpaperflare.com/wallpaper/144/949/164/nature-photography-landscape-road-wallpaper-preview.jpg' />
+                                <img src='images/BestBudget/Cambodia.jpg' />
                             </div>
                             <div className={toggle1 ? "none" : "activityexperimentdetails"}>
-                                <h2>Goa <span className="activityexperimentjobtitle">"Best Holiday trip Ever"
+                                <h2>Cambodia <span className="activityexperimentjobtitle">"Best Holiday trip Ever"
                                 </span>
                                     <p onClick={handleText1}>Tap to read more</p>
                                 </h2>
@@ -203,10 +205,10 @@ export const DataCards = () => {
                     <div onMouseLeave={cardhandleToggle2} className="card-wrapper">
                         <div className="card activityexperimentsliderdiv">
                             <div className=" activityexperimentcardimage">
-                                <img src='https://images.pexels.com/photos/4064432/pexels-photo-4064432.jpeg?auto=compress&cs=tinysrgb&w=600' />
+                                <img src='images/BestBudget/Bulgaria.jpg' />
                             </div>
                             <div className={toggle2 ? "none" : "activityexperimentdetails"}>
-                                <h2>Goa <span className="activityexperimentjobtitle">"Best Holiday trip Ever"
+                                <h2>Bulgaria <span className="activityexperimentjobtitle">"Best Holiday trip Ever"
                                 </span>
                                     <p onClick={handleText2}>Tap to read more</p>
                                 </h2>
@@ -219,10 +221,10 @@ export const DataCards = () => {
                     <div onMouseLeave={cardhandleToggle3} className="card-wrapper">
                         <div className="card activityexperimentsliderdiv">
                             <div className=" activityexperimentcardimage">
-                                <img src='https://cdn.pixabay.com/photo/2019/04/11/13/59/paris-4119828__340.jpg' />
+                                <img src='images/BestBudget/El Salvador.jpg' />
                             </div>
                             <div className={toggle3 ? "none" : "activityexperimentdetails"}>
-                                <h2>Goa <span className="activityexperimentjobtitle">"Best Holiday trip Ever"
+                                <h2>El Salvador <span className="activityexperimentjobtitle">"Best Holiday trip Ever"
                                 </span>
                                     <p onClick={handleText3}>Tap to read more</p>
                                 </h2>
@@ -235,10 +237,10 @@ export const DataCards = () => {
                     <div onMouseLeave={cardhandleToggle4} className="card-wrapper">
                         <div className="card activityexperimentsliderdiv">
                             <div className=" activityexperimentcardimage">
-                                <img src='https://c4.wallpaperflare.com/wallpaper/144/949/164/nature-photography-landscape-road-wallpaper-preview.jpg' />
+                                <img src='images/BestBudget/Nicaragua.jpg' />
                             </div>
                             <div className={toggle4 ? "none" : "activityexperimentdetails"}>
-                                <h2 onClick={handleText4}>Goa <span className="activityexperimentjobtitle">"Best Holiday trip Ever"
+                                <h2 onClick={handleText4}>Laos <span className="activityexperimentjobtitle">"Best Holiday trip Ever"
                                 </span>
                                     <p>Tap to read more</p>
                                 </h2>
@@ -247,7 +249,6 @@ export const DataCards = () => {
                             <div className={toggle4 ? "experimentText" : "none"}>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum quis explicabo quasi officiis molestiae cupiditate a libero consequatur alias.</p>
                             </div>
-
                         </div>
                     </div>
 
@@ -387,7 +388,7 @@ export const DataCards = () => {
 //             servicename: "Mauritius",
 //             buttontext: "Tap for more",
 //             // icons: <BsSearch />,
-//             img: "https://images.unsplash.com/photo-1513415563383-4e580ed27a46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1hdXJpdGl1c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+//             img: "images/BestBudget/Bolivia.jpg",
 //             data: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit."
 //         },
 //         {

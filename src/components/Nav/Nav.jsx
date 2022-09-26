@@ -266,7 +266,7 @@ export const Nav = () => {
                            </div>
                      </div>
                             
-                            <div className='login-register'> Login / Register <FaCaretDown />
+                            <div className='login-register'> <p>Login / Register <FaCaretDown /></p>
                                   <div className='LoginRegisterDropDown'>
                                        <div className='LoginRegisterOptions'>
                                            <FaUserLock className='LoginIcon' /> Login

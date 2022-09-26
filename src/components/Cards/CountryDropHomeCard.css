@@ -6,13 +6,13 @@
 
 .homecardinnerdropdowncontiner1{
     /* background-color: red; */
-    width: 32%;
-    margin-left: 10%;
+    width: 40%;
+    margin-left: 6%;
 }
 
 .homecardinnerdropdowncontiner1 h2{
     color: white;
-   margin-top: 8%;
+   margin-top: 6%;
    font-size: 26px;
    font-weight: 700;
 
@@ -26,17 +26,56 @@
     margin-top: 0.5%;
 }
 
+.optiondropdown{
+    text-align: left;
+    width: 1000px !important;
+}
+.countryhomecardselectdrop1{
+    border: 2px solid white !important;
+    background-color: #3380f2 !important;
+    border-radius: 20px !important;
+    margin-top: 2%;
+    color: white !important;
+    font-weight: 600 !important;
+    height: 40px !important;
+    width: 58% !important;
+}
+
+.countryhomecardselectdrop1:hover{
+    background-color: white !important;
+    cursor: pointer;
+    color: #3380f2 !important;
+}
+
+.countryhomecardselectdrop1 option:hover{
+    background-color: blue !important;
+}
+
 
 .countryhomecardselectdrop{
-    border: 3px solid white !important;
+    border: 2px solid white !important;
     border-radius: 20px !important;
-    color: #3380f2 !important;
+    background-color: #3380f2 !important;
+    color: white !important;
+    margin-top: 4%;
     font-weight: 600 !important;
+    height: 40px !important;
+    /* width: 90% !important; */
+}
+.countryhomecardselectdrop:hover{
+    background-color: white !important;
+    cursor: pointer;
+    color: #3380f2 !important;
 }
 .optionshomecardcontainer{
     /* border: 2px solid white; */
     display: flex;
-    margin-top: 2%;
+    margin-top: 1%;
+}
+
+.singlehomedropcontainer1{
+    margin-left: -20%;
+    border: none;
 }
 .singlehomedropcontainer{
     /* border: 1px solid red; */
@@ -46,15 +85,22 @@
 }
 .singlehomedropcontainer > .homecardbutton{
     /* margin-left: 3%; */
-    background-color: white !important;
-    color: #3380f2;
+    border: 2px solid white !important;
+    background-color: #3380f2 !important;
+    margin-left:20%;
+    margin-top: 5%;
+    height: 40px !important;
+    color: white;
     font-weight: 700;
-    width: 140%;
+    padding-top: 4px;
+    padding-left: 16px;
+    width: 122%;
+    height: 42px;
     border-radius: 20px;
 }
 
 .singlehomedropcontainer button:hover{
-    background-color: blue !important;
-    color: white;
+    background-color: white !important;
+    color: #3380f2;
 }
 /* style={{ marginLeft: "8%", background: "white", color: "blue" }} */

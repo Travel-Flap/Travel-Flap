@@ -1,5 +1,6 @@
 .footerparentcontainer {
   display: flex;
+  height: 360px;
 }
 
 .mapimagediv{
@@ -137,7 +138,7 @@ h4 img {
 }
 .socialIcons {
   color: #dee2e6;
-  font-size: 24px;
+  font-size: 28px;
   padding: 10%;
 }
 .socialIcons:hover {

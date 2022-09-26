@@ -26,12 +26,36 @@
     margin-left: 0%;
 }
 
-.hotelcountryselectdrop{
-    border: 3px solid white !important;
+.hotelcountryselectdrop1{
+    border: 2px solid white !important;
+    background-color: #3380f2 !important;
     border-radius: 20px !important;
-    color: #3380f2 !important;
-    font-weight: 700 !important;
+    color: white !important;
+    font-weight: 600 !important;
+    height: 38px !important;
+    /* width: % !important; */
 }
+
+.hotelcountryselectdrop1:hover{
+    background-color: white !important;
+    color: #3380f2 !important;
+}
+
+.hotelcountryselectdrop{
+    border: 2px solid white !important;
+    background-color: #3380f2 !important;
+    border-radius: 20px !important;
+    color: white !important;
+    font-weight: 700 !important;
+    margin-left: 12%;
+    height: 38px !important;
+}
+
+.hotelcountryselectdrop:hover{
+    background-color: white !important;
+    color: #3380f2 !important;
+}
+
 .hoteloptionscontainer{
     /* border: 2px solid white; */
     display: flex;
@@ -43,17 +67,24 @@
     margin-left: 3%;
     border: none;
 }
+.hotelsingledropcontainer1{
+    border: none;
+    margin-left: -20% !important;
+}
 .hotelsingledropcontainer > .homecardtextbutton{
     /* margin-left: 3%; */
-    background-color: white !important;
-    color: #3380f2;
+    border: 2px solid white !important;
+    background-color: #3380f2 !important;
+    color: white;
     font-weight: 700;
-    width: 130%;
+    width: 135%;
+    height: 38px;
     border-radius: 20px;
+    margin-left: -20%;
 }
 
 .hotelsingledropcontainer button:hover{
-    background-color: blue !important;
-    color: white;
+    background-color: white !important;
+    color: #3380f2;
 }
 /* style={{ marginLeft: "8%", background: "white", color: "blue" }} */

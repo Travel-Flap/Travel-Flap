@@ -97,21 +97,22 @@
   /* text-decoration: underline; */
   /* border: 1px solid red; */
   display: flex;
-  margin: 1.5% 2% 0 5%;
-  width: 20%;
-  margin-left: 15% !important;
+  margin: 6.5% 2% 0 5% !important;
+  width: 65% !important; 
+  margin-left: 40% !important;
 }
 
 .viewallhomehotelcardtext{
-  margin-top: 0.5%;
+  margin-top: 0px !important;
   border: 2px solid white;
   border-radius: 20px;
-  width: 55% !important;
+  height: 38px !important;
+  width: 57% !important;
   font-size: 14px;
   height: 30px;
   font-weight: 700;
   padding-left: 10px;
-  padding-top: 2.3px;
+  padding-top: 5.3px !important;
   margin-bottom: 8%;
   text-decoration: none !important;
 }
@@ -119,7 +120,7 @@
 .viewallhomehotelcardtext:hover{
   background-color: white;
   color: #3380f2;
-  padding-top: 1%;
+  /* padding-top: 1%; */
 }
 .activityaroundslidercontainer{
   /* border: 2px solid red; */
