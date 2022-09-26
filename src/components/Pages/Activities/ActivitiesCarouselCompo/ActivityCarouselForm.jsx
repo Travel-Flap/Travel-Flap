@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+// import React, { useState } from 'react';
 import { Outlet, Link } from "react-router-dom";
 import './ActivityCarouselForm.css';
 import { BiCurrentLocation } from 'react-icons/bi';
@@ -17,8 +18,31 @@ import { CgMoreAlt } from 'react-icons/cg';
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
+import countrydata from '../../../../CountryData.json';
 
 export const ActivityCarouselForm = () => {
+    const [countryid, setCountryid] = useState('');
+    const [state, setState] = useState([]);
+    const [stateid, setStateid] = useState('');
+
+    const handlecounty = (e) => {
+        const getcountryId = e.target.value;
+        const getStatedata = countrydata.find(country => country.country_id === getcountryId).states;
+        setState(getStatedata);
+        setCountryid(getcountryId);
+        //console.log(getcountryId);
+    }
+
+    const handlestate = (e) => {
+        const stateid = e.target.value;
+        //console.log(stateid);
+        setStateid(stateid);
+
+    }
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        alert("Get Country id" + countryid + " And " + stateid);
+    }
     return (
         <>
             {/* <Menu /> */}
@@ -96,21 +120,36 @@ export const ActivityCarouselForm = () => {
                     <div className='innerdropdowncontainer2'>
                         <div className='optionscontainer'>
                             <div className='singledropcontainer'>
-                                <select className="form-select" aria-label="Default select example" style={{ border: "3px solid #3380f2" }}>
-                                    <option value>Please Select Continents</option>
+                                <select className="form-select" onChange={(e) => handlecounty(e)} aria-label="Default select example" style={{ border: "3px solid #3380f2" }}>
+
+                                    <option id='homecarddropbox' value="">Select Country</option>
+                                    {
+                                        countrydata.map((getcountry, index) => (
+                                            <option y value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                        ))
+                                    }
+                                    {/* <option value>Please Select Continents</option>
                                     <option value="1">Asia</option>
                                     <option value="2">Africa</option>
                                     <option value="3">North America</option>
                                     <option value="4">South America</option>
                                     <option value="5">Antarctica</option>
                                     <option value="6">Europe</option>
-                                    <option value="7">Australia</option>
+                                    <option value="7">Australia</option> */}
                                 </select>
                             </div>
 
                             <div className='singledropcontainer'>
-                                <select className="form-select" aria-label="Default select example" style={{ border: "3px solid #3380f2" }}>
-                                    <option value>Please Select Country</option>
+                                <select className="form-select" onChange={(e) => handlestate(e)} aria-label="Default select example" style={{ border: "3px solid #3380f2" }}>
+
+                                    <option value="" style={{ textAlign: "center" }}>Select City</option>
+                                    {
+                                        state.map((getstate, index) => (
+                                            <option className='optiondropdown' value={getstate.state_id} key={index}>{getstate.state_name}</option>
+                                        ))
+                                    }
+
+                                    {/* <option value>Please Select Country</option>
                                     <option value="1">India</option>
                                     <option value="2">UAE</option>
                                     <option value="3">Pakistan</option>
@@ -123,22 +162,22 @@ export const ActivityCarouselForm = () => {
                                     <option value="10">Germany</option>
                                     <option value="11">United Kingdom</option>
                                     <option value="12">China</option>
-                                    <option value="13">Korea</option>
+                                    <option value="13">Korea</option> */}
                                 </select>
                             </div>
 
                             <div className='singledropcontainer'>
                                 <select className="form-select" aria-label="Default select example" style={{ border: "3px solid #3380f2" }}>
-                                    <option value>Please Select City</option>
-                                    <option value="1">Delhi</option>
-                                    <option value="2">Hyderabad</option>
-                                    <option value="3">Himachal Pradesh</option>
-                                    <option value="3">Jammu & Kashmir</option>
-                                    <option value="3">Punjab</option>
-                                    <option value="3">Mumbai</option>
+                                    <option value>Package Category</option>
+                                    <option value="1">Family Package</option>
+                                    <option value="2">Friends Package</option>
+                                    <option value="3">Solo Travel</option>
+                                    <option value="3">Romantic Package</option>
+                                    <option value="3">Honeymoon Package</option>
+                                    {/* <option value="3">Mumbai</option>
                                     <option value="3">Sikkim</option>
                                     <option value="3">Uttrakhand</option>
-                                    <option value="3">Manipur</option>
+                                    <option value="3">Manipur</option> */}
                                 </select>
                             </div>
                             <div className='singledropcontainer'>
@@ -149,6 +188,7 @@ export const ActivityCarouselForm = () => {
 
                     </div>
                 </div>
+
                 {/* <div className='bannersearchboxdiv'>
                     <div className='selectcountry' style={{marginLeft:"3%"}}>
                         

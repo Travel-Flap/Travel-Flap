@@ -183,105 +183,105 @@ export const InternationalDestinations = () => {
                     {/* <div className="experimentdivcontainer" style={{display:"flex",flexDirection:"row"}}/> */}
 
                     
-                    <div class="card mb-3 internationalouterdiv" >
-                        <div class="row g-0 internationalimagetextcontainer">
-                            <div class="col-md-8 domesticcardimage">
-                                <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                    <div className="card mb-3 internationalouterdiv" >
+                        <div className="row g-0 internationalimagetextcontainer">
+                            <div className="col-md-8 internationalcardimage">
+                                <img src="images/international destinations/banff.jpg" className="img-fluid rounded-start" alt="..." />
                             </div>
-                            <div class="col-md-4 internationaltextcard">
-                                <div class="card-body internationalcarddescmain">
-                                    <h3 class="card-title internationalcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                    <p class="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div className="col-md-4 internationaltextcard">
+                                <div className="card-body internationalcarddescmain">
+                                    <h3 className="card-title internationalcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
+                                    <p className="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <Button className="internationalbutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card mb-3 internationalouterdiv" >
-                        <div class="row g-0 internationalimagetextcontainer">
-                            <div class="col-md-8 domesticcardimage">
-                                <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                    <div className="card mb-3 internationalouterdiv" >
+                        <div className="row g-0 internationalimagetextcontainer">
+                            <div className="col-md-8 internationalcardimage">
+                                <img src="images/international destinations/barcelona.jpg" className="img-fluid rounded-start" alt="..." />
                             </div>
-                            <div class="col-md-4 internationaltextcard">
-                                <div class="card-body internationalcarddescmain">
-                                    <h3 class="card-title internationalcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                    <p class="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div className="col-md-4 internationaltextcard">
+                                <div className="card-body internationalcarddescmain">
+                                    <h3 className="card-title internationalcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
+                                    <p className="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <Button className="internationalbutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card mb-3 internationalouterdiv" >
-                        <div class="row g-0 internationalimagetextcontainer">
-                            <div class="col-md-8 domesticcardimage">
-                                <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                    <div className="card mb-3 internationalouterdiv" >
+                        <div className="row g-0 internationalimagetextcontainer">
+                            <div className="col-md-8 internationalcardimage">
+                                <img src="images/international destinations/bora bora.jpg" className="img-fluid rounded-start" alt="..." />
                             </div>
-                            <div class="col-md-4 internationaltextcard">
-                                <div class="card-body internationalcarddescmain">
-                                    <h3 class="card-title internationalcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                    <p class="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div className="col-md-4 internationaltextcard">
+                                <div className="card-body internationalcarddescmain">
+                                    <h3 className="card-title internationalcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
+                                    <p className="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <Button className="internationalbutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card mb-3 internationalouterdiv" >
-                        <div class="row g-0 internationalimagetextcontainer">
-                            <div class="col-md-8 domesticcardimage">
-                                <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                    <div className="card mb-3 internationalouterdiv" >
+                        <div className="row g-0 internationalimagetextcontainer">
+                            <div className="col-md-8 internationalcardimage">
+                                <img src="images/international destinations/maui hawaii.jpg" className="img-fluid rounded-start" alt="..." />
                             </div>
-                            <div class="col-md-4 internationaltextcard">
-                                <div class="card-body internationalcarddescmain">
-                                    <h3 class="card-title internationalcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                    <p class="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div className="col-md-4 internationaltextcard">
+                                <div className="card-body internationalcarddescmain">
+                                    <h3 className="card-title internationalcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
+                                    <p className="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <Button className="internationalbutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card mb-3 internationalouterdiv" >
-                        <div class="row g-0 internationalimagetextcontainer">
-                            <div class="col-md-8 domesticcardimage">
-                                <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                    <div className="card mb-3 internationalouterdiv" >
+                        <div className="row g-0 internationalimagetextcontainer">
+                            <div className="col-md-8 internationalcardimage">
+                                <img src="images/international destinations/paris.jpg" className="img-fluid rounded-start" alt="..." />
                             </div>
-                            <div class="col-md-4 internationaltextcard">
-                                <div class="card-body internationalcarddescmain">
-                                    <h3 class="card-title internationalcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                    <p class="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div className="col-md-4 internationaltextcard">
+                                <div className="card-body internationalcarddescmain">
+                                    <h3 className="card-title internationalcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
+                                    <p className="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <Button className="internationalbutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card mb-3 internationalouterdiv" >
-                        <div class="row g-0 internationalimagetextcontainer">
-                            <div class="col-md-8 domesticcardimage">
-                                <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                    <div className="card mb-3 internationalouterdiv" >
+                        <div className="row g-0 internationalimagetextcontainer">
+                            <div className="col-md-8 internationalcardimage">
+                                <img src="images/international destinations/rome.jpg" className="img-fluid rounded-start" alt="..." />
                             </div>
-                            <div class="col-md-4 internationaltextcard">
-                                <div class="card-body internationalcarddescmain">
-                                    <h3 class="card-title internationalcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                    <p class="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div className="col-md-4 internationaltextcard">
+                                <div className="card-body internationalcarddescmain">
+                                    <h3 className="card-title internationalcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
+                                    <p className="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <Button className="internationalbutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card mb-3 internationalouterdiv" >
-                        <div class="row g-0 internationalimagetextcontainer">
-                            <div class="col-md-8 domesticcardimage">
-                                <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                    <div className="card mb-3 internationalouterdiv" >
+                        <div className="row g-0 internationalimagetextcontainer">
+                            <div className="col-md-8 internationalcardimage">
+                                <img src="images/international destinations/tahiti.jpg" className="img-fluid rounded-start" alt="..." />
                             </div>
-                            <div class="col-md-4 internationaltextcard">
-                                <div class="card-body internationalcarddescmain">
-                                    <h3 class="card-title internationalcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                    <p class="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div className="col-md-4 internationaltextcard">
+                                <div className="card-body internationalcarddescmain">
+                                    <h3 className="card-title internationalcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
+                                    <p className="card-text internationalcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <Button className="internationalbutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>

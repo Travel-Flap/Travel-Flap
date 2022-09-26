@@ -185,105 +185,105 @@ export const DomesticDestinations = () => {
                     {/* <div className="experimentdivcontainer" style={{display:"flex",flexDirection:"row"}}> */}
 
 
-                    <div class="card mb-3 domesticouterdivtop" >
-                        <div class="row g-0 domesticimagetextcontainer">
-                            <div class="col-md-8 domesticcardimage">
-                                <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                    <div className="card mb-3 domesticouterdivtop" >
+                        <div className="row g-0 domesticimagetextcontainer">
+                            <div className="col-md-8 domesticcardimage">
+                                <img src="images/domestic destinations/agra.jpg" className="img-fluid rounded-start" alt="..." />
                             </div>
-                            <div class="col-md-4 domestictextcard">
-                                <div class="card-body domesticcarddescmain">
-                                    <h3 class="card-title domesticcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                    <p class="card-text domesticcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div className="col-md-4 domestictextcard">
+                                <div className="card-body domesticcarddescmain">
+                                    <h3 className="card-title domesticcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
+                                    <p className="card-text domesticcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <Button className="domesticbutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card mb-3 domesticouterdivtop" >
-                        <div class="row g-0 domesticimagetextcontainer">
-                            <div class="col-md-8 domesticcardimage">
-                                <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                    <div className="card mb-3 domesticouterdivtop" >
+                        <div className="row g-0 domesticimagetextcontainer">
+                            <div className="col-md-8 domesticcardimage">
+                                <img src="images/domestic destinations/goa.jpg" className="img-fluid rounded-start" alt="..." />
                             </div>
-                            <div class="col-md-4 domestictextcard">
-                                <div class="card-body domesticcarddescmain">
-                                    <h3 class="card-title domesticcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                    <p class="card-text domesticcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div className="col-md-4 domestictextcard">
+                                <div className="card-body domesticcarddescmain">
+                                    <h3 className="card-title domesticcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
+                                    <p className="card-text domesticcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <Button className="domesticbutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card mb-3 domesticouterdivtop" >
-                        <div class="row g-0 domesticimagetextcontainer">
-                            <div class="col-md-8 domesticcardimage">
-                                <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                    <div className="card mb-3 domesticouterdivtop" >
+                        <div className="row g-0 domesticimagetextcontainer">
+                            <div className="col-md-8 domesticcardimage">
+                                <img src="images/domestic destinations/jaipur.jpg" className="img-fluid rounded-start" alt="..." />
                             </div>
-                            <div class="col-md-4 domestictextcard">
-                                <div class="card-body domesticcarddescmain">
-                                    <h3 class="card-title domesticcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                    <p class="card-text domesticcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div className="col-md-4 domestictextcard">
+                                <div className="card-body domesticcarddescmain">
+                                    <h3 className="card-title domesticcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
+                                    <p className="card-text domesticcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <Button className="domesticbutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card mb-3 domesticouterdivtop" >
-                        <div class="row g-0 domesticimagetextcontainer">
-                            <div class="col-md-8 domesticcardimage">
-                                <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                    <div className="card mb-3 domesticouterdivtop" >
+                        <div className="row g-0 domesticimagetextcontainer">
+                            <div className="col-md-8 domesticcardimage">
+                                <img src="images/domestic destinations/jammu and kashmir.jpg" className="img-fluid rounded-start" alt="..." />
                             </div>
-                            <div class="col-md-4 domestictextcard">
-                                <div class="card-body domesticcarddescmain">
-                                    <h3 class="card-title domesticcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                    <p class="card-text domesticcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div className="col-md-4 domestictextcard">
+                                <div className="card-body domesticcarddescmain">
+                                    <h3 className="card-title domesticcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
+                                    <p className="card-text domesticcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <Button className="domesticbutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card mb-3 domesticouterdivtop" >
-                        <div class="row g-0 domesticimagetextcontainer">
-                            <div class="col-md-8 domesticcardimage">
-                                <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                    <div className="card mb-3 domesticouterdivtop" >
+                        <div className="row g-0 domesticimagetextcontainer">
+                            <div className="col-md-8 domesticcardimage">
+                                <img src="images/domestic destinations/kerela.jpg" className="img-fluid rounded-start" alt="..." />
                             </div>
-                            <div class="col-md-4 domestictextcard">
-                                <div class="card-body domesticcarddescmain">
-                                    <h3 class="card-title domesticcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                    <p class="card-text domesticcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div className="col-md-4 domestictextcard">
+                                <div className="card-body domesticcarddescmain">
+                                    <h3 className="card-title domesticcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
+                                    <p className="card-text domesticcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <Button className="domesticbutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card mb-3 domesticouterdivtop" >
-                        <div class="row g-0 domesticimagetextcontainer">
-                            <div class="col-md-8 domesticcardimage">
-                                <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                    <div className="card mb-3 domesticouterdivtop" >
+                        <div className="row g-0 domesticimagetextcontainer">
+                            <div className="col-md-8 domesticcardimage">
+                                <img src="images/domestic destinations/ooty.jpg" className="img-fluid rounded-start" alt="..." />
                             </div>
-                            <div class="col-md-4 domestictextcard">
-                                <div class="card-body domesticcarddescmain">
-                                    <h3 class="card-title domesticcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                    <p class="card-text domesticcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div className="col-md-4 domestictextcard">
+                                <div className="card-body domesticcarddescmain">
+                                    <h3 className="card-title domesticcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
+                                    <p className="card-text domesticcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <Button className="domesticbutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card mb-3 domesticouterdivtop" >
-                        <div class="row g-0 domesticimagetextcontainer">
-                            <div class="col-md-8 domesticcardimage">
-                                <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                    <div className="card mb-3 domesticouterdivtop" >
+                        <div className="row g-0 domesticimagetextcontainer">
+                            <div className="col-md-8 domesticcardimage">
+                                <img src="images/domestic destinations/shimla.jpg" className="img-fluid rounded-start" alt="..." />
                             </div>
-                            <div class="col-md-4 domestictextcard">
-                                <div class="card-body domesticcarddescmain">
-                                    <h3 class="card-title domesticcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
-                                    <p class="card-text domesticcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div className="col-md-4 domestictextcard">
+                                <div className="card-body domesticcarddescmain">
+                                    <h3 className="card-title domesticcardtitle">Save Flat Rs. 4500 on your next Holiday.</h3>
+                                    <p className="card-text domesticcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <Button className="domesticbutton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>

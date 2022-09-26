@@ -14,7 +14,7 @@ import { InternationalDestinations } from '../InternationalDestinations/Internat
 
 
 
-import { Experiment } from '../../../Experiment/Experiment';
+import { Experiment } from '../../../Tags/Tags';
 import { Plan } from '../../../NextHolidaysPlan/Plan';
 
 export const Holidays = () => {

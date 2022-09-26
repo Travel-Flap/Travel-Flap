@@ -17,11 +17,13 @@
 #container_chid1{
     width: 99%;
     /* border: 2px solid green; */
-    margin-left: 38%;
+    /* margin-left: 38%; */
     color: #3380F2;
 }
 #container_chid1 h5{
+    font-size: 28px;
     font-weight: 700;
+    margin-left: 33%;
 }
 #container_chid2{
    margin-top: 2%;

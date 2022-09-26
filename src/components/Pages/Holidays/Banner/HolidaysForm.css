@@ -105,15 +105,8 @@
     border: none;
 }
 
-.singledropcontainer button{
-    /* margin-left: 3%; */
-    background-color: blue !important;
-    color:white;
-}
-
-.singledropcontainer button:hover{
-    background-color: #3380f2;
-    color: white;
+.singledropcontainer1{
+  margin-left: -15%;
 }
 /* style={{ marginLeft: "8%", background: "white", color: "blue" }} */
 
@@ -543,4 +536,15 @@
     border-radius: 25px;
     background-color: White;
     color: #3380F2;
+}
+
+.singledropcontainer .holidayformbutton{
+  width: 100%;
+  background-color: #3380f2 !important;
+  color: white;
+}
+
+.singledropcontainer .holidayformbutton:hover{
+  background-color: white;
+  color: #3380f2 !important;
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Outlet, Link } from "react-router-dom";
 import "./VisaBanner.css";
 
 export const VisaBanner = () => {
@@ -66,7 +67,7 @@ export const VisaBanner = () => {
                                 <option value="13">Korea</option>
                             </select>
                         </div>
-                    <button className='bannersearchbutton'> Search</button>
+                    <Link to="/visadetail" className='bannersearchbutton'><p>Search</p></Link>
                 </div>
             </div>
         </>

@@ -159,6 +159,11 @@
   width: 100% !important;
 }
 
+.bestbudgetcardimage img{
+  height: 200px;
+  width: 100%;
+}
+
 .bestbudgetcarddescmain {
   /* border: 1px solid red; */
   width: 100%;

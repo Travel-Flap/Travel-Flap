@@ -17,8 +17,32 @@ import { CgMoreAlt } from 'react-icons/cg';
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
+import countrydata from '../../../../CountryData.json';
 
 export const HolidayCarouselForm = () => {
+    const [countryid, setCountryid] = useState('');
+    const [state, setState] = useState([]);
+    const [stateid, setStateid] = useState('');
+
+    const handlecounty = (e) => {
+        const getcountryId = e.target.value;
+        const getStatedata = countrydata.find(country => country.country_id === getcountryId).states;
+        setState(getStatedata);
+        setCountryid(getcountryId);
+        //console.log(getcountryId);
+    }
+
+    const handlestate = (e) => {
+        const stateid = e.target.value;
+        //console.log(stateid);
+        setStateid(stateid);
+
+    }
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        alert("Get Country id" + countryid + " And " + stateid);
+    }
+
     return (
         <>
             {/* <Menu /> */}
@@ -96,21 +120,35 @@ export const HolidayCarouselForm = () => {
                     <div className='innerdropdowncontainer2'>
                         <div className='optionscontainer'>
                             <div className='singledropcontainer'>
-                                <select className="form-select" aria-label="Default select example" style={{ border: "3px solid #3380f2" }}>
-                                    <option value>Please Select Continents</option>
+                                <select className="form-select" onChange={(e) => handlecounty(e)} aria-label="Default select example" style={{width:"60%", border: "3px solid #3380f2" }}>
+                                    <option value="" style={{textAlign:"center"}}>Select Country</option>
+                                    {
+                                        countrydata.map((getcountry, index) => (
+                                            <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                        ))
+                                    }
+
+                                    {/* <option value>Please Select Continents</option>
                                     <option value="1">Asia</option>
                                     <option value="2">Africa</option>
                                     <option value="3">North America</option>
                                     <option value="4">South America</option>
                                     <option value="5">Antarctica</option>
                                     <option value="6">Europe</option>
-                                    <option value="7">Australia</option>
+                                    <option value="7">Australia</option> */}
                                 </select>
                             </div>
 
-                            <div className='singledropcontainer'>
-                                <select className="form-select" aria-label="Default select example" style={{ border: "3px solid #3380f2" }}>
-                                    <option value>Please Select Country</option>
+                            <div className='singledropcontainer1'>
+                                <select className="form-select holidayform" onChange={(e) => handlestate(e)} aria-label="Default select example" style={{width:"100%", border: "3px solid #3380f2" }}>
+                                    <option value="" style={{textAlign:"center"}}>Select State</option>
+                                    {
+                                        state.map((getstate, index) => (
+                                            <option value={getstate.state_id} key={index}>{getstate.state_name}</option>
+                                        ))
+                                    }
+
+                                    {/* <option value>Please Select Country</option>
                                     <option value="1">India</option>
                                     <option value="2">UAE</option>
                                     <option value="3">Pakistan</option>
@@ -123,150 +161,29 @@ export const HolidayCarouselForm = () => {
                                     <option value="10">Germany</option>
                                     <option value="11">United Kingdom</option>
                                     <option value="12">China</option>
-                                    <option value="13">Korea</option>
+                                    <option value="13">Korea</option> */}
                                 </select>
                             </div>
 
                             <div className='singledropcontainer'>
-                                <select className="form-select" aria-label="Default select example" style={{ border: "3px solid #3380f2" }}>
-                                    <option value>Please Select City</option>
-                                    <option value="1">Delhi</option>
-                                    <option value="2">Hyderabad</option>
-                                    <option value="3">Himachal Pradesh</option>
-                                    <option value="3">Jammu & Kashmir</option>
-                                    <option value="3">Punjab</option>
-                                    <option value="3">Mumbai</option>
-                                    <option value="3">Sikkim</option>
-                                    <option value="3">Uttrakhand</option>
-                                    <option value="3">Manipur</option>
+                                <select className="form-select" aria-label="Default select example" style={{marginLeft:"6%",width:"80%", border: "3px solid #3380f2" }}>
+                                    <option value>Please Select Package</option>
+                                    <option value="1">Family</option>
+                                    <option value="2">Holiday</option>
+                                    <option value="3">Solo</option>
+                                    <option value="3">Friends</option>
+                                    <option value="3">Romantic</option>
+                                    {/* <option value="3">Mumbai</option> */}
                                 </select>
                             </div>
                             <div className='singledropcontainer'>
-                                <button type="button" className="btn btn-primary">Search</button>
+                                <button type="button" className="btn btn-primary holidayformbutton">Search</button>
                             </div>
                         </div>
 
 
                     </div>
                 </div>
-                {/* <div className='bannersearchboxdiv'>
-                    <div className='selectcountry' style={{marginLeft:"3%"}}>
-                        
-                            <select className="form-select" aria-label="Default select example" style={{border:"3px solid #3380f2"}}>
-                                <option value>Select Country</option>
-                                <option value="1">India Visa</option>
-                                <option value="2">UAE Visa</option>
-                                <option value="3">Pakistan Visa</option>
-                                <option value="4">France Visa</option>
-                                <option value="5">Spain Visa</option>
-                                <option value="6">Turkey Visa</option>
-                                <option value="7">Italy Visa</option>
-                                <option value="8">Thailand Visa</option>
-                                <option value="9">Mexico Visa</option>
-                                <option value="10">Germany Visa</option>
-                                <option value="11">United Kingdom Visa</option>
-                                <option value="12">China Visa</option>
-                                <option value="13">Korea Visa</option>
-                            </select>
-                        </div>
-                        <div className='selectcountry'>
-                        
-                            <select className="form-select visadrop" aria-label="Default select example" style={{border:"3px solid #3380f2"}}>
-                                <option value>Select Nationality</option>
-                                <option value="1">India</option>
-                                <option value="2">UAE</option>
-                                <option value="3">Pakistan</option>
-                                <option value="4">France</option>
-                                <option value="5">Spain</option>
-                                <option value="6">Turkey</option>
-                                <option value="7">Italy</option>
-                                <option value="8">Thailand</option>
-                                <option value="9">Mexico</option>
-                                <option value="10">Germany</option>
-                                <option value="11">United Kingdom</option>
-                                <option value="12">China</option>
-                                <option value="13">Korea</option>
-                            </select>
-                        </div>
-                        <div className='selectcountry'>
-                        
-                            <select className="form-select" aria-label="Default select example" style={{border:"3px solid #3380f2"}}>
-                                <option value>Select Residency</option>
-                                <option value="1">India</option>
-                                <option value="2">UAE</option>
-                                <option value="3">Pakistan</option>
-                                <option value="4">France</option>
-                                <option value="5">Spain</option>
-                                <option value="6">Turkey</option>
-                                <option value="7">Italy</option>
-                                <option value="8">Thailand</option>
-                                <option value="9">Mexico</option>
-                                <option value="10">Germany</option>
-                                <option value="11">United Kingdom</option>
-                                <option value="12">China</option>
-                                <option value="13">Korea</option>
-                            </select>
-                        </div>
-                    <button className='bannersearchbutton'>Search</button>
-                </div> */}
-                {/* <div className='maindatesections' style={{boreder:"10px solid red"}}>
-                    <div className='filter-fromTo'>
-                        <div className='from-name'>
-                            <h5>FROM</h5>
-                            <input className='cityinput' type="search" placeholder="Jaipur" />
-                            
-                        </div>
-                        
-                        <div className='from-name2'>
-                            <h5>TO </h5>
-                            <input className='cityinput' type="search" placeholder="Delhi" />
-                       
-                        </div>
-                    </div>
-
-
-                    <div id='formdates'>
-                        <div className='selectdate'>
-                            <h5>Departure</h5>
-                            <DatePicker style={{ border: "none" }} placeholderText='Departure' id='dateonewayform' />
-                        </div>
-                        <div id='selectReturndate1'>
-                            <h5>Return</h5>
-                            <DatePicker placeholderText='Return' id='dateonewayform' />
-                        </div>
-                    </div>
-                    <div id='travel' >
-                        <div id='departure'>
-                            <h3>Choose Passengers <FaArrowCircleDown className='downarrowicon' /></h3>
-                            <div className="dropdown-content">
-                                <div className='navbarOptions'>
-                                    <FaPlusCircle className='contactIcon' />   <FaMinusCircle className='decrease' /> Adults
-                                </div>
-                                <div className='navbarOptions '>
-                                    <FaPlusCircle className='miceIcon' />   <FaMinusCircle className='decrease' /> Children
-                                </div>
-                                <div className='navbarOptions'>
-                                    <FaPlusCircle className='offersIcon' />  <FaMinusCircle className='decrease' /> Infants
-                                </div>
-                            </div>
-                        </div>
-
-                        <button className='searchbtn'>Search Flight</button>
-
-                    </div>
-                </div>
-                
-                <div className='checkmark'>
-                    <input type="checkbox" className='flightscheckbox' />
-                    <label className='flightscheckbox1'>Flights You've searched for</label>
-                    <input type="checkbox" className='flightscheckbox' />
-                    <label className='flightscheckbox1'>Flights from Jaipur</label>
-                    <input type="checkbox" className='flightscheckbox' />
-                    <label className='flightscheckbox1'> Direct Flight</label>
-                    <input type="checkbox" className='flightscheckbox' />
-                    <label className='flightscheckbox1'> Defence fare</label>
-
-                </div> */}
             </div>
         </>
     )

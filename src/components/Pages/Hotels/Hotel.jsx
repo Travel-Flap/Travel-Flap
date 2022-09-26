@@ -4,7 +4,7 @@ import { ExclusiveDeals } from "../../ExclusiveDeals/ExclusiveDeals"
 import { Choose_Travelflap } from './Choose Travelflap/Choose_Travelflap';
 import { PopularDestinations } from '../../PopularDestinations/PopularDestinations';
 import { Newsletter } from '../../NewsLetter/NewsLetter';
-import { Favourite_Hotels } from './Favourite_hotels/Favourite_hotels';
+import { Favouite, Favourite_Hotels } from './Favourite_hotels/Favourite';
 import { Hotel_Banner } from './Hotel_Banner/Hotel_Banner';
 import { Free_Hotel_Lunch } from './Hotel_Free_Lunch/Free_Lunch_Hotel';
 import { Footer } from '../../Footer/Footer';
@@ -22,7 +22,8 @@ export const Hotel = () => {
             <ExclusiveDeals/>
             </div>
             <PopularDestinations/>
-            <Favourite_Hotels />
+            {/* <Favourite_Hotels /> */}
+            <Favouite/>
             <Free_Hotel_Lunch />
             <Newsletter />
             <FooterLinks/>

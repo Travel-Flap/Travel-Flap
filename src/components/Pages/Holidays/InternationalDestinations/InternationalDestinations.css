@@ -129,11 +129,17 @@
     margin-left: 40%;
   }
   
-  .domesticcardimage {
+  .internationalcardimage {
     border: none;
     width: 100% !important;
+    object-fit: cover;
   }
-  
+
+  .internationalcardimage img{
+    height: 200px;
+    width: 100%;
+  }
+
   .internationalcarddescmain {
     width: 100%;
     margin-left: -9%;

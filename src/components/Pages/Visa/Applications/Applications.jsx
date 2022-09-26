@@ -11,7 +11,7 @@ export const Applications=()=>{
  var timer;
  useEffect(() =>{
     timer = setInterval(() =>{
-        setCount(count+1);
+        setCount(count+50);
         if(count===5)
         {
             stop();
@@ -35,7 +35,7 @@ export const Applications=()=>{
                 <h5>Globally Branches</h5></div>
                 <div><h1>15,294</h1>
                 <h5>Clients</h5></div>
-                <div><h1>542,954</h1>
+                <div><h1>{count}</h1>
                 <h5>Visa Processes</h5></div>
             </div>
            </div>

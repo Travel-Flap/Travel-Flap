@@ -64,9 +64,6 @@ export const ActivityExperiment = () => {
         setToggle5(false)
     }
 
-
-
-
     useEffect(() => {
         console.log(sliderRef);
     }, []);
@@ -74,7 +71,7 @@ export const ActivityExperiment = () => {
         <div className="activityexperimentmaindiv">
             {/* <h1>Ipl</h1> */}
             <div className="activityexperimentheadingcontainer" >
-                <h2 className="activityexperimentheading1">Activities Experiment</h2>
+                <h2 className="activityexperimentheading1">Trending Activitites</h2>
                 <div className="viewallactivityaroundbuttons" >
                     <p className="viewallactivityaroundtext" style={{ width: "45" }}>view all deals</p>
                     <div className="activityaroundheadingbuttons">

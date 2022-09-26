@@ -10,7 +10,7 @@ import { Banner } from './Banner/Banner';
 import { Nav } from "../../Nav/Nav";
 import Newsletter from '../../NewsLetter/NewsLetter';
 import { FooterLinks } from '../../FooterLinks/FooterLinks';
-import { Experiment } from '../../Experiment/Experiment';
+import { Experiment } from '../../Tags/Tags';
 import { Plan } from '../../NextHolidaysPlan/Plan';
 
 export const Offers = () => {

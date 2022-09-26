@@ -2,7 +2,7 @@
     width: 100%;
     height: 500px;
     border: 2px solid white;
-    background-image: url("https://djq098wr042w0.cloudfront.net/media/Turkey22.jpg");
+    background-image: url("./visa.png");
     background-size: cover;
     position: relative;
 }
@@ -71,6 +71,10 @@
     font-weight: 700;
     font-size: 20px;
     border-radius:10px;
+    text-decoration: none;
+}
+.bannersearchbutton p{
+    padding: 5% 0px 0px 32%;
 }
 .bannersearchbutton:hover{
     background-color: rgb(111, 0, 255);

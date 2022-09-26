@@ -5,7 +5,7 @@ import { Nav } from '../../Nav/Nav';
 import Newsletter from '../../NewsLetter/NewsLetter';
 import { Plan } from '../../NextHolidaysPlan/Plan';
 import { ControlledCarousel } from '../../TopCorousel/Corousel';
-import { Experiment } from '../../Experiment/Experiment';
+import { Experiment } from '../../Tags/Tags';
 // import { TopActivities } from "./WorldActivities/WorldActivities";
 import TopActivities from "./TopCityActivity/TopActivity";
 import WorldActivities from './WorldActivities/WorldActivities';

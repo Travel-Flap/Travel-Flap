@@ -7,7 +7,7 @@ import { ApplyProcess } from './ApplyProcess/ApplyProcess';
 import { WhychooseTravelflap } from './WhychooseTravelflap/WhychooseTravelflap';
 import { FamousDestinations } from './FamousDestinations/FamousDestinations';
 import { VisaBanner } from './VisaBanner/VisaBanner';
-import { Experiment } from '../../Experiment/Experiment';
+// import { Experiment } from '../../Experiment/Experiment';
 import { Plan } from '../../NextHolidaysPlan/Plan';
 import { OurPackage } from './Package/OurPackage';
 import Awards from '../../Achievements/Awards';
@@ -29,13 +29,14 @@ export const Visa = () => {
       <VisapageEasyvisaDestinations/>
       <WhychooseTravelflap/>
       <Applications/>
+      
       <div className="carousel">
-                <h1 className="clientstestimonial_title" style={{backgroundColor:"#3380F2",height:"80px",color:"white",paddingTop:"1%",marginTop:"1%"}}>What our Clients say about us</h1>
-                <ImageSlider />
+            <h1 className="achievements_title" >Achievement and Awards</h1>
+            <Awards />
       </div>
       <div className="carousel">
-            <h1 className="achievements_title" style={{backgroundColor:"#3380F2",height:"80px",color:"white",paddingTop:"1%",marginTop:"1%"}}>Achievement and Awards</h1>
-            <Awards />
+                <h1 className="clientstestimonial_title" >What our Clients say about us</h1>
+                <ImageSlider />
       </div>
       <div className='carousel'>
                 <h1 className='partners_title'>Our Partners</h1>

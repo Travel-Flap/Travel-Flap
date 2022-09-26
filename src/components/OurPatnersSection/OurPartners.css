@@ -14,6 +14,11 @@
   color: #3380f2;
 }
 
+._maincarouseldiv{
+  /* border: 1px solid red; */
+  width: 99%;
+}
+
 ._carouseldiv1 {
   position: relative;
   margin-bottom: 10%;

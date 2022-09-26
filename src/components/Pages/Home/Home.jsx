@@ -26,30 +26,18 @@ import TopCities from '../../TopCities/TopCities';
 // import ExclusiveDeals from '../../ExclusiveDeals/ExclusiveDeals';
 // import { ExclusiveDeals } from '../../ExclusiveDeals/ExclusiveDeals';
 import { ExclusiveDeals } from '../../ExclusiveDeals/ExclusiveDeals';
-import { Experiment } from '../../Experiment/Experiment';
+import { Experiment } from '../../Tags/Tags';
 import { Plan } from '../../NextHolidaysPlan/Plan';
 export const Home = () => {
     return (
         <div>
 
-            {/* <Experiment /> */}
-            {/* <Services /> */}
-
-            {/* <TitleBar /> */}
-            {/* <Navbar /> */}
             <Nav />
 
             <ControlledCarousel />
                 <ExclusiveDeals />
             <div className='carousel'>
             </div>
-
-            {/* <ExclusiveDeals /> */}
-            {/* <div className="container mt-5 carousel">
-                <h3 className="exclusivedeals_title">Exclusive Deals</h3>
-            </div> */}
-
-            {/* <TravelForm /> */}
 
             <PopularDestinations />
 
@@ -58,13 +46,11 @@ export const Home = () => {
             {/* <Carousel /> */}
 
             <div className='carousel'>
-                {/* <h1 className='topcities_title'>Top Cities</h1> */}
                 <TopCities />
             </div>
 
             <CardText />
 
-            {/* <Middleslider /> */}
             <div className='carousel'>
                 <h1 className='travelstories_title'>Easy Visa Destinations</h1>
                 <TravelStories />
@@ -75,19 +61,10 @@ export const Home = () => {
                 <Awards />
             </div>
 
-            {/* <Awards /> */}
-
             <div className="carousel">
                 <h1 className="clientstestimonial_title">What our Clients say about us</h1>
                 <ImageSlider />
             </div>
-
-
-            {/* <div className="container mt-5 carousel">
-                <h1 className="slider_title">What our Clients say about us</h1>
-                <PopularDestinations />
-            </div> */}
-
 
             <div className='carousel'>
                 <h1 className='partners_title'>Our Partners</h1>
